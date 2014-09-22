@@ -53,10 +53,10 @@ def get_gender(tree):
     tree.gender = 3
   # Personal pronoun
   if (tree.label() == 'PRP'):
-    if (tree.str[0] == 'he'):
+    if (tree.str[0] in ['he', 'him']):
       tree.gender = 1
     else:
-      if (tree.str[0] == 'she'):
+      if (tree.str[0] == ['she', 'her']):
         tree.gender = 2
       else:
         tree.gender = 3
@@ -112,7 +112,7 @@ def get_number(tree):
     tree.number = 2
   # Pronoun
   if (tree.label() == 'PRP'):
-    if (tree.str[0] in ['I', 'he', 'she', 'it']):
+    if (tree.str[0] in ['I', 'he', 'she', 'it', 'me', 'him', 'her']):
       tree.number = 1
     else:
       tree.number = 2
@@ -134,7 +134,7 @@ def get_number(tree):
   # Other cases are singular
   if (tree.number == 0):
     tree.number = 1
-  print tree.str, tree.number
+  # print tree.str, tree.number
  
 def get_person(tree):
   tree.person = 0
@@ -149,7 +149,7 @@ def get_person(tree):
   # Trival cases
   # Pronoun
   if (tree.label() == 'PRP'):
-    if (tree.str[0] in ['I', 'we']):
+    if (tree.str[0] in ['I', 'we', 'me', 'us']):
       tree.person = 1
     if (tree.str[0] in ['you']):
       tree.person = 2
@@ -211,11 +211,13 @@ nouns = [WhitespaceTokenizer().tokenize(line) for line in nouns]
 male_nouns = [word[0] for word in nouns]
 female_nouns = [word[1] for word in nouns]
 
-trees = read_trees("../data/conll.trial/data/english/annotations/bc/cnn/00/cnn_0000.parse")
-sentences = read_sentences("../data/conll.trial/data/english/annotations/bc/cnn/00/cnn_0000.coref")
+# trees = read_trees("../data/conll.trial/data/english/annotations/bc/cnn/00/cnn_0000.parse")
+# sentences = read_sentences("../data/conll.trial/data/english/annotations/bc/cnn/00/cnn_0000.coref")
+# trees = trees[0:2]
+# sentences = sentences[0:2]
 
-# trees = []
-# sentences = []
+trees = []
+sentences = []
 # trees.append(ParentedTree.fromstring("""
 # (ROOT
 #   (S
@@ -271,8 +273,20 @@ sentences = read_sentences("../data/conll.trial/data/english/annotations/bc/cnn/
 #     (. .)))"""))
 # sentences.append(WhitespaceTokenizer().tokenize("you and I are catching many mosquitoes.."))
 
-trees = trees[0:2]
-sentences = sentences[0:2]
+trees.append(ParentedTree.fromstring("""
+(ROOT
+  (S
+    (NP
+      (NP
+        (NP
+          (NP (NNP John) (POS 's))
+          (NN father) (VBZ 's))
+        (NN portrait))
+      (PP (IN of)
+        (NP (PRP him))))
+    (VP (VBZ is)
+      (VP (VBN lost)))))"""))
+sentences.append(WhitespaceTokenizer().tokenize("John's father's portrait of him is lost"))
 
 for tree in trees:
   traverse_tree(tree)
@@ -280,7 +294,7 @@ for tree in trees:
   get_number(tree)
   get_person(tree)
 
-print find_coref(trees, 1, ['they'])
+print find_coref(trees, 0, ['him'])
 
 # for i in range(0, len(trees)):
 #   find_coref_sentence(trees, sentences, i)
