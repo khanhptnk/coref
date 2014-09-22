@@ -1,0 +1,83 @@
+<?xml version="1.0" ?>
+<!DOCTYPE inventory SYSTEM "inventory.dtd">
+<inventory lemma="finish-v">    
+    <commentary>
+        Includes VPC finish_off, finish_out, finish_up
+    </commentary>
+    <sense n="1" type="" name="complete an activity" group="1">  
+        <commentary>
+            Syntax Is: NP1[agent] FINISH NP2[patient]
+            Includes: FINISH OFF, FINISH OUT, FINISH UP
+        </commentary>
+        <examples>
+            They were unable to finish the negotiations.
+            Can you help me finish this crossword puzzle?
+            We are just finishing dessert.
+            Finish the sauce with a dollop of cream.
+            John finished off the chocolate ice cream.
+            The bank finished out all his accounts today.
+            The lawyers finished up their arguments today in court.
+        </examples>
+        <mappings>
+            <wn version="2.1">1,5,6</wn>   
+            <wn lemma="finish_off" version="2.1">1</wn>
+            <wn lemma="finish_out" version="2.1">1</wn>
+            <wn lemma="finish_up" version="2.1">1</wn>
+            <omega></omega><pb>finish.01</pb>
+            <vn>stop-55.4-1</vn><fn>Activity_finish</fn>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    <sense n="2" type="" name="be a result, be a boundary point" group="1">  
+        <commentary>
+            Syntax Is: NP1[topic] FINISH ADVP
+            Includes: FINISH UP
+        </commentary>
+        <examples>
+            Joe finished fourth in the race.
+            Our meetings always finish on a positive note.
+            Stocks finished higher today after heavy trading.
+            The film finishes with the two brothers heading off on their sail boat.
+            Mary finished up being the valedictorian after nearly flunking out her first year.
+        </examples>
+        <mappings>
+            <wn version="2.1">2,3</wn>
+            <wn lemma="finish_up" version="2.1">2</wn>
+            <omega></omega><pb>finish.02</pb>
+            <vn>NM</vn><fn>NM</fn>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    <sense n="3" type="" name="apply a coat or surface to something, e.g., wood" group="1">  
+        <commentary>
+            Syntax Is: NP1[agent] FINISH NP2[patient[concrete]] (PP{P NP[instrument]})
+        </commentary>
+        <examples>
+            These chairs have been finished with a light varnish.
+            Rub linseed oil into the wood before finishing it.
+        </examples>
+        <mappings>
+            <wn version="2.1">4</wn>   
+            <wn lemma="" version="2.1"></wn>
+            <omega></omega><pb>finish.03</pb>
+            <vn>NM</vn><fn>NM</fn>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+<sense group="1" n="4" name="none of the above" type="">
+  <commentary>
+Automatically generated NOTA sense (bbn)
+  </commentary>
+  <examples>
+  </examples>
+  <mappings>
+    <wn version="2.1"></wn>
+    <omega></omega><pb></pb>
+    <fn></fn>
+  </mappings><SENSE_META clarity=""/>
+</sense>
+    <WORD_META authors="ahouston" sample_score="-"/>
+     
+
+<ita count="148" ann_1_2_agreement="0.878378378378" />
+</inventory>

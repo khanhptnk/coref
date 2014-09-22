@@ -1,0 +1,25 @@
+<?xml version="1.0" ?>
+<!DOCTYPE inventory SYSTEM "inventory.dtd">
+<inventory lemma="injure-v">    
+    <commentary>
+    </commentary>
+    <sense group="1" n="1" name="hurt or cause harm to" type="">  
+        <commentary>
+        </commentary>
+        <examples>
+            She fell and injured her shoulder.
+            He claimed that working too hard was injuring his health.
+            She injured my feelings when she did not include me among her guests.
+            Such violations will seriously injure your reputation and that of your Company.
+        </examples>
+        <mappings>
+            <wn version="2.1">1,2,3</wn>
+            <omega></omega><pb>injure.01</pb>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    <WORD_META authors="hwangd" sample_score="-"/>
+     
+
+<ita count="81" ann_1_2_agreement="0.876543209877" />
+</inventory>

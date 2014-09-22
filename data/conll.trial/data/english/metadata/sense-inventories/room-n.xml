@@ -1,0 +1,96 @@
+<!DOCTYPE inventory SYSTEM "inventory.dtd">
+<inventory lemma="room-n">
+    <commentary>
+    </commentary>
+    <sense n="1" type="" name="the walled partitions within a building" group="1">
+        <commentary>
+            ROOM[+building][+component][+walled]
+        </commentary>
+        <examples>
+            The living room has a fireplace.
+            That old hotel has a beautiful billiards room.
+            John is down in the control room.
+            These things are decided by back room politicians. (somewhat figurative)
+            They met online in a chat room (extension
+            The sales team has set up their war room on the third floor. (figurative)
+            Sally is renting rooms downtown.
+            How is the room temperature?
+        </examples>
+        <mappings>
+            <wn version="2.1">1</wn>
+            <omega></omega><pb></pb>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    
+    
+    <sense n="2" type="" name="physical space available for something" group="1">
+        <commentary>
+            ROOM[+space][+capacity][+physical]
+        </commentary>
+        <examples>
+            This plant needs more room for its roots to grow.
+            The seats in the front of the plane have more leg room.
+            The dogs need room to run and play.
+            There's not enough room on that stage to perform a ballet.
+            Save some room for dessert. 
+        </examples>
+        <mappings>
+            <wn version="2.1">2</wn>
+            <omega></omega><pb></pb>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    
+    
+    <sense n="3" type="" name="abstract state of allowance" group="1">
+        <commentary>
+            ROOM[+state][+abstract][+allowance]
+            Note: a figurative or metaphoric use of sense 2
+        </commentary>
+        <examples>
+            His reply left no room for doubt.
+            Our performance this quarter left some room for improvement.
+            Such a controversial topic has plenty of room for disagreement.
+            There is no room for error on this mission.
+        </examples>
+        <mappings>
+            <wn version="2.1"></wn>
+            <omega></omega><pb></pb>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    
+    
+    <sense n="4" type="" name="the people present in a room" group="1">
+        <commentary>
+            ROOM[+social][+gathering][+people]
+        </commentary>
+        <examples>
+            The room fell silent as John came in.
+            The whole room stood up and applauded him.
+        </examples>
+        <mappings>
+            <wn version="2.1">4</wn>
+            <omega></omega><pb></pb>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    
+    
+<sense group="1" n="5" name="none of the above" type="">
+  <commentary>
+Automatically generated NOTA sense (bbn)
+  </commentary>
+  <examples>
+  </examples>
+  <mappings>
+    <wn version="2.1"></wn>
+    <omega></omega><pb></pb>
+    <fn></fn>
+  </mappings><SENSE_META clarity=""/>
+</sense>
+    <WORD_META authors="ahouston" sample_score="-"/>
+
+<ita count="100" ann_1_2_agreement="0.98" />
+</inventory>

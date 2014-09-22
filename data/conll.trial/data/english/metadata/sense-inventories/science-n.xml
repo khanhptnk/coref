@@ -1,0 +1,76 @@
+<!DOCTYPE inventory SYSTEM "inventory.dtd">
+<inventory lemma="science-n">
+    <commentary>
+        
+    </commentary>
+    
+    <sense n="1" type="" name="scientific discipline" group="1">
+        <commentary>
+            a particular branch of scientific knowledge
+        </commentary>
+        <examples>
+            The science of genetics is very interesting.
+        </examples>
+        <mappings>
+            <wn version="2.0">1</wn>
+            <omega></omega>
+            <pb></pb>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    
+    <sense n="2" type="" name="skill" group="1">
+        <commentary>
+            activity that requires study and method
+        </commentary>
+        <examples>
+            The skill of a well-trained boxer is clear when compared to an amateur.
+            The sweet science of pugilism.
+            Jack has pancake eating down to a science.
+            "Sense grouping is more of an art than a science, right now." -Ben Snyder 
+        </examples>
+        <mappings>
+            <wn version="2.0">2</wn>
+            <omega></omega>
+            <pb></pb>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    
+    <sense n="3" type="Slang" name="class" group="1">
+        <commentary>
+            shortened conversational form of "science class"
+        </commentary>
+        <examples>
+            I had to run yesterday to get to science on time.
+            Yesterday, in science, we learned about photosynthesis.
+            Science was always my favorite class in high school.
+            I have science right after lunch this year.
+        </examples>
+        <mappings>
+            <wn version="2.0">-</wn>
+            <omega></omega>
+            <pb></pb>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    
+    
+    <!-- more senses go here -->
+<sense group="1" n="4" name="none of the above" type="">
+  <commentary>
+Automatically generated NOTA sense (bbn)
+  </commentary>
+  <examples>
+  </examples>
+  <mappings>
+    <wn version="2.1"></wn>
+    <omega></omega><pb></pb>
+    <fn></fn>
+  </mappings><SENSE_META clarity=""/>
+</sense>
+    <WORD_META authors="cstocker ajarrett" sample_score=""/>
+
+<ita count="81" ann_1_2_agreement="0.950617283951" />
+</inventory>
+

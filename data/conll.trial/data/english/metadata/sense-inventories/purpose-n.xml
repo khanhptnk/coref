@@ -1,0 +1,121 @@
+<!DOCTYPE inventory SYSTEM "inventory.dtd">
+<inventory lemma="purpose-n">
+    <commentary>
+    </commentary>
+    
+    <sense n="1" type="" name="an intended goal or outcome" group="1">
+        <commentary>
+            PURPOSE[+state][+goal][+intended]
+            Note: refers to a state of affairs that is desired by some agent
+        </commentary>
+        <examples>
+            My purpose in giving that party was to introduce Mary to some bachelors.
+            The philosopher argued that there is no purpose to the universe.
+            What is the purpose of antagonizing their government at this point in time?
+        </examples>
+        <mappings>
+            <wn version="2.1">1</wn>
+            <omega></omega><pb></pb>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    
+    
+    <sense n="2" type="" name="the intended function or role of something" group="1">
+        <commentary>
+            PURPOSE[+relation][+role][+utility][+intended]
+            Note: refers to the function or utility of an object
+        </commentary>
+        <examples>
+            The purpose of the guard rail is to keep cars from veering off the road over the cliff.
+            Pensions are considered as earned income for tax purposes. (in the role of an asset)
+            We stared at the metal object but could not guess its purpose.
+        </examples>
+        <mappings>
+            <wn version="2.1">2</wn>
+            <omega></omega><pb></pb>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    
+    
+    <sense n="3" type="" name="the quality of determination" group="1">
+        <commentary>
+            PURPOSE[+quality][+behavioral][+determination]
+            Note: refers to a trait or behavior of an agent.
+        </commentary>
+        <examples>
+            He strode into the building with great purpose.
+            The purpose in their eyes had gradually been replaced by fear and doubt.
+        </examples>
+        <mappings>
+            <wn version="2.1">3</wn>
+            <omega></omega><pb></pb>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    
+    
+    <sense n="4" type="" name="intentionally" group="1">
+        <commentary>
+            Idiom: on_purpose
+        </commentary>
+        <examples>
+            He set the house on fire on purpose.
+            I don't think she insulted Mary on purpose.
+        </examples>
+        <mappings>
+            <wn version="MAC">Idiom</wn>
+            <omega></omega><pb></pb>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    
+    
+    <sense n="5" type="" name="without success, pointlessly" group="1">
+        <commentary>
+            Idiom to_no_purpose
+        </commentary>
+        <examples>
+            Frantically he shouted a warning to them, but to no purpose.
+            She felt her efforts to help the boy were to no purpose.
+        </examples>
+        <mappings>
+            <wn version="MAC">Idiom</wn>
+            <omega></omega><pb></pb>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    
+    
+    <sense n="6" type="" name="relevant, useful" group="1">
+        <commentary>
+            Idiom: to_the_purpose
+        </commentary>
+        <examples>
+            You may find some old tool in the basement that is to the purpose.
+        </examples>
+        <mappings>
+            <wn version="MAC">Idiom</wn>
+            <omega></omega><pb></pb>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    
+    
+<sense group="1" n="7" name="none of the above" type="">
+  <commentary>
+Automatically generated NOTA sense (bbn)
+  </commentary>
+  <examples>
+  </examples>
+  <mappings>
+    <wn version="2.1"></wn>
+    <omega></omega><pb></pb>
+    <fn></fn>
+  </mappings><SENSE_META clarity=""/>
+</sense>
+    <WORD_META authors="ahouston" sample_score="-"/>
+
+<ita count="47" ann_1_2_agreement="1.0" />
+</inventory>

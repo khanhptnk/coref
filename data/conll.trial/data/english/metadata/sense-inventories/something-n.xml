@@ -1,0 +1,69 @@
+<!DOCTYPE inventory SYSTEM "inventory.dtd">
+<inventory lemma="something-n">
+    <commentary>
+        Does not include the common pronominal use of this term
+    </commentary>
+    <sense n="1" type="" name="the quality of significance, consequence" group="1">
+        <commentary>
+            SOMETHING[+quality][+significance]
+        </commentary>
+        <examples>
+            That performance of La Traviata was really something!
+            A thirty-foot whale shark is something to see.
+            She is truly something.
+        </examples>
+        <mappings>
+            <wn version="MW online">2</wn>
+            <omega></omega><pb></pb>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    
+    <sense n="2" type="" name="an indeterminate amount, or degree, of a quality" group="1">
+        <commentary>
+            SOMETHING[+quantity][+indeterminate][+degree/+amount]
+        </commentary>
+        <examples>
+            The lecture was something of a bore.
+            She is actually something of a philanthropist.
+            The party turned into something of a row.
+        </examples>
+        <mappings>
+            <wn version="MW online">3</wn>
+            <omega></omega><pb></pb>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    
+    <sense n="3" type="" name="the quality of specialness or impressiveness" group="1">
+        <commentary>
+            Idiom: something_else
+        </commentary>
+        <examples>
+            That new chef at Le Bistro is something else!
+            Mary's wedding gown was something else.
+            John said his ride in the MIG was something else.
+        </examples>
+        <mappings>
+            <wn version="MW online">something_else</wn>
+            <omega></omega><pb></pb>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    
+<sense group="1" n="4" name="none of the above" type="">
+  <commentary>
+Automatically generated NOTA sense (bbn)
+  </commentary>
+  <examples>
+  </examples>
+  <mappings>
+    <wn version="2.1"></wn>
+    <omega></omega><pb></pb>
+    <fn></fn>
+  </mappings><SENSE_META clarity=""/>
+</sense>
+    <WORD_META authors="ahouston" sample_score="-"/>
+
+<ita count="31" ann_1_2_agreement="1.0" />
+</inventory>

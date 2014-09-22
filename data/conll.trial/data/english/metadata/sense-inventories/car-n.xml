@@ -1,0 +1,69 @@
+<!DOCTYPE inventory SYSTEM "inventory.dtd">
+<inventory lemma="car-n">
+    <commentary>
+    </commentary>
+    <sense n="1" type="" name="the compartment portion of a mechanical conveyance" group="1">
+        <commentary>
+            CAR[+conveyance][+compartment][-wheeled]
+        </commentary>
+        <examples>
+            A fighter jet collided with a cable car going up the mountain at a famous ski resort.
+            People traveled in elegance in the cars of the great zeppelins such as the Hindenburg.
+            This is the local elevator, let's wait for the express car to the 40th floor.
+        </examples>
+        <mappings>
+            <wn version="2.1">3,4,5</wn>
+            <omega></omega><pb></pb>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    
+    <sense n="2" type="" name="transport vehicle that operates under its own power" group="1">
+        <commentary>
+            CAR[+conveyance][+vehicle][+self_powered]
+        </commentary>
+        <examples>
+            John took Mary for a joy ride in his ticket-me-officer-red sports car.
+            The police reported a car going out of control near an exit off 495.
+            In that sci-fi film people fly around in their cars instead of driving on roads.
+        </examples>
+        <mappings>
+            <wn version="2.1">1</wn>
+            <omega></omega><pb></pb>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    
+    <sense n="3" type="" name="a wheeled conveyance pulled by a locomotive" group="1">
+        <commentary>
+            CAR[+conveyance][+compartment][+wheeled]
+        </commentary>
+        <examples>
+            J.P. Morgan had his own luxuriously-appointed rail car.
+            These freight cars will need two engines to haul them.
+            The hobo jumped quickly onto the slowly moving flat car.
+        </examples>
+        <mappings>
+            <wn version="2.1">2</wn>
+            <omega></omega><pb></pb>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    
+    <sense group="1" n="4" name="none of the above" type="">
+        <commentary>
+            Automatically generated NOTA sense (bbn)
+        </commentary>
+        <examples>
+        </examples>
+        <mappings>
+            <wn version="2.1"></wn>
+            <omega></omega><pb></pb>
+            <fn></fn>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    <WORD_META authors="ahouston" sample_score="-"/>
+
+<ita count="208" ann_1_2_agreement="0.956730769231" />
+</inventory>

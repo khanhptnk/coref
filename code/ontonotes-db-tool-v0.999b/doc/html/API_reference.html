@@ -1,0 +1,150 @@
+
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+  "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    
+    <title>API Reference &mdash; OntoNotes DB Tool v0.999b documentation</title>
+    <link rel="stylesheet" href="_static/default.css" type="text/css" />
+    <link rel="stylesheet" href="_static/pygments.css" type="text/css" />
+    <script type="text/javascript">
+      var DOCUMENTATION_OPTIONS = {
+        URL_ROOT:    '',
+        VERSION:     '0.999b',
+        COLLAPSE_INDEX: false,
+        FILE_SUFFIX: '.html',
+        HAS_SOURCE:  true
+      };
+    </script>
+    <script type="text/javascript" src="_static/jquery.js"></script>
+    <script type="text/javascript" src="_static/underscore.js"></script>
+    <script type="text/javascript" src="_static/doctools.js"></script>
+    <link rel="top" title="OntoNotes DB Tool v0.999b documentation" href="index.html" />
+    <link rel="next" title="on.common – Utility and Logging Functions" href="common.html" />
+    <link rel="prev" title="Database and API Design" href="database_and_API_design.html" /> 
+  </head>
+  <body>
+    <div class="related">
+      <h3>Navigation</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="genindex.html" title="General Index"
+             accesskey="I">index</a></li>
+        <li class="right" >
+          <a href="py-modindex.html" title="Python Module Index"
+             >modules</a> |</li>
+        <li class="right" >
+          <a href="common.html" title="on.common – Utility and Logging Functions"
+             accesskey="N">next</a> |</li>
+        <li class="right" >
+          <a href="database_and_API_design.html" title="Database and API Design"
+             accesskey="P">previous</a> |</li>
+        <li><a href="index.html">OntoNotes DB Tool v0.999b documentation</a> &raquo;</li> 
+      </ul>
+    </div>  
+
+    <div class="document">
+      <div class="documentwrapper">
+        <div class="bodywrapper">
+          <div class="body">
+            
+  <div class="section" id="api-reference">
+<h1>API Reference<a class="headerlink" href="#api-reference" title="Permalink to this headline">¶</a></h1>
+<p>There are three top level divisions of the API.  The first,
+<tt class="xref py py-mod docutils literal"><span class="pre">tools</span></tt> contains simple tools for anticipated tasks such as
+loading data to the database.  These tools are also designed to
+function as sample code for using the API.  The second is a
+<tt class="xref py py-mod docutils literal"><span class="pre">common</span></tt> module that holds utilities used by all the code.  The
+final is the largest and most complex, the <tt class="xref py py-mod docutils literal"><span class="pre">corpora</span></tt> module.  It
+holds all the routines for dealing with individual banks: building
+them from files or the database, aligning them with each other,
+writing to files or the database, and querying the python objects
+about their contents.</p>
+<div class="toctree-wrapper compound">
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="common.html"><tt class="docutils literal"><span class="pre">on.common</span></tt> &#8211; Utility and Logging Functions</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="common.html#util-utility-functions"><tt class="docutils literal"><span class="pre">util</span></tt> &#8211; Utility functions</a></li>
+<li class="toctree-l2"><a class="reference internal" href="common.html#log-logging-and-reporting-functions"><tt class="docutils literal"><span class="pre">log</span></tt> &#8211; Logging and reporting functions</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="corpora.html"><tt class="docutils literal"><span class="pre">on.corpora</span></tt> &#8211; classes for interpreting annotation</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="corpora.html#tree-syntactic-parse-annotation"><tt class="docutils literal"><span class="pre">tree</span></tt> &#8211; Syntactic Parse Annotation</a></li>
+<li class="toctree-l2"><a class="reference internal" href="corpora.html#proposition-proposition-annotation"><tt class="docutils literal"><span class="pre">proposition</span></tt> &#8211; Proposition Annotation</a></li>
+<li class="toctree-l2"><a class="reference internal" href="corpora.html#sense-word-sense-annotation"><tt class="docutils literal"><span class="pre">sense</span></tt> &#8211; Word Sense Annotation</a></li>
+<li class="toctree-l2"><a class="reference internal" href="corpora.html#coreference-coreferential-entity-annotation"><tt class="docutils literal"><span class="pre">coreference</span></tt> &#8211; Coreferential Entity Annotation</a></li>
+<li class="toctree-l2"><a class="reference internal" href="corpora.html#name-name-entity-annotation"><tt class="docutils literal"><span class="pre">name</span></tt> &#8211; Name-Entity Annotation</a></li>
+<li class="toctree-l2"><a class="reference internal" href="corpora.html#ontology-ontology-annotation"><tt class="docutils literal"><span class="pre">ontology</span></tt> &#8211; Ontology Annotation</a></li>
+<li class="toctree-l2"><a class="reference internal" href="corpora.html#speaker-speaker-metadata-for-broadcast-conversation-documents"><tt class="docutils literal"><span class="pre">speaker</span></tt> &#8211; Speaker Metadata for Broadcast Conversation Documents</a></li>
+<li class="toctree-l2"><a class="reference internal" href="corpora.html#parallel-alignment-metadata-for-parallel-texts"><tt class="docutils literal"><span class="pre">parallel</span></tt> &#8211; Alignment Metadata for Parallel Texts</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="tools.html"><tt class="docutils literal"><span class="pre">on.tools</span></tt> &#8211; scripts for manipulating the ontonotes data</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="tools.html#load-to-db-load-data-from-files-to-database"><tt class="docutils literal"><span class="pre">load_to_db</span></tt> &#8211; load data from files to database</a></li>
+<li class="toctree-l2"><a class="reference internal" href="tools.html#init-db-initialize-the-db-and-load-inventories"><tt class="docutils literal"><span class="pre">init_db</span></tt> &#8211; initialize the db and load inventories</a></li>
+</ul>
+</li>
+</ul>
+</div>
+</div>
+
+
+          </div>
+        </div>
+      </div>
+      <div class="sphinxsidebar">
+        <div class="sphinxsidebarwrapper">
+  <h4>Previous topic</h4>
+  <p class="topless"><a href="database_and_API_design.html"
+                        title="previous chapter">Database and API Design</a></p>
+  <h4>Next topic</h4>
+  <p class="topless"><a href="common.html"
+                        title="next chapter"><tt class="docutils literal"><span class="pre">on.common</span></tt> &#8211; Utility and Logging Functions</a></p>
+  <h3>This Page</h3>
+  <ul class="this-page-menu">
+    <li><a href="_sources/API_reference.txt"
+           rel="nofollow">Show Source</a></li>
+  </ul>
+<div id="searchbox" style="display: none">
+  <h3>Quick search</h3>
+    <form class="search" action="search.html" method="get">
+      <input type="text" name="q" size="18" />
+      <input type="submit" value="Go" />
+      <input type="hidden" name="check_keywords" value="yes" />
+      <input type="hidden" name="area" value="default" />
+    </form>
+    <p class="searchtip" style="font-size: 90%">
+    Enter search terms or a module, class or function name.
+    </p>
+</div>
+<script type="text/javascript">$('#searchbox').show(0);</script>
+        </div>
+      </div>
+      <div class="clearer"></div>
+    </div>
+    <div class="related">
+      <h3>Navigation</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="genindex.html" title="General Index"
+             >index</a></li>
+        <li class="right" >
+          <a href="py-modindex.html" title="Python Module Index"
+             >modules</a> |</li>
+        <li class="right" >
+          <a href="common.html" title="on.common – Utility and Logging Functions"
+             >next</a> |</li>
+        <li class="right" >
+          <a href="database_and_API_design.html" title="Database and API Design"
+             >previous</a> |</li>
+        <li><a href="index.html">OntoNotes DB Tool v0.999b documentation</a> &raquo;</li> 
+      </ul>
+    </div>
+    <div class="footer">
+        &copy; Copyright 2008, BBN Technologies.
+      Created using <a href="http://sphinx.pocoo.org/">Sphinx</a> 1.0.4.
+    </div>
+  </body>
+</html>

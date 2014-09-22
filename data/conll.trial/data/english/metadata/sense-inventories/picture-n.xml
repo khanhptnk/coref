@@ -1,0 +1,174 @@
+<!DOCTYPE inventory SYSTEM "inventory.dtd">
+<inventory lemma="picture-n">
+    <commentary>
+    </commentary>
+    
+    <sense n="1" type="" name="an artistic composition, opus, e.g., painting" group="1">
+        <commentary>
+            PICTURE[+entity][+artifact][+representation][+visual][+flat][+original][+composition]
+        </commentary>
+        <examples>
+            John sold two of his pictures of seascapes in oil to a local gallery.
+            This picture by Degas fetched several million at an art house auction.
+        </examples>
+        <mappings>
+            <wn version="2.1">2</wn>
+            <omega></omega><pb></pb>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    
+    
+    <sense n="2" type="" name="a photograph or snapshot" group="1">
+        <commentary>
+            PICTURE[+entity][+artifact][+representation][+visual][+flat][+reproductive][-animation][+photograph]
+        </commentary>
+        <examples>
+            Mary takes pictures with both her digital camera and her 35 mm camera.
+            They haven't yet gotten back their pictures from the wedding.
+            I took a picture of Pete in front of the Eiffel Tower.
+        </examples>
+        <mappings>
+            <wn version="2.1">10</wn>
+            <omega></omega><pb></pb>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    
+    
+    <sense n="3" type="" name="a film or movie" group="1">
+        <commentary>
+            PICTURE[+entity][+artifact][+representation][+visual][+flat][+reproductive][+animation][+movie]	
+        </commentary>
+        <examples>
+            Sally is taking the kids to the pictures this afternoon.
+            The picture stars a relatively unknown young Italian actor. 
+            They are shooting the picture on location.
+        </examples>
+        <mappings>
+            <wn version="2.1">5</wn>
+            <omega></omega><pb></pb>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    
+    
+    <sense n="4" type="" name="illustration, often published" group="1">
+        <commentary>
+            PICTURE[+entity][+artifact][+representation][+visual][+flat][+reproductive][-animation][+illustration]	
+        </commentary>
+        <examples>
+            I got the idea from a picture in Architectural Digest.
+            This dictionary provides a lot of pictures to illustrate the definitions of nouns.
+        </examples>
+        <mappings>
+            <wn version="2.1">1,5</wn>
+            <omega></omega><pb></pb>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    
+    
+    <sense n="5" type="" name="a mental impression, mental image" group="1">
+        <commentary>
+            PICTURE[+state][+mental][+impression]
+            Note: does not imply communication to others (See Sense 7)
+        </commentary>
+        <examples>
+            Her picture of how the resort would look was quite different than the reality of it.
+            John was motivated by a picture of himself as a wheeler and dealer in Silicon Valley.
+            I cannot form a clear picture of his face from memory.
+        </examples>
+        <mappings>
+            <wn version="2.1">3</wn>
+            <omega></omega><pb></pb>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    
+    
+    <sense n="6" type="" name="transmitted TV signal" group="1">
+        <commentary>
+            PICTURE[+entity][+electronic][+signal][+transmitted][+television]
+        </commentary>
+        <examples>
+            We just lost the picture, but the audio is still coming through.
+            Try adjusting the controls to sharpen the picture on the TV.
+        </examples>
+        <mappings>
+            <wn version="2.1">7</wn>
+            <omega></omega><pb></pb>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    
+    
+    <sense n="7" type="" name="a verbal depiction or characterization" group="1">
+        <commentary>
+            PICTURE[+activity][+communication][+characterization][+depiction]
+            Note: implies an agent who provides the picture, X's picture of Y (in contrast to sense 8)	
+        </commentary>
+        <examples>
+            The author provided a fascinating picture of life in 19th-century Polynesia.
+            His picture of the next two financial quarters is fairly grim.
+        </examples>
+        <mappings>
+            <wn version="2.1">8</wn>
+            <omega></omega><pb></pb>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    
+    
+    <sense n="8" type="" name="a social circumstance or situation" group="1">
+        <commentary>
+            PICTURE[+state][+social][+circumstances][+surrounding]
+            Note: picture is the context, -not- an agent's portrayal of it (Sense 7)	
+        </commentary>
+        <examples>
+            John asked Mary if he were still in the picture.  (part of her life)
+            I think they are losing site of the big picture here.
+            The economic picture of those nations is currently not favorable.
+            He is pretty much out of the picture now as a serious presidential condidate.
+        </examples>
+        <mappings>
+            <wn version="2.1">4</wn>
+            <omega></omega><pb></pb>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    
+    
+    <sense n="9" type="" name="a perfect example, epitome" group="1">
+        <commentary>
+            PICTURE[+entity][+specimen][+example][+typical]
+            [+relation][+role][+representative][+epitome]	
+        </commentary>
+        <examples>
+            He is the picture of youthful exuberance.
+            Their faces were the picture of dispair.
+        </examples>
+        <mappings>
+            <wn version="2.1">9</wn>
+            <omega></omega><pb></pb>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    
+    
+<sense group="1" n="10" name="none of the above" type="">
+  <commentary>
+Automatically generated NOTA sense (bbn)
+  </commentary>
+  <examples>
+  </examples>
+  <mappings>
+    <wn version="2.1"></wn>
+    <omega></omega><pb></pb>
+    <fn></fn>
+  </mappings><SENSE_META clarity=""/>
+</sense>
+    <WORD_META authors="ahouston" sample_score="-"/>
+
+<ita count="90" ann_1_2_agreement="1.0" />
+</inventory>

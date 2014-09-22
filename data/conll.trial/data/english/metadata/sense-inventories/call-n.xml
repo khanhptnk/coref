@@ -1,0 +1,237 @@
+<!DOCTYPE inventory SYSTEM "inventory.dtd">
+<inventory lemma="call-n">
+    <commentary>
+        includes idioms on_call, at_call, within_call
+        includes phrase port_of_call
+    </commentary>
+    <sense n="1" type="" name="a demand, request, summons" group="1">
+        <commentary>
+            CALL[+demand][+summons/+order/+request]
+        </commentary>
+        <examples>
+            There was a general call to arms.
+            John could not ignore the call to duty.
+            Bob had to put ten grand into his short position when he got a margin call from the broker.
+            After two raises in the hand of poker there was a call. (request to see the hands)
+            There have been calls in Congress for his resignation.
+            Our teacher does a roll call every morning. (A request for an answer)
+            The cast had seven curtain calls.  (request to come take a bow)
+        </examples>
+        <mappings>
+            <wn version="2.1">4,7,8,9</wn>
+            <omega></omega><pb></pb>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    
+    <sense n="2" type="" name="an auditory signal that communicates something" group="1">
+        <commentary>
+            CALL[+signal][+audible][+communicative]
+        </commentary>
+        <examples>
+            We heard small, plaintiff calls coming from the barn loft.
+            John can imitate a number of bird calls very well.
+            They heard the bugle call at dawn and dusk.
+            The calls helped Bob figure out the sequence of steps during the square dance.
+        </examples>
+        <mappings>
+            <wn version="2.1">3,5</wn>
+            <wn version="MW online">9</wn>
+            <omega></omega><pb></pb>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    
+    
+    <sense n="3" type="" name="a brief visit, social or professional" group="1">
+        <commentary>
+            CALL[+visit][+brief]
+        </commentary>
+        <examples>
+            The elderly sisters decided to make a call on their new neighbor.
+            I know a vet who will make house calls.
+            We paid a call to the Smiths when we were in town.
+            The salesman is making a call on his most important customer.
+            The doctor is out on a call.
+        </examples>
+        <mappings>
+            <wn version="2.1">6,11</wn>
+            <omega></omega><pb></pb>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    
+    
+    <sense n="4" type="" name="telephone conversation" group="1">
+        <commentary>
+            CALL[+conversation][+telephone]
+        </commentary>
+        <examples>
+            They keep in touch through long calls in the evening.
+            Hold all my calls this afternoon.
+            I'm trying to get a call through to Bolivia.
+            I got a call at four saying the car was ready.
+            Do you have call waiting on your phone?
+            The hotel gave me a wake-up call at six this morning. (specialized conversation, alert)
+            The weakening dollar could be a wake-up call for the Fed to act. (figurative)
+        </examples>
+        <mappings>
+            <wn version="2.1">1</wn>
+            <omega></omega><pb></pb>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    
+    
+    <sense n="5" type="" name="an attraction, an inclination towards" group="1">
+        <commentary>
+            CALL[+state][+disposition][+attraction/+allure]
+            Note: syntactically it looks like a summons (sense 1), but it describes an internal state of the subject, 
+            so it is different than sense 1. 
+        </commentary>
+        <examples>
+            The dogs felt the call of the wild on the family camping trip to the mountains.
+            Her brother became a minister after he felt the call to God.
+            These thrill seekers are susceptible to the call of danger.
+            She followed the siren call of the sea, leaving home and job to sail the Pacific alone.
+        </examples>
+        <mappings>
+            <wn version="2.1">2</wn>
+            <omega></omega><pb></pb>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    
+    
+    <sense n="6" type="" name="a judgement or decision" group="1">
+        <commentary>
+            CALL[+act][+mental][+judgement]
+        </commentary>
+        <examples>
+            Fans believe the umpire made a bad call in the seventh inning.
+            The president has a tough call to make on this one.
+            John made the call of heads, but the coin turned up tails.
+        </examples>
+        <mappings>
+            <wn version="2.1">2</wn>
+            <omega></omega><pb></pb>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    
+    
+    <sense n="7" type="" name="computer program instruction" group="1">
+        <commentary>
+            CALL[+instruction][+computer]
+        </commentary>
+        <examples>
+            Does this program use calls by value or calls by reference?
+            After the call to the subroutine, the program returns control to the main process.
+        </examples>
+        <mappings>
+            <wn version="2.1">10</wn>
+            <omega></omega><pb></pb>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    
+    
+    <sense n="8" type="" name="an option to buy a stock or future at a certain price by a date" group="1">
+        <commentary>
+            CALL[+option][+stock][+purchase]
+        </commentary>
+        <examples>
+            What are the September calls on Microsoft trading for today?
+            Mary let her call options on some energy stocks expire. 
+            That broker is selling both puts and calls on a bundle of technology stocks.
+        </examples>
+        <mappings>
+            <wn version="2.1">13</wn>
+            <omega></omega><pb></pb>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    
+    
+    <sense n="9" type="" name="available, ready to assist" group="1">
+        <commentary>
+            Idiom: on_call
+        </commentary>
+        <examples>
+            Three surgeons are on call tonight in the emergency ward.
+            Security guards are on call twenty-four hours a day there.
+            Our staff is on call to serve all your needs throughout your stay here.
+        </examples>
+        <mappings>
+            <wn version="MW online">on_call</wn>
+            <omega></omega><pb></pb>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    
+    
+    <sense n="10" type="" name="at one's command or summons" group="1">
+        <commentary>
+            Idiom: at_call
+        </commentary>
+        <examples>
+            The famous chef has a dozen well-trained assistants at his call.
+            The emperor had fifty thousand men at his call.
+        </examples>
+        <mappings>
+            <wn version="MW online">at_call</wn>
+            <omega></omega><pb></pb>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    
+    
+    <sense n="11" type="" name="within hearing or summons" group="1">
+        <commentary>
+            Idiom within_call
+        </commentary>
+        <examples>
+            Dogs may be off leash but within call of their owner's voice commands.
+            Are we within call of that island yet?
+        </examples>
+        <mappings>
+            <wn version="MW online">within_call</wn>
+            <omega></omega><pb></pb>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    
+    
+    <sense n="12" type="" name="ports visited by a ship, other than home port" group="1">
+        <commentary>
+            phrase: port_of_call
+        </commentary>
+        <examples>
+            Our cruise included six ports of call in the Caribbean.
+            John thought Antalya, Turkey was the most interesting port of  call on their trip.
+        </examples>
+        <mappings>
+            <wn version="2.1">port_of_call</wn>
+            <omega></omega><pb></pb>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    
+    
+    <sense group="1" n="13" name="none of the above" type="">
+        <commentary>
+            Automatically generated NOTA sense (bbn)
+        </commentary>
+        <examples>
+        </examples>
+        <mappings>
+            <wn version="2.1"></wn>
+            <omega></omega><pb></pb>
+            <fn></fn>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    <WORD_META authors="ahouston" sample_score="-"/>
+
+<ita count="130" ann_1_2_agreement="0.9" />
+</inventory>

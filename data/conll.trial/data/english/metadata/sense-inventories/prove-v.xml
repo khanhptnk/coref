@@ -1,0 +1,128 @@
+<?xml version="1.0" ?>
+<!DOCTYPE inventory SYSTEM "inventory.dtd">
+<inventory lemma="prove-v">    
+    <commentary>
+    </commentary>
+    <sense group="1" n="1" name="establish the truth, validity, or authenticity of something" type="">  
+        <commentary>
+            Syntax Includes:
+            NP1[agent] PROVE NP2
+            NP1[agent] PROVE NP2 (NP3)
+            NP1[agent] PROVE NP3 NP2 
+        </commentary>
+        <examples>
+            Prove it.
+            The theory was proved by the scientists. 
+            That theory was proved false.
+            He's so aggressive - it's as if he's always trying to prove something.
+            I have no idea how to prove this mathematically.
+            I haven't been proven guilty yet!
+            They proved him innocent.
+            That just goes to prove what an idiot I am.
+            We proved them wrong!
+            He proved himself a fighter, and we are very proud of him.
+            He really proved himself an idiot during his first term.
+            I will prove to myself that I'm still alive.
+        </examples>
+        <mappings>
+            <wn version="2.1">2,3,4,5</wn>   
+            <wn lemma="" version=""></wn>
+            <omega></omega><pb>prove.01</pb>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    <sense group="1" n="2" name="turn out to be, show a particular result after a period of time" type="">
+        <commentary>
+            Syntax is: NP1[patient] PROVE (NP2) 
+        </commentary>
+        <examples>
+            My predictions proved.
+            The operation proved a complete success.
+            The dispute over the song rights proved impossible to resolve.
+            The new treatment has proved to be a disaster.
+            He proved to be the worst singer in the world.
+        </examples>
+        <mappings>
+            <wn version="2.1">1</wn>
+            <wn lemma="" version=""></wn>
+            <omega></omega><pb>prove.01</pb>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    <sense group="1" n="3" name="show oneself to be competent or worthy" type="">
+        <commentary>
+            Is: PROVE ONESELF
+            Syntax Is: NP1 PROVE ONESELF
+        </commentary>
+        <examples>
+            He had a chance to prove himself.
+            You do have to prove yourself to get ahead.
+            Prove yourself to me.
+        </examples>
+        <mappings>
+            <wn lemma="prove_oneself" version="2.1">1</wn>
+            <omega></omega><pb>prove.01</pb>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    <sense group="1" n="4" name="LAW- establish as authentic or genuine" type="">
+        <commentary>
+            Note: Related to legal documents, especially testament or will.
+        </commentary>
+        <examples>
+            The will was proved on 29th January.
+            They might have the will proved.
+            The will proved. 
+        </examples>
+        <mappings>
+            <wn version="2.1">9</wn>
+            <wn lemma="" version=""></wn>
+            <omega></omega><pb></pb>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    <sense group="1" n="5" name="COOKING- rise or gain volume in a warm place" type="">
+        <commentary>
+            Note: Usually refers to the process of letting dough rise before being baked.
+        </commentary>
+        <examples>
+            Cover again with a cloth and prove the dough for another hour or so.
+            This pizza dough proved rather quickly.
+        </examples>
+        <mappings>
+            <wn version="2.1">6,7</wn>
+            <omega></omega><pb></pb>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    <sense group="1" n="6" name="PRINTING ARTS- make a test impression" type="">
+        <commentary>
+            Note: Take a test impression of a negative, etching, or type.
+        </commentary>
+        <examples>
+            *No examples found.
+        </examples>
+        <mappings>
+            <wn version="2.1">8</wn>
+            <wn lemma="" version=""></wn>
+            <omega></omega><pb></pb>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+<sense group="1" n="7" name="none of the above" type="">
+  <commentary>
+Automatically generated NOTA sense (bbn)
+  </commentary>
+  <examples>
+  </examples>
+  <mappings>
+    <wn version="2.1"></wn>
+    <omega></omega><pb></pb>
+    <fn></fn>
+  </mappings><SENSE_META clarity=""/>
+</sense>
+    <WORD_META authors="hwangd, vieweg" sample_score="-"/>
+     
+
+<ita count="188" ann_1_2_agreement="0.845744680851" />
+</inventory>

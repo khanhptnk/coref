@@ -1,0 +1,106 @@
+<!DOCTYPE inventory SYSTEM "inventory.dtd">
+<inventory lemma="reserve-n">
+    <commentary>
+        
+    </commentary>
+    
+    <sense n="1" type="" name="modesty" group="1">
+        <commentary>
+            reticence, taciturnity - 
+            formality and propriety of manner; the trait of being uncommunicative
+        </commentary>
+        <examples>
+            His reserve is often perceived as rudeness.
+        </examples>
+        <mappings>
+            <wn version="2.0">1 7</wn>
+            <omega></omega>
+            <pb></pb>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    
+    <sense n="2" type="" name="backup" group="1">
+        <commentary>
+            backlog, stockpile - 
+            something or someone being saved for future use or a special purpose
+        </commentary>
+        <examples>
+            My cookie reserve is well hidden.
+            If our star player is injured, we have a reserve to take his place.
+        </examples>
+        <mappings>
+            <wn version="2.0">2 3</wn>
+            <omega></omega>
+            <pb></pb>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    
+    <sense n="3" type="" name="land" group="1">
+        <commentary>
+            reservation - 
+            a district that is reserved for particular purpose
+        </commentary>
+        <examples>
+            The hippies have raised money to protect the wildlife reserve.
+        </examples>
+        <mappings>
+            <wn version="2.0">5</wn>
+            <omega></omega>
+            <pb></pb>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    
+    <sense n="4" type="Medicine" name="capacity to respond" group="2">
+        <commentary>
+            potential capacity to respond in order to maintain vital functions
+        </commentary>
+        <examples>
+            
+        </examples>
+        <mappings>
+            <wn version="2.0">4</wn>
+            <omega></omega>
+            <pb></pb>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    
+    <sense n="5" type="Military" name="emergency forces" group="1">
+        <commentary>
+            military reserve - 
+            armed forces that are not on active duty but can be called in an
+            emergency 
+        </commentary>
+        <examples>
+            I was told that they might start calling in the reserves soon.
+            My cousin Harry is in the reserves.
+        </examples>
+        <mappings>
+            <wn version="2.0">6</wn>
+            <omega></omega>
+            <pb></pb>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    
+    <!-- need example for 4(4) -->
+<sense group="1" n="6" name="none of the above" type="">
+  <commentary>
+Automatically generated NOTA sense (bbn)
+  </commentary>
+  <examples>
+  </examples>
+  <mappings>
+    <wn version="2.1"></wn>
+    <omega></omega><pb></pb>
+    <fn></fn>
+  </mappings><SENSE_META clarity=""/>
+</sense>
+    <WORD_META authors="hertlerb ajarrett" sample_score=""/>
+
+<ita count="71" ann_1_2_agreement="0.957746478873" />
+</inventory>
+

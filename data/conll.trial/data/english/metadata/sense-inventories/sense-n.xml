@@ -1,0 +1,152 @@
+<!DOCTYPE inventory SYSTEM "inventory.dtd">
+<inventory lemma="sense-n">
+    <commentary>
+    </commentary>
+    
+    <sense n="1" type="" name="general awareness of something" group="1">
+        <commentary>
+            SENSE[+state][+mental][+awareness][+general]
+            Note: implies a specific focus of awareness, not a general ability (see Sense 5)
+            Note: focus is on cognition rather than specific physical perceptions (Sense 3)
+        </commentary>
+        <examples>
+            The children felt no sense of danger as they proceeded into the mine shaft.
+            This bed will provide your pet with a sense of security.
+            They resumed their task with a renewed sense of purpose.
+            I had a sense that she wanted us to leave her alone.
+            The murderer showed no sense of shame.
+            Bob has the sense that business is not going well for his brother's firm.
+            He supported his aging parents out of a sense of duty.
+        </examples>
+        <mappings>
+            <wn version="2.1">1</wn>
+            <omega></omega><pb></pb>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    
+    
+    <sense n="2" type="" name="the meaning of a word or an expression" group="1">
+        <commentary>
+            SENSE[+meaning][+linguistic]
+        </commentary>
+        <examples>
+            It is not clear from this passage which sense of 'character' is meant.
+            Some of the subtle senses in this poem cannot be translated.
+            How many different senses can you list for the word 'run'?
+            We could not make sense of this situation. (interpret its meaning)
+        </examples>
+        <mappings>
+            <wn version="2.1">2</wn>
+            <omega></omega><pb></pb>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    
+    
+    <sense n="3" type="" name="the faculties of perception, e.g., seeing, smelling" group="1">
+        <commentary>
+            SENSE[+quality][+faculty][+perception][+sight/+hearing/+touch/+taste/+smell]
+            Note: focus is on inherent physical faculties of perception of the outside world.
+        </commentary>
+        <examples>
+            Dogs have an extremely keen sense of smell.
+            The cool air and beauty of the mountain awakened all our senses.
+            Pete's grandfather has lost his sense of hearing.
+        </examples>
+        <mappings>
+            <wn version="2.1">3</wn>
+            <omega></omega><pb></pb>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    
+    
+    <sense n="4" type="" name="good judgement, sound reasoning" group="1">
+        <commentary>
+            SENSE[+quality][+faculty][+judgement][+good]
+            Note: implies an ability in general to reason clearly, think rationally
+        </commentary>
+        <examples>
+            She showed good sense in handling that crisis at work.
+            Those kids skateboarding through traffic have no sense at all!
+            Has she lost her senses to go out with a guy like that?
+        </examples>
+        <mappings>
+            <wn version="2.1">4</wn>
+            <omega></omega><pb></pb>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    
+    
+    <sense n="5" type="" name="individual aptitude or ability" group="1">
+        <commentary>
+            SENSE[+aptitude][+individual]
+            Note: implies ability in a given individual, not species-wide ability (see Sense 3)
+        </commentary>
+        <examples>
+            A good comedian needs a sense of timing.
+            That dancer has a great sense of rhythm. 
+            Joan has a poor sense of direction.
+            Mary has a good sense of humor.
+            The loud fraternity boys offended the girl's sense of decorum. 
+        </examples>
+        <mappings>
+            <wn version="2.1">5</wn>
+            <omega></omega><pb></pb>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    
+    
+    <sense n="6" type="" name="rationale or justification for an action" group="1">
+        <commentary>
+            SENSE[+relation][+rationale][+action]
+            Note: the reasons that support making a decision or acting in some way
+        </commentary>
+        <examples>
+            It makes no sense to check our bags if we are planning to standby for an earlier flight.
+            What's the sense of sitting around moping?
+            That decision makes a lot of sense, given their situation.
+        </examples>
+        <mappings>
+            <wn version="MAC">3b</wn>
+            <omega></omega><pb></pb>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    
+    
+    <sense n="7" type="" name="one of two opposites, as of direction of motion" group="1">
+        <commentary>
+            SENSE[+relation][+opposite][+direction]
+            Note: a narrow usage referring to the opposite behaviors of otherwise identical entities. 
+        </commentary>
+        <examples>
+            The sense of one particle emitted from the collision is the opposite direction of the other.
+        </examples>
+        <mappings>
+            <wn version="MW online">7</wn>
+            <omega></omega><pb></pb>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    
+    
+<sense group="1" n="8" name="none of the above" type="">
+  <commentary>
+Automatically generated NOTA sense (bbn)
+  </commentary>
+  <examples>
+  </examples>
+  <mappings>
+    <wn version="2.1"></wn>
+    <omega></omega><pb></pb>
+    <fn></fn>
+  </mappings><SENSE_META clarity=""/>
+</sense>
+    <WORD_META authors="ahouston" sample_score="-"/>
+
+<ita count="132" ann_1_2_agreement="0.977272727273" />
+</inventory>

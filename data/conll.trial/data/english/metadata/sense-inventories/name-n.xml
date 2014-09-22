@@ -1,0 +1,153 @@
+<!DOCTYPE inventory SYSTEM "inventory.dtd">
+<inventory lemma="name-n">
+    <commentary>
+        15nov06 update to wn2.1, merged Sense 5 with Sense 1, added examples, features. ahouston.
+        15nov06 - added three idiom senses 6-8. ahouston
+    </commentary>
+    <sense n="1" type="" name=" appellation, linguistic reference" group="1">
+        <commentary>
+            NAME[+entity][+symbolic][+identifier][+linguistic][+referent][+appellation]
+        </commentary>
+        <examples>
+            Coriander is another name for the herb cilantro.
+            His name is also John Smith.
+            I know these fish by their Latin names.
+            He is a king in name only. (idiomatic extension, meaning 'appears as')
+            She took her husband's name when they married.
+            He told the bully to stop calling him names.
+            The man had no children to carry on the family name.
+            What is the brand name of these paper towels?
+            They were just names on tombstones to the visitors who had never known them.
+            The police haven't starting naming names yet. (identifying individuals by their appellations)	
+            I can't put a name to that author. (extended usage - implies remembering something)
+            What's in a name, a rose by any other would smell as sweet. (approximate line from Romeo and Juliet)
+        </examples>
+        <mappings>
+            <wn version="2.1">1,5,6</wn>
+            <omega></omega><pb></pb>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    <sense n="2" type="" name="by the authority or sanction of" group="1">
+        <commentary>
+            NAME[+relation][+role][+instrument][+authority/+justification]
+        </commentary>
+        <examples>
+            Stop, in the name of love!
+            What in the name of heaven are you doing?
+            Open the door in the name of the law.
+            They called for reforms in the name of progress.
+        </examples>
+        <mappings>
+            <wn version="2.1">2</wn>
+            <omega></omega><pb></pb>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    <sense n="3" type="" name="reputation, standing" group="1">
+        <commentary>
+            NAME[+state][+social][+reputation]
+        </commentary>
+        <examples>
+            He made a name for himself at the Air Force Academy.
+            After the scandal, she tried in vain to restore her good name.
+            The incident gave the town a bad name.
+            His name was mud in Washington after that remark.
+        </examples>
+        <mappings>
+            <wn version="2.1">3</wn>
+            <omega></omega><pb></pb>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    
+    <sense n="4" type="" name="notable or famous persons (real or fictional)" group="1">
+        <commentary>
+            NAME[+entity][+person][+famous]
+        </commentary>
+        <examples>
+            They've hired a couple of big Hollywood names for the event.
+            It's the most respected name in electronics manufacturing. (extended usage - refers to a company)
+            He is no longer a name in the world of video game design.
+        </examples>
+        <mappings>
+            <wn version="2.1">4</wn>
+            <omega></omega><pb></pb>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    
+    <sense n="5" type="" name="Placeholder: Do Not Choose" group="1">
+        <commentary>
+        </commentary>
+        <examples>
+            
+        </examples>
+        <mappings>
+            <wn version="2.1">Placeholder</wn>
+            <omega></omega><pb></pb>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    
+    <sense n="6" type="" name="be destined for" group="1">
+        <commentary>
+            Idiom: have_one's_name_on_it
+        </commentary>
+        <examples>
+            He feared the next bullet would have his name on it.
+            Mary told Sally that red dress had her name on it. (Sally was destined to wear the dress)
+        </examples>
+        <mappings>
+            <wn version="MAC">idiom_1</wn>
+            <omega></omega><pb></pb>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    
+    <sense n="7" type="" name="have in one's possession, own" group="1">
+        <commentary>
+            Idiom: have_to_one's_name
+        </commentary>
+        <examples>
+            Fifty cents was all John had to his name.
+            That small farm in Iowa is all that family has to its name.
+        </examples>
+        <mappings>
+            <wn version="MAC">idiom_2</wn>
+            <omega></omega><pb></pb>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    
+    <sense n="8" type="" name="main purpose, importance" group="1">
+        <commentary>
+            Idiom: name_of_the_game
+        </commentary>
+        <examples>
+            The name of the game is to do what you're told and not say anything.
+            The name of that game is to publish a lot of articles, or write a major book.
+        </examples>
+        <mappings>
+            <wn version="MAC">idiom_3</wn>
+            <omega></omega><pb></pb>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    
+<sense group="1" n="9" name="none of the above" type="">
+  <commentary>
+Automatically generated NOTA sense (bbn)
+  </commentary>
+  <examples>
+  </examples>
+  <mappings>
+    <wn version="2.1"></wn>
+    <omega></omega><pb></pb>
+    <fn></fn>
+  </mappings><SENSE_META clarity=""/>
+</sense>
+    <WORD_META authors="ahouston" sample_score="-"/>
+
+<ita count="177" ann_1_2_agreement="1.0" />
+</inventory>

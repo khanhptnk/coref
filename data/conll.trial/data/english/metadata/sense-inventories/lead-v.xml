@@ -1,0 +1,163 @@
+<?xml version="1.0" ?>
+<!DOCTYPE inventory
+  SYSTEM 'inventory.dtd'>
+<inventory lemma="lead-v">
+    <commentary>
+    </commentary>
+    <sense group="1" n="1" name="result in, tend to, cause, conduce" type="">
+        <commentary>
+            Includes: LEAD OFF, LEAD UP
+        </commentary>
+        <examples>
+            Washing clothes without bleach will lead to duller colors eventually.
+            This remark led to further arguments among the guests
+            Her greed led her to forge the checks
+            This path is leading him to disaster.
+            More exercise will lead to better cardiovascular health.
+            The United States will lead of the 10th annual World's Fair.
+            Hitler's attack on Poland led up to WWII.
+        </examples>
+        <mappings>
+            <wn version="3.0">2,3,5,9</wn>
+            <wn lemma="lead_off" version="3.0">2</wn>
+            <wn lemma="lead_up" version="3.0">1</wn>  
+            <omega/>
+            <pb>lead.03,lead.04</pb>
+            <vn>force-59</vn><fn>Talking_into</fn>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    <sense group="1" n="2" name="travel in front of, be first, precede" type="">
+        <commentary>
+        </commentary>
+        <examples>
+            The majorettes led the parade on Main Street.
+            That country leads the world in annual silk production.
+            John is now leading in the tennis tournament.
+        </examples>
+        <mappings>
+            <wn version="3.0">4,8,13</wn>
+            <omega/>
+            <pb>NM</pb>
+            <vn>NM</vn><fn>NM</fn>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    <sense group="1" n="3" name="extend, connect, afford access to" type="">
+        <commentary>
+        </commentary>
+        <examples>
+            Train service no longer leads all the way out to those villages.
+            I wonder where this twisty passage will lead.
+            The French doors in the living room lead onto a wide terrace.
+        </examples>
+        <mappings>
+            <wn version="3.0">6,12</wn>
+            <omega/>
+            <pb></pb>
+            <vn>NM</vn><fn>NM</fn>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    <sense group="1" n="4" name="head, preside, direct" type="">
+        <commentary>
+        </commentary>
+        <examples>
+            Who will be leading this project?
+            The conductor led the audience in a medley of patriotic tunes.
+            I've been asked to lead the service this evening.
+        </examples>
+        <mappings>
+            <wn version="3.0">7,10,15</wn>
+            <omega/>
+            <pb>lead.02</pb>
+            <vn>NM</vn><fn>Leadership</fn>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    <sense group="1" n="5" name="guide" type="">
+        <commentary>
+            Includes: LEAD ASTRAY
+        </commentary>
+        <examples>
+            You can lead a horse to water, but you can't make him drink.
+            This problem has been leading me in circles.
+            He led her upstairs to see his etchings.
+            You've been leading me astray!
+        </examples>
+        <mappings>
+            <wn version="3.0">1</wn>
+            <wn lemma="lead_astray" version="3.0">2</wn>
+            <omega/>
+            <pb>lead.01</pb>
+            <vn>accompany-51.7</vn><fn>Cotheme</fn>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    <sense group="1" n="6" name="pass, spend" type="">
+        <commentary>
+        </commentary>
+        <examples>
+            They are leading a splendid life on the Amalfi coast.
+            He led a life of quiet virtue.
+        </examples>
+        <mappings>
+            <wn version="3.0">11</wn>
+            <omega/>
+            <pb>NM</pb>
+            <vn>NM</vn><fn>NM</fn>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    <sense group="1" n="7" name="run, place" type="">
+        <commentary>
+        </commentary>
+        <examples>
+            Be sure to lead the wire behind the furniture, so we won't trip on it.
+        </examples>
+        <mappings>
+            <wn version="3.0">14</wn>
+            <omega/>
+            <pb>NM</pb>
+            <vn>NM</vn><fn>NM</fn>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    <sense group="1" n="8" name="deceive, teach bad behavior to (with false promises)" type="">
+        <commentary>
+            Includes: LEAD ASTRAY, LEAD OFF, LEAD BY THE NOSE, LEAD ON
+        </commentary>
+        <examples>
+            That preacher sure led us astray with promises of eternal life.
+            It was common practice to lead off young ones.
+            Martin led the professor by the nose.
+            She led on her blind date, telling him she was a model.
+        </examples>
+        <mappings>
+            <wn version="3.0"></wn>
+            <wn lemma="lead_astray" version="3.0">1,3</wn>
+            <wn lemma="lead_off" version="3.0">1</wn>
+            <wn lemma="lead_by_the_nose" version="3.0">1</wn>
+            <wn lemma="lead_on" version="3.0">1,2</wn>
+            <omega/>
+            <pb>NM</pb>
+            <vn>NM</vn><fn>NM</fn>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+<sense group="1" n="9" name="none of the above" type="">
+  <commentary>
+Automatically generated NOTA sense (bbn)
+  </commentary>
+  <examples>
+  </examples>
+  <mappings>
+    <wn version="2.1"></wn>
+    <omega></omega><pb></pb>
+    <fn></fn>
+  </mappings><SENSE_META clarity=""/>
+</sense>
+    <WORD_META authors="ahouston,greenlm" sample_score="-"/>
+
+<ita count="522" ann_1_2_agreement="0.747126436782" />
+</inventory>

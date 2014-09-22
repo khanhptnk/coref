@@ -1,0 +1,85 @@
+<?xml version="1.0" ?>
+<!DOCTYPE inventory SYSTEM "inventory.dtd">
+<inventory lemma="act-v">
+    <commentary>
+    </commentary>
+    <sense group="1" n="1" name="play or perform a role" type="">
+        <commentary>
+            Includes: ACT OUT, ACT AS
+        </commentary>
+        <examples>
+            She wants to act Lady Macbeth, but she is too young for the role.
+            She acts deaf when the news is bad.
+            Don't believe her, she's just acting upset.
+            He acted in Julius Caesar.
+            She is acting as chair.
+            This dog acts ferocious, but he is really afraid of people.
+            She acted out what had happened earlier that day.
+            This heap of stones will act as a barrier.
+        </examples>
+        <mappings>
+            <wn version="2.1">3,4,5,6,9,10</wn>
+            <wn lemma="act_out" version="2.1">1,2</wn>
+            <wn lemma="act_as" version="2.1">1,2</wn>
+            <omega></omega><pb>act.01</pb>
+            <vn>masquerade-29.6</vn><fn>NM</fn>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    <sense group="1" n="2" name="take action or behave in a certain way" type="">
+        <commentary>
+            Syntax Is: NP1[agent] ACT
+            Includes: ACT UPON, ACT ON
+        </commentary>
+        <examples>
+            Think before you act.
+            They only listen but never act.
+            He acted upon the advance information.
+            Can you act on this matter soon?
+            The Founding Fathers acted on certain moral principles.
+            You should act like an adult.
+            Please act responsibly.
+            The Institute has failed to act fairly and in accordance with the appraisal procedure.
+            The breaks of my new car act quickly.
+            An object in motion tends to stay in motion unless acted upon by an unbalanced force.
+        </examples>
+        <mappings>
+            <wn version="2.1">1,2,7,8</wn>
+            <wn lemma="act_on" version="2.1">1,2</wn>
+            <omega></omega><pb>act.02</pb>
+            <vn>NM</vn><fn>Conduct,Intentionally_act</fn>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    <sense group="1" n="3" name="cause trouble or pain" type="">
+        <commentary>
+            Includes ACT UP, ACT OUT
+        </commentary>
+        <examples>
+            The children acted up when they got bored.
+            My arthritis is acting up again.
+            The study found that alcohol abuse was strongly related to acting out among young CSP clients.
+        </examples>
+        <mappings>
+            <wn lemma="act_up" version="2.1">1,2</wn>
+            <omega></omega><pb>NM</pb>
+            <vn>NM</vn><fn>NM</fn>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+<sense group="1" n="4" name="none of the above" type="">
+  <commentary>
+Automatically generated NOTA sense (bbn)
+  </commentary>
+  <examples>
+  </examples>
+  <mappings>
+    <wn version="2.1"></wn>
+    <omega></omega><pb></pb>
+    <fn></fn>
+  </mappings><SENSE_META clarity=""/>
+</sense>
+    <WORD_META authors="duffielc,hwangd,brownsw" sample_score="-"/>
+
+<ita count="158" ann_1_2_agreement="0.860759493671" />
+</inventory>

@@ -1,0 +1,60 @@
+<!DOCTYPE inventory SYSTEM "inventory.dtd">
+<inventory lemma="depend-v">
+    <commentary>
+        DEPEND_ON, DEPEND are separate WN entries, but is there a difference? DEPEND seems to always occur with either 'on' or 'upon'.
+    </commentary>
+    <sense n="1" type="" name="be contingent on" group="1">
+        <commentary>
+            Syntax Includes:
+            NP1[patient] DEPEND ON NP2[agent]
+            NP1[patient] DEPEND ON NP2[theme]
+        </commentary>
+        <examples>
+            Interest rates will depend on whether the economy continues to heat up.
+            A vintage year for Cabernet grapes depends on many variables.
+            We'll hold the wedding ceremony under the awnings, or out in the garden, depending on weather.
+            Your grade will depend upon how well you do on the final exam.
+        </examples>
+        <mappings>
+            <wn version="2.1">1</wn>
+            <wn version="2.1" lemma="depend_upon">1</wn>
+            <omega></omega><pb>depend.01</pb>
+            <vn>NM</vn><fn>Contingency</fn>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+     
+    <sense n="2" type="" name="count on or trust" group="1">
+        <commentary>
+            Syntax Is: 
+            NP1[patient[human]]  DEPEND ON NP2
+        </commentary>
+        <examples>
+            Can I depend on you to watch the baby?
+            It will be cold in January, you can depend on that!
+            John says we can't depend on the main sail to not tear during a storm.
+        </examples>
+        <mappings>
+            <wn version="2.1">2</wn>
+            <omega></omega><pb>depend.01</pb>
+            <vn>rely-70</vn><fn>Reliance</fn>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+     
+<sense group="1" n="3" name="none of the above" type="">
+  <commentary>
+Automatically generated NOTA sense (bbn)
+  </commentary>
+  <examples>
+  </examples>
+  <mappings>
+    <wn version="2.1"></wn>
+    <omega></omega><pb></pb>
+    <fn></fn>
+  </mappings><SENSE_META clarity=""/>
+</sense>
+    <WORD_META authors="ahouston" sample_score="-"/>
+
+<ita count="120" ann_1_2_agreement="0.916666666667" />
+</inventory>

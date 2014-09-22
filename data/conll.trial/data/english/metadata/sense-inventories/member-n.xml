@@ -1,0 +1,79 @@
+<!DOCTYPE inventory SYSTEM "inventory.dtd">
+<inventory lemma="member-n">
+    <commentary>
+    </commentary>
+    <sense n="1" type="" name="part of a social unit" group="1">
+        <commentary>
+            MEMBER[+role][+social][+participant][+organization/+family]
+            (NP/NP's){+social_group} MEMBER{+person/+organization}
+            MEMBER[+person]
+            MEMBER[+organization] 
+            of NP{+social_group}
+            Note: entails the existence of a recognized social institution (this is not the case for Sense 3 below)
+        </commentary>
+        <examples>
+            Mary introduced me to all her family members.
+            Only members will be admitted to this club.
+            Mrs. Watson is a member of the faculty.
+            The United Nations' members include Canada.
+            The library is a member of the Interlibrary Loan Association.
+        </examples>
+        <mappings>
+            <wn version="2.1">1,2</wn>
+            <omega></omega><pb></pb>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    <sense n="2" type="" name="physical portion of anatomy" group="1">
+        <commentary>
+            MEMBER[+anatomy][+animal][+portion][+projecting]
+            MEMBER[+physical] 
+            of NP{+possessor}
+            NP/MOD{+possessive} MEMBER{+physical}
+        </commentary>
+        <examples>
+            Keep all your members away from that rotating saw.
+            The pervert flashed his member at the audience.
+        </examples>
+        <mappings>
+            <wn version="2.0">3,5</wn>
+            <omega></omega><pb></pb>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    <sense n="3" type="" name="constituent element of a larger class" group="1">
+        <commentary>
+            MEMBER[+relation][+set][+element][+abstract/+concrete]
+            MEMBER[+instance] 
+            of NP{+class}
+            NP's{+class} MEMBER{+instance}
+            In a classification scheme, something that is part of a set or class.
+            Note: focus is on classification of natural kinds of things, not inclusion in a social institution (see Sense 1)
+        </commentary>
+        <examples>
+            Snakes are members of the class Reptilia.
+            Mary had a hard time meeting members of the opposite sex.
+            'i' is a member of the set of imaginary numbers.
+        </examples>
+        <mappings>
+            <wn version="2.0">4</wn>
+            <omega></omega><pb></pb>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+<sense group="1" n="4" name="none of the above" type="">
+  <commentary>
+Automatically generated NOTA sense (bbn)
+  </commentary>
+  <examples>
+  </examples>
+  <mappings>
+    <wn version="2.1"></wn>
+    <omega></omega><pb></pb>
+    <fn></fn>
+  </mappings><SENSE_META clarity=""/>
+</sense>
+    <WORD_META authors="ahouston" sample_score="-"/>
+
+<ita count="444" ann_1_2_agreement="0.966216216216" />
+</inventory>

@@ -1,0 +1,274 @@
+<?xml version="1.0" ?>
+<!DOCTYPE inventory
+  SYSTEM 'inventory.dtd'>
+<inventory lemma="hold-v">
+    <commentary>
+    </commentary>
+    <sense group="1" n="1" name="physically grasp, position, or support something" type="">
+        <commentary>
+            Syntax Is: NP1[agent] HOLD (NP2[patient[concrete]])
+            Includes: HOLD CLOSE, HOLD ON, HOLD OUT, HOLD TIGHT, HOLD UP
+        </commentary>
+        <examples>
+            Hold this bowl for a moment, please.
+            The child is holding a cookie in each hand.
+            Hold on tightly!
+            I held the tiller while John went forward to untangle the jib.
+            Hold the fire extinguisher directly on the flames.
+            Only a single nail is holding that heavy picture to the wall.
+            You should hold your head straight when you sing.
+            Can the roof hold all that weight?
+            Hold your friends close and your enemies closer.
+            The minister held out his hand, and I grasped it in a firm handshake.
+            That beam holds up the roof.
+        </examples>
+        <mappings>
+            <wn version="2.1">3,15,18,35</wn>
+            <wn lemma="hold_close" version="2.1">1</wn>
+            <wn lemma="hold_on" version="2.1">1</wn>
+            <wn lemma="hold_out" version="2.1">1</wn>
+            <wn lemma="hold_tight" version="2.1">1</wn>
+            <wn lemma="hold_up" version="2.1">1</wn>
+            <omega/>
+            <pb>hold.01</pb>
+            <vn>fit-54.3</vn><fn>NM</fn>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    <sense group="1" n="2" name="stop or restrain something; keep something from being used" type="">
+        <commentary>
+            Syntax Is: NP1[agent[animate]] HOLD NP2
+            Includes: HOLD BACK; HOLD DOWN; HOLD IN; HOLD OFF; HOLD OPEN; HOLD THE LINE; HOLD UP
+        </commentary>
+        <examples>
+            The terrorists held the journalists for ransom.
+            Hold your tongue.
+            'Hold your fire until you see the whites of their eyes!'
+            He can hold his breath for 3 minutes!
+            She held him to his promise.
+            They're holding a table at Maxim's for us.
+            Please hold all my calls until I return this afternoon.
+            He held the taxi as she came down the stairs.
+            That story held my attention for hours.
+            She held back a snicker.
+            Hold down the noise or I'm calling the police!
+            She held in all her anger.
+            I'll hold open the position as long as I can.
+            When it comes to raising prices, just hold the line.
+            Hurry up. Don't hold up the whole group.
+        </examples>
+        <mappings>
+            <wn version="2.1">4,9,14,16,17,26,27,31,33,34</wn>
+            <wn lemma="hold_back" version="2.1">1,2,3,4,5,6</wn>
+            <wn lemma="hold_down" version="2.1">2</wn>
+            <wn lemma="hold_in" version="2.1">1,2,3</wn>
+            <wn lemma="hold_off" version="2.1">1,2</wn>
+            <wn lemma="hold_open" version="2.1">1</wn>
+            <wn lemma="hold_the_line" version="2.1">1,2</wn>
+            <wn lemma="hold_up" version="2.1">3</wn>
+            <omega/>
+            <pb>hold.07</pb>
+            <vn>conjecture-29.5-1</vn><fn>Detaining</fn>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    <sense group="1" n="3" name="maintain one's state, position, or physical integrity" type="">
+        <commentary>
+            Note: Intransitive.
+            Syntax Is: NP1 HOLD
+            Includes: HOLD FAST, HOLD FIRM, HOLD ON, HOLD OUT, HOLD TIGHT, HOLD UP
+        </commentary>
+        <examples>
+            If the weather holds, we'll go sailing tomorrow.
+            The old bridge has held through two major earthquakes.
+            Do you think the chain will hold?
+            The revamped defensive line is holding up.
+            The ropes held fast through the storm.
+            He held firm despite the pressure to change his vote.
+            Hold on. I'll be back in a minute.
+            We held out for three days without food or water.
+            Just hold tight; the ambulance will be here in a minute.
+            Those shoes will never hold up in all this snow.
+        </examples>
+        <mappings>
+            <wn version="2.1">2,10,32</wn>
+            <wn lemma="hold_fast" version="2.1">1</wn>
+            <wn lemma="hold_firm" version="2.1">1</wn>
+            <wn lemma="hold_on" version="2.1">2,3,4</wn>
+            <wn lemma="hold_out" version="2.1">2,3,4,5</wn>
+            <wn lemma="hold_up" version="2.1">5,6,7</wn>
+            <omega/>
+            <pb>hold.03</pb>
+            <vn>hold-15.1-1</vn><fn>NM</fn>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    <sense group="1" n="4" name="maintain an attitude, belief, or opinion" type="">
+        <commentary>
+            Note: Transitive.
+            Syntax Includes:
+            NP1 HOLD NP2[patient[abstract]]
+            NP1 HOLD SCOMP
+            NP1 HOLD PP
+            Includes: HOLD DEAR
+        </commentary>
+        <examples>
+            We hold these truths to be self evident.
+            Rousseau's philosophy holds that people are inherently good
+            I still hold to my theory that right makes might.
+            She was held in contempt of court.
+            I hold with John that we should drink the good wine first.
+            She can really hold a grudge!
+            Take a stand for the principles we hold dear.
+        </examples>
+        <mappings>
+            <wn version="2.1">7,11,12,13,24,36</wn>
+            <wn lemma="hold_dear" version="2.1">1</wn>
+            <omega/>
+            <pb>hold.02</pb>
+            <vn>fit-54.3</vn><fn>NM</fn>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    <sense group="2" n="5" name="possess or control something, e.g., money, position of authority, honor" type="">
+        <commentary>
+            Syntax Is: NP1 HOLD NP2
+            Includes: HOLD DOWN; HOLD ON; HOLD OVER
+        </commentary>
+        <examples>
+            Most of the stock is held by just the founders of that firm.
+            The dissatisfied students held the President's office for almost a week.
+            When the battle ended, the Union troops still held the ridge.
+            They hold four gold medals from their past competitions.
+            Will she hold the office of assistant dean?
+            He held the chairmanship for 10 years.
+            His father held two advanced degrees from Harvard.
+            She held down two jobs in order to support her family.
+            His wife held on to his clothes long after he had died.
+            They held over the movie for another week.
+        </examples>
+        <mappings>
+            <wn version="2.1">5,6,22,23</wn>
+            <wn lemma="hold_down" version="2.1">1</wn>
+            <wn lemma="hold_on" version="2.1">5</wn>
+            <wn lemma="hold_over" version="2.1">2,3,4,5</wn>
+            <omega/>
+            <pb>hold.03</pb>
+            <vn>conjecture-29.5-1</vn><fn>NM</fn>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    <sense group="1" n="6" name="contain or accommodate" type="">
+        <commentary>
+            Syntax Is: NP1 HOLD NP2
+        </commentary>
+        <examples>
+            He held the memory of her in his heart.
+            The last chapter holds the key to how the murder was done.
+            That case used to hold my grandfather's violin.
+            This can holds five gallons.
+            The opera house holds two thousand people.
+            My coin purse won't hold any more change.
+            He just can't hold his liquor.
+        </examples>
+        <mappings>
+            <wn version="2.1">8,19,20,25,29</wn>
+            <omega/>
+            <pb>hold.01</pb>
+            <vn>NM</vn><fn>Containing</fn>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    <sense group="1" n="7" name="be relevant or applicable" type="">
+        <commentary>
+            Syntax Is: NP1[topic[abstract]]  HOLD (PP)
+        </commentary>
+        <examples>
+            This theory still holds.
+            The same rules will hold for all members of our club.
+        </examples>
+        <mappings>
+            <wn version="2.1">21,30</wn>
+            <omega/>
+            <pb>hold.02</pb>
+            <vn>NM</vn><fn>NM</fn>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    <sense group="1" n="8" name="conduct a social event" type="">
+        <commentary>
+        </commentary>
+        <examples>
+            We held a reception in his honor.
+            They held a special emergency meeting last week.
+            They are holding inquiries next week.
+        </examples>
+        <mappings>
+            <wn version="2.1">1</wn>
+            <omega/>
+            <pb>hold.04</pb>
+            <vn>NM</vn><fn>NM</fn>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    <sense group="1" n="9" name="block or cover protectively (by grasping)" type="">
+        <commentary>
+        </commentary>
+        <examples>
+            We held our noses when we passed near the dead skunk on the highway.
+            He held his ears as the F-15s flew by overhead.
+        </examples>
+        <mappings>
+            <wn version="2.1">28</wn>
+            <omega/>
+            <pb>hold.01</pb>
+            <vn>NM</vn><fn>NM</fn>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    <sense group="1" n="10" name="idioms" type="">
+        <commentary>
+            Includes: HOLD FORTH, HOLD ONE'S OWN, HOLD OVER, HOLD STILL FOR,
+            HOLD SWAY, HOLD UP, HOLD WATER
+        </commentary>
+        <examples>
+            He held forth at length on his views of modern life.
+            No one plays better. She can hold her own against anyone.
+            He held the threat of expulsion over her.
+            I won't hold still for that kind of behavior!
+            The GOP held sway for several years, until the Democrats won the House.
+            We were held up at gunpoint!
+            He held up his sister as a shining example of purity.
+            That theory just doesn't hold water.
+        </examples>
+        <mappings>
+            <wn version="2.1"></wn>
+            <wn lemma="hold_forth" version="2.1">1</wn>
+            <wn lemma="hold_one\'s_own" version="2.1">1,2</wn>
+            <wn lemma="hold_over" version="2.1">1</wn>
+            <wn lemma="hold_still_for" version="2.1">1</wn>
+            <wn lemma="hold_sway" version="2.1">1</wn>
+            <wn lemma="hold_up" version="2.1">2,4</wn>
+            <wn lemma="hold_water" version="2.1">1</wn>
+            <omega/>
+            <pb>NM</pb>
+            <vn>NM</vn><fn>NM</fn>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+<sense group="1" n="11" name="none of the above" type="">
+  <commentary>
+Automatically generated NOTA sense (bbn)
+  </commentary>
+  <examples>
+  </examples>
+  <mappings>
+    <wn version="2.1"></wn>
+    <omega></omega><pb></pb>
+    <fn></fn>
+  </mappings><SENSE_META clarity=""/>
+</sense>
+    <WORD_META authors="ahouston,brownsw" sample_score="-"/>
+
+<ita count="855" ann_1_2_agreement="0.757894736842" />
+</inventory>

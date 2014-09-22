@@ -1,0 +1,34 @@
+<?xml version="1.0" ?>
+<!DOCTYPE inventory SYSTEM "inventory.dtd">
+<inventory lemma="seem-v">    
+    <commentary>
+        No VPCs to add
+    </commentary>
+    <sense n="1" type="" name="(Cause to) give the impression of being in some state or circumstance" group="1">  
+        <commentary>
+            Syntax Includes:
+            NP1[object,theme] SEEM PRED (to NP2[perceiver])
+            NP[+perceiver] SEEM [trace perceiver] to-VERB[+cognition] (PP/NPSCOMP)
+        </commentary>
+        <examples> 
+            They seemed like a nice couple
+            This bread seemed stale when I tasted it.
+            The idea didn't seem silly to John.
+            It seems likely the company will soon go public.
+            It seems (likely, certain, unlikely) that they forgot to sign the check. 
+            I can't seem to remember where I put my glasses.
+            I seem to recall that he worked with Mary at the Atlanta office.
+            He can't seem to remember peoples' names these days.
+        </examples>
+        <mappings>
+            <wn version="2.1">1,2,3,4</wn>   
+            <wn lemma="" version="2.1"></wn>
+            <omega></omega><pb>seem.01</pb>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    <WORD_META authors="ahouston,corvey" sample_score="-"/>
+     
+
+<ita count="1024" ann_1_2_agreement="0.943359375" />
+</inventory>

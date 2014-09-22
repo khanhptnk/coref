@@ -1,0 +1,118 @@
+<?xml version="1.0" ?>
+<!DOCTYPE inventory SYSTEM "inventory.dtd">
+<inventory lemma="eliminate-v">    
+    <commentary>
+        No VPCs to add
+    </commentary>
+    <sense n="1" type="" name="eradicate, destroy, extinguish, get rid of" group="1">  
+        <commentary>
+            Syntax Is:
+            NP1[agent] ELIMINATE NP2[patient]
+        </commentary>
+        <examples> 
+            The company has eliminated several of its perks, including free lunches.
+            They believe these policies will eliminate half the national debt in five years.
+            The auto industry has eliminated 12,000 jobs in North America this year.
+            I fear their intent is to eliminate the several ethnic populations of that region.
+            The mob wanted to eliminate him for cooperating with the FBI.
+        </examples>
+        <mappings>
+            <wn version="2.1">1,2,3</wn>   
+            <wn lemma="" version="2.1"></wn>
+            <omega></omega><pb>eliminate.01</pb>
+            <vn>murder-42.1,remove-10.1</vn><fn>Removing,Killing</fn>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    <sense n="2" type="" name="exclude, or rule out from a list of possibilities" group="1">  
+        <commentary>
+            Syntax Is:
+            NP1[agent] ELIMINATE NP2[patient]
+            Note: This sense implies removing selected members from a larger set
+        </commentary>
+        <examples>
+            At this point we can't eliminate any of the possibilities.
+            The police have eliminated Bob as a suspect.
+            Look at the answer choices and eliminate wrong answers until there is only one answer.
+        </examples>
+        <mappings>
+            <wn version="2.1">4</wn>
+            <wn lemma="" version="2.1"></wn>
+            <omega></omega><pb>eliminate.01</pb>
+            <vn>remove-10.1</vn><fn>Removing</fn>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    <sense n="3" type="" name="physically excrete waste" group="1">  
+        <commentary>
+            Syntax Is:
+            NP1[topic] ELIMINATE (NP)
+        </commentary>
+        <examples> 
+            The man was given a laxative before surgery to help him eliminate.
+            Her dog has trouble eliminating after eating bones.
+            The new treatment plant now keeps raw sewage from eliminating into the bay. (metaphoric)
+        </examples>
+        <mappings>
+            <wn version="2.1">5</wn>   
+            <wn lemma="" version="2.1"></wn>
+            <omega></omega><pb>eliminate.01</pb>
+            <vn>remove-10.1</vn><fn>Removing</fn>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    <sense n="4" type="" name="beat, vanquish or disqualify a participant from a contest" group="1">  
+        <commentary>
+            Syntax Is:
+            NP1[agent] ELIMINATE NP2[patient]
+            Note: Usually appears in passive form.
+        </commentary>
+        <examples>
+            John was eliminated during the second round of the ping pong tournament.
+            Two athletes were eliminated from the competition for using drugs.
+            He'll be eliminated from the game for receiving his third penalty.
+        </examples>
+        <mappings>
+            <wn version="2.1">6</wn>
+            <wn lemma="" version="2.1"></wn>
+            <omega></omega><pb>eliminate.01</pb>
+            <vn>NM</vn><fn>NM</fn>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    <sense n="5" type="" name="remove mathematically" group="1">  
+        <commentary>
+            Syntax Is:	 
+            NP1[instrument]  ELIMINATE NP2[patient[abstract]]
+            Note: valid mathematical operations are the instrument by which a variable is removed.
+            Note: 'We can eliminate' really implies 'we can apply operations to eliminate'
+        </commentary>
+        <examples>
+            We can now eliminate X from these equations.
+            You cannot eliminate Y by dividing each equation by X + 1.
+        </examples>
+        <mappings>
+            <wn version="2.1">7</wn>
+            <wn lemma="" version="2.1"></wn>
+            <omega></omega><pb>eliminate.01</pb>
+            <vn>NM</vn><fn>NM</fn>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+<sense group="1" n="6" name="none of the above" type="">
+  <commentary>
+Automatically generated NOTA sense (bbn)
+  </commentary>
+  <examples>
+  </examples>
+  <mappings>
+    <wn version="2.1"></wn>
+    <omega></omega><pb></pb>
+    <fn></fn>
+  </mappings><SENSE_META clarity=""/>
+</sense>
+    <WORD_META authors="ahouston,hwangd,duffielc" sample_score="-"/>
+     
+
+<ita count="86" ann_1_2_agreement="0.883720930233" />
+</inventory>

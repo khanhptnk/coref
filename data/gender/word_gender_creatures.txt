@@ -1,0 +1,42 @@
+buck 	doe
+ass 	jenny
+boar  	sow
+bull 	cow
+cock  	hen
+rooster	hen
+cockerel 	pullet
+colt (young horse) 	filly
+deer: buck 	doe
+dog 	bitch
+donkey 	jenny
+drake 	duck
+drone 	bee
+eagle 	eagle
+elephant: bull-elephant 	cow-elephant
+ferret: buck 	doe
+fox 	vixen
+gander 	goose
+guinea pig: boar 	sow
+goat: billy-goat/he-goat 	nanny-goat/she-goat
+hare: buck 	doe
+hedgehog: boar 	sow
+kangaroo: buck 	doe
+leopard 	leopardess
+lion 	lioness
+peacock 	peahen
+pig 	sow
+pigeon: cock-pigeon 	hen-pigeon
+rabbit: buck 	doe
+ram  	ewe
+rat: buck 	doe
+reindeer: buck 	doe
+rhinoceros: bull 	cow
+seal: bull-seal 	cow-seal
+sheep 	ewe
+sparrow: cock-sparrow 	hen-sparrow
+stag 	hind
+stallion 	mare
+tiger 	tigress
+turkey-cock 	turkey-hen
+whale: bull-whale 	cow-whale
+wolf: he-wolf 	she-wolf

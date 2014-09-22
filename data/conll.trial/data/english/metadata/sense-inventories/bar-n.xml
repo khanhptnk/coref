@@ -1,0 +1,298 @@
+<!DOCTYPE inventory SYSTEM "inventory.dtd">
+<inventory lemma="bar-n">
+    <commentary>
+    </commentary>
+    
+    <sense n="1" type="" name="saloon, establishment primarily serving alcohol" group="1">
+        <commentary>
+            BAR[+building][+business][+saloon]
+        </commentary>
+        <examples>
+            The bars all close in this town at 1 am.
+            John and Mary explored various wine bars in Venice.
+            She had dropped out of school and become a bar fly. (hangs out in bars)
+            Mike and Pete went to a topless bar last night.
+            Mary and Sally spent the evening in Madrid exploring tapas bars. (focus is on wine)
+        </examples>
+        <mappings>
+            <wn version="2.1">1</wn>
+            <omega></omega><pb></pb>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    
+    
+    <sense n="2" type="" name="a counter or area where food or drink are provided" group="1">
+        <commentary>
+            BAR[+counter][+serving][+food/+drink]
+        </commentary>
+        <examples>
+            This restaurant has a nice salad bar.
+            The reception had hot hors d'oeuvres and a cash bar.  (drink counter where you pay for drinks)
+            John installed a wet bar in his finished basement. (drink area with a sink)
+            I bought a bag of pretzels at the hospital's snack bar.
+            Have you tried the sushi bar at that new restaurant?
+        </examples>
+        <mappings>
+            <wn version="2.1">2</wn>
+            <omega></omega><pb></pb>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    
+    
+    <sense n="3" type="" name="any rigid rod, usually metal or wood" group="1">
+        <commentary>
+            BAR[+rod][+rigid][+metal/+wood]
+        </commentary>
+        <examples>
+            That neighborhood has a lot of bars on the windows.
+            The man packed tobacco into his pipe with a tamping bar.
+            They were finally able to open the jammed cellar door with a pry bar.
+            These brass towel bars are quite expensive.
+            This quilting machine has three racks and six fabric bars. 
+        </examples>
+        <mappings>
+            <wn version="2.1">3</wn>
+            <omega></omega><pb></pb>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    
+    
+    <sense n="4" type="" name="a symbol of musical notation that demarcates sets of notes" group="1">
+        <commentary>
+            BAR[+symbol][+notation][+musical][+demarcator]
+        </commentary>
+        <examples>
+            There are six bars of introduction before the singer's entrance. (six measures of music)
+            The end of this movement of the symphony is indicated with double bars.
+            It's a twelve bar blues progression.
+        </examples>
+        <mappings>
+            <wn version="2.1">4</wn>
+            <omega></omega><pb></pb>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    
+    
+    <sense n="5" type="" name="sports apparatus serving as an obstacle" group="1">
+        <commentary>
+            BAR[+apparatus][+horizontal][+hurdle][+sports]
+            [+role][+obstacle][+sports]
+        </commentary>
+        <examples>
+            The football hit the bar between the goal posts and bounced back.
+            The bars on the jumps in Olympic equestrian events are set above six feet.
+            Their new microprocessor has raised the bar for performance yet again. (figurative)
+        </examples>
+        <mappings>
+            <wn version="2.1">5</wn>
+            <omega></omega><pb></pb>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    
+    
+    <sense n="6" type="" name="a state of hindrance or prohibition to something" group="1">
+        <commentary>
+            BAR[+state][+prohibition][+legal/+social/+personal/+natural]
+        </commentary>
+        <examples>
+            There is a bar against cameras in that courtroom.
+            He believes society still maintains a color bar between the races.  
+            The boy's dyslexia proved to be no bar in getting into a good college.
+            Don't let feelings of insecurity be the bar to your success. 
+        </examples>
+        <mappings>
+            <wn version="2.1">6</wn>
+            <omega></omega><pb></pb>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    
+    
+    <sense n="7" type="" name="a unit of atmospheric pressure" group="1">
+        <commentary>
+            BAR[+quantity][+measure][+pressure]	
+        </commentary>
+        <examples>
+            The barometer has fallen several bars in the last hour.
+            The divers checked their pressure gauges to see how many bars were remaining in their tanks.
+        </examples>
+        <mappings>
+            <wn version="2.1">7</wn>
+            <omega></omega><pb></pb>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    
+    
+    <sense n="8" type="" name="a ridge of sand usually submerged in a river or the sea" group="1">
+        <commentary>
+            BAR[+natural][+ridge][+sand][+submerged]
+        </commentary>
+        <examples>
+            The keel of the boat got snagged on a sand bar.
+            These sand bars are totally submerged at high tide.
+        </examples>
+        <mappings>
+            <wn version="2.1">8</wn>
+            <omega></omega><pb></pb>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    
+    
+    <sense n="9" type="" name="the legal profession" group="1">
+        <commentary>
+            BAR[+organization][+professional][+legal]
+        </commentary>
+        <examples>
+            Bill just passed the bar exam.
+            Her father is a member of the New York bar.
+            He'll face the bar of public opinion. (figurative)
+        </examples>
+        <mappings>
+            <wn version="2.1">9</wn>
+            <omega></omega><pb></pb>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    
+    
+    <sense n="10" type="" name="a unit of a substance, formed in a block" group="1">
+        <commentary>
+            BAR[+form][+shape][+block][+gold/+food/+soap]
+            [+quantity][+measure][+unit][+substance]
+        </commentary>
+        <examples>
+            How much does a bar of gold weight?
+            He ate two whole bars of chocolate for lunch!
+            The restrooms use liquid soap dispensers in place of bars of soap.
+            Mary doesn't like granola bars.
+        </examples>
+        <mappings>
+            <wn version="2.1">10</wn>
+            <omega></omega><pb></pb>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    
+    
+    <sense n="11" type="" name="supporting apparatus used in gymnastics" group="1">
+        <commentary>
+            BAR[+apparatus][+horizontal][+balance][+gymnastic]
+            [+role][+support]
+        </commentary>
+        <examples>
+            The gymnast worked out on the high bar.
+            She did a perfect dismount from the horizontal bar.
+        </examples>
+        <mappings>
+            <wn version="2.1">12</wn>
+            <omega></omega><pb></pb>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    
+    
+    <sense n="12" type="" name="a heating element" group="1">
+        <commentary>
+            BAR[+artifact][+element][+heating]
+        </commentary>
+        <examples>
+            This space heater's heating element has three bars. 
+        </examples>
+        <mappings>
+            <wn version="2.1">13</wn>
+            <omega></omega><pb></pb>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    
+    
+    <sense n="13" type="" name="a low rail in a courtroom or legislative hall" group="1">
+        <commentary>
+            BAR[+structure][+rail][+low][+court/+legislature]
+            [+role][+partition]
+        </commentary>
+        <examples>
+            The prisoner stood at the bar gazing defiantly out at the courtroom.
+            The people seated in the courtroom are not allowed to go past the bar.
+        </examples>
+        <mappings>
+            <wn version="2.1">14</wn>
+            <omega></omega><pb></pb>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    
+    
+    <sense n="14" type="" name="a narrow decorative stripe or band, used as insignia" group="1">
+        <commentary>
+            BAR[+artifact][+band][+narrow][+fabric/+metal]
+            [+role][+decorative]
+        </commentary>
+        <examples>
+            Johnny's mother sewed the bars onto the sleeve of his Cub Scout uniform.
+            Their family heraldic insignia has a blue bar at the top.
+            The military brass all wore a lot of bars on their shoulders.
+        </examples>
+        <mappings>
+            <wn version="MW online">4</wn>
+            <omega></omega><pb></pb>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    
+    
+    <sense n="15" type="" name="a legal plea to remove an action in a court case" group="1">
+        <commentary>
+            BAR[+action][+plea][+legal][+removal][+claim]
+        </commentary>
+        <examples>
+            They think the prosecution will make a bar to dismiss that body of evidence.
+        </examples>
+        <mappings>
+            <wn version="MW online">2a</wn>
+            <omega></omega><pb></pb>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    
+    
+    <sense n="16" type="" name="an elongated key on a keyboard or typewriter" group="1">
+        <commentary>
+            BAR[+artifact][+key][+space][+keyboard]
+        </commentary>
+        <examples>
+            Hit the space bar a few times.
+            The space bar is the largest key on the keyboard.
+        </examples>
+        <mappings>
+            <wn version="MAC">1</wn>
+            <omega></omega><pb></pb>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    
+    
+    <sense group="1" n="17" name="none of the above" type="">
+        <commentary>
+            Automatically generated NOTA sense (bbn)
+        </commentary>
+        <examples>
+        </examples>
+        <mappings>
+            <wn version="2.1"></wn>
+            <omega></omega><pb></pb>
+            <fn></fn>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    <WORD_META authors="ahouston" sample_score="-"/>
+
+<ita count="41" ann_1_2_agreement="0.975609756098" />
+</inventory>

@@ -1,0 +1,102 @@
+<?xml version="1.0" ?>
+<!DOCTYPE inventory
+  SYSTEM 'inventory.dtd'>
+<inventory lemma="return-v">
+    <commentary>
+    </commentary>
+    <sense group="1" n="1" name="go back, restore, revive " type="">
+        <commentary>
+        </commentary>
+        <examples>
+            After the war, they returned to their farming.
+            She is gradually returning to the traditions of her homeland.
+            Those antique autombiles return to an earlier day of transportation.
+            He returned from Germany last night.
+            Her old vigor has returned.
+            The local man returned to office after four years out of politics.
+            The point returned to the interior of the figure.
+        </examples>
+        <mappings>
+            <wn version="2.1">1,3,4,5,9,12,14</wn>
+            <omega/>
+            <pb>return.01,return.03,return.04</pb>
+            <vn>convert-26.6.2,escape-51.1-2</vn><fn>Arriving,Resurrection</fn>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    <sense group="1" n="2" name="give back, pass to" type="">
+        <commentary>
+        </commentary>
+        <examples>
+            How much will this bond return in five years?
+            She returned the twenty dollars she borrowed last week.
+            With no heirs, the land will likely return to the state.
+            This rich land will return a bountiful crop every year.
+        </examples>
+        <mappings>
+            <wn version="2.1">2,10,13,15</wn>
+            <omega/>
+            <pb>return.02</pb>
+            <vn>contribute-13.2-2,send-11.1</vn><fn></fn>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    <sense group="1" n="3" name="respond, react" type="">
+        <commentary>
+        </commentary>
+        <examples>
+            He is returning the favor by letting her use the summer house.
+            John returned the ball before the opposing team could steal it away.
+            She returned his insult before he could walk away.
+        </examples>
+        <mappings>
+            <wn version="2.1">6,7,8</wn>
+            <omega/>
+            <pb>return.02</pb>
+            <vn>send-11.1</vn><fn></fn>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    <sense group="1" n="4" name="deliver, render" type="">
+        <commentary>
+        </commentary>
+        <examples>
+            Have they returned a verdict yet?
+        </examples>
+        <mappings>
+            <wn version="2.1">11</wn>
+            <omega/>
+            <pb/>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    <sense group="1" n="5" name="submit" type="">
+        <commentary>
+        </commentary>
+        <examples>
+            A final report should be returned to the council tomorrow.
+        </examples>
+        <mappings>
+            <wn version="2.1">16</wn>
+            <omega/>
+            <pb/>
+            <vn></vn><fn></fn>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+<sense group="1" n="6" name="none of the above" type="">
+  <commentary>
+Automatically generated NOTA sense (bbn)
+  </commentary>
+  <examples>
+  </examples>
+  <mappings>
+    <wn version="2.1"></wn>
+    <omega></omega><pb></pb>
+    <fn></fn>
+  </mappings><SENSE_META clarity=""/>
+</sense>
+    <WORD_META authors="ahouston" sample_score="-"/>
+
+<ita count="444" ann_1_2_agreement="0.88963963964" />
+</inventory>

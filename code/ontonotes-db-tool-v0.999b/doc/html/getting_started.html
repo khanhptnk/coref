@@ -1,0 +1,398 @@
+
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+  "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    
+    <title>Getting Started &mdash; OntoNotes DB Tool v0.999b documentation</title>
+    <link rel="stylesheet" href="_static/default.css" type="text/css" />
+    <link rel="stylesheet" href="_static/pygments.css" type="text/css" />
+    <script type="text/javascript">
+      var DOCUMENTATION_OPTIONS = {
+        URL_ROOT:    '',
+        VERSION:     '0.999b',
+        COLLAPSE_INDEX: false,
+        FILE_SUFFIX: '.html',
+        HAS_SOURCE:  true
+      };
+    </script>
+    <script type="text/javascript" src="_static/jquery.js"></script>
+    <script type="text/javascript" src="_static/underscore.js"></script>
+    <script type="text/javascript" src="_static/doctools.js"></script>
+    <link rel="top" title="OntoNotes DB Tool v0.999b documentation" href="index.html" />
+    <link rel="next" title="Database and API Design" href="database_and_API_design.html" />
+    <link rel="prev" title="Installation" href="installation.html" /> 
+  </head>
+  <body>
+    <div class="related">
+      <h3>Navigation</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="genindex.html" title="General Index"
+             accesskey="I">index</a></li>
+        <li class="right" >
+          <a href="py-modindex.html" title="Python Module Index"
+             >modules</a> |</li>
+        <li class="right" >
+          <a href="database_and_API_design.html" title="Database and API Design"
+             accesskey="N">next</a> |</li>
+        <li class="right" >
+          <a href="installation.html" title="Installation"
+             accesskey="P">previous</a> |</li>
+        <li><a href="index.html">OntoNotes DB Tool v0.999b documentation</a> &raquo;</li> 
+      </ul>
+    </div>  
+
+    <div class="document">
+      <div class="documentwrapper">
+        <div class="bodywrapper">
+          <div class="body">
+            
+  <div class="section" id="getting-started">
+<h1>Getting Started<a class="headerlink" href="#getting-started" title="Permalink to this headline">¶</a></h1>
+<p>Now we will look at four &#8211; probably the four most frequent &#8211; tasks
+that an end-user would be likely to use the tool for.</p>
+<div class="section" id="loading-data-to-database">
+<h2>Loading Data to Database<a class="headerlink" href="#loading-data-to-database" title="Permalink to this headline">¶</a></h2>
+<p>First we have to initialize the database.  This is done with the script <tt class="docutils literal"><span class="pre">init_db.py</span></tt>.</p>
+<p>There are a pair of scripts, <tt class="docutils literal"><span class="pre">init_db.py</span></tt> and <tt class="docutils literal"><span class="pre">load_to_db.py</span></tt>, for
+loading the data to the database.  First, make sure the data is in the
+format we distributed it in.  For reference, this means:</p>
+<div class="highlight-python"><div class="highlight"><pre><span class="o">.../</span><span class="n">data</span><span class="o">/&lt;</span><span class="n">lang</span><span class="o">&gt;/</span><span class="n">annotations</span><span class="o">/&lt;</span><span class="n">genre</span><span class="o">&gt;/&lt;</span><span class="n">source</span><span class="o">&gt;/&lt;</span><span class="n">section</span><span class="o">&gt;/&lt;</span><span class="nb">file</span><span class="o">&gt;</span>
+</pre></div>
+</div>
+<div class="figure">
+<a class="reference internal image-reference" href="_images/directory.png"><img width="60%" alt="_images/directory.png" src="_images/directory.png" /></a>
+<p class="caption">Directory structure of the OntoNotes data</p>
+</div>
+<p>Now we initialize the database.  This creates the relevant tables:</p>
+<div class="highlight-bash"><div class="highlight"><pre><span class="nv">$ </span>python on/tools/init_db.py --init my_db my_server my_name ontonotes-release-4.0/
+</pre></div>
+</div>
+<p>Note that d_loc doesn&#8217;t end in &#8220;/data/&#8221;.</p>
+<p>Once the tables are created, we can load frames or sense inventories
+to the data for languages we desire.  Load the frames before the sense
+inventories:</p>
+<div class="highlight-bash"><div class="highlight"><pre><span class="nv">$ </span>python on/tools/init_db.py --frames<span class="o">=</span>english my_db my_server my_name <span class="se">\</span>
+                             ontonotes-release-4.0/
+<span class="nv">$ </span>python on/tools/init_db.py --sense-inventories<span class="o">=</span>english my_db my_server my_name <span class="se">\</span>
+                             ontonotes-release-4.0/
+</pre></div>
+</div>
+<p>Next, create a configuration file patterned after the example below:  (shipped as <tt class="docutils literal"><span class="pre">tools/config.example</span></tt>)</p>
+<div class="highlight-python"><pre>###
+###  This is a configuration file in the format expected by
+###  ConfigParser.  Any line beginning with a hash mark (#) is a
+###  comment.  Lines beginning with three hash markes are used for
+###  general commentary, lines with only one are example configuration
+###  settings
+###
+###  You must set corpus.data_in or fill out the section db
+###  and will likely want to change other settings
+###
+###  Note that fields that take lists (for example banks) want space
+###  separated elements.  For example:
+###
+###    banks: parse prop coref sense
+###
+###  Also note that all settings in the configuration file may be
+###  overridden on the command line if the tool is using
+###  on.common.util.load_options as all the tools here do.  The syntax
+###  for that is:
+###
+###    python some_tool -c some_config Section.Option=Value
+###
+###  For example:
+###
+###    python load_to_db.py -c config.example corpus.data_in=/corpus/data
+###
+###  Because we use spaces to separate elements of lists, you may need
+###  to put argument values in quotes:
+###
+###    python load_to_db.py -c config.example corpus.banks="name prop"
+###
+###  In general, each section here is used by one api function.
+###
+
+
+[corpus]
+###### This section is used by on.ontonotes.__init__ ######
+###
+###
+### data_in: Where to look for the data
+###
+### this should be a path ending in 'data/'; the root of the ontonotes
+### file system heirarchy.
+
+data_in: /path/to/the/data/
+
+### If you set data_in to a specific parse file, as so:
+#
+# data_in: /path/to/the/data/english/annotations/nw/wsj/00/wsj_0020.parse
+#
+### Then only that document will be loaded and you can ignore the next
+### paragraph on the load variable and leave it unset
+
+
+### What to load:
+###
+### There is a heirarchy: lang / genre / source.  We specify what to
+### load in the form lang-genre-source, with the final term optional.
+###
+### The example configuration below loads only the wsj (which is in
+### english.nw):
+
+load: english-nw-wsj
+
+### Note that specific sources are optional.  To load all the chinese
+### broadcast news data, you would set load to:
+#
+# load: chinese-bn
+#
+### One can also load multiple sections, for example if one wants to
+### work with english and chinese broadcast communications data (half
+### of which is parallel):
+#
+# load: english-bc chinese-bc
+#
+### This a flexible configuration system, but if it is not
+### sufficiently flexible, one option would be to look at the source
+### code for on.ontonotes.from_files() to see how to manually and
+### precisely select what data is loaded.
+###
+
+
+### One can also load only some individual documents.  The
+### configuration values that control this are:
+###
+###   suffix, and
+###   prefix
+###
+### The default, if none of these are set, is to load all files
+### for each loaded source regardless of their four digit id.  This is
+### equivalent to the setting either of them to nothing:
+#
+# prefix:
+# suffix:
+#
+###
+### Set them to space separated lists of prefixes and suffixes:
+#
+# suffix: 6 7 8
+# prefix: 00 01 02
+#
+### The above settings would load all files whose id ends in 6, 7, or
+### 8 and whose id starts with 00, 01, or 02.
+###
+
+
+### We can also set the granularity of loading.  A subcorpus is an
+### arbitrary collection of documents, that by default will be all the
+### documents for one source.  If we want to have finer grained
+### divisions, we can.  This means that the code:
+###
+###    # config has corpus.load=english-nw
+###    a_ontonotes = on.ontonotes.from_files(config)
+###    print len(a_ontonotes)
+###
+### Would produce different output for each granularity setting.  If
+### granularity=source, english-nw has both wsj and xinhua, so the
+### ontonotes object would contain two subcorpus instances and it
+### would print "1".  For granularity=section, there are 25 sections
+### in the wsj and 4 in xinhua, so we would have each of these as a
+### subcorpus instance and print "29".  For granularity=file, there
+### are a total of 922 documents in all those sections, so it would
+### create 922 subcorpus objects each containing only a single
+### document.
+### 
+
+granularity: source
+# granularity: section
+# granularity: file
+
+###
+### Once we've selected which documents to put in our subcorpus with
+### on.ontonotes.from_files, we need to decide which banks to load.
+### That is, do we want to load the data in the .prop files?  What
+### about the .coref files?
+###
+
+banks: parse coref sense name parallel prop speaker
+
+### You need not load all the banks:
+#
+# banks: parse coref sense
+# banks: parse
+#
+###
+
+
+### The name and sense data included in this distribution is all word
+### indexed.  If you want to process different data with different
+### indexing (indexing that counts traces) then set these varibles
+### apropriately.
+
+wsd-indexing: word # token | nword_vtoken | notoken_vword
+
+name-indexing: word # token
+
+###
+### Normally, when you load senses or propositions, the metadata that
+### tells you how to interpret them is also loaded.  If you don't wish
+### to load these, generally because they are slow to load, you can
+### say so here.  A value of "senses" means "don't load the sense
+### inventories" and a value of "frames" means "don't load the frame
+### files".  One can specify both.
+###
+### The default value is equivalent to "corpus.ignore_inventories="
+### and results in loading both of them as needed.
+###
+#
+# ignore-inventories: senses frames
+
+
+# [db]
+###### This section is used by on.ontonotes.db_cursor as well ######
+###### as other functions that call db_cursor() such as       ######
+###### load_banks                                             ######
+###
+### Configuration information for the db
+#
+# db: ontonotes_v3
+# host: your-mysql-host
+# db-user: your-mysql-user
+#
+
+
+</pre>
+</div>
+<p>Be sure to include a <cite>db</cite> section so the script has information about
+what database to load to and where to find it.</p>
+<p>Now we can run <tt class="xref py py-mod docutils literal"><span class="pre">tools.load_to_db</span></tt> to actually complete the
+loading (note that the exact output will depend on the options you
+chose in the configuration file.  Here we&#8217;re loading parses and word
+sense data for the Wall Street Journal sections 02 and 03):</p>
+<div class="highlight-bash"><div class="highlight"><pre><span class="nv">$ </span>python on/tools/load_to_db.py --config<span class="o">=</span>load_to_db.conf
+
+Loading english
+   nw
+      wsj
+
+....<span class="o">[</span>...<span class="o">]</span>.... found 200 files starting with any of <span class="o">[</span><span class="s1">&#39;02&#39;</span>, <span class="s1">&#39;03&#39;</span><span class="o">]</span> in the <span class="se">\</span>
+</pre></div>
+</div>
+<dl class="docutils">
+<dt>subcorpus all&#64;wsj&#64;nw&#64;en&#64;on</dt>
+<dd>Initializing DB...
+writing the type tables to db................done.
+Loading all&#64;wsj&#64;nw&#64;en&#64;on
+reading the treebank .....[...]............. 4646 trees in the treebank
+reading the sense bank .......[...].........
+reading the sense inventory files ..[...]... 2164
+aligning and enriching treebank with senses .........[...].....
+writing document bank to db.....[...].......done.
+writing treebank to db..........[...].......done.
+writing sense bank to db........[...].......done.</dd>
+</dl>
+<p>At this point the database is populated and usable.</p>
+<p>The source code of <tt class="xref py py-mod docutils literal"><span class="pre">tools.load_to_db</span></tt> is a good example of how to
+use several aspects of the API.</p>
+</div>
+<div class="section" id="loading-and-dumping-data-from-database">
+<h2>Loading and Dumping Data from Database<a class="headerlink" href="#loading-and-dumping-data-from-database" title="Permalink to this headline">¶</a></h2>
+<p>Similarly, you can dump data from the database with the script
+<tt class="docutils literal"><span class="pre">tools/files_from_db.py</span></tt>.  Again create a configuration file based
+on config.example, but this time add to the configuration:</p>
+<div class="highlight-python"><pre>[FilesFromDb]
+out_dir: /path/to/my/output/directory</pre>
+</div>
+<p>Then run the code as:</p>
+<div class="highlight-bash"><div class="highlight"><pre><span class="nv">$ </span>python on/tools/files_from_db.py --config files_from_db.conf
+</pre></div>
+</div>
+<p>If you for some reason wanted to send files to a different output
+directory than specified in the config file, you could override it on
+the command line:</p>
+<div class="highlight-bash"><div class="highlight"><pre><span class="nv">$ </span>python on/tools/files_from_db.py --config files_from_db.conf <span class="se">\</span>
+         FilesFromDb.out_dir<span class="o">=</span>/path/to/another/output/directory
+</pre></div>
+</div>
+<p>This form of command line overriding of configuration variables can be
+quite useful and works for all variables.  All scripts use
+<a class="reference internal" href="common.html#on.common.util.load_options" title="on.common.util.load_options"><tt class="xref py py-func docutils literal"><span class="pre">on.common.util.load_options()</span></tt></a> to parse command line arguments
+and load their config file.  The <tt class="docutils literal"><span class="pre">load_options</span></tt> function calls
+<a class="reference internal" href="common.html#on.common.util.parse_cfg_args" title="on.common.util.parse_cfg_args"><tt class="xref py py-func docutils literal"><span class="pre">on.common.util.parse_cfg_args()</span></tt></a> to deal with command line config
+overrides.</p>
+</div>
+</div>
+
+
+          </div>
+        </div>
+      </div>
+      <div class="sphinxsidebar">
+        <div class="sphinxsidebarwrapper">
+  <h3><a href="index.html">Table Of Contents</a></h3>
+  <ul>
+<li><a class="reference internal" href="#">Getting Started</a><ul>
+<li><a class="reference internal" href="#loading-data-to-database">Loading Data to Database</a></li>
+<li><a class="reference internal" href="#loading-and-dumping-data-from-database">Loading and Dumping Data from Database</a></li>
+</ul>
+</li>
+</ul>
+
+  <h4>Previous topic</h4>
+  <p class="topless"><a href="installation.html"
+                        title="previous chapter">Installation</a></p>
+  <h4>Next topic</h4>
+  <p class="topless"><a href="database_and_API_design.html"
+                        title="next chapter">Database and API Design</a></p>
+  <h3>This Page</h3>
+  <ul class="this-page-menu">
+    <li><a href="_sources/getting_started.txt"
+           rel="nofollow">Show Source</a></li>
+  </ul>
+<div id="searchbox" style="display: none">
+  <h3>Quick search</h3>
+    <form class="search" action="search.html" method="get">
+      <input type="text" name="q" size="18" />
+      <input type="submit" value="Go" />
+      <input type="hidden" name="check_keywords" value="yes" />
+      <input type="hidden" name="area" value="default" />
+    </form>
+    <p class="searchtip" style="font-size: 90%">
+    Enter search terms or a module, class or function name.
+    </p>
+</div>
+<script type="text/javascript">$('#searchbox').show(0);</script>
+        </div>
+      </div>
+      <div class="clearer"></div>
+    </div>
+    <div class="related">
+      <h3>Navigation</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="genindex.html" title="General Index"
+             >index</a></li>
+        <li class="right" >
+          <a href="py-modindex.html" title="Python Module Index"
+             >modules</a> |</li>
+        <li class="right" >
+          <a href="database_and_API_design.html" title="Database and API Design"
+             >next</a> |</li>
+        <li class="right" >
+          <a href="installation.html" title="Installation"
+             >previous</a> |</li>
+        <li><a href="index.html">OntoNotes DB Tool v0.999b documentation</a> &raquo;</li> 
+      </ul>
+    </div>
+    <div class="footer">
+        &copy; Copyright 2008, BBN Technologies.
+      Created using <a href="http://sphinx.pocoo.org/">Sphinx</a> 1.0.4.
+    </div>
+  </body>
+</html>

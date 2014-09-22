@@ -1,0 +1,6 @@
+
+
+Run the following command to install the ontonotes-db-tool package. 
+
+python setup.py install
+

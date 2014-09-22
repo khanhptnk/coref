@@ -1,0 +1,54 @@
+<!DOCTYPE inventory SYSTEM "inventory.dtd">
+<inventory lemma="pond-n">
+    <commentary>
+    </commentary>
+    
+    <sense n="1" type="" name="a small lake, small body of fresh water" group="1">
+        <commentary>
+            POND[+body][+water][+fresh][+lake][+small]
+        </commentary>
+        <examples>
+            We went fishing at the pond on farmer Brown's land.
+            Mosquitoes lay their eggs in ponds and other small bodies of standing water.
+            They discovered elevated levels of chemical runoff in the local ponds and streams.
+        </examples>
+        <mappings>
+            <wn version="2.1">1</wn>
+            <omega></omega><pb></pb>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    
+    
+    <sense n="2" type="" name="nickname for Atlantic Ocean, somewhat facetious" group="1">
+        <commentary>
+            POND[+body][+water][+salt][+large][+nickname]
+        </commentary>
+        <examples>
+            His music is relatively unknown this side of the pond.
+            We're just going across the pond to catch some shows in London.
+        </examples>
+        <mappings>
+            <wn version="MAC">1b</wn>
+            <omega></omega><pb></pb>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    
+    
+<sense group="1" n="3" name="none of the above" type="">
+  <commentary>
+Automatically generated NOTA sense (bbn)
+  </commentary>
+  <examples>
+  </examples>
+  <mappings>
+    <wn version="2.1"></wn>
+    <omega></omega><pb></pb>
+    <fn></fn>
+  </mappings><SENSE_META clarity=""/>
+</sense>
+    <WORD_META authors="ahouston" sample_score="-"/>
+
+<ita count="3" ann_1_2_agreement="1.0" />
+</inventory>

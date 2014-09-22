@@ -1,0 +1,114 @@
+<?xml version="1.0" ?>
+<!DOCTYPE inventory SYSTEM "inventory.dtd">
+<inventory lemma="translate-v">    
+    <commentary>
+    </commentary>
+    <sense group="1" n="1" name="render one language in another language" type="">  
+        <commentary>
+            Includes: Computer language
+            Note: Here, the sense only extends to the process of transfering
+            something from one language to another. Whether the translation is
+            capable of appropriately expressing the original language is beside
+            the point. Such expression is handled by the sense 2.  
+        </commentary>
+        <examples>
+            We were asked to translate a list of sentences.
+            She works for the EU, translating from English into French.
+            How does it translate the program into machine code?
+            Occasionally, I translated French and German poems.
+        </examples>
+        <mappings>
+            <wn version="2.1">1,3</wn>   
+            <omega></omega><pb></pb>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    <sense group="1" n="2" name="express or transform in a new form or language" type="">
+        <commentary>
+        </commentary>
+        <examples>
+            Here are three poems in English, but no most poetry doesn't translate well.
+            The idiom doesn't translate well.
+            So how does this theory translate into practical policy?
+            Braque translated collage into oil.
+            What I held back was too sacred and personal to translate into words.
+            Not everything we learned in college translates well to the world of business.
+            Today's steady growth in household income translate into more purchasing power.
+        </examples>
+        <mappings>
+            <wn version="2.1">2,6,7</wn>
+            <omega></omega><pb></pb>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    <sense group="1" n="3" name="transfer to a place or into a state" type="">
+        <commentary>
+        </commentary>
+        <examples>
+            She was translated from her small country home to a high-rise city apartment.
+            Oh, the sweetness of being translated into a state of complete purity and perfection!
+        </examples>
+        <mappings>
+            <wn version="2.1">4</wn>
+            <omega></omega><pb></pb>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    <sense group="1" n="4" name="say or interpret something in understandable terms" type="">
+        <commentary>
+        </commentary>
+        <examples>
+            Can you translate the instructions in this manual for a layman?
+            Is there a need to translate the psychiatrist's remarks?
+            I translated his silence as approval.
+            You'll have to translate the attendant's vague mumbling for us.
+        </examples>
+        <mappings>
+            <wn version="2.1">9</wn>
+            <omega></omega><pb></pb>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    <sense group="1" n="5" name="PHYSICS-move a body sideways through space in a stright line without rotation" type="">
+        <commentary>
+        </commentary>
+        <examples>
+            Thirdly, the rotated object is translated to the new target position.
+            The target is then translated to desired position and orientation.
+        </examples>
+        <mappings>
+            <wn version="2.1">5,8</wn>
+            <omega></omega><pb></pb>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    <sense group="1" n="6" name="BIOLOGY-determine amino acid sequence during a protein synthesis" type="">
+        <commentary>
+        </commentary>
+        <examples>
+            This service transcribes DNA into mRNA and translates mRNA into Amino Acid sequences.
+            The information carried by the DNA bases translates into proteins.
+        </examples>
+        <mappings>
+            <wn version="2.1">10</wn>
+            <omega></omega><pb></pb>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+<sense group="1" n="7" name="none of the above" type="">
+  <commentary>
+Automatically generated NOTA sense (bbn)
+  </commentary>
+  <examples>
+  </examples>
+  <mappings>
+    <wn version="2.1"></wn>
+    <omega></omega><pb></pb>
+    <fn></fn>
+  </mappings><SENSE_META clarity=""/>
+</sense>
+    <WORD_META authors="hwangd" sample_score="-"/>
+     
+
+<ita count="38" ann_1_2_agreement="0.763157894737" />
+</inventory>

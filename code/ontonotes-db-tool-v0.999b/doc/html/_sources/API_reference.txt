@@ -1,0 +1,25 @@
+-------------
+API Reference
+-------------
+
+There are three top level divisions of the API.  The first,
+:mod:`tools` contains simple tools for anticipated tasks such as
+loading data to the database.  These tools are also designed to
+function as sample code for using the API.  The second is a
+:mod:`common` module that holds utilities used by all the code.  The
+final is the largest and most complex, the :mod:`corpora` module.  It
+holds all the routines for dealing with individual banks: building
+them from files or the database, aligning them with each other,
+writing to files or the database, and querying the python objects
+about their contents.
+
+.. toctree::
+  
+  on
+  common
+  corpora
+  tools
+
+
+
+

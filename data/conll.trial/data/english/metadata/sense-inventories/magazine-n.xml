@@ -1,0 +1,101 @@
+<!DOCTYPE inventory SYSTEM "inventory.dtd">
+<inventory lemma="magazine-n">
+    <commentary>
+    </commentary>
+    <sense n="1" type="" name="bound periodical publication" group="1">
+        <commentary>
+            MAGAZINE[+document][+periodical][+bound]
+        </commentary>
+        <examples>
+            She writes for a sports magazine.
+            I tripped over a pile of old magazines in the hallway.
+            John never reads magazines, he just looks at the pictures.
+            That CEO has been on the cover of several magazines.
+            I try to keep up with a graphics art zine on the Internet.
+        </examples>
+        <mappings>
+            <wn version="2.1">1,2</wn>
+            <omega></omega><pb></pb>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    
+    <sense n="2" type="" name="a small supply chamber, e.g., in a gun or camera" group="1">
+        <commentary>
+            MAGAZINE[+container][+small][+chamber]
+        </commentary>
+        <examples>
+            She clipped another magazine into her semi-automatic rifle.
+            My camera bag has only two more magazines of film.
+            Spent magazines lay on the floor of the drug dealer's bedroom.
+        </examples>
+        <mappings>
+            <wn version="2.1">4,6</wn>
+            <omega></omega><pb></pb>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    
+    <sense n="3" type="" name="a publishing firm or business" group="1">
+        <commentary>
+            MAGAZINE[+organization][+business][+publisher]
+        </commentary>
+        <examples>
+            Our magazine is merging with a larger European publishing conglomerate.
+            Do you think the magazine will fire him for that story?
+            Sally's dad ran that magazine for years.
+            Magazines and newspapers are going out of business right and left.
+        </examples>
+        <mappings>
+            <wn version="2.1">3</wn>
+            <omega></omega><pb></pb>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    
+    <sense n="4" type="" name="a warehouse for storing goods, e.g., ammunition" group="1">
+        <commentary>
+            MAGAZINE[+building][+warehouse]
+        </commentary>
+        <examples>
+            That huge explosion was the magazine for the National Guard.
+            The soldiers, under fire, frantically began moving explosives out of their magazine.
+        </examples>
+        <mappings>
+            <wn version="2.1">5</wn>
+            <omega></omega><pb></pb>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    
+    <sense n="5" type="" name="a regularly broadcast radio program" group="1">
+        <commentary>
+            MAGAZINE[+activity][+broadcast][+radio][+regular]
+        </commentary>
+        <examples>
+            We enjoy a Saturday news magazine on the radio.
+            Mary has been invited to host a weekly food magazine on our local radio station.
+        </examples>
+        <mappings>
+            <wn version="Merriam-Webster online">4c</wn>
+            <omega></omega><pb></pb>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    
+<sense group="1" n="6" name="none of the above" type="">
+  <commentary>
+Automatically generated NOTA sense (bbn)
+  </commentary>
+  <examples>
+  </examples>
+  <mappings>
+    <wn version="2.1"></wn>
+    <omega></omega><pb></pb>
+    <fn></fn>
+  </mappings><SENSE_META clarity=""/>
+</sense>
+    <WORD_META authors="ahouston" sample_score="-"/>
+
+<ita count="115" ann_1_2_agreement="0.860869565217" />
+</inventory>

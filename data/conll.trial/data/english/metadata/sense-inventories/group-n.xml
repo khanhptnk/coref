@@ -1,0 +1,74 @@
+<!DOCTYPE inventory SYSTEM "inventory.dtd">
+<inventory lemma="group-n">
+    <commentary>
+        
+    </commentary>
+    
+    <sense n="1" type="" name="collection" group="1">
+        <commentary>
+            any number of entities considered as a unit
+        </commentary>
+        <examples>
+            A large group walked in.
+            The whole group of stuffed animals were piled on the bed.
+            Fido's favorite musical group is called 'Cats Stink'.
+        </examples>
+        <mappings>
+            <wn version="2.0">1</wn>
+            <omega></omega>
+            <pb></pb>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    
+    <sense n="2" type="Chemistry" name="chemical group" group="1">
+        <commentary>
+            radical - 
+            two or more atoms bound together as a single unit and forming part of
+            a molecule
+        </commentary>
+        <examples>
+            Chlorine is in a chemical group called halogens.
+        </examples>
+        <mappings>
+            <wn version="2.0">2</wn>
+            <omega></omega>
+            <pb></pb>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    
+    <sense n="3" type="Mathematics" name="a set" group="1">
+        <commentary>
+            a set that is closed, associative, has an identity element and every
+            element has an inverse
+        </commentary>
+        <examples>
+            The group in problem five includes the numbers 7, 3, and 5.
+        </examples>
+        <mappings>
+            <wn version="2.0">3</wn>
+            <omega></omega>
+            <pb></pb>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    
+    <!-- more senses go here -->
+<sense group="1" n="4" name="none of the above" type="">
+  <commentary>
+Automatically generated NOTA sense (bbn)
+  </commentary>
+  <examples>
+  </examples>
+  <mappings>
+    <wn version="2.1"></wn>
+    <omega></omega><pb></pb>
+    <fn></fn>
+  </mappings><SENSE_META clarity=""/>
+</sense>
+    <WORD_META authors="ajarrett cstocker" sample_score=""/>
+
+<ita count="523" ann_1_2_agreement="1.0" />
+</inventory>
+

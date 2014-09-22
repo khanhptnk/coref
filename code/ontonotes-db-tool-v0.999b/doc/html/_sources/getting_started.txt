@@ -1,0 +1,113 @@
+----------------------------------------
+Getting Started
+----------------------------------------
+
+Now we will look at four -- probably the four most frequent -- tasks
+that an end-user would be likely to use the tool for.
+
+Loading Data to Database
+------------------------
+
+First we have to initialize the database.  This is done with the script ``init_db.py``.
+
+There are a pair of scripts, ``init_db.py`` and ``load_to_db.py``, for
+loading the data to the database.  First, make sure the data is in the
+format we distributed it in.  For reference, this means::
+
+  .../data/<lang>/annotations/<genre>/<source>/<section>/<file>
+
+.. figure:: images/directory.pdf
+   :scale: 50%
+
+   Directory structure of the OntoNotes data
+
+Now we initialize the database.  This creates the relevant tables:
+
+.. code-block:: bash
+
+  $ python on/tools/init_db.py --init my_db my_server my_name ontonotes-release-4.0/
+
+Note that d_loc doesn't end in "/data/".
+
+Once the tables are created, we can load frames or sense inventories
+to the data for languages we desire.  Load the frames before the sense
+inventories:
+
+.. code-block:: bash
+
+  $ python on/tools/init_db.py --frames=english my_db my_server my_name \
+                               ontonotes-release-4.0/
+  $ python on/tools/init_db.py --sense-inventories=english my_db my_server my_name \
+                               ontonotes-release-4.0/
+
+Next, create a configuration file patterned after the example below:  (shipped as ``tools/config.example``)
+
+.. literalinclude:: ../tools/config.example
+
+Be sure to include a `db` section so the script has information about
+what database to load to and where to find it.
+
+Now we can run :mod:`tools.load_to_db` to actually complete the
+loading (note that the exact output will depend on the options you
+chose in the configuration file.  Here we're loading parses and word
+sense data for the Wall Street Journal sections 02 and 03):
+
+.. code-block:: bash
+
+  $ python on/tools/load_to_db.py --config=load_to_db.conf
+
+  Loading english
+     nw
+        wsj
+
+  ....[...].... found 200 files starting with any of ['02', '03'] in the \
+subcorpus all@wsj@nw@en@on
+  Initializing DB...
+  writing the type tables to db................done.
+  Loading all@wsj@nw@en@on
+  reading the treebank .....[...]............. 4646 trees in the treebank
+  reading the sense bank .......[...].........
+  reading the sense inventory files ..[...]... 2164
+  aligning and enriching treebank with senses .........[...].....
+  writing document bank to db.....[...].......done.
+  writing treebank to db..........[...].......done.
+  writing sense bank to db........[...].......done.
+
+
+At this point the database is populated and usable.
+
+The source code of :mod:`tools.load_to_db` is a good example of how to
+use several aspects of the API.
+
+Loading and Dumping Data from Database
+--------------------------------------
+
+Similarly, you can dump data from the database with the script
+``tools/files_from_db.py``.  Again create a configuration file based
+on config.example, but this time add to the configuration::
+
+  [FilesFromDb]
+  out_dir: /path/to/my/output/directory
+
+Then run the code as:
+
+.. code-block:: bash
+
+  $ python on/tools/files_from_db.py --config files_from_db.conf
+
+If you for some reason wanted to send files to a different output
+directory than specified in the config file, you could override it on
+the command line:
+
+.. code-block:: bash
+
+  $ python on/tools/files_from_db.py --config files_from_db.conf \
+           FilesFromDb.out_dir=/path/to/another/output/directory
+
+This form of command line overriding of configuration variables can be
+quite useful and works for all variables.  All scripts use
+:func:`on.common.util.load_options` to parse command line arguments
+and load their config file.  The ``load_options`` function calls
+:func:`on.common.util.parse_cfg_args` to deal with command line config
+overrides.
+

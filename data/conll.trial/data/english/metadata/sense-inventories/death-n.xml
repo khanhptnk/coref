@@ -1,0 +1,66 @@
+<!DOCTYPE inventory SYSTEM "inventory.dtd">
+<inventory lemma="death-n">
+    <commentary>
+    </commentary>
+    <sense n="1" type="" name="lifeless state, decease" group="1">
+        <commentary>
+            (NP [+animate] -&gt; NP [-animate]
+        </commentary>
+        <examples>
+            her death came as a terrible shock
+            Slow poisoning by arsenic leads to a painful death.
+            he seemed more content in death than he had ever been in life
+            'til death do us part'.
+            The climbers froze to death on the side of the mountain.
+            His negligence resulted in the deaths of hundreds of innocent people.
+        </examples>
+        <mappings>
+            <wn version="1.7">1,2,3,5,7</wn>
+            <omega></omega><pb></pb>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    <sense n="2" type="" name="ending or destruction of some abstract thing or process" group="1">
+        <commentary>
+        </commentary>
+        <examples>
+            It spelled death for the arms treaty when the delegates walked out.
+            The rise of the automobile was the death of the horse and buggy.
+        </examples>
+        <mappings>
+            <wn version="1.7">6,8</wn>
+            <omega></omega><pb></pb>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    <sense n="3" type="" name="imaginary being, personification of the process of death." group="1">
+        <commentary>
+            (usually capitalized, does not occur with determiners or in plural form)
+        </commentary>
+        <examples>
+            Death Takes a Holiday.
+            He worked hard to keep death from his doorstep.
+        </examples>
+        <mappings>
+            <wn version="1.7">4</wn>
+            <omega></omega><pb></pb>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+<sense group="1" n="4" name="none of the above" type="">
+  <commentary>
+Automatically generated NOTA sense (bbn)
+  </commentary>
+  <examples>
+  </examples>
+  <mappings>
+    <wn version="2.1"></wn>
+    <omega></omega><pb></pb>
+    <fn></fn>
+  </mappings><SENSE_META clarity=""/>
+</sense>
+    <WORD_META authors="ahouston" sample_score="-"/>
+
+<ita count="175" ann_1_2_agreement="0.982857142857" />
+</inventory>
+

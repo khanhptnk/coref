@@ -1,0 +1,155 @@
+
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+  "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    
+    <title>on.tools – scripts for manipulating the ontonotes data &mdash; OntoNotes DB Tool v0.999b documentation</title>
+    <link rel="stylesheet" href="_static/default.css" type="text/css" />
+    <link rel="stylesheet" href="_static/pygments.css" type="text/css" />
+    <script type="text/javascript">
+      var DOCUMENTATION_OPTIONS = {
+        URL_ROOT:    '',
+        VERSION:     '0.999b',
+        COLLAPSE_INDEX: false,
+        FILE_SUFFIX: '.html',
+        HAS_SOURCE:  true
+      };
+    </script>
+    <script type="text/javascript" src="_static/jquery.js"></script>
+    <script type="text/javascript" src="_static/underscore.js"></script>
+    <script type="text/javascript" src="_static/doctools.js"></script>
+    <link rel="top" title="OntoNotes DB Tool v0.999b documentation" href="index.html" />
+    <link rel="up" title="API Reference" href="API_reference.html" />
+    <link rel="next" title="Appendix A: Reporting Bugs" href="reporting_bugs.html" />
+    <link rel="prev" title="on.corpora – classes for interpreting annotation" href="corpora.html" /> 
+  </head>
+  <body>
+    <div class="related">
+      <h3>Navigation</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="genindex.html" title="General Index"
+             accesskey="I">index</a></li>
+        <li class="right" >
+          <a href="py-modindex.html" title="Python Module Index"
+             >modules</a> |</li>
+        <li class="right" >
+          <a href="reporting_bugs.html" title="Appendix A: Reporting Bugs"
+             accesskey="N">next</a> |</li>
+        <li class="right" >
+          <a href="corpora.html" title="on.corpora – classes for interpreting annotation"
+             accesskey="P">previous</a> |</li>
+        <li><a href="index.html">OntoNotes DB Tool v0.999b documentation</a> &raquo;</li>
+          <li><a href="API_reference.html" accesskey="U">API Reference</a> &raquo;</li> 
+      </ul>
+    </div>  
+
+    <div class="document">
+      <div class="documentwrapper">
+        <div class="bodywrapper">
+          <div class="body">
+            
+  <span class="target" id="module-on.tools"></span><div class="section" id="on-tools-scripts-for-manipulating-the-ontonotes-data">
+<h1><a class="reference internal" href="#module-on.tools" title="on.tools"><tt class="xref py py-mod docutils literal"><span class="pre">on.tools</span></tt></a> &#8211; scripts for manipulating the ontonotes data<a class="headerlink" href="#on-tools-scripts-for-manipulating-the-ontonotes-data" title="Permalink to this headline">¶</a></h1>
+<p>See:</p>
+<blockquote>
+<ul class="simple">
+<li>on/tools/config.example</li>
+<li>on/tools/create_onfs.py</li>
+<li>on/tools/files_from_db.py</li>
+<li>on/tools/init_db.py</li>
+<li>on/tools/iterate-over-stuff.py</li>
+</ul>
+</blockquote>
+<span class="target" id="module-on.tools.load_to_db"></span><div class="section" id="load-to-db-load-data-from-files-to-database">
+<h2><tt class="xref py py-mod docutils literal"><span class="pre">load_to_db</span></tt> &#8211; load data from files to database<a class="headerlink" href="#load-to-db-load-data-from-files-to-database" title="Permalink to this headline">¶</a></h2>
+<p>This code shows how to load ontonotes data to the database.  The
+database needs to have already been initialized and the sense
+inventories and frames need to have already been loaded.  See
+<a class="reference internal" href="#module-on.tools.init_db" title="on.tools.init_db"><tt class="xref py py-mod docutils literal"><span class="pre">on.tools.init_db</span></tt></a> to see how to do that.</p>
+</div>
+<span class="target" id="module-on.tools.init_db"></span><div class="section" id="init-db-initialize-the-db-and-load-inventories">
+<h2><tt class="xref py py-mod docutils literal"><span class="pre">init_db</span></tt> &#8211; initialize the db and load inventories<a class="headerlink" href="#init-db-initialize-the-db-and-load-inventories" title="Permalink to this headline">¶</a></h2>
+<p>This code does two things: initializes the database (creating the
+tables) and optionally loads the sense inventories and frame files.
+This needs to happen before data can be loaded to the database with
+the <a class="reference internal" href="#module-on.tools.load_to_db" title="on.tools.load_to_db"><tt class="xref py py-mod docutils literal"><span class="pre">on.tools.load_to_db</span></tt></a> command.</p>
+<p>For usage information, run this command with no arguments:</p>
+<div class="highlight-bash"><div class="highlight"><pre><span class="nv">$ </span>python init_db.py
+</pre></div>
+</div>
+</div>
+</div>
+
+
+          </div>
+        </div>
+      </div>
+      <div class="sphinxsidebar">
+        <div class="sphinxsidebarwrapper">
+  <h3><a href="index.html">Table Of Contents</a></h3>
+  <ul>
+<li><a class="reference internal" href="#"><tt class="docutils literal"><span class="pre">on.tools</span></tt> &#8211; scripts for manipulating the ontonotes data</a><ul>
+<li><a class="reference internal" href="#load-to-db-load-data-from-files-to-database"><tt class="docutils literal"><span class="pre">load_to_db</span></tt> &#8211; load data from files to database</a></li>
+<li><a class="reference internal" href="#init-db-initialize-the-db-and-load-inventories"><tt class="docutils literal"><span class="pre">init_db</span></tt> &#8211; initialize the db and load inventories</a></li>
+</ul>
+</li>
+</ul>
+
+  <h4>Previous topic</h4>
+  <p class="topless"><a href="corpora.html"
+                        title="previous chapter"><tt class="docutils literal docutils literal docutils literal"><span class="pre">on.corpora</span></tt> &#8211; classes for interpreting annotation</a></p>
+  <h4>Next topic</h4>
+  <p class="topless"><a href="reporting_bugs.html"
+                        title="next chapter">Appendix A: Reporting Bugs</a></p>
+  <h3>This Page</h3>
+  <ul class="this-page-menu">
+    <li><a href="_sources/tools.txt"
+           rel="nofollow">Show Source</a></li>
+  </ul>
+<div id="searchbox" style="display: none">
+  <h3>Quick search</h3>
+    <form class="search" action="search.html" method="get">
+      <input type="text" name="q" size="18" />
+      <input type="submit" value="Go" />
+      <input type="hidden" name="check_keywords" value="yes" />
+      <input type="hidden" name="area" value="default" />
+    </form>
+    <p class="searchtip" style="font-size: 90%">
+    Enter search terms or a module, class or function name.
+    </p>
+</div>
+<script type="text/javascript">$('#searchbox').show(0);</script>
+        </div>
+      </div>
+      <div class="clearer"></div>
+    </div>
+    <div class="related">
+      <h3>Navigation</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="genindex.html" title="General Index"
+             >index</a></li>
+        <li class="right" >
+          <a href="py-modindex.html" title="Python Module Index"
+             >modules</a> |</li>
+        <li class="right" >
+          <a href="reporting_bugs.html" title="Appendix A: Reporting Bugs"
+             >next</a> |</li>
+        <li class="right" >
+          <a href="corpora.html" title="on.corpora – classes for interpreting annotation"
+             >previous</a> |</li>
+        <li><a href="index.html">OntoNotes DB Tool v0.999b documentation</a> &raquo;</li>
+          <li><a href="API_reference.html" >API Reference</a> &raquo;</li> 
+      </ul>
+    </div>
+    <div class="footer">
+        &copy; Copyright 2008, BBN Technologies.
+      Created using <a href="http://sphinx.pocoo.org/">Sphinx</a> 1.0.4.
+    </div>
+  </body>
+</html>

@@ -1,0 +1,119 @@
+<!DOCTYPE inventory SYSTEM "inventory.dtd">
+<inventory lemma="region-n">
+    <commentary>
+    </commentary>
+    
+    <sense n="1" type="" name="a geometric spatial extension" group="1">
+        <commentary>
+            REGION[+location][+spatial][+extension][+geometric]
+        </commentary>
+        <examples>
+            Draw a line to bisect the rectangle into two equal regions.
+            What is the region occupied by a cube having a side of 3 inches?
+            The region of space around a black hole is highly curved.
+        </examples>
+        <mappings>
+            <wn version="2.1">1</wn>
+            <omega></omega><pb></pb>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    
+    
+    <sense n="2" type="" name="an anatomical functional area of a body" group="1">
+        <commentary>
+            REGION[+location][+anatomical][+functional]
+        </commentary>
+        <examples>
+            The patient reported pains in the abdominal region.
+            The MRI revealed a small blockage in the region of the cerebral cortex.
+        </examples>
+        <mappings>
+            <wn version="2.1">2</wn>
+            <omega></omega><pb></pb>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    
+    
+    <sense n="3" type="" name="a geographical area of the earth, characterized in some way" group="1">
+        <commentary>
+            REGION[+location][+geographical][+area][+characterized]
+        </commentary>
+        <examples>
+            Our journey took us through some lovely farming regions of France.
+            There are fields of sea ice forming in regions near the south pole.
+            Silicon Valley remains a region of innovative high technology.
+        </examples>
+        <mappings>
+            <wn version="2.1">3</wn>
+            <omega></omega><pb></pb>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    
+    
+    <sense n="4" type="" name="an approximate quantity" group="1">
+        <commentary>
+            REGION[+quantity][+approximate]
+        </commentary>
+        <examples>
+            Their annual sales are in the region of about $30 million.
+            It will take in the region of two or three months to complete this job.
+        </examples>
+        <mappings>
+            <wn version="2.1">4</wn>
+            <omega></omega><pb></pb>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    
+    
+    <sense n="5" type="" name="a subject domain, topic" group="1">
+        <commentary>
+            REGION[+entity][+symbolic][+domain][+knowledge]
+        </commentary>
+        <examples>
+            We are entering the region of speculation, not fact, with these statements.
+            He studies an esoteric region of materials science.
+        </examples>
+        <mappings>
+            <wn version="2.1">5</wn>
+            <omega></omega><pb></pb>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    
+    
+    <sense n="6" type="" name="an administrative district, e.g., of a city government" group="1">
+        <commentary>
+            REGION[+location][+geographical][+district][+political][+administrative]
+        </commentary>
+        <examples>
+            He is an administrator for the whole region of the state.
+            Their city government is divided into five regions.
+        </examples>
+        <mappings>
+            <wn version="MAC">1a</wn>
+            <omega></omega><pb></pb>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    
+    
+<sense group="1" n="7" name="none of the above" type="">
+  <commentary>
+Automatically generated NOTA sense (bbn)
+  </commentary>
+  <examples>
+  </examples>
+  <mappings>
+    <wn version="2.1"></wn>
+    <omega></omega><pb></pb>
+    <fn></fn>
+  </mappings><SENSE_META clarity=""/>
+</sense>
+    <WORD_META authors="ahouston" sample_score="-"/>
+
+<ita count="191" ann_1_2_agreement="1.0" />
+</inventory>

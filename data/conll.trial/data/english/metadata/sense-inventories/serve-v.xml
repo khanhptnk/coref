@@ -1,0 +1,157 @@
+<?xml version="1.0" ?>
+<!DOCTYPE inventory SYSTEM "inventory.dtd">
+<inventory lemma="serve-v">    
+    <commentary>
+        Includes VPC serve_up serve_well
+    </commentary>
+    <sense n="1" type="" name="fulfill a function/or be used as something" group="1">  
+        <commentary>
+            NP1[+instrument] SERVE NP2/COMP/ADVP[+goal]
+            NP1 is non-human
+        </commentary>
+        <examples> 
+            This table serves both as  a desk and a work bench.
+            That law serves no useful purpose that I can determine.
+            That sewage plant serves the entire coastal community.
+            This example will serve to illustrate the point.
+            He argues that the state-run programs are not serving the public as planned.
+        </examples>
+        <mappings>
+            <wn version="2.1">1,4,12</wn>   
+            <wn lemma="" version="2.1"></wn>
+            <omega></omega><pb>serve.01</pb>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    <sense n="2" type="" name="contribute to, be useful to something " group="1">  
+        <commentary>
+            NP[+instrument] SERVE NP/COMP[+result]
+            Includes VPC serve_well
+        </commentary>
+        <examples>
+            His remarks served to ignite whole neighborhoods.
+            Bold decisions by their visionary CEO have served the firm well over the past decade.
+            A shot of whiskey served to calm their nerves.
+            Advocates believe the tax cuts will serve to boost economic growth.
+        </examples>
+        <mappings>
+            <wn version="2.1">3,8</wn>
+            <wn lemma="serve_well" version="2.1">1</wn>
+            <omega></omega><pb>serve.01</pb>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    <sense n="3" type="" name="perform a duty" group="1">  
+        <commentary>
+            NP[+agent] SERVE PP/NP[+target]
+            NP is +agent
+        </commentary>
+        <examples> 
+            He served in Congress for two terms.
+            They served their country nobly.
+            The waiter will not serve patrons with no shoes or shirts.
+            John wants to serve in the National Guard.
+            They served in Desert Storm.
+        </examples>
+        <mappings>
+            <wn version="2.1">2,7,10,13</wn>   
+            <wn lemma="" version="2.1"></wn>
+            <omega></omega><pb>serve.01</pb>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    <sense n="4" type="" name="dish out, hand out something, often food" group="1">  
+        <commentary>
+            NP[+agent] SERVE NP[+object]
+            Includes VPC serve_up
+        </commentary>
+        <examples>
+            They are serving mint juleps on the veranda.
+            Her club serves meals to the homeless on Thursdays.
+            Bob was served a summons to appear in court.
+            The sheriff served him papers at his home.
+            They served up some lively entertainment at the Caberet last night.
+        </examples>
+        <mappings>
+            <wn version="2.1">5,6,11</wn>
+            <wn lemma="serve_up" version="2.1">1</wn>
+            <omega></omega><pb>serve.02,serve.03</pb>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    <sense n="5" type="" name="spend time in prison" group="1">  
+        <commentary>
+            NP[+topic] SERVE NP[+temporal]
+        </commentary>
+        <examples>
+            He served twenty years in prison for armed robbery.
+            The prisoners were released before they had served their full terms.
+        </examples>
+        <mappings>
+            <wn version="2.1">9</wn>
+            <wn lemma="" version="2.1"></wn>
+            <omega></omega><pb></pb>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    <sense n="6" type="" name="mate with, sexual reproduction" group="1">  
+        <commentary>
+            NP[+agent] SERVE NP[+patient]
+        </commentary>
+        <examples>
+            This pedigree stallion served three brood mares.
+        </examples>
+        <mappings>
+            <wn version="2.1">14</wn>
+            <wn lemma="" version="2.1"></wn>
+            <omega></omega><pb></pb>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    <sense n="7" type="" name="put a ball into play" group="1">  
+        <commentary>
+            NP[+agent] SERVE NP[+object][+ball]
+        </commentary>
+        <examples>
+            It was Mary's turn to serve.
+            He served four aces during the first game of the tournament.
+            That tennis star has been serving erratically lately.
+        </examples>
+        <mappings>
+            <wn version="2.1">15</wn>
+            <wn lemma="" version="2.1"></wn>
+            <omega></omega><pb></pb>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    <sense n="8" type="" name="wind protectively with yarn or wire" group="1">  
+        <commentary>
+            NP[+agent] SERVE NP[+object][+rope/+stay]
+        </commentary>
+        <examples>
+            She served the forestays with heavy yarn.
+        </examples>
+        <mappings>
+            <wn version=""></wn>
+            <wn lemma="" version="2.1"></wn>
+            <omega></omega><pb></pb>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+<sense group="1" n="9" name="none of the above" type="">
+  <commentary>
+Automatically generated NOTA sense (bbn)
+  </commentary>
+  <examples>
+  </examples>
+  <mappings>
+    <wn version="2.1"></wn>
+    <omega></omega><pb></pb>
+    <fn></fn>
+  </mappings><SENSE_META clarity=""/>
+</sense>
+    <WORD_META authors="ahouston, vieweg" sample_score="-"/>
+     
+
+<ita count="262" ann_1_2_agreement="0.706106870229" />
+</inventory>

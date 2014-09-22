@@ -1,0 +1,23 @@
+<!DOCTYPE inventory SYSTEM "inventory.dtd">
+<inventory lemma="message-n">
+    <commentary>
+    </commentary>
+    <sense n="1" type="" name="(the content of) a communication." group="1">
+        <commentary>
+            MESSAGE[+communication]
+        </commentary>
+        <examples>
+            No one knew the content of the message.
+            He sent her several messages.
+            Wartime messages are often secretive.
+        </examples>
+        <mappings>
+            <wn version="3.0">1,2</wn>
+            <omega></omega><pb></pb>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    <WORD_META authors="corvey" sample_score="-"/>
+
+<ita count="119" ann_1_2_agreement="1.0" />
+</inventory>

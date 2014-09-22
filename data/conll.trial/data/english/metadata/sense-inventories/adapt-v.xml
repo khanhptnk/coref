@@ -1,0 +1,26 @@
+<?xml version="1.0" ?>
+<!DOCTYPE inventory SYSTEM "inventory.dtd">
+<inventory lemma="adapt-v">
+    <commentary>
+    </commentary>
+    <sense group="1" n="1" name="change or conform to fit new or different conditions" type="">
+        <commentary>
+        </commentary>
+        <examples>
+            Mammals have successfully adapted to and colonized a wide variety of habitats.
+            I've adapted my favorite cake recipes for this high altitude.
+            He adapted the concept of the ballpoint pen to create the roll-on deodorant.
+        </examples>
+        <mappings>
+            <gr_sense></gr_sense>
+            <wn version="2.1">1,2</wn>
+            <wn lemma="" version="2.1"></wn>
+            <omega></omega><pb>adapt.01</pb>
+            <vn>NP</vn><fn>NP</fn>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    <WORD_META authors="brownsw" sample_score="-"/>
+
+<ita count="39" ann_1_2_agreement="1.0" />
+</inventory>

@@ -1,0 +1,71 @@
+<?xml version="1.0" ?>
+<!DOCTYPE inventory SYSTEM "inventory.dtd">
+<inventory lemma="dispatch-v">
+    <commentary>
+    </commentary>
+    <sense group="1" n="1" name="purposefully send somebody or something" type="">
+        <commentary>
+        </commentary>
+        <examples>
+            After receiving a call reporting a suspicious person, an officer was dispatched. 
+            Your goods will be dispatched the day you place your order.
+            Aware that the paramilitary force might get out of hand, he dispatched the state militia.
+        </examples>
+        <mappings>
+            <gr_sense></gr_sense>
+            <wn version="2.1">1</wn>
+            <wn lemma="" version=""></wn>
+            <omega></omega><pb>dispatch.01</pb>
+            <vn>send-11.1</vn><fn>Sending</fn>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    <sense group="1" n="2" name="complete, carry out" type="">
+        <commentary>
+        </commentary>
+        <examples>
+            He dispatched his duties efficiently, even as he ricocheted around the world.
+            Each dispatched his responsibilities with the dedication, energy and competence expected.
+            The JP who survived on fees and lazily dispatched his job was the worst.
+        </examples>
+        <mappings>
+            <gr_sense></gr_sense>
+            <wn version="2.1">2,4</wn>
+            <wn lemma="" version=""></wn>
+            <omega></omega><pb>NM</pb>
+            <vn>NM</vn><fn>NM</fn>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    <sense group="1" n="3" name="kill" type="">
+        <commentary>
+        </commentary>
+        <examples>
+            The zombie-like ghouls could be dispatched by a shot in the head, or a blow to the skull.
+            They might have dispatched him by a single blow of the tomahawk.
+        </examples>
+        <mappings>
+            <gr_sense></gr_sense>
+            <wn version="2.1">3,5</wn>
+            <wn lemma="" version=""></wn>
+            <omega></omega><pb>NM</pb>
+            <vn>murder-42.1</vn><fn>Killing</fn>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+<sense group="1" n="4" name="none of the above" type="">
+  <commentary>
+Automatically generated NOTA sense (bbn)
+  </commentary>
+  <examples>
+  </examples>
+  <mappings>
+    <wn version="2.1"></wn>
+    <omega></omega><pb></pb>
+    <fn></fn>
+  </mappings><SENSE_META clarity=""/>
+</sense>
+    <WORD_META authors="duffielc,greenlm" sample_score="-"/>
+
+<ita count="30" ann_1_2_agreement="0.966666666667" />
+</inventory>

@@ -1,0 +1,74 @@
+<!DOCTYPE inventory SYSTEM "inventory.dtd">
+<inventory lemma="president-n">
+    <commentary>
+        
+    </commentary>
+    
+    <sense n="1" type="" name="chair" group="1">
+        <commentary>
+            chairperson, chairman, chairwoman, prexy - 
+            the executive officer of a firm, corporation, or university
+        </commentary>
+        <examples>
+            The president realized that the company was going bankrupt.
+        </examples>
+        <mappings>
+            <wn version="2.0">1 4 5</wn>
+            <omega></omega>
+            <pb></pb>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    
+    <sense n="2" type="" name="head of a country" group="1">
+        <commentary>
+            the chief executive of a republic
+        </commentary>
+        <examples>
+            After the exportation of Captain Hook, Peter Pan was elected President of Neverland.
+            Canaan Banana was Zimbabwe's first black president.
+        </examples>
+        <mappings>
+            <wn version="2.0">3</wn>
+            <omega></omega>
+            <pb></pb>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    
+    <sense n="3" type="Specific" name="head of U.S." group="1">
+        <commentary>
+            President of the United States, United States President, President,
+            Chief Executive - 
+            the office of the United States head of state
+        </commentary>
+        <examples>
+            A President is elected every four years.
+            The President likes to job every morning. 
+        </examples>
+        <mappings>
+            <wn version="2.0">2 6</wn>
+            <omega></omega>
+            <pb></pb>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    
+    <!-- more senses go here -->
+<sense group="1" n="4" name="none of the above" type="">
+  <commentary>
+Automatically generated NOTA sense (bbn)
+  </commentary>
+  <examples>
+  </examples>
+  <mappings>
+    <wn version="2.1"></wn>
+    <omega></omega><pb></pb>
+    <fn></fn>
+  </mappings><SENSE_META clarity=""/>
+</sense>
+    <WORD_META authors="ajarrett cstocker" sample_score=""/>
+
+<ita count="643" ann_1_2_agreement="0.970451010886" />
+</inventory>
+

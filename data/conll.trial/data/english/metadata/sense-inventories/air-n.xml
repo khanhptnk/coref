@@ -1,0 +1,144 @@
+<!DOCTYPE inventory SYSTEM "inventory.dtd">
+<inventory lemma="air-n">
+    <commentary>
+        
+    </commentary>
+    
+    <sense n="1" type="" name="mix of gases" group="1">
+        <commentary>
+            a mixture of gases (especially oxygen) required for breathing; the
+            stuff of which the wind consists
+        </commentary>
+        <examples>
+            Air pollution is bad.
+            A smell of chemicals in the air...
+            Open a window and let in some air.
+            I need some fresh air.
+            The air was cooled by the lake.
+            As he waited he could feel the air on his neck.
+            The brownies became hard because they were exposed to the air.
+        </examples>
+        <mappings>
+            <wn version="2.0">1 5 7</wn>
+            <omega></omega>
+            <pb></pb>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    
+    <sense n="2" type="" name="spatial: above ground" group="1">
+        <commentary>
+            the region above the ground
+        </commentary>
+        <examples>
+            Her hand stopped in mid air.
+            He threw the ball into the air.
+        </examples>
+        <mappings>
+            <wn version="2.0">3</wn>
+            <omega></omega>
+            <pb></pb>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    
+    <sense n="3" type="" name="aura" group="1">
+        <commentary>
+            atmosphere - 
+            a distinctive but intangible quality surrounding a person or thing
+        </commentary>
+        <examples>
+            She seemed to have an air of mystery about her.
+            The house had a neglected air.
+            An air of defeat pervaded the candidate's headquaters.
+            The place had a air of romance.
+        </examples>
+        <mappings>
+            <wn version="2.0">6</wn>
+            <omega></omega>
+            <pb></pb>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    
+    <sense n="4" type="" name="air travel" group="1">
+        <commentary>
+            aviation - 
+            travel via aircraft
+        </commentary>
+        <examples>
+            Air travel involves too much waiting.
+            If you've time to spare go by air.
+        </examples>
+        <mappings>
+            <wn version="2.0">2</wn>
+            <omega></omega>
+            <pb></pb>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    <sense n="5" type="" name="airwave" group="1">
+        <commentary>
+            medium for radio and television broadcasting
+        </commentary>
+        <examples>
+            The program was on the air from 9 until midnight.
+            The President used the airwaves to take his message to the people.
+        </examples>
+        <mappings>
+            <wn version="2.0">4</wn>
+            <omega></omega>
+            <pb></pb>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    
+    <sense n="6" type="" name="tune" group="1">
+        <commentary>
+            melody, strain, melodic line, melodic phrase - 
+            a succession of notes forming a distinctive phrase
+        </commentary>
+        <examples>
+            She was humming an air from Beethoven.
+        </examples>
+        <mappings>
+            <wn version="2.0">8</wn>
+            <omega></omega>
+            <pb></pb>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    
+    <sense n="7" type="" name="element(Empedocles)" group="1">
+        <commentary>
+            once thought to be one of the four elements composing the universe
+        </commentary>
+        <examples>
+            The book was about the four elements of the universe; air, fire, water...
+        </examples>
+        <mappings>
+            <wn version="2.0">9</wn>
+            <omega></omega>
+            <pb></pb>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    
+    <!-- more senses go here -->
+    <sense group="1" n="8" name="none of the above" type="">
+        <commentary>
+            Automatically generated NOTA sense (bbn)
+        </commentary>
+        <examples>
+        </examples>
+        <mappings>
+            <wn version="2.1"></wn>
+            <omega></omega><pb></pb>
+            <fn></fn>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    <WORD_META authors="cstocker ajarrett" sample_score=""/>
+
+<ita count="172" ann_1_2_agreement="0.889534883721" />
+</inventory>

@@ -1,0 +1,170 @@
+
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+  "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+
+    <title>Ontonotes DB Tool 0.999b &mdash; OntoNotes DB Tool v0.999b documentation</title>
+    <link rel="stylesheet" href="_static/default.css" type="text/css" />
+    <link rel="stylesheet" href="_static/pygments.css" type="text/css" />
+    <script type="text/javascript">
+      var DOCUMENTATION_OPTIONS = {
+        URL_ROOT:    '',
+        VERSION:     '0.999b',
+        COLLAPSE_INDEX: false,
+        FILE_SUFFIX: '.html',
+        HAS_SOURCE:  true
+      };
+    </script>
+    <script type="text/javascript" src="_static/jquery.js"></script>
+    <script type="text/javascript" src="_static/underscore.js"></script>
+    <script type="text/javascript" src="_static/doctools.js"></script>
+    <link rel="top" title="OntoNotes DB Tool v0.999b documentation" href="#" />
+    <link rel="next" title="Introduction" href="intro.html" />
+  </head>
+  <body>
+    <div class="related">
+      <h3>Navigation</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="genindex.html" title="General Index"
+             accesskey="I">index</a></li>
+        <li class="right" >
+          <a href="py-modindex.html" title="Python Module Index"
+             >modules</a> |</li>
+        <li class="right" >
+          <a href="intro.html" title="Introduction"
+             accesskey="N">next</a> |</li>
+        <li><a href="#">OntoNotes DB Tool v0.999b documentation</a> &raquo;</li>
+      </ul>
+    </div>
+
+    <div class="document">
+      <div class="documentwrapper">
+        <div class="bodywrapper">
+          <div class="body">
+
+  <div class="section" id="ontonotes-db-tool-release">
+<h1>Ontonotes DB Tool 0.999b<a class="headerlink" href="#ontonotes-db-tool-release" title="Permalink to this headline">¶</a></h1>
+<p>This document describes the installation and basic uses of the
+OntoNotes Database Tool (DB Tool).  It shows how to build the
+OntoNotes database from the individual source files and describes the
+design of the database tables, as well as parts of the API that can be
+used to manipulate the data.  It also provides some documentation on
+the core API.</p>
+<div class="toctree-wrapper compound">
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="intro.html">Introduction</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="intro.html#purpose">Purpose</a></li>
+<li class="toctree-l2"><a class="reference internal" href="intro.html#platforms">Platforms</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="installation.html">Installation</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="installation.html#dependencies">Dependencies</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="installation.html#python">Python</a></li>
+<li class="toctree-l3"><a class="reference internal" href="installation.html#mysql-and-mysqldb">MySQL and MySQLdb</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="installation.html#installing-ontonotes-db-tool">Installing OntoNotes DB Tool</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="getting_started.html">Getting Started</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="getting_started.html#loading-data-to-database">Loading Data to Database</a></li>
+<li class="toctree-l2"><a class="reference internal" href="getting_started.html#loading-and-dumping-data-from-database">Loading and Dumping Data from Database</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="database_and_API_design.html">Database and API Design</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="database_and_API_design.html#overview">Overview</a></li>
+<li class="toctree-l2"><a class="reference internal" href="database_and_API_design.html#corpus">Corpus</a></li>
+<li class="toctree-l2"><a class="reference internal" href="database_and_API_design.html#trees">Trees</a></li>
+<li class="toctree-l2"><a class="reference internal" href="database_and_API_design.html#propositions">Propositions</a></li>
+<li class="toctree-l2"><a class="reference internal" href="database_and_API_design.html#word-senses">Word Senses</a></li>
+<li class="toctree-l2"><a class="reference internal" href="database_and_API_design.html#name">Name</a></li>
+<li class="toctree-l2"><a class="reference internal" href="database_and_API_design.html#coreference">Coreference</a></li>
+<li class="toctree-l2"><a class="reference internal" href="database_and_API_design.html#banks">Banks</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="API_reference.html">API Reference</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="common.html"><tt class="docutils literal"><span class="pre">on.common</span></tt> &#8211; Utility and Logging Functions</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="common.html#util-utility-functions"><tt class="docutils literal"><span class="pre">util</span></tt> &#8211; Utility functions</a></li>
+<li class="toctree-l3"><a class="reference internal" href="common.html#log-logging-and-reporting-functions"><tt class="docutils literal"><span class="pre">log</span></tt> &#8211; Logging and reporting functions</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="corpora.html"><tt class="docutils literal"><span class="pre">on.corpora</span></tt> &#8211; classes for interpreting annotation</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="corpora.html#tree-syntactic-parse-annotation"><tt class="docutils literal"><span class="pre">tree</span></tt> &#8211; Syntactic Parse Annotation</a></li>
+<li class="toctree-l3"><a class="reference internal" href="corpora.html#proposition-proposition-annotation"><tt class="docutils literal"><span class="pre">proposition</span></tt> &#8211; Proposition Annotation</a></li>
+<li class="toctree-l3"><a class="reference internal" href="corpora.html#sense-word-sense-annotation"><tt class="docutils literal"><span class="pre">sense</span></tt> &#8211; Word Sense Annotation</a></li>
+<li class="toctree-l3"><a class="reference internal" href="corpora.html#coreference-coreferential-entity-annotation"><tt class="docutils literal"><span class="pre">coreference</span></tt> &#8211; Coreferential Entity Annotation</a></li>
+<li class="toctree-l3"><a class="reference internal" href="corpora.html#name-name-entity-annotation"><tt class="docutils literal"><span class="pre">name</span></tt> &#8211; Name-Entity Annotation</a></li>
+<li class="toctree-l3"><a class="reference internal" href="corpora.html#ontology-ontology-annotation"><tt class="docutils literal"><span class="pre">ontology</span></tt> &#8211; Ontology Annotation</a></li>
+<li class="toctree-l3"><a class="reference internal" href="corpora.html#speaker-speaker-metadata-for-broadcast-conversation-documents"><tt class="docutils literal"><span class="pre">speaker</span></tt> &#8211; Speaker Metadata for Broadcast Conversation Documents</a></li>
+<li class="toctree-l3"><a class="reference internal" href="corpora.html#parallel-alignment-metadata-for-parallel-texts"><tt class="docutils literal"><span class="pre">parallel</span></tt> &#8211; Alignment Metadata for Parallel Texts</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="tools.html"><tt class="docutils literal"><span class="pre">on.tools</span></tt> &#8211; scripts for manipulating the ontonotes data</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="tools.html#load-to-db-load-data-from-files-to-database"><tt class="docutils literal"><span class="pre">load_to_db</span></tt> &#8211; load data from files to database</a></li>
+<li class="toctree-l3"><a class="reference internal" href="tools.html#init-db-initialize-the-db-and-load-inventories"><tt class="docutils literal"><span class="pre">init_db</span></tt> &#8211; initialize the db and load inventories</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="reporting_bugs.html">Appendix A: Reporting Bugs</a></li>
+</ul>
+</div>
+</div>
+
+
+          </div>
+        </div>
+      </div>
+      <div class="sphinxsidebar">
+        <div class="sphinxsidebarwrapper">
+  <h4>Next topic</h4>
+  <p class="topless"><a href="intro.html"
+                        title="next chapter">Introduction</a></p>
+  <h3>This Page</h3>
+  <ul class="this-page-menu">
+    <li><a href="_sources/index.txt"
+           rel="nofollow">Show Source</a></li>
+  </ul>
+<div id="searchbox" style="display: none">
+  <h3>Quick search</h3>
+    <form class="search" action="search.html" method="get">
+      <input type="text" name="q" size="18" />
+      <input type="submit" value="Go" />
+      <input type="hidden" name="check_keywords" value="yes" />
+      <input type="hidden" name="area" value="default" />
+    </form>
+    <p class="searchtip" style="font-size: 90%">
+    Enter search terms or a module, class or function name.
+    </p>
+</div>
+<script type="text/javascript">$('#searchbox').show(0);</script>
+        </div>
+      </div>
+      <div class="clearer"></div>
+    </div>
+    <div class="related">
+      <h3>Navigation</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="genindex.html" title="General Index"
+             >index</a></li>
+        <li class="right" >
+          <a href="py-modindex.html" title="Python Module Index"
+             >modules</a> |</li>
+        <li class="right" >
+          <a href="intro.html" title="Introduction"
+             >next</a> |</li>
+        <li><a href="#">OntoNotes DB Tool v0.999b documentation</a> &raquo;</li>
+      </ul>
+    </div>
+    <div class="footer">
+        &copy; Copyright 2011, BBN Technologies.
+      Created using <a href="http://sphinx.pocoo.org/">Sphinx</a> 1.0.4.
+    </div>
+  </body>
+</html>

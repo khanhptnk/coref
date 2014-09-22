@@ -1,0 +1,112 @@
+<!DOCTYPE inventory SYSTEM "inventory.dtd">
+<inventory lemma="office-n">
+    <commentary>
+    </commentary>
+    <sense n="1" type="" name="a business, both in its location, work, and/or staff" group="1">
+        <commentary>
+            This sense is the general concept of which senses 2 and 3 are more specific aspects.  
+            Unless one of senses 2 or 3 exclusively and exactly fits, use this sense.
+        </commentary>
+        <examples>
+            His office produced very good work.
+            Office work can be tiresome.
+            The Office of Himmerty and Schlimerty handled the lawsuit.
+        </examples>
+        <mappings>
+            <wn version="1.7">?</wn>
+            <omega></omega><pb></pb>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    <sense n="2" type="" name="staff of workers who form a business environment and organization" group="1">
+        <commentary>
+            This sense should only be chosen if the sentence is
+            very clearly talking only about staff and not the business or building.
+            Can take [+animate] attributes ('late','gossipy') because it refers to a group of people.
+        </commentary>
+        <examples>
+            the whole office was late the morning of the blizzard
+            their office is always so gossipy!
+        </examples>
+        <mappings>
+            <wn version="1.7">?</wn>
+            <omega></omega><pb></pb>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    <sense n="3" type="" name="physical location of a business" group="1">
+        <commentary>
+            This sense should be used when the sentence is clearly talking only about the rooms and buildings, 
+            not about the staff or business itself. Look for locational prepositions such as 'at', 'from', 'to'
+        </commentary>
+        <examples>
+            I'll pick up some forms at the office.
+            The offices in that part of town are really expensive.
+            I usually work from my office at home.
+            He visited the recently opened New York office of that law firm.
+        </examples>
+        <mappings>
+            <wn version="1.7">?</wn>
+            <omega></omega><pb></pb>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    <sense n="4" type="" name="duty,function,role or authority of an individual in a given job or capacity." group="1">
+        <commentary>
+            part&lt;duty;office;post&lt;job
+        </commentary>
+        <examples>
+            This scandal sullies the office of the President of the United States.
+            the function of a teacher
+            he occupied a post in the treasury
+            He signed a lot of bills during his first year in office.
+        </examples>
+        <mappings>
+            <wn version="1.7">?</wn>
+            <omega></omega><pb></pb>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    <sense n="5" type="" name="official legal agency or administrative body" group="1">
+        <commentary>
+            Usually part of a proper name
+        </commentary>
+        <examples>
+            "Office of Management and Budget" "the Census Bureau";
+            "The General Accounting Office;" "The Office of Special Plans"
+        </examples>
+        <mappings>
+            <wn version="1.7">?</wn>
+            <omega></omega><pb></pb>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    <sense n="6" type="" name="religious rite prescribed by ecclesiastical authorities" group="1">
+        <commentary>
+        </commentary>
+        <examples>
+            The office of Mass
+        </examples>
+        <mappings>
+            <wn version="1.7">?</wn>
+            <omega></omega><pb></pb>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+<sense group="1" n="7" name="none of the above" type="">
+  <commentary>
+Automatically generated NOTA sense (bbn)
+  </commentary>
+  <examples>
+  </examples>
+  <mappings>
+    <wn version="2.1"></wn>
+    <omega></omega><pb></pb>
+    <fn></fn>
+  </mappings><SENSE_META clarity=""/>
+</sense>
+    <WORD_META authors="ahouston" sample_score="-"/>
+
+<ita count="69" ann_1_2_agreement="1.0" />
+</inventory>
+

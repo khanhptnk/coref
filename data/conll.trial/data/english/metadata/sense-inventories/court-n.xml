@@ -1,0 +1,148 @@
+<!DOCTYPE inventory SYSTEM "inventory.dtd">
+<inventory lemma="court-n">
+    <commentary>
+        WordNet sense 9 omitted, proper name
+    </commentary>
+    <sense n="1" type="" name="a sovereign regime and its assemblage" group="1">
+        <commentary>
+            COURT[+regime][+sovereign]
+        </commentary>
+        <examples>
+            Many consider the Court at Versailles to have been the most brilliant in all of European history.
+            The King banished his younger son from court for attempting to seize the crown.
+            The young page thought the ladies at court were not all beauties.
+        </examples>
+        <mappings>
+            <wn version="2.1">2,7</wn>
+            <omega></omega><pb></pb>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    
+    <sense n="2" type="" name="assembly that transacts judicial business" group="1">
+        <commentary>
+            COURT[+assembly][+judicial]
+        </commentary>
+        <examples>
+            He is a justice who sits on the high court.
+            The two firms have been in court for six years disputing the rights of this patent.
+            It remains to be seen whether the case will actually go to court.
+            The dictator has been harshly judged in the court of world opinion. (metaphoric use)
+        </examples>
+        <mappings>
+            <wn version="2.1">1</wn>
+            <omega></omega><pb></pb>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    
+    <sense n="3" type="" name="a demarcated area for sports play" group="1">
+        <commentary>
+            COURT[+area][+sports]
+        </commentary>
+        <examples>
+            This basketball court has a new floor.
+            The tennis player hit the ball out of the court.
+            The city has lighted courts where teenagers can shoot hoops at night.
+        </examples>
+        <mappings>
+            <wn version="2.1">3</wn>
+            <omega></omega><pb></pb>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    
+    <sense n="4" type="" name="a room in which judicial proceedings occur" group="1">
+        <commentary>
+            COURT[+building][+judicial]
+            Note: attributes of 'court' are physical, verbs imply physical position or action
+        </commentary>
+        <examples>
+            People put their coats on because the court had no heat that day.
+            The cameras were only allowed in the back of the court.
+            This is the third time John has stood in this very court in front of this very judge!
+        </examples>
+        <mappings>
+            <wn version="2.1">4</wn>
+            <omega></omega><pb></pb>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    
+    <sense n="5" type="" name="an area enclosed by walls or buildings" group="1">
+        <commentary>
+            COURT[+area][+enclosed]
+        </commentary>
+        <examples>
+            Spanish-style houses are often built around an inner court.
+            We enjoyed the court of the museum which was enclosed by rose-covered walls.
+            The men exercised in the court situated between the prison barracks.
+        </examples>
+        <mappings>
+            <wn version="2.1">5</wn>
+            <omega></omega><pb></pb>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    
+    <sense n="6" type="" name="the residence or palace of a sovereign" group="1">
+        <commentary>
+            COURT[+building][+private][+residence]
+        </commentary>
+        <examples>
+            The Duke's court was built of Italian marble with gold leaf on the ceilings.
+            The King and his family fled as the revolutionaries set fire to his court.
+        </examples>
+        <mappings>
+            <wn version="2.1">6</wn>
+            <omega></omega><pb></pb>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    
+    <sense n="7" type="" name="motel or motor inn, with parking outside the rooms" group="1">
+        <commentary>
+            COURT[+building][+public][+lodging]
+        </commentary>
+        <examples>
+            There are lots of inexpensive motor courts along I-95.
+            We couldn't find a motor court that had a vacancy.
+        </examples>
+        <mappings>
+            <wn version="2.1">8</wn>
+            <omega></omega><pb></pb>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    
+    <sense n="8" type="" name="respectful deference" group="1">
+        <commentary>
+            COURT[+act][+deference]
+        </commentary>
+        <examples>
+            The proud knight would not pay court to the young king.
+            Critics think the administration has paid too much court to big oil interests.
+        </examples>
+        <mappings>
+            <wn version="2.1">10</wn>
+            <omega></omega><pb></pb>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    
+<sense group="1" n="9" name="none of the above" type="">
+  <commentary>
+Automatically generated NOTA sense (bbn)
+  </commentary>
+  <examples>
+  </examples>
+  <mappings>
+    <wn version="2.1"></wn>
+    <omega></omega><pb></pb>
+    <fn></fn>
+  </mappings><SENSE_META clarity=""/>
+</sense>
+    <WORD_META authors="ahouston" sample_score="-"/>
+
+<ita count="282" ann_1_2_agreement="0.900709219858" />
+</inventory>

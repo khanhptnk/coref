@@ -1,0 +1,131 @@
+<!DOCTYPE inventory SYSTEM "inventory.dtd">
+<inventory lemma="unit-n">
+    <commentary>
+        Modified definitions, added examples and senses, added commentary. ahouston
+    </commentary>
+    
+    <sense n="1" type="" name="quantity, a standard of measure" group="1">
+        <commentary>
+            UNIT[+quantity][+measure][+standard]
+            unit of measurement - 
+            a division of quantity accepted as a standard of measurement or 
+        </commentary>
+        <examples>
+            The dollar is the US unit of currency.
+            A unit of wheat is a bushel.
+            What is the unit cost of these laptops?
+            They sent five units of blood to the OR.
+        </examples>
+        <mappings>
+            <wn version="2.1">1</wn>
+            <omega></omega>
+            <pb></pb>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    
+    <sense n="2" type="" name="a subdivision of a social organization" group="1">
+        <commentary>
+            UNIT[+organization][+subdivision][+military/+sport/+business]
+            a subdivision or component of a larger social organization or institution
+        </commentary>
+        <examples>
+            The coach has picked his players for both the offensive and defensive units of the team.
+            After the battle the soldier had trouble rejoining his infantry unit.
+            They have expanded their overseas business unit by twenty percent.
+            The firm is laying off 2000 workers at two of their manufacturing units.
+        </examples>
+        <mappings>
+            <wn version="2.1">3</wn>
+            <omega></omega>
+            <pb></pb>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    
+    <sense n="3" type="" name="a functional component of some larger structure or scheme" group="1">
+        <commentary>
+            UNIT[+structure][+component][+functional]
+        </commentary>
+        <examples>
+            He was able to identify several units of nucleic acid..
+            The realtor is trying to sell a three-bedroom unit in my building.
+            Bob is taking three units of biology this semester.
+            Her grandfather is in the intensive care unit of General Hospital.
+            Can you identify all the grammatical units of this Turkish sentence?
+        </examples>
+        <mappings>
+            <wn version="2.1">2 5 6</wn>
+            <omega></omega>
+            <pb></pb>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    
+    <sense n="4" type="" name="a whole, indivisible thing" group="1">
+        <commentary>
+            whole, whole thing - 
+            UNIT[+quantity][+whole][-divisible]
+        </commentary>
+        <examples>
+            The boys are a family unit and must be adopted into the same home.
+            The coach worked hard to get the players to work as a unit.
+            At one time atoms were believed to be the smallest units of matter that could not be further subdivided.
+        </examples>
+        <mappings>
+            <wn version="2.1">4</wn>
+            <omega></omega>
+            <pb></pb>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    
+    <sense n="5" type="" name="a device with some function" group="1">
+        <commentary>
+            UNIT[+artifact][+device][+equipment/+furniture]
+            Note: does not imply a larger whole thing, thus different from sense 3 above
+        </commentary>
+        <examples>
+            Take a look at the gearbox and the transmission unit.
+            They are shipping a load of sink units by truck.
+        </examples>
+        <mappings>
+            <wn version="MAC">1b</wn>
+            <omega></omega>
+            <pb></pb>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    
+    <sense n="6" type="" name="a police car, cruiser" group="1">
+        <commentary>
+            UNIT[+artifact][+car][+police]
+        </commentary>
+        <examples>
+            The officer jumped into his unit and turned on the blue lights.
+            Several police units were cruising up and down last night in front of that apartment building.
+        </examples>
+        <mappings>
+            <wn version="MAC">1i</wn>
+            <omega></omega>
+            <pb></pb>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    
+<sense group="1" n="7" name="none of the above" type="">
+  <commentary>
+Automatically generated NOTA sense (bbn)
+  </commentary>
+  <examples>
+  </examples>
+  <mappings>
+    <wn version="2.1"></wn>
+    <omega></omega><pb></pb>
+    <fn></fn>
+  </mappings><SENSE_META clarity=""/>
+</sense>
+    <WORD_META authors="cstocker ajarrett" sample_score=""/>
+
+<ita count="265" ann_1_2_agreement="0.864150943396" />
+</inventory>

@@ -1,0 +1,136 @@
+<!DOCTYPE inventory SYSTEM "inventory.dtd">
+<inventory lemma="sign-n">
+    <commentary>
+    </commentary>
+    <sense n="1" type="" name="a physical display with information of some kind" group="1">
+        <commentary>
+            SIGN[+physical][+display][+communication]
+        </commentary>
+        <examples>
+            Can you read that street sign?
+            All these signs along the highway look very tacky.
+            Campaign workers stood with signs on every street corner along Main Street.
+            Mary enjoyed the huge electronic signs flashing above Broadway.
+        </examples>
+        <mappings>
+            <wn version="2.1">2,4</wn>
+            <omega></omega><pb></pb>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    
+    <sense n="2" type="" name="an indication of something, evidence" group="1">
+        <commentary>
+            SIGN[+role][+evidence][+physical/+medical/+metaphysical] 
+        </commentary>
+        <examples>
+            We waited two hours and still there was no sign of Peter.
+            Crocuses are one of the first signs of spring in New England.
+            One sign of anemia is low iron content in the blood.
+            They did a C-section on Betty after the fetus began to show signs of distress.
+            The man saw a saint's face in his bagel and took it as a sign from God.
+            Analysts see signs of a cooling housing market.
+        </examples>
+        <mappings>
+            <wn version="2.1">1,6,8</wn>
+            <omega></omega><pb></pb>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    
+    <sense n="3" type="" name="an action or gesture that communicates something" group="1">
+        <commentary>
+            SIGN[+action][+gesture][+communication]
+        </commentary>
+        <examples>
+            He gave me the high sign just as I was about to speak.
+            The children learned the ASL sign for 'hello' in class today.
+            The priest made the sign of the cross.
+            We saw Bill make the sign for 'shark' just in time to see the 8-foot creature glide by above us.
+            Mary's boss gave her the thumbs up sign after her presentation.
+        </examples>
+        <mappings>
+            <wn version="2.1">3,9</wn>
+            <omega></omega><pb></pb>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    
+    <sense n="4" type="" name="linguistic unit that denotes something" group="1">
+        <commentary>
+            SIGN[+role][+unit][+linguistic]
+        </commentary>
+        <examples>
+            These strange signs could be an example of Rebus writing.
+            The letters of our alphabet are phonemically-valued signs. 
+            Bob inscribed the Chinese sign for 'water' on the paper.
+        </examples>
+        <mappings>
+            <wn version="2.1">10</wn>
+            <omega></omega><pb></pb>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    
+    <sense n="5" type="" name="mathematical operator, e.g., multiplication" group="1">
+        <commentary>
+            SIGN[+role][+operator][+addition/+subtraction/+percentage]
+        </commentary>
+        <examples>
+            The addition sign adds one number to another.
+            The subtraction sign subtracts one number from another.
+            A percentage sign means the number preceding it should be understood as a proportion multiplied by 100.
+        </examples>
+        <mappings>
+            <wn version="2.1">11</wn>
+            <omega></omega><pb></pb>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    
+    <sense n="6" type="" name="polarity, e.g. negative or positive" group="1">
+        <commentary>
+            SIGN[+quality][+polarity][+positive/+negative]
+        </commentary>
+        <examples>
+            These are charges of opposite signs.
+            The sign of these numbers is negative.
+        </examples>
+        <mappings>
+            <wn version="2.1">7</wn>
+            <omega></omega><pb></pb>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    
+    <sense n="7" type="" name="a region of the zodiac" group="1">
+        <commentary>
+            SIGN[+region][+component][+zodiac]
+        </commentary>
+        <examples>
+            Judy was born under the sign of Gemini.
+            There are twelve signs of the Zodiac.
+        </examples>
+        <mappings>
+            <wn version="2.1">5</wn>
+            <omega></omega><pb></pb>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    
+<sense group="1" n="8" name="none of the above" type="">
+  <commentary>
+Automatically generated NOTA sense (bbn)
+  </commentary>
+  <examples>
+  </examples>
+  <mappings>
+    <wn version="2.1"></wn>
+    <omega></omega><pb></pb>
+    <fn></fn>
+  </mappings><SENSE_META clarity=""/>
+</sense>
+    <WORD_META authors="ahouston" sample_score="-"/>
+
+<ita count="160" ann_1_2_agreement="0.94375" />
+</inventory>

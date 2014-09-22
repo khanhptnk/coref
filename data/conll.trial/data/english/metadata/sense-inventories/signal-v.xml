@@ -1,0 +1,56 @@
+<?xml version="1.0" ?>
+<!DOCTYPE inventory SYSTEM "inventory.dtd">
+<inventory lemma="signal-v">    
+    <commentary>
+    </commentary>
+    <sense group="1" n="1" name="communicate or make known by gestures, action, or signs" type="">  
+        <commentary>
+            Syntax is: NP1 SIGNAL (NP2)
+        </commentary>
+        <examples>
+            She signaled her impatience.
+            They have signaled their willingness to negotiate.
+            I signaled the driver to proceed.
+            Will you signal now?
+        </examples>
+        <mappings>
+            <wn version="2.1">1</wn>
+            <omega></omega><pb></pb>
+            <fn>Communication,Gesture</fn>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    
+    <sense group="1" n="2" name="indicate, be signs or symptoms of" type="">
+        <commentary>
+            Syntax is: NP1 SIGNAL NP2
+        </commentary>
+        <examples>
+            The gauge indicates a temperature below freezing point.
+            These symptoms signal infection.
+            The economic indicators signal that the euro is undervalued.
+        </examples>
+        <mappings>
+            <wn version="2.1">2</wn>
+            <omega></omega><pb></pb>
+            <fn/>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+<sense group="1" n="3" name="none of the above" type="">
+  <commentary>
+Automatically generated NOTA sense (bbn)
+  </commentary>
+  <examples>
+  </examples>
+  <mappings>
+    <wn version="2.1"></wn>
+    <omega></omega><pb></pb>
+    <fn></fn>
+  </mappings><SENSE_META clarity=""/>
+</sense>
+    <WORD_META authors="hwangd" sample_score="-"/>
+     
+
+<ita count="76" ann_1_2_agreement="0.842105263158" />
+</inventory>

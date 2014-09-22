@@ -1,0 +1,109 @@
+<!DOCTYPE inventory SYSTEM "inventory.dtd">
+<inventory lemma="opinion-n">
+    <commentary>
+    </commentary>
+    
+    <sense n="1" type="" name="belief or viewpoint about something" group="1">
+        <commentary>
+            OPINION[+state][+mental][+judgement][+belief]
+            Note: need not be a judgement of good or bad (see Sense 5)
+        </commentary>
+        <examples>
+            What is Mary's opinion on the economy?
+            I have no opinion about where we go for dinner tonight.
+            His opinions appear frequently on the editorial page.
+            Public opinion on this issue appears to be divided into two camps.
+            The latest opinion polls show less support for the war.
+        </examples>
+        <mappings>
+            <wn version="2.1">1,2,3,6</wn>
+            <omega></omega><pb></pb>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    
+    
+    <sense n="2" type="" name="a formal document explaining the reasons for a legal ruling" group="1">
+        <commentary>
+            OPINION[+entity][+artifact][+document][+legal][+explanation][+ruling][+legal]
+            Note: the document which is generated as a result of the act of Sense 3
+        </commentary>
+        <examples>
+            There are volumes of Supreme Court opinions in the law library.
+            Justice Brown wrote the dissenting opinion in the case.
+        </examples>
+        <mappings>
+            <wn version="2.1">4</wn>
+            <omega></omega><pb></pb>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    
+    
+    <sense n="3" type="" name="a legal ruling" group="1">
+        <commentary>
+            OPINION[+event][+social][+legal][+ruling]
+        </commentary>
+        <examples>
+            The court is expected to reach an opinion on the case next week.
+            The opinion of the Circuit Court is being appealed by the Justice Department.
+        </examples>
+        <mappings>
+            <wn version="2.1">5</wn>
+            <omega></omega><pb></pb>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    
+    
+    <sense n="4" type="" name="professional or expert advice on some matter" group="1">
+        <commentary>
+            OPINION[+action][+advising][+expert]
+        </commentary>
+        <examples>
+            They are seeking a second opinion about their daughter's heart condition.
+            Mary sought the opinion of an interior designer when redoing her bathrooms.
+            He dismissed the opinions of the experts and did it his own way.
+        </examples>
+        <mappings>
+            <wn version="MAC">1c</wn>
+            <omega></omega><pb></pb>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    
+    
+    <sense n="5" type="" name="an estimation of something's worth" group="1">
+        <commentary>
+            OPINION[+state][+mental][+judgement][+estimation][+worth]
+            Note: a narrow usage of Sense 1 - this sense always implies an evaluation of good or bad
+        </commentary>
+        <examples>
+            Mary believes John has an overly high opinion of himself.
+            We have a low opinion of that paint company's workmanship. 
+            The teacher's opinion of that student went up significantly after the student won the science prize.
+        </examples>
+        <mappings>
+            <wn version="MAC">1b</wn>
+            <omega></omega><pb></pb>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    
+    
+<sense group="1" n="6" name="none of the above" type="">
+  <commentary>
+Automatically generated NOTA sense (bbn)
+  </commentary>
+  <examples>
+  </examples>
+  <mappings>
+    <wn version="2.1"></wn>
+    <omega></omega><pb></pb>
+    <fn></fn>
+  </mappings><SENSE_META clarity=""/>
+</sense>
+    <WORD_META authors="ahouston" sample_score="-"/>
+
+<ita count="99" ann_1_2_agreement="1.0" />
+</inventory>

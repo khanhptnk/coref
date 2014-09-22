@@ -1,0 +1,60 @@
+<?xml version="1.0" ?>
+<!DOCTYPE inventory SYSTEM "inventory.dtd">
+<inventory lemma="wait-v">
+    <commentary>
+    </commentary>
+    <sense group="1" n="1" name="remain inactive or delay action until an appointed time" type="">
+        <commentary>
+        </commentary>
+        <examples>
+            He is waiting to be drafted.
+            I had to wait in line for an hour to get the tickets.
+            Microsoft urged Windows users to wait for its official security patch for a graphics file vulnerability.
+            Let's wait for the details before celebrating.
+            We waited for a sofa and love seat for over 6 months.
+            Wait, wait, don't tell me!
+            I patiently waited for the credits and then ran for the exit.
+        </examples>
+        <mappings>
+            <wn version="2.1">1,2,3</wn>
+            <wn lemma="" version=""></wn>
+            <omega></omega><pb>wait.01</pb>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    
+    <sense group="1" n="2" name="serve" type="">
+        <commentary>
+            includes WAIT ON
+        </commentary>
+        <examples>
+            He waits tables on Saturday nights.
+            She once waited on Julia Child.
+            All her life she had waited on the needs of the white Redds.
+            I was waited on immediately at the ticket counter by two very pleasant young women.
+            We each had our own private hostess, who waited on us hand-and-foot.
+        </examples>
+        <mappings>
+            <wn version="2.1">4</wn>
+            <wn lemma="wait_on" version="2.1">1</wn>
+            <omega></omega><pb>wait.02</pb>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    
+<sense group="1" n="3" name="none of the above" type="">
+  <commentary>
+Automatically generated NOTA sense (bbn)
+  </commentary>
+  <examples>
+  </examples>
+  <mappings>
+    <wn version="2.1"></wn>
+    <omega></omega><pb></pb>
+    <fn></fn>
+  </mappings><SENSE_META clarity=""/>
+</sense>
+    <WORD_META authors="duffielc" sample_score="-"/>
+
+<ita count="386" ann_1_2_agreement="0.989637305699" />
+</inventory>

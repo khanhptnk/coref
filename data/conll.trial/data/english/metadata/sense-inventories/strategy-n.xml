@@ -1,0 +1,56 @@
+<!DOCTYPE inventory SYSTEM "inventory.dtd">
+<inventory lemma="strategy-n">
+    <commentary>
+        
+    </commentary>
+    
+    <sense n="1" type="" name="plan" group="1">
+        <commentary>
+            an elaborate and systematic plan of action
+        </commentary>
+        <examples>
+            I've developed a strategy for stealing cookies from the jar.
+            Fido has put together a strategy for attacking the mailman.
+        </examples>
+        <mappings>
+            <wn version="2.0">1</wn>
+            <omega></omega>
+            <pb></pb>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    
+    <sense n="2" type="" name="ability to plan" group="1">
+        <commentary>
+            the ability to form plans and use tactics effectively
+        </commentary>
+        <examples>
+            The cadets learned strategy at West Point.
+            I used cunning and strategy to defeat my opponent at chess.
+        </examples>
+        <mappings>
+            <wn version="2.0">2</wn>
+            <omega></omega>
+            <pb></pb>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    
+    <!-- more senses go here -->
+<sense group="1" n="3" name="none of the above" type="">
+  <commentary>
+Automatically generated NOTA sense (bbn)
+  </commentary>
+  <examples>
+  </examples>
+  <mappings>
+    <wn version="2.1"></wn>
+    <omega></omega><pb></pb>
+    <fn></fn>
+  </mappings><SENSE_META clarity=""/>
+</sense>
+    <WORD_META authors="ajarrett hertlerb" sample_score=""/>
+
+<ita count="101" ann_1_2_agreement="0.980198019802" />
+</inventory>
+

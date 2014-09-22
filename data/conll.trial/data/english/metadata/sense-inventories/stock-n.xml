@@ -1,0 +1,186 @@
+<!DOCTYPE inventory SYSTEM "inventory.dtd">
+<inventory lemma="stock-n">
+    <commentary>
+    </commentary>
+    <sense n="1" type="" name="portions of legal ownership in a corporation" group="1">
+        <commentary>
+            +legal +financial
+        </commentary>
+        <examples>
+            Our company had to sell stock to raise money.
+            John's stock has doubled in value this year.
+        </examples>
+        <mappings>
+            <wn version="2.1">1,11</wn>
+            <omega></omega><pb></pb>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    
+    <sense n="2" type="" name="inventory or supply of a product" group="1">
+        <commentary>
+            +physical +mass +artifact
+        </commentary>
+        <examples>
+            That hardware store has an interesting stock of tools.
+            The sofa I wanted was out of stock.
+            They will cut round stock to 1-inch diameter.
+            Just use basic stock to make copies of this photo.
+        </examples>
+        <mappings>
+            <wn version="2.1">3,4,10</wn>
+            <omega></omega><pb></pb>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    
+    <sense n="3" type="" name="domesticated animals kept for use or profit" group="1">
+        <commentary>
+            +physical +animal +mass
+        </commentary>
+        <examples>
+            The drought has reduced the output of our dairy stock.
+            This stock of goat has soft, long hair.
+            Arabians are a hardy equine stock.
+        </examples>
+        <mappings>
+            <wn version="2.1">5,9</wn>
+            <omega></omega><pb></pb>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    
+    <sense n="4" type="" name="handle of a tool or gun" group="1">
+        <commentary>
+            +physical +count +artifact
+        </commentary>
+        <examples>
+            The rifle had been fitted with a special stock.
+            He grabbed the pool cue by the stock.
+        </examples>
+        <mappings>
+            <wn version="2.1">7,15</wn>
+            <omega></omega><pb></pb>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    
+    <sense n="5" type="" name="flowering plant species" group="1">
+        <commentary>
+            +physical +plant +name
+        </commentary>
+        <examples>
+            Is that flowering plant a Malcolm stock?
+            Mary says these flowers are called either 'gillyflower' or 'stock'.
+        </examples>
+        <mappings>
+            <wn version="2.1">12,14</wn>
+            <omega></omega><pb></pb>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    
+    <sense n="6" type="" name="structural part of a plant" group="1">
+        <commentary>
+            +physical +plant +part
+        </commentary>
+        <examples>
+            He said even the French vines now use California root stock.
+            You should trim back your roses' stock every fall.
+        </examples>
+        <mappings>
+            <wn version="2.1">13,16</wn>
+            <omega></omega><pb></pb>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    
+    <sense n="7" type="" name="broth or rich cooking liquid" group="1">
+        <commentary>
+            +edible
+        </commentary>
+        <examples>
+            You need to roast the vegetables first when making a brown stock.
+            Great sauces begin with great stocks.
+        </examples>
+        <mappings>
+            <wn version="2.1">2</wn>
+            <omega></omega><pb></pb>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    
+    <sense n="8" type="" name="lineage or bloodline" group="1">
+        <commentary>
+            +origin +biological +mass
+        </commentary>
+        <examples>
+            Mary said her grandmother came from hardy pioneer stock.
+            These puppies come from good German Shepherd stock.
+        </examples>
+        <mappings>
+            <wn version="2.1">6</wn>
+            <omega></omega><pb></pb>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    
+    <sense n="9" type="" name="repute or regard" group="1">
+        <commentary>
+            +evaluation
+        </commentary>
+        <examples>
+            Let's take stock of the situation.
+            They wonder whether he has enough stock to win that election.
+        </examples>
+        <mappings>
+            <wn version="2.1">8</wn>
+            <omega></omega><pb></pb>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    
+    <sense n="10" type="" name="neckcloth, kerchief" group="1">
+        <commentary>
+            +artifact +clothing
+        </commentary>
+        <examples>
+            She fastened the white stock at her throat with a pin.
+        </examples>
+        <mappings>
+            <wn version="2.1">17</wn>
+            <omega></omega><pb></pb>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    
+    <sense n="11" type="" name="production and plays performed by a theatrical company" group="1">
+        <commentary>
+            +activity
+        </commentary>
+        <examples>
+            The stock for Lincoln Theater Group this summer was all Shakespearean tragedy.
+        </examples>
+        <mappings>
+            <wn version="Merriam-Webster Online">12</wn>
+            <omega></omega><pb></pb>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    
+<sense group="1" n="12" name="none of the above" type="">
+  <commentary>
+Automatically generated NOTA sense (bbn)
+  </commentary>
+  <examples>
+  </examples>
+  <mappings>
+    <wn version="2.1"></wn>
+    <omega></omega><pb></pb>
+    <fn></fn>
+  </mappings><SENSE_META clarity=""/>
+</sense>
+    <WORD_META authors="ahouston" sample_score="-"/>
+
+<ita count="379" ann_1_2_agreement="0.973614775726" />
+</inventory>

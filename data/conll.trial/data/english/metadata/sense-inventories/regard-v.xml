@@ -1,0 +1,67 @@
+<?xml version="1.0" ?>
+<!DOCTYPE inventory
+  SYSTEM 'inventory.dtd'>
+<inventory lemma="regard-v">
+    <commentary>
+    </commentary>
+    <sense group="1" n="1" name="consider, believe" type="">
+        <commentary>
+        </commentary>
+        <examples>
+            The pilot didn't regard the situation as one requiring an emergency landing.
+            I would regard her response as an affirmative.
+        </examples>
+        <mappings>
+            <wn version="2.1">1</wn>
+            <omega/>
+            <pb>regard.01</pb>
+            <vn>characterize-29.2</vn><fn>Categorization,Regard</fn>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    <sense group="1" n="2" name="look" type="">
+        <commentary>
+        </commentary>
+        <examples>
+            The puppy regarded her with big brown eyes.
+            They regarded him with solemn faces as he reported the bad news.
+        </examples>
+        <mappings>
+            <wn version="2.1">2</wn>
+            <omega/>
+            <pb/>
+            <vn>sight-30.2</vn><fn></fn>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    <sense group="1" n="3" name="concern, pertain" type="">
+        <commentary>
+        </commentary>
+        <examples>
+            This is a letter regarding your alleged payment last month.
+            There is no further news yet that regards to the fate of the fishing boat.
+        </examples>
+        <mappings>
+            <wn version="2.1">3</wn>
+            <omega/>
+            <pb/>
+            <vn></vn><fn>Topic</fn>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+<sense group="1" n="4" name="none of the above" type="">
+  <commentary>
+Automatically generated NOTA sense (bbn)
+  </commentary>
+  <examples>
+  </examples>
+  <mappings>
+    <wn version="2.1"></wn>
+    <omega></omega><pb></pb>
+    <fn></fn>
+  </mappings><SENSE_META clarity=""/>
+</sense>
+    <WORD_META authors="ahouston" sample_score="-"/>
+
+<ita count="151" ann_1_2_agreement="0.913907284768" />
+</inventory>

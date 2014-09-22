@@ -1,0 +1,68 @@
+<!DOCTYPE inventory SYSTEM "inventory.dtd">
+<inventory lemma="plant-n">
+    <commentary>
+    </commentary>
+    <sense n="1" type="" name="a building, or group of buildings, for industrial activity" group="1">
+        <commentary>
+            PLANT[+concrete][-animate][+artifact]
+        </commentary>
+        <examples>
+            There is a new auto plant just outside the city limits.
+            That electronics company owns six plants.
+            The plant has new security measures in place.
+        </examples>
+        <mappings>
+            <wn version="2.1">1</wn>
+            <omega></omega><pb></pb>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    
+    <sense n="2" type="" name="living photosynthesizing organism" group="1">
+        <commentary>
+            PLANT[+living][-locomotion]
+        </commentary>
+        <examples>
+            Mary forgot to water the plants.
+            This plant is hardy through zone 9.
+            I'm thinking of either a plant, animal or mineral.
+        </examples>
+        <mappings>
+            <wn version="2.1">2</wn>
+            <omega></omega><pb></pb>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    
+    <sense n="3" type="" name="a contrivance or stratagem" group="1">
+        <commentary>
+            PLANT[+purposive][+concrete]
+        </commentary>
+        <examples>
+            He claimed the evidence against him was a plant.
+            John agreed to be a plant in the audience for the magician.
+            The unmailed letter was a plant for a later scene in the film.
+        </examples>
+        <mappings>
+            <wn version="2.1">3,4</wn>
+            <omega></omega><pb></pb>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    
+<sense group="1" n="4" name="none of the above" type="">
+  <commentary>
+Automatically generated NOTA sense (bbn)
+  </commentary>
+  <examples>
+  </examples>
+  <mappings>
+    <wn version="2.1"></wn>
+    <omega></omega><pb></pb>
+    <fn></fn>
+  </mappings><SENSE_META clarity=""/>
+</sense>
+    <WORD_META authors="ahouston" sample_score="-"/>
+
+<ita count="172" ann_1_2_agreement="1.0" />
+</inventory>

@@ -1,0 +1,78 @@
+<?xml version="1.0" ?>
+<!DOCTYPE inventory
+  SYSTEM 'inventory.dtd'>
+<inventory lemma="determine-v">
+    <commentary>
+        Only tag verbs, not adjectives. Adjectival use: John was determined to finish.
+        If DETERMINE can be modified with VERY, it's an adjective.
+    </commentary>
+    <sense group="1" n="1" name="find out, learn, ascertain" type="">
+        <commentary>
+        </commentary>
+        <examples>
+            Physicists haven't yet determined what dark matter is.
+            He is trying to determine why his air-conditioner stopped working.
+            Did you determine whether she is John's new wife?
+            Will we ever determine the meaning of life?
+        </examples>
+        <mappings>
+            <wn version="2.1">1,8</wn>
+            <omega/>
+            <pb>determine.01</pb>
+            <vn>NP</vn><fn>NM</fn>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    <sense group="1" n="2" name="decide, settle, fix definitely" type="">
+        <commentary>
+        </commentary>
+        <examples>
+            The town determined that the dog park should include a pond.
+            They determined to risk the consequences.
+            We determined to raise a party of not less than thirty individuals.
+            He is still determining whether or not to apply to law school.
+            John and Mary have determined to get a divorce.
+        </examples>
+        <mappings>
+            <wn version="2.1">3,4,5,7</wn>
+            <omega/>
+            <pb>determine.01</pb>
+            <vn>NP</vn><fn>NM</fn>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+     
+    <sense group="1" n="3" name= "be the deciding factor in a state of affairs or an outcome" type="">
+        <commentary>
+        </commentary>
+        <examples>
+            That fence determines the boundary between our property and theirs.
+            What determines species diversity?
+            The distribution of shortening through a pie crust determines how flaky it is.
+            How you light a room will largely determine its mood.
+        </examples>
+        <mappings>
+            <wn version="2.1">2,6</wn>
+            <omega/>
+            <pb>NM</pb>
+            <vn>NP</vn><fn>Contingency</fn>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+     
+<sense group="1" n="4" name="none of the above" type="">
+  <commentary>
+Automatically generated NOTA sense (bbn)
+  </commentary>
+  <examples>
+  </examples>
+  <mappings>
+    <wn version="2.1"></wn>
+    <omega></omega><pb></pb>
+    <fn></fn>
+  </mappings><SENSE_META clarity=""/>
+</sense>
+    <WORD_META authors="ahouston,duffielc,brownsw" sample_score="-"/>
+
+<ita count="148" ann_1_2_agreement="0.675675675676" />
+</inventory>

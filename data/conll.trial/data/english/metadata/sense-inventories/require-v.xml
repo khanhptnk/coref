@@ -1,0 +1,70 @@
+<?xml version="1.0" ?>
+<!DOCTYPE inventory SYSTEM "inventory.dtd">
+<inventory lemma="require-v">    
+    <commentary>
+        No VPCs to add
+    </commentary>
+    <sense n="1" type="" name="need, call for, be suitable for" group="1">  
+        <commentary>
+            Syntax Is: NP1[recipient] REQUIRE NP2[topic] (COMP)
+            NOTE: usually can be paraphrased with "need":
+            OK:  The company requires/needs a photo ID from every potential seller.
+            NOT OK: They must comply within the time that the law requires/*needs.
+            NOTE: NP1 is not an authority placing a demand, but a recipient of something
+            NOTE: The first example below can be transformed to 'It requires hand dexterity to be a surgeon'.
+        </commentary>
+        <examples> 
+            Being a surgeon requires excellent hand dexterity.
+            These accounts require some further going over.
+            The refugees will require food and shelter for at least a month.
+            Six years ago when German Mutual's growth required a new computer system.
+            My broken arm is requiring more time to heal than I expected.
+        </examples>
+        <mappings>
+            <wn version="2.1">1,4</wn>   
+            <wn lemma="" version="2.1"></wn>
+            <omega></omega><pb>require.01</pb>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    <sense n="2" type="" name="command or compel someone " group="1">  
+        <commentary>
+            Syntax Includes:
+            NP1 REQUIRE NP2[patient] COMP[nonfinite]
+            NP1 REQUIRE THAT SCOMP[subjunctive]
+            NOTE: Subject (usually an agent, but can be a situation) is placing a demand,
+            not receiving something from someone.
+            NOTE: Cannot do extrapositions with it  **It requires our staff to wear tuxedos'
+        </commentary>
+        <examples>
+            The security guard required us to sign in at the front desk.
+            We require our serving staff to wear tuxedos.
+            The statute required that the defendant would be sentenced to death.
+            John's children are required to clean their rooms once a week.
+            The SEC requires that companies file these forms annually.
+            The Department argued that the law requires accessible pedestrian routes.
+        </examples>
+        <mappings>
+            <wn version="2.1">2,3</wn>
+            <wn lemma="" version="2.1"></wn>
+            <omega></omega><pb>require.01</pb>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+<sense group="1" n="3" name="none of the above" type="">
+  <commentary>
+Automatically generated NOTA sense (bbn)
+  </commentary>
+  <examples>
+  </examples>
+  <mappings>
+    <wn version="2.1"></wn>
+    <omega></omega><pb></pb>
+    <fn></fn>
+  </mappings><SENSE_META clarity=""/>
+</sense>
+    <WORD_META authors="ahouston,vieweg,duffielc" sample_score="-"/>
+     
+
+<ita count="278" ann_1_2_agreement="0.791366906475" />
+</inventory>

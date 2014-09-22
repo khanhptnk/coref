@@ -1,0 +1,25 @@
+<?xml version="1.0" ?>
+<!DOCTYPE inventory SYSTEM "inventory.dtd">
+<inventory lemma="hate-v">
+    <commentary>
+    </commentary>
+    <sense group="1" n="1" name="dislike intensely" type="">
+        <commentary>
+        </commentary>
+        <examples>
+            I hate Mexican food.
+            She hated him for putting her in the hospital.
+        </examples>
+        <mappings>
+            <wn version="2.1">1</wn>
+            <wn lemma="" version="2.1"></wn>
+            <omega></omega><pb>hate.01</pb>
+            <vn>admire-31.2-1</vn>
+            <fn>Experiencer_obj</fn>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    <WORD_META authors="brownsw" sample_score="-"/>
+
+<ita count="84" ann_1_2_agreement="1.0" />
+</inventory>

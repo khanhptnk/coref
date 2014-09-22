@@ -1,0 +1,55 @@
+<?xml version="1.0" ?>
+<!DOCTYPE inventory SYSTEM "inventory.dtd">
+<inventory lemma="murder-v">
+    <commentary>
+    </commentary>
+    <sense group="1" n="1" name="kill intentionally" type="">
+        <commentary>
+        </commentary>
+        <examples>
+            The report suggests the possibility of him being murdered.
+            The defendant murdered the victim in the course of an hour.
+            It says that Columbus kidnapped , enslaved, and murdered the Arawak people.
+        </examples>
+        <mappings>
+            <gr_sense></gr_sense>
+            <wn version="2.1">1</wn>
+            <wn lemma="" version=""></wn>
+            <omega></omega><pb>murder.01</pb>
+            <vn>murder-42.1</vn><fn>Killing</fn>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    <sense group="1" n="2" name="badly or disrespectfully alter" type="">
+        <commentary>
+        </commentary>
+        <examples>
+            The tourists murdered the Japanese language.
+            No, Rita Cosby murdered the little princess.
+            They murdered the finest of French culture and threw that country into 200 years of turmoil.
+        </examples>
+        <mappings>
+            <gr_sense></gr_sense>
+            <wn version="2.1">2</wn>
+            <wn lemma="" version=""></wn>
+            <omega></omega><pb>NM</pb>
+            <vn>NM</vn><fn>NM</fn>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+<sense group="1" n="3" name="none of the above" type="">
+  <commentary>
+Automatically generated NOTA sense (bbn)
+  </commentary>
+  <examples>
+  </examples>
+  <mappings>
+    <wn version="2.1"></wn>
+    <omega></omega><pb></pb>
+    <fn></fn>
+  </mappings><SENSE_META clarity=""/>
+</sense>
+    <WORD_META authors="duffielc,greenlm" sample_score="-"/>
+
+<ita count="40" ann_1_2_agreement="0.95" />
+</inventory>

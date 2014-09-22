@@ -1,0 +1,77 @@
+<!DOCTYPE inventory SYSTEM "inventory.dtd">
+<inventory lemma="eye-n">
+    <commentary>
+    </commentary>
+    <sense n="1" type="" name="The organ of sight." group="1">
+        <commentary>
+            EYE[+body_part]
+        </commentary>
+        <examples>
+            Her eyes were blue.
+            We removed the eye for the fetal pig dissection.
+        </examples>
+        <mappings>
+            <wn version="3.0">1</wn>
+            <omega></omega><pb></pb>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    <sense n="2" type="" name="(Good) discernment (either visiually or as if visually)" group="1">
+        <commentary>
+            EYE[+judgement]
+        </commentary>
+        <examples>
+            He tried to catch her eye.
+            She has an eye for fresh talent.
+            He has an artist's eye.
+        </examples>
+        <mappings>
+            <wn version="3.0">2,3</wn>
+            <omega></omega><pb></pb>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    <sense n="3" type="" name="An area that is central within some larger region." group="1">
+        <commentary>
+            EYE[+center]
+        </commentary>
+        <examples>
+            They were in the eye of the storm.
+            We ran into the eye of the struggle. 
+        </examples>
+        <mappings>
+            <wn version="3.0">4</wn>
+            <omega></omega><pb></pb>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    <sense n="4" type="" name="A small hole or loop (as in a needle)." group="1">
+        <commentary>
+            EYE[+concrete]
+        </commentary>
+        <examples>
+            The thread wouldn't go through the eye of the needle.
+            Needle threaders have large eyes.
+        </examples>
+        <mappings>
+            <wn version="3.0">5</wn>
+            <omega></omega><pb></pb>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+<sense group="1" n="5" name="none of the above" type="">
+  <commentary>
+Automatically generated NOTA sense (bbn)
+  </commentary>
+  <examples>
+  </examples>
+  <mappings>
+    <wn version="2.1"></wn>
+    <omega></omega><pb></pb>
+    <fn></fn>
+  </mappings><SENSE_META clarity=""/>
+</sense>
+    <WORD_META authors="corvey" sample_score="-"/>
+
+<ita count="115" ann_1_2_agreement="0.669565217391" />
+</inventory>

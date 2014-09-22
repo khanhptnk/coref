@@ -1,0 +1,61 @@
+<!DOCTYPE inventory SYSTEM "inventory.dtd">
+<inventory lemma="explanation-n">
+    <commentary>
+    </commentary>
+    
+    <sense n="1" type="" name="the act of providing a clarifying account of something" group="1">
+        <commentary>
+            EXPLANATION[+action][+communication][+account][+clarifying]
+            Note: implies an agent/actor performing a speech act, spoken or written
+            Note: nominalization - his explanation of the accident -> he explained the accident
+        </commentary>
+        <examples>
+            The professor's explanation of the chemical process confused some of the students.
+            We owe Mary an explanation for why we missed the meeting.
+            The judge listened carefully to the  defendant's explanation of the accident.
+            John's application was rejected without any explanation from the hiring committee.
+        </examples>
+        <mappings>
+            <wn version="2.1">1,3</wn>
+            <omega></omega><pb></pb>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    
+    
+    <sense n="2" type="" name="a rationale or reason for something" group="1">
+        <commentary>
+            EXPLANATION[+relation][+rationale]
+            Note: an event, fact, belief, situation that is the reason or cause for something else
+            Note: does not imply a speech act performed by an actor (Sense 1)
+        </commentary>
+        <examples>
+            The birth rate is central to any explanation of population trends.
+            Freud tried to make sex the explanation for all human behavior.
+            His theory is not a convincing explanation of what is actually found in the fossil record.
+            His deafness must be the explanation for why he didn't pick up the phone.
+        </examples>
+        <mappings>
+            <wn version="2.1">2</wn>
+            <omega></omega><pb></pb>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    
+    
+<sense group="1" n="3" name="none of the above" type="">
+  <commentary>
+Automatically generated NOTA sense (bbn)
+  </commentary>
+  <examples>
+  </examples>
+  <mappings>
+    <wn version="2.1"></wn>
+    <omega></omega><pb></pb>
+    <fn></fn>
+  </mappings><SENSE_META clarity=""/>
+</sense>
+    <WORD_META authors="ahouston" sample_score="-"/>
+
+<ita count="27" ann_1_2_agreement="1.0" />
+</inventory>

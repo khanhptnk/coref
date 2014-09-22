@@ -1,0 +1,56 @@
+<?xml version="1.0" ?>
+<!DOCTYPE inventory SYSTEM "inventory.dtd">
+<inventory lemma="narrow-v">
+    <commentary>
+    </commentary>
+    <sense group="1" n="1" name="make or become more restricted (in scope)" type="">
+        <commentary>
+            Syntax Is: NP1 NARROW (NP2[patient[abstract]])
+            Includes: NARROW_DOWN
+        </commentary>
+        <examples>
+            The selection was narrowed.
+            At least we've narrowed it down to mammalian.
+            I cannot narrow down the rules to this game.
+            The trade gap narrowed to $62 billion in March.
+        </examples>
+        <mappings>
+            <wn version="2.1">1,2,3</wn>
+            <wn lemma="narrow_down" version="2.1">1,2</wn>
+            <omega></omega><pb></pb>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    
+    <sense group="1" n="2" name="make or become tighter (spatially)" type="">
+        <commentary>
+            Syntax Is: NP1 NARROW (NP2[patient[concrete]])
+        </commentary>
+        <examples>
+            The road narrowed some.
+            The passage narrowed and her head brushed the low ceiling.
+            They then found that if they narrowed the flue they could get rid of the frying sound.
+        </examples>
+        <mappings>
+            <wn version="2.1">4</wn>
+            <wn lemma="" version=""></wn>
+            <omega></omega><pb></pb>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+<sense group="1" n="3" name="none of the above" type="">
+  <commentary>
+Automatically generated NOTA sense (bbn)
+  </commentary>
+  <examples>
+  </examples>
+  <mappings>
+    <wn version="2.1"></wn>
+    <omega></omega><pb></pb>
+    <fn></fn>
+  </mappings><SENSE_META clarity=""/>
+</sense>
+    <WORD_META authors="duffielc" sample_score="-"/>
+
+<ita count="56" ann_1_2_agreement="0.946428571429" />
+</inventory>

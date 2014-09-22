@@ -1,0 +1,52 @@
+<?xml version="1.0" ?>
+<!DOCTYPE inventory SYSTEM "inventory.dtd">
+<inventory lemma="spur-v">    
+    <commentary>
+    </commentary>
+    <sense group="1" n="1" name="encourage or stimulate an activity or development" type="">  
+        <commentary>
+        </commentary>
+        <examples>
+            Spurred (on) by her early success, she went on to write four more novels.
+            The academy was formed to spur research.
+            Raphael Fraisse spurred growth of gypsy jazz.
+            A business tax cut is needed to spur industrial investment.
+        </examples>
+         
+        <mappings>
+            <wn version="2.1">1,2</wn> 
+            <omega></omega><pb>spur.01</pb>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    
+    <sense group="1" n="2" name="urge a horse on by the spurs" type="">
+        <commentary>
+        </commentary>
+        <examples>
+            He spurred his horse on and shouted &quot;Faster! Faster!&quot;
+            With that he spurred his horse and rode out of the mesquites toward the town.
+        </examples>
+        <mappings>
+            <wn version="2.1">3,4,5</wn>
+            <omega></omega><pb></pb>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+<sense group="1" n="3" name="none of the above" type="">
+  <commentary>
+Automatically generated NOTA sense (bbn)
+  </commentary>
+  <examples>
+  </examples>
+  <mappings>
+    <wn version="2.1"></wn>
+    <omega></omega><pb></pb>
+    <fn></fn>
+  </mappings><SENSE_META clarity=""/>
+</sense>
+    <WORD_META authors="hwangd" sample_score="-"/>
+     
+
+<ita count="57" ann_1_2_agreement="0.982456140351" />
+</inventory>

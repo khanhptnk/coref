@@ -1,0 +1,81 @@
+<?xml version="1.0" ?>
+<!DOCTYPE inventory
+  SYSTEM 'inventory.dtd'>
+<inventory lemma="add-v">
+    <commentary>
+    </commentary>
+    <sense group="1" n="1" name="increase, supplement, enhance, constitute an addition" type="">
+        <commentary>
+            NOTE: Throughout this task, please beware of adjectival usages, such
+            as "added value"(adj+noun)--but note that "added value" may also
+            be a verb+object (sense 3).  Please decide carefully, and tag "X" for adjectives.
+            NOTE: Compare carefully to sense 2; in this sense, a unit is given to an entity, a 
+            portion is given to a total.  In sense 2, parts 1 and 2 are combined to create
+            the entity. 
+            Syntax Includes:
+            NP1[agent] ADD (NP2[theme]) (PP{to NP3[target]})
+            In stocks:
+            NP1[financial institution] ADD NP2[numerical value] to NP3[total worth]
+        </commentary>
+        <examples>
+            She added a personal note to her letter.
+            He spoke at length, paused to see our reaction, then added 'I guess that's all'.
+            We are going to add a new sun deck to our house.
+            I think adding salt would bring out the flavor of this dish.
+            We figured, since we're in Europe, let's add on a week on our own dime.
+            Computer company ABC added 3/8 to 31 5/8.
+            The dark colors in that painting add to the overall somber feeling.
+            Salt added to the intense flavor of that dish.
+            This adds a light note to the program.
+            This paper will add to her reputation.
+            Live piano jazz as well as selected background music adds to the experience.
+        </examples>
+        <mappings>
+            <wn version="2.1">1,2,3,6</wn>
+            <wn version="2.1" lemma="add_on">1</wn>
+            <wn version="2.1" lemma="add_to">1</wn>
+            <omega/>
+            <pb>add.01,add.03,mix-22.1-2</pb>
+            <vn>mix-22.1-2</vn><fn>Statement</fn>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    <sense group="1" n="2" name="total, calculate, form an entity" type="">
+        <commentary>
+            NOTE: Compare carefully to sense 1; this sense refers
+            to combining elements to create a total
+            Syntax Includes:
+            NP1[agent] ADD NP2 and NP3
+            NP1,2,...n [entities] ADD UP (may be used metaphorically)
+        </commentary>
+        <examples>
+            Please add 12 and 74.
+            When I added the bill up, it seemed too high.
+            The facts in that case just don't add up.
+        </examples>
+        <mappings>
+            <wn version="2.1">4,5</wn>
+            <wn version="2.1" lemma="add_together">1,2</wn>
+            <wn version="2.1" lemma="add_up">1,2,3,4</wn>
+            <omega/>
+            <pb>add.02,add.04</pb>
+            <vn>mix-22.1-2</vn><fn></fn>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+<sense group="1" n="3" name="none of the above" type="">
+  <commentary>
+Automatically generated NOTA sense (bbn)
+  </commentary>
+  <examples>
+  </examples>
+  <mappings>
+    <wn version="2.1"></wn>
+    <omega></omega><pb></pb>
+    <fn></fn>
+  </mappings><SENSE_META clarity=""/>
+</sense>
+    <WORD_META authors="ahouston,duffielc" sample_score="-"/>
+
+<ita count="461" ann_1_2_agreement="0.934924078091" />
+</inventory>

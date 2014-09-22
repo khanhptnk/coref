@@ -1,0 +1,76 @@
+<?xml version="1.0" ?>
+<!DOCTYPE inventory SYSTEM "inventory.dtd">
+<inventory lemma="honor-v">
+    <commentary>
+    </commentary>
+    <sense group="1" n="1" name="show respect for" type="">
+        <commentary>
+        </commentary>
+        <examples>
+            The group honored the following doctors with awards at their International Symposium.
+            Today we honor our soldiers.
+            Today we had our puja and honored the mountain Gods.
+            If we honored the Wright Brothers' first flight with an elaborate Blue Angels air show, 
+            would it humble their accomplishments?
+        </examples>
+        <mappings>
+            <gr_sense></gr_sense>
+            <wn version="2.1">1,2</wn>
+            <wn lemma="" version=""></wn>
+            <omega></omega><pb>honor.01</pb>
+            <vn>judgement-33</vn><fn>NP</fn>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    <sense group="1" n="2" name="accept as payment" type="">
+        <commentary>
+        </commentary>
+        <examples>
+            We honor checks and drafts.
+            Do you honor coupons online?
+        </examples>
+        <mappings>
+            <gr_sense></gr_sense>
+            <wn version="2.1">3</wn>
+            <wn lemma="" version=""></wn>
+            <omega></omega><pb>NM</pb>
+            <vn>NM</vn><fn>NP</fn>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    <sense group="1" n="3" name="keep a promise, contract, or agreement" type="">
+        <commentary>
+        </commentary>
+        <examples>
+            Do you honor the postmark for delinquent payments?
+            We honor competitors' sale prices.
+            This pharmacy honors these insurance plans.
+            The government should protest when it thinks that another government is failing to honor treaty obligations.
+            China urges the United States to honor its words on the Taiwan issue.
+            She sacrificed her body and, ultimately, her soul to honor her promise. 
+        </examples>
+        <mappings>
+            <gr_sense></gr_sense>
+            <wn version="2.1"></wn>
+            <wn lemma="" version=""></wn>
+            <omega></omega><pb>NM</pb>
+            <vn>NM</vn><fn>NP</fn>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+<sense group="1" n="4" name="none of the above" type="">
+  <commentary>
+Automatically generated NOTA sense (bbn)
+  </commentary>
+  <examples>
+  </examples>
+  <mappings>
+    <wn version="2.1"></wn>
+    <omega></omega><pb></pb>
+    <fn></fn>
+  </mappings><SENSE_META clarity=""/>
+</sense>
+    <WORD_META authors="duffielc,greenlm" sample_score="-"/>
+
+<ita count="46" ann_1_2_agreement="0.847826086957" />
+</inventory>

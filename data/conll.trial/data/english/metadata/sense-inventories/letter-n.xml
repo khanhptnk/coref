@@ -1,0 +1,99 @@
+<!DOCTYPE inventory SYSTEM "inventory.dtd">
+<inventory lemma="letter-n">
+    <commentary>
+    </commentary>
+    <sense n="1" type="" name="written communication" group="1">
+        <commentary>
+            LETTER[+artifact][+document][+missive]
+        </commentary>
+        <examples>
+            Mary was furious with her little brother for reading her love letters.
+            They printed Sally's letter to the editor in today's paper.
+            We haven't received a letter of intent from the prospective buyer.
+        </examples>
+        <mappings>
+            <wn version="2.1">1</wn>
+            <omega></omega><pb></pb>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    
+    <sense n="2" type="" name="an alphabetic symbol" group="1">
+        <commentary>
+            LETTER[+symbol][+writing][+alphabetic]
+        </commentary>
+        <examples>
+            The scholar believes these are runic letters.
+            Is this upper-case letter a 'D' or a 'P'?
+            The Puritanical town forced the young woman to wear a scarlet letter.
+            What is the third letter of the Greek alphabet?
+        </examples>
+        <mappings>
+            <wn version="2.1">2</wn>
+            <omega></omega><pb></pb>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    
+    <sense n="3" type="" name="the literal meaning or interpretation of something" group="1">
+        <commentary>
+            LETTER[+quality][+meaning][+literal]
+            Note: a figurative extension of sense 2
+        </commentary>
+        <examples>
+            This is according to the letter of the law.
+            You must follow my instructions to the letter.
+        </examples>
+        <mappings>
+            <wn version="2.1">3</wn>
+            <omega></omega><pb></pb>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    
+    <sense n="4" type="" name="a school award for achievement in sports" group="1">
+        <commentary>
+            LETTER[+artifact][+award][+school][+sport]
+        </commentary>
+        <examples>
+            Jim received his varsity letter in football this year.
+            Sally's brother won letters in three sports.
+        </examples>
+        <mappings>
+            <wn version="2.1">4</wn>
+            <omega></omega><pb></pb>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    
+    <sense n="5" type="" name="a property owner who leases" group="1">
+        <commentary>
+            LETTER[+role][+agent][+owner][+leaser]
+        </commentary>
+        <examples>
+            The letter of John's apartment lives above him in the third floor apartment.
+            May I speak to the letter of this flat?
+        </examples>
+        <mappings>
+            <wn version="2.1">5</wn>
+            <omega></omega><pb></pb>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    
+<sense group="1" n="6" name="none of the above" type="">
+  <commentary>
+Automatically generated NOTA sense (bbn)
+  </commentary>
+  <examples>
+  </examples>
+  <mappings>
+    <wn version="2.1"></wn>
+    <omega></omega><pb></pb>
+    <fn></fn>
+  </mappings><SENSE_META clarity=""/>
+</sense>
+    <WORD_META authors="ahouston" sample_score="-"/>
+
+<ita count="92" ann_1_2_agreement="0.989130434783" />
+</inventory>

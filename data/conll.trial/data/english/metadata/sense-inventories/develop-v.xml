@@ -1,0 +1,106 @@
+<?xml version="1.0" ?>
+<!DOCTYPE inventory
+  SYSTEM 'inventory.dtd'>
+<inventory lemma="develop-v">
+    <commentary>
+        Contains duplicate WN mappings.
+    </commentary>
+    <sense group="1" n="1" name="bring into existence, start something, build or create from nothing" type="">
+        <commentary>
+            Note: Whether punctual or non-punctual, a beginning of existence is implied.
+            Note: Nothing is in existance previous to development - implies a start from scratch
+        </commentary>
+        <examples>
+            They have developed a new stronger composite material for boat hulls.
+            We have developed a new theory of evolution.
+            We have developed an aversion to televsion.
+            The patient developed an abdominal pain and skin rash.
+            A new religious movement developed in that country.
+            The problem developed over months of miscommunication.
+            We must develop more potential customers.
+            A flower developed on the branch.
+            He developed a different motif in the second movement of his concerto.
+            We strive to deliver the news as it develops.
+            They're planning to develop the whole site into a shopping complex.
+        </examples>
+        <mappings>
+            <wn version="2.1">1,2,3,4,5,10,13,19,20</wn>
+            <omega/>
+            <pb>develop.01,develop.02</pb>
+            <vn>appear-48.1.1,build-26.1,grow-26.2,occurrence-48.3</vn><fn>Coming_to_be</fn>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    <sense group="1" n="2" name="further grow, build up, increase, or change into a more advanced form" type="">
+        <commentary>
+            Note: Growing larger, stronger, or more advanced on an existing thing.
+            Note: Something that is already in existance is being developed
+        </commentary>
+        <examples>
+            The country developed its natural resources.
+            Could you develop the ideas in your thesis.
+            This exercise is designed to develop the shoulder and back muscles.
+            There is a plot. It just develops slowly, that's all.
+            I'm looking for a job which will enable me to develop my skills.
+            Our school develops leaders of our future.
+            The embroyo develops into a fetus.
+            The fear is that these minor clashes may develop into all-out confrontation.
+            Over time, their acquaintance developed into a lasting friendship.
+            Many countries around the world are developing at a very fast pace.
+            The perfect climate here develops the grain.
+            The child developed beautifully in her new kindergarten.
+            I must say, that melody was beautifully developed.
+        </examples>
+        <mappings>
+            <wn version="2.1">6,7,8,9,10,11,12,14,17,18,19,21</wn>
+            <omega/>
+            <pb>NM</pb>
+            <vn>build-26.1,grow-26.2</vn><fn>NM</fn>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    <sense group="1" n="3" name="alter by chemical means, to make images." type="">
+        <commentary>
+        </commentary>
+        <examples>
+            Can you develop these two rolls of film?
+        </examples>
+        <mappings>
+            <wn version="2.1">15</wn>
+            <omega/>
+            <pb>NM</pb>
+            <vn>build-26.1</vn><fn>NM</fn>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    <sense group="1" n="4" name="superimpose" type="">
+        <commentary>
+            Note: Specifically: superimpose a three-dimensional surface on a plane without stretching, in geometry.
+        </commentary>
+        <examples>
+            * No examples found.   
+        </examples>
+        <mappings>
+            <wn version="2.1">16</wn>
+            <omega/>
+            <pb>NM</pb>
+            <vn>NM</vn><fn>NM</fn>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+<sense group="1" n="5" name="none of the above" type="">
+  <commentary>
+Automatically generated NOTA sense (bbn)
+  </commentary>
+  <examples>
+  </examples>
+  <mappings>
+    <wn version="2.1"></wn>
+    <omega></omega><pb></pb>
+    <fn></fn>
+  </mappings><SENSE_META clarity=""/>
+</sense>
+    <WORD_META authors="ahouston,hwangd,vieweg" sample_score="-"/>
+
+<ita count="577" ann_1_2_agreement="0.750433275563" />
+</inventory>

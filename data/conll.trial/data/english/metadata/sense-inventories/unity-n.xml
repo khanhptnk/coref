@@ -1,0 +1,49 @@
+<!DOCTYPE inventory SYSTEM "inventory.dtd">
+<inventory lemma="unity-n">
+    <commentary>
+    </commentary>
+    <sense n="1" type="" name="A completeness or totality." group="1">
+        <commentary>
+            UNITY[+characteristic]
+        </commentary>
+        <examples>
+            There is a certain unity to her work. 
+            He took meaures to ensure the unity of Croatia.
+        </examples>
+        <mappings>
+            <wn version="3.0">1</wn>
+            <omega></omega><pb></pb>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    <sense n="2" type="" name="(mathematics) The smallest whole number or a numeral
+representing this number." group="1">
+        <commentary>
+            UNITY[+mathematics]
+        </commentary>
+        <examples>
+            He has the unity but he will need two and three to go with it.
+            Muslim scientists discovered the unity.
+        </examples>
+        <mappings>
+            <wn version="3.0">2</wn>
+            <omega></omega><pb></pb>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+<sense group="1" n="3" name="none of the above" type="">
+  <commentary>
+Automatically generated NOTA sense (bbn)
+  </commentary>
+  <examples>
+  </examples>
+  <mappings>
+    <wn version="2.1"></wn>
+    <omega></omega><pb></pb>
+    <fn></fn>
+  </mappings><SENSE_META clarity=""/>
+</sense>
+    <WORD_META authors="corvey" sample_score="-"/>
+
+<ita count="42" ann_1_2_agreement="1.0" />
+</inventory>

@@ -1,0 +1,504 @@
+<?xml version="1.0" ?>
+<!DOCTYPE inventory
+  SYSTEM 'inventory.dtd'>
+<inventory lemma="break-v">
+    <commentary>
+        Contains duplicate WN mappings. 
+    </commentary>
+    <sense group="1" n="1" name="come apart, separate, split" type="">
+        <commentary>
+        </commentary>
+        <examples>
+            The figurine broke.
+            He broke the glass plate.
+            The surf was breaking on the rocks.
+            Break the bread into small pieces.
+            They are afraid the dam will break.
+            Could you break a $20 for me?
+            The book dealer would not break the set.
+            The referee broke the boxers.
+            Were they able to break the tie?
+            The branch broke when he swung on it.
+            The glass broke when it was heated.
+            She didn't break her foot playing volleyball.
+            The artillery fire was breaking the ranks of soldiers into disorganized bands.
+        </examples>
+        <mappings>
+            <wn version="2.1">2,3,8,18,19,20,36,38,39,41,43,54,57</wn>
+            <omega/>
+            <pb>break.01</pb>
+            <vn>break-45.1,hurt-40.8.3-1-1,split-23.2</vn><fn>Cause_harm,Experience_bodily_harm,Cause_to_fragment</fn>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    <sense group="1" n="2" name="render inoperable, ruin, undo" type="">
+        <commentary>
+        </commentary>
+        <examples>
+            You might break the alarm clock if you take it apart.
+            He says she'll break the bank if she spends like that.
+            I keep breaking this code everytime I make a change to it!
+            This performance will make or break his career.
+            My daughter's wedding is going to break me!
+            The fan belt finally broke on his old car.
+            The prosecutor broke the defendent's alibi with new evidence.
+        </examples>
+        <mappings>
+            <wn version="2.1">4,5,29,33,17,42,50,59</wn>
+            <omega/>
+            <pb>NM</pb>
+            <vn>break-45.1</vn><fn>Render_nonfunctional</fn>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    <sense group="1" n="3" name="interrupt, stop, discontinue" type="">
+        <commentary>
+        </commentary>
+        <examples>
+            She has decided to break all ties with him.
+            John finally broke the long silence.
+            They are breaking diplomatic relations.
+            I accidentally broke the circuit.
+            Will this storm never break?
+            The heat wave finally broke yesterday.
+            The stocks may break on news of low earnings this quarter.
+            I think her fever is finally breaking.
+            The artist finally broke with the tradition of representational painting.
+            The partners broke over a disagreement about intellectual property rights.
+            He can't break his addiction to nicotine.
+            Breaking bad habits is very difficult.
+            He's broken every record for a two-year old race horse.
+            Let's break for lunch.
+            They broke hostilities for Christmas Day.
+            A little gossip during the day breaks the monotony on the assembly line.
+            Here and there a tree broke the flatness of the landscape.
+            The awning broke his fall to the ground.
+        </examples>
+        <mappings>
+            <wn version="2.1">1,3,10,14,18,21,23,24,25,26,31,47,48,56,58</wn>
+            <omega/>
+            <pb>NM</pb>
+            <vn>NM</vn><fn>NM</fn>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    <sense group="1" n="4" name="transgress, infract" type="">
+        <commentary>
+        </commentary>
+        <examples>
+            Did he break the law?
+            The dictator has broken every accord he signed in that treaty.
+            The will was broken.
+        </examples>
+        <mappings>
+            <wn version="2.1">6,13,30</wn>
+            <omega/>
+            <pb>NM</pb>
+            <vn>cheat-10.6</vn><fn>Compliance</fn>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    <sense group="1" n="5" name="subdue, train" type="">
+        <commentary>
+        </commentary>
+        <examples>
+            He breaks horses gently.
+            They administered capital punishment daily, but the prisoner would not break.
+        </examples>
+        <mappings>
+            <wn version="2.1">12,22</wn>
+            <omega/>
+            <pb>NM</pb>
+            <vn>NM</vn><fn>NM</fn>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    <sense group="1" n="6" name="solve" type="">
+        <commentary>
+        </commentary>
+        <examples>
+            This computer can't break that code in log time.
+            The young dectective finally broke the case.
+        </examples>
+        <mappings>
+            <wn version="2.1">51</wn>
+            <omega/>
+            <pb>NM</pb>
+            <vn>NM</vn><fn>NM</fn>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    <sense group="1" n="7" name="(cause to) come forth, emerge, occur" type="">
+        <commentary>
+        </commentary>
+        <examples>
+            It seemed as though dawn would never break on the horizon.
+            The first winter storm broke over New York.
+            Things are really breaking fast on this new project.
+            Break the news to them gently.
+            News of his resignation broke this afternoon.
+            When the story broke, they were still asleep.
+            Look, the whales are breaking over there!
+            The horse broke from the stable.
+        </examples>
+        <mappings>
+            <wn version="2.1">7,15,16,27,28,35,46,53</wn>
+            <omega/>
+            <pb>NM</pb>
+            <vn>appear-48.1.1</vn><fn>NM</fn>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    <sense group="1" n="8" name="pierce" type="">
+        <commentary>
+        </commentary>
+        <examples>
+            Surprisingly the brambles didn't break her skin.
+            He broke the skin with a sharp needle.
+            The fish broke the water.
+        </examples>
+        <mappings>
+            <wn version="2.1">44,45</wn>
+            <omega/>
+            <pb>NM</pb>
+            <vn>hurt-40.8.3-1-1</vn><fn>Cause_harm,Experience_bodily_harm</fn>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    <sense group="1" n="9" name="change in tone (as in voice breaking)" type="">
+        <commentary>
+        </commentary>
+        <examples>
+            His voice broke as he described the scene of the carnage.
+            Her teenaged brother gets embarrassed when his voice breaks.
+        </examples>
+        <mappings>
+            <wn version="2.1">52,55</wn>
+            <omega/>
+            <pb>NM</pb>
+            <vn>NM</vn><fn>NM</fn>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    <sense group="1" n="10" name="physically enter unlawfully" type="">
+        <commentary>
+        </commentary>
+        <examples>
+            He was arrested for breaking and entering.
+        </examples>
+        <mappings>
+            <wn version="2.1">11</wn>
+            <omega/>
+            <pb>break.02</pb>
+            <vn>NM</vn><fn>NM</fn>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    <sense group="1" n="11" name="demote" type="">
+        <commentary>
+        </commentary>
+        <examples>
+            They broke his rank for misconduct in the line of duty.
+        </examples>
+        <mappings>
+            <wn version="2.1">32</wn>
+            <omega/>
+            <pb>NM</pb>
+            <vn>NM</vn><fn>NM</fn>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    <sense group="1" n="12" name="change direction" type="">
+        <commentary>
+        </commentary>
+        <examples>
+            The thundering herd of bison broke to the left.
+        </examples>
+        <mappings>
+            <wn version="2.1">34</wn>
+            <omega/>
+            <pb>NM</pb>
+            <vn>NM</vn><fn>NM</fn>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    <sense group="1" n="13" name="dance" type="">
+        <commentary>
+        </commentary>
+        <examples>
+            Those dancers can really break!
+        </examples>
+        <mappings>
+            <wn version="2.1">37</wn>
+            <omega/>
+            <pb>NM</pb>
+            <vn>NM</vn><fn>NM</fn>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    <sense group="1" n="14" name="initiate a game of pool" type="">
+        <commentary>
+        </commentary>
+        <examples>
+            John always seems to break whenever we play pool.
+        </examples>
+        <mappings>
+            <wn version="2.1">40</wn>
+            <omega/>
+            <pb>NM</pb>
+            <vn>NM</vn><fn>NM</fn>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    <sense group="1" n="15" name="linguistic change" type="">
+        <commentary>
+        </commentary>
+        <examples>
+            The simple vowels broke in many Germanic languages.
+        </examples>
+        <mappings>
+            <wn version="2.1">49</wn>
+            <omega/>
+            <pb>NM</pb>
+            <vn>NM</vn><fn>NM</fn>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    <sense group="1" n="16.1" name="(cause to) come apart, separate, or split" type="">
+        <commentary>
+            Includes: BREAK DOWN; BREAK OFF; BREAK OPEN; BREAK UP
+        </commentary>
+        <examples>
+            Thionic bacteria can break down pipe steel.
+            First we should break down the problem into manageable chunks.
+            The arm on this figurine broke off during the move.
+            He broke open the box as soon as he saw it on the table.
+            The pinata broke open when it hit the floor.
+            The crowd broke up when it started to rain.
+            The satellite broke up when it hit the atmosphere.
+            The cookie broke up after sitting in the milk.
+            The book dealer would not break up the set.
+            The icebergs broke up in the warming water.
+        </examples>
+        <mappings>
+            <gr_sense>1</gr_sense>
+            <wn version="3.0"></wn>
+            <wn lemma="break_down" version="3.0">2,7</wn>
+            <wn lemma="break_off" version="3.0">3,4,5</wn>
+            <wn lemma="break_open" version="3.0">1,2</wn>
+            <wn lemma="break_up" version="3.0">1,3,4,6,8,9,10,11,12,16,17,18</wn>
+            <omega></omega><pb>break.01,break.04,break.08</pb>
+            <vn>break-45.1</vn><fn>Cause_to_fragment</fn>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    <sense group="1" n="16.2" name="BREAK DOWN--(cause to) cease operating" type="">
+        <commentary>
+        </commentary>
+        <examples>
+            My car broke down this morning.
+            Negotiations broke down after the ambassador insulted the president.
+            Martin Luther King, Jr., tried to break down racial discrimination.
+        </examples>
+        <mappings>
+            <gr_sense>2</gr_sense>
+            <wn version="3.0"></wn>
+            <wn lemma="break_down" version="3.0">1,4,5</wn>
+            <omega></omega><pb>NM</pb>
+            <vn>break-45.1</vn><fn>Render_nonfunctional</fn>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    <sense group="1" n="16.3" name="interrupt, stop, discontinue" type="">
+        <commentary>
+            Includes: BREAK AWAY; BREAK IN; BREAK OFF; BREAK UP; BREAK WITH
+        </commentary>
+        <examples>
+            The southern states tried to break away from the union during the Civil War.
+            She always breaks in when we're trying to have a serious conversation.
+            They broke off the engagement right before the wedding.
+            We broke off our vacation because of the bad weather.
+            Tina and Mike broke up after dating for a year.
+            The icebergs broke up in the warm weather.
+            The tobacco monopoly broke up.
+            His continued infidelity broke up the marriage.
+            The 13 colonies broke with England during the Revolution.
+        </examples>
+        <mappings>
+            <gr_sense>3</gr_sense>
+            <wn version="3.0"></wn>
+            <wn lemma="break_away" version="3.0">3,4</wn>
+            <wn lemma="break_in" version="3.0">2,4</wn>
+            <wn lemma="break_off" version="3.0">1,2</wn>
+            <wn lemma="break_short" version="3.0">1</wn>
+            <wn lemma="break_up" version="3.0">2,5,13,14,15</wn>
+            <wn lemma="break_with" version="3.0">1</wn>
+            <omega></omega><pb>break.03</pb>
+            <vn>NM</vn><fn>NM</fn>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    <sense group="1" n="16.4" name="(cause to) come forth, emerge, begin" type="">
+        <commentary>
+            Includes: BREAK AWAY; BREAK IN; BREAK INTO; BREAK LOOSE; BREAK OUT
+        </commentary>
+        <examples>
+            The man broke away from the crowd and fled down the alley.
+            How do I break in to acting?
+            Sandra was so happy, she broke into song.
+            The horse broke into a gallop.
+            All his pent-up anger broke loose.
+            The convict broke loose from the maximum-security prison.
+            War broke out the following spring.
+            The pigs broke out of the pen.
+            Why not break out the champagne?
+            Whenever I eat strawberries, I break out in hives.
+        </examples>
+        <mappings>
+            <gr_sense>7</gr_sense>
+            <wn version="3.0"></wn>
+            <wn lemma="break_away" version="3.0">1,2</wn>
+            <wn lemma="break_in" version="3.0">3</wn>
+            <wn lemma="break_into" version="3.0">1,2</wn>
+            <wn lemma="break_loose" version="3.0">1,2</wn>
+            <wn lemma="break_out" version="3.0">1,2,3,4,5</wn>
+            <wn lemma="break_open" version="3.0">3</wn>
+            <omega></omega><pb>break.06,break.07,break.10</pb>
+            <vn>NM</vn><fn>NM</fn>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    <sense group="1" n="16.5" name="pierce, penetrate" type="8">
+        <commentary>
+            Includes: BREAK THROUGH
+        </commentary>
+        <examples>
+            The rescue team broke through the wall in the mine shaft.
+            When will that molar break through the gums?
+        </examples>
+        <mappings>
+            <gr_sense>8</gr_sense>
+            <wn version="3.0"></wn>
+            <wn lemma="break_through" version="3.0">2,3</wn>
+            <omega></omega><pb>NM</pb>
+            <vn>NM</vn><fn>NM</fn>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    <sense group="1" n="16.6" name="enter unlawfully" type="">
+        <commentary>
+            Includes: BREAK IN
+        </commentary>
+        <examples>
+            The thieves broke in after we had left.
+        </examples>
+        <mappings>
+            <wn version="3.0">11</wn>
+            <wn lemma="break_in" version="3.0">1</wn>
+            <omega></omega><pb>break.02</pb>
+            <vn>NM</vn><fn>NM</fn>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    <sense group="1" n="16.7" name="cause to be not new" type="">
+        <commentary>
+            Includes: BREAK IN
+        </commentary>
+        <examples>
+            I like to break in new hiking boots before actually going on a hike.
+        </examples>
+        <mappings>
+            <wn version="3.0"></wn>
+            <omega></omega><pb>break.02</pb>
+            <vn>NM</vn><fn>NM</fn>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    <sense group="1" n="16.8" name="suffer collapse or loss of control" type="">
+        <commentary>
+            Includes: BREAK DOWN; BREAK UP
+        </commentary>
+        <examples>
+            She broke down and started to cry.
+            It was so funny when he slipped, we broke up laughing.
+            After Pam left him, he just broke up.
+        </examples>
+        <mappings>
+            <wn version="3.0"></wn>
+            <wn lemma="break_down" version="3.0">3,6,8</wn>
+            <wn lemma="break_up" version="3.0">7,19</wn>
+            <omega></omega><pb>NM</pb>
+            <vn>NM</vn><fn>NM</fn>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    <sense group="1" n="16.9" name="BREAK EVEN--attain a level with no gain or loss" type="">
+        <commentary>
+        </commentary>
+        <examples>
+            People like to say they broke even, when, really, they lost money.
+        </examples>
+        <mappings>
+            <wn version="3.0"></wn>
+            <wn lemma="break_even" version="3.0">1</wn>
+            <omega></omega><pb>break.09</pb>
+            <vn>NM</vn><fn>NM</fn>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    <sense group="1" n="16.10" name="multiword expressions" type="">
+        <commentary>
+            Includes: BREAK BREAD; BREAK CAMP; BREAK DANCE; BREAK ONE'S BACK;
+            BREAK SOMEONE'S HEART; BREAK WATER; BREAK WIND
+        </commentary>
+        <examples>
+            The early Christians broke bread together.
+            They broke camp early in the morning so they could reach their next spot by nightfall.
+            Learn some great breakdance moves with this instructional video.
+            This housework is going to break my back.
+            Sean broke Amanda's heart when he cheated on her.
+            The sharks broke water with their fins.
+            Eating those beans will make you break wind.
+        </examples>
+        <mappings>
+            <wn version="3.0"></wn>
+            <wn lemma="break_bread" version="3.0">1</wn>
+            <wn lemma="break_camp" version="3.0">1</wn>
+            <wn lemma="break_dance" version="3.0">1</wn>
+            <wn lemma="break_one's_back" version="3.0">1</wn>
+            <wn lemma="break_someone's heart" version="3.0"></wn>
+            <wn lemma="break_water" version="3.0">1</wn>
+            <wn lemma="break_wind" version="3.0">1</wn>
+            <omega></omega><pb>NM</pb>
+            <vn>NM</vn><fn>NM</fn>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+<sense group="1" n="16.11" name="none of the above" type="">
+  <commentary>
+Automatically generated NOTA sense (bbn)
+  </commentary>
+  <examples>
+  </examples>
+  <mappings>
+    <wn version="2.1"></wn>
+    <omega></omega><pb></pb>
+    <fn></fn>
+  </mappings><SENSE_META clarity=""/>
+</sense>
+<sense group="1" n="17" name="none of the above" type="">
+  <commentary>
+Automatically generated NOTA sense (bbn)
+  </commentary>
+  <examples>
+  </examples>
+  <mappings>
+    <wn version="2.1"></wn>
+    <omega></omega><pb></pb>
+    <fn></fn>
+  </mappings><SENSE_META clarity=""/>
+</sense>
+    <WORD_META authors="ahouston,duffielc" sample_score="-"/>
+
+<ita count="241" ann_1_2_agreement="0.668049792531" />
+</inventory>

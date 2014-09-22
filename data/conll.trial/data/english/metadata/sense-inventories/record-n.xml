@@ -1,0 +1,112 @@
+<!DOCTYPE inventory SYSTEM "inventory.dtd">
+<inventory lemma="record-n">
+    <commentary>
+        Contains idioms, off_the_record, for_the_record, on_the_record, on_record, of_record
+    </commentary>
+    <sense n="1" type="" name="repository of past information" group="1">
+        <commentary>
+            RECORD[+repository][+information][+past]
+        </commentary>
+        <examples>
+            The footprints in the sand left a record of the murderer's path up to the beach house.
+            Her diaries provide an interesting personal record of rural life in the 1920s.
+            The fossil record shows the emergence of this life form during the Cambrian era.
+        </examples>
+        <mappings>
+            <wn version="2.1">1,7</wn>
+            <omega></omega><pb></pb>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    
+    <sense n="2" type="" name="tallied performances or activities" group="1">
+        <commentary>
+            RECORD[+activity][+performance][+tallied]
+        </commentary>
+        <examples>
+            This stock's outstanding record is not a guarantee of similar future performance.
+            The San Diego team finished the season with a decent record of 32 wins and 8 losses.
+            He still holds the world's record for the 100-meter dash.
+            Her voting record at the Senate shows an inconsistent pattern on tax reform.
+            His record of auto theft and petty larceny is as long as your arm!
+            Their firm has a pretty good record of turning in good quarters, even during recessions.
+        </examples>
+        <mappings>
+            <wn version="2.1">2,3,5,6</wn>
+            <omega></omega><pb></pb>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    
+    <sense n="3" type="" name="phonograph or sound disc" group="1">
+        <commentary>
+            RECORD[+repository][+disc][+audio]
+        </commentary>
+        <examples>
+            This rare collection of classical records was produced in 1930.
+            His band has just cut its first record.
+            I dropped the stack of records on my foot.
+            Jane's record went platinum after only four weeks.
+        </examples>
+        <mappings>
+            <wn version="2.1">4</wn>
+            <omega></omega><pb></pb>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    
+    <sense n="4" type="" name="legal written document" group="1">
+        <commentary>
+            RECORD[+repository][+document][+legal]
+            Note: often occurs in the plural
+        </commentary>
+        <examples>
+            Records of property transfers and taxes were destroyed in the courthouse fire.
+            You can't return that computer without a written record of the purchase.
+            The records show that offshore transactions were conducted on May 17th, 1999.
+        </examples>
+        <mappings>
+            <wn version="2.1">8</wn>
+            <omega></omega><pb></pb>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    
+    <sense n="5" type="" name="pertaining to public dissemination" group="1">
+        <commentary>
+            RECORD[+idiomatic][+information]
+        </commentary>
+        <examples>
+            We'll include a list of names of participant for the record.
+            His remarks at the meeting were intended to be off the record.
+            These analyses are on the record in their archives and available to the public.
+            The FBI has determined that she is a partner of record in several offshore firms.
+            He went on record stating that he'd oppose the new education bill.
+        </examples>
+        <mappings>
+            <wn version="Merriam-Webster online">for_the_record</wn>
+            <wn version="Merriam-Webster online">on_the_record</wn>
+            <wn version="Merriam-Webster online">off_the_record</wn>
+            <wn version="Merriam-Webster online">on_record</wn>
+            <wn version="Merriam-Webster online">of_record</wn>
+            <omega></omega><pb></pb>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    
+<sense group="1" n="6" name="none of the above" type="">
+  <commentary>
+Automatically generated NOTA sense (bbn)
+  </commentary>
+  <examples>
+  </examples>
+  <mappings>
+    <wn version="2.1"></wn>
+    <omega></omega><pb></pb>
+    <fn></fn>
+  </mappings><SENSE_META clarity=""/>
+</sense>
+    <WORD_META authors="ahouston" sample_score="-"/>
+
+<ita count="107" ann_1_2_agreement="1.0" />
+</inventory>

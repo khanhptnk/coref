@@ -1,0 +1,117 @@
+<!DOCTYPE inventory SYSTEM "inventory.dtd">
+<inventory lemma="tube-n">
+    <commentary>
+    </commentary>
+    
+    <sense n="1" type="" name="conduit that transports gases, liquids or objects" group="1">
+        <commentary>
+            TUBE[+artifact][+cylindrical][+hollow][+conduit][+gas/+liquid/+object]
+            Note: implies it has a function to pass something through it (not true of Sense 3)
+        </commentary>
+        <examples>
+            A catheter is a glass tube inserted in the body to drain liquid.
+            Blue and green liquids flowed through a series of glass tubes in the laboratory.
+            They inserted a feeding tube down the patient's throat.
+            The contraption has ping pong balls rolling down tubes onto springboards.
+        </examples>
+        <mappings>
+            <wn version="2.1">1</wn>
+            <omega></omega><pb></pb>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    
+    
+    <sense n="2" type="" name="a vacuumized electronic device" group="1">
+        <commentary>
+            TUBE[+artifact][+cylindrical][+hollow][+electronic][+vacuum]
+            Note: always implies the movement of electrons through a device
+        </commentary>
+        <examples>
+            Before transistors, many electronic devices used vacuum tubes.
+            A famous tube used in radar was the magnetron.
+            John's children spend six hours a day in front of the tube. (technical extension)
+        </examples>
+        <mappings>
+            <wn version="2.1">2</wn>
+            <omega></omega><pb></pb>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    
+    
+    <sense n="3" type="" name="any inanimate object with a cylindrical, hollow form" group="1">
+        <commentary>
+            TUBE[+structure][+cylindrical][+hollow][-animate][+container/+clothing/+formation]
+            Note: does -not- imply the transport of something (see Sense 1)
+        </commentary>
+        <examples>
+            There's a new tube of toothpaste in the bathroom closet.
+            Pete got a job washing test tubes in the chemistry lab. (glass containers, not conduits)
+            The waves at Oahu today were breaking in perfect tubes. (wave shape)
+            We noticed expansive lava tubes visible in the side of the cliff.
+            Lipstick tubes and nail polish were on display at the cosmetics counter.
+            John got a package of tube socks for his birthday.
+            They don't allow tube tops in this restaurant. 
+            Bill had to replace the inner tube of his bicycle tire.
+            The firm manufactures steel tube for a variety of applications.
+        </examples>
+        <mappings>
+            <wn version="2.1">3</wn>
+            <omega></omega><pb></pb>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    
+    
+    <sense n="4" type="" name="cylindrical anatomical structures of living creatures" group="1">
+        <commentary>
+            TUBE[+structure][+cylindrical][+hollow][+animate][+anatomical]
+            Note: implies a body part of some living organism
+        </commentary>
+        <examples>
+            She had her tubes tied after she had her second child.
+            The child's Eustachian tubes were infected.
+            This part of the flower is a pollen-filled tube.
+        </examples>
+        <mappings>
+            <wn version="2.1">4</wn>
+            <omega></omega><pb></pb>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    
+    
+    <sense n="5" type="" name="a subway train, subway system" group="1">
+        <commentary>
+            TUBE[+system][+transportation][+cylindrical][+hollow][+subway]
+            Note: a very specialized sense of Sense 1
+        </commentary>
+        <examples>
+            You can ride the tube out to their home in the suburbs.
+            Six bombings occurred throughout the tube this morning during rush hour.
+        </examples>
+        <mappings>
+            <wn version="2.1">5</wn>
+            <omega></omega><pb></pb>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    
+    
+<sense group="1" n="6" name="none of the above" type="">
+  <commentary>
+Automatically generated NOTA sense (bbn)
+  </commentary>
+  <examples>
+  </examples>
+  <mappings>
+    <wn version="2.1"></wn>
+    <omega></omega><pb></pb>
+    <fn></fn>
+  </mappings><SENSE_META clarity=""/>
+</sense>
+    <WORD_META authors="ahouston" sample_score="-"/>
+
+<ita count="11" ann_1_2_agreement="1.0" />
+</inventory>

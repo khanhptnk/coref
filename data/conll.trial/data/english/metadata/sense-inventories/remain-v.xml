@@ -1,0 +1,63 @@
+<?xml version="1.0" ?>
+<!DOCTYPE inventory SYSTEM "inventory.dtd">
+<inventory lemma="remain-v">    
+    <commentary>
+        Includes VPC remain_firm, remain_down
+    </commentary>
+    <sense n="1" type="" name="continue in a present state, no change" group="1">  
+        <commentary>
+            Syntax Includes:
+            NP1[topic] REMAIN[continuative] (PP[temporal])
+            NP1 REMAIN ADVP[manner]
+            Includes: REMAIN FIRM, REMAIN DOWN
+        </commentary>
+        <examples> 
+            The fog and rain remained with us for a week.
+            A sense of uncertainty still remains on Wall Street after the recent crash.
+            She remained with the child until he fell asleep.
+            Although I washed the walls, a faint smell of cigarette smoke remains.
+            The President is expected to remain firm on his veto of the bill.
+            In this game you must remain down to the count of ten.
+        </examples>
+        <mappings>
+            <wn version="2.1">1,2,4</wn>   
+            <wn lemma="remain_firm" version="2.1">1</wn>
+            <wn lemma="remain_down" version="2.1">1</wn>
+            <omega></omega><pb>remain.01</pb>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    <sense n="2" type="" name="be left, an element left out of a larger whole" group="1">  
+        <commentary>
+            Syntax Is: NP1[topic] REMAIN[stative] SCOMP
+        </commentary>
+        <examples>
+            What remains of the ancient city are just foundations of houses.
+            He remains the only President whose administration was not involved in a war.
+            If you subtract ten from twelve, two remain.
+            It remains to be seen whether China will cooperate.
+        </examples>
+        <mappings>
+            <wn version="2.1">3</wn>
+            <wn lemma="" version="2.1"></wn>
+            <omega></omega><pb>remain.01</pb>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+<sense group="1" n="3" name="none of the above" type="">
+  <commentary>
+Automatically generated NOTA sense (bbn)
+  </commentary>
+  <examples>
+  </examples>
+  <mappings>
+    <wn version="2.1"></wn>
+    <omega></omega><pb></pb>
+    <fn></fn>
+  </mappings><SENSE_META clarity=""/>
+</sense>
+    <WORD_META authors="ahouston,duffielc" sample_score="-"/>
+     
+
+<ita count="458" ann_1_2_agreement="0.879912663755" />
+</inventory>

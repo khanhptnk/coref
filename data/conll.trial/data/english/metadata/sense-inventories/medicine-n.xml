@@ -1,0 +1,91 @@
+<!DOCTYPE inventory SYSTEM "inventory.dtd">
+<inventory lemma="medicine-n">
+    <commentary>
+    </commentary>
+    
+    <sense n="1" type="Entity" name="a drug" group="1">
+        <commentary>
+            Something designed to maintain or restore the body.  Used as both a mass and a count noun.  Includes most metaphoric usages.
+        </commentary>
+        <examples>
+            Drug companies are developing new and revolutionary medicines every day.
+            I forgot to take my medicine today!
+            Medicine is getting more expensive for seniors.
+            Lowering interest rates will be a bitter medicine for the insurance industry to swallow.
+        </examples>
+        <mappings>
+            <wn version="2.0">
+                2 4
+            </wn>
+            <omega></omega><pb></pb>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    
+    <sense n="2" type="Abstraction" name="medical science, in general" group="1">
+        <commentary>
+            The branch of science that concerns maintaining and restoring the body.    
+        </commentary>
+        <examples>
+            The wonders of modern medicine allow humans to live longer than ever before.
+        </examples>
+        <mappings>
+            <wn version="2.0">
+                1
+            </wn>
+            <omega></omega><pb></pb>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    
+    <sense n="3" type="Activity" name="medical practices or professions" group="1">
+        <commentary>
+            Refers to the act of using medical techniques, usually as a profession.  What you learn in medical school.
+        </commentary>
+        <examples>
+            John's misconduct ended his career in medicine.
+            He studied medicine at Harvard.
+            Doctors in the Middle Ages didn't know much actual medicine.
+            I'm getting into medicine after graduation because the salaries are so high.
+        </examples>
+        <mappings>
+            <wn version="2.0">
+                3
+            </wn>
+            <omega></omega><pb></pb>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    
+    <sense n="4" type="Metaphor" name="punishment" group="1">
+        <commentary>
+            A specific metaphoric usage.  
+        </commentary>
+        <examples>
+            If you do the crime, you should be prepared to take the medicine.
+        </examples>
+        <mappings>
+            <wn version="2.0">
+                4
+            </wn>
+            <omega></omega><pb></pb>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    
+<sense group="1" n="5" name="none of the above" type="">
+  <commentary>
+Automatically generated NOTA sense (bbn)
+  </commentary>
+  <examples>
+  </examples>
+  <mappings>
+    <wn version="2.1"></wn>
+    <omega></omega><pb></pb>
+    <fn></fn>
+  </mappings><SENSE_META clarity=""/>
+</sense>
+    <WORD_META authors="hertlerb ajarrett" sample_score="-"/>
+
+<ita count="72" ann_1_2_agreement="0.944444444444" />
+</inventory>

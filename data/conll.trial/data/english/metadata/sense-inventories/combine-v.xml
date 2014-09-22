@@ -1,0 +1,58 @@
+<!DOCTYPE inventory SYSTEM "inventory.dtd">
+<inventory lemma="combine-v">    
+    <commentary>
+    </commentary>
+    <sense n="1" type="" name="unite, merge, compound, blend" group="1">  
+        <commentary>
+            Syntax Is: 
+            NP1[agent] COMBINE[transitive] NP2
+        </commentary>
+        <examples>
+            "She combines charm with a good business sense."
+            "Combine the ingredients in a large bowl."
+            "Hospitals combine efforts to fight the disease."
+            "The individual groups were combined into one category."
+        </examples>
+        <mappings>
+            <wn version="2.1">1,2,3,4,6</wn>
+            <wn lemma="" version="3.0"></wn>   
+            <omega></omega><pb>combine.01</pb>
+            <vn>mix-22.1-1-1</vn><fn>Cause_to_amalgamate</fn>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    <sense n="2" type="" name="join, blend, mix" group="1">
+        <commentary>
+            Syntax Is:
+            NP1 COMBINE[intransitive]
+        </commentary>
+        <examples>
+            "The colors in the room combine well."
+            "The best of the modern world combines happily with the age-old traditions."
+            "The forces combine to produce the effect."
+        </examples>
+        <mappings>
+            <wn version="2.1">5,7</wn>
+            <wn lemma="" version="3.0"></wn>
+            <omega></omega><pb>combine.01</pb>
+            <vn>NM</vn><fn>Amalgamation</fn>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+<sense group="1" n="3" name="none of the above" type="">
+  <commentary>
+Automatically generated NOTA sense (bbn)
+  </commentary>
+  <examples>
+  </examples>
+  <mappings>
+    <wn version="2.1"></wn>
+    <omega></omega><pb></pb>
+    <fn></fn>
+  </mappings><SENSE_META clarity=""/>
+</sense>
+    <WORD_META authors="hwangd,greenlm" sample_score="-"/>
+     
+
+<ita count="68" ann_1_2_agreement="0.602941176471" />
+</inventory>

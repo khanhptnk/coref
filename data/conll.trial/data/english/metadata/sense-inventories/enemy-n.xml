@@ -1,0 +1,76 @@
+<!DOCTYPE inventory SYSTEM "inventory.dtd">
+<inventory lemma="enemy-n">
+    <commentary>
+    </commentary>
+    
+    <sense n="1" type="" name="an opposing military force" group="1">
+        <commentary>
+            ENEMY[+entity][+group][+force][+military][+opposing]
+            Note: refers to a body of people in a military force.
+        </commentary>
+        <examples>
+            The enemy attacked the city at dawn.
+            The scout reported seeing enemy troops along the ridge.
+            It was a tactic used by enemies of the Allies during World War II.
+        </examples>
+        <mappings>
+            <wn version="2.1">1</wn>
+            <omega></omega><pb></pb>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    
+    
+    <sense n="2" type="" name="a personal adversary, rival" group="1">
+        <commentary>
+            ENEMY[+entity][+person][+adversary]
+            Note: refers to an individual who is a rival, opponent, adversary
+        </commentary>
+        <examples>
+            Over the years he has made some political enemies in Washington.
+            Mary didn't want to make an enemy of Sally at work.
+            He has been an enemy of the school voucher program from the beginning.
+        </examples>
+        <mappings>
+            <wn version="2.1">2,4</wn>
+            <omega></omega><pb></pb>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    
+    
+    <sense n="3" type="" name="something harmful or injurious" group="1">
+        <commentary>
+            ENEMY[+relation][+role][+harmful]
+            Note: refers to anything that serves a harmful or injurious role
+        </commentary>
+        <examples>
+            Alcohol was his worst enemy.
+            This chapter describes various enemies of the immune system.
+            They were being tried as enemies of the state. (injurious to the political system)
+            She is her own worst enemy. (she's harmful to herself)
+        </examples>
+        <mappings>
+            <wn version="2.1">3</wn>
+            <omega></omega><pb></pb>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    
+    
+<sense group="1" n="4" name="none of the above" type="">
+  <commentary>
+Automatically generated NOTA sense (bbn)
+  </commentary>
+  <examples>
+  </examples>
+  <mappings>
+    <wn version="2.1"></wn>
+    <omega></omega><pb></pb>
+    <fn></fn>
+  </mappings><SENSE_META clarity=""/>
+</sense>
+    <WORD_META authors="ahouston" sample_score="-"/>
+
+<ita count="50" ann_1_2_agreement="0.9" />
+</inventory>

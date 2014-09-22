@@ -1,0 +1,163 @@
+<!DOCTYPE inventory SYSTEM "inventory.dtd">
+<inventory lemma="weight-n">
+    <commentary>
+    </commentary>
+    
+    <sense n="1" type="" name="the force exerted on a body's mass by a gravitational field" group="1">
+        <commentary>
+            WEIGHT[+force][+physical][+gravitational][+exerted][+body][+mass]
+        </commentary>
+        <examples>
+            Pete has lost a lot of weight in the past six months.
+            The weight of a person on the moon is about one-seventh of what it is on the earth.
+            The old bridge creaked under the weight of the cement truck.
+            What is the atomic weight of oxygen?
+            Bob and Tom are in different weight classes in competitive wrestling.
+            Two large passengers were re-seated in the forward cabin to distribute the plane's weight.
+        </examples>
+        <mappings>
+            <wn version="2.1">1</wn>
+            <omega></omega><pb></pb>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    
+    
+    <sense n="2" type="" name="sports equipment used in lifting exercises" group="1">
+        <commentary>
+            WEIGHT[+entity][+artifact][+equipment][+sports][+lifting]
+        </commentary>
+        <examples>
+            This gym has all the newest weight machines.
+            John built up his arm and abdominal muscles by working out with free weights.
+            Bob saw Pete at lunch in the weight room.
+        </examples>
+        <mappings>
+            <wn version="2.1">2</wn>
+            <omega></omega><pb></pb>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    
+    
+    <sense n="3" type="" name="the relative importance, significance assigned to something" group="1">
+        <commentary>
+            WEIGHT[+quality][+importance][+relative][+assigned]
+        </commentary>
+        <examples>
+            The famous professor's recommendation carried great weight with the board of trustees.
+            Their social prominence doesn't carry much weight in this neighborhood.
+            The boss's son tended to throw his weight around in the office.
+            The candidates' words in the debate will carry a lot of weight with voters.
+        </examples>
+        <mappings>
+            <wn version="2.1">3</wn>
+            <omega></omega><pb></pb>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    
+    
+    <sense n="4" type="" name="oppressive or worrisome emotional state" group="1">
+        <commentary>
+            WEIGHT[+state][+emotional][+oppressive][+worrisome]
+        </commentary>
+        <examples>
+            Moving the deadline up by two weeks removed a big weight from our shoulders.
+            The man felt suicidal from the weight of the world pushing down upon him. 
+            He was buckling under the weight of increasing responsibilities at work and at home.
+        </examples>
+        <mappings>
+            <wn version="2.1">5</wn>
+            <omega></omega><pb></pb>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    
+    
+    <sense n="5" type="" name="a standardized system of measurements for heaviness" group="1">
+        <commentary>
+            WEIGHT[+system][+measurement][+standard][+heaviness]
+        </commentary>
+        <examples>
+            These canned goods have their metric weight printed on the labels.
+            This scale gives weight in both pounds and kilograms.
+            In the avoirdupois system of weight a pound is equal to 16 ounces.
+        </examples>
+        <mappings>
+            <wn version="2.1">6</wn>
+            <omega></omega><pb></pb>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    
+    
+    <sense n="6" type="" name="unit piece to measure the heaviness of something" group="1">
+        <commentary>
+            WEIGHT[+entity][+artifact][+measuring][+unit]
+            [+quantity][+measure][+unit][+heaviness]
+            Note: refers not to a whole system, but a single object with a given heaviness.
+        </commentary>
+        <examples>
+            The grocer placed two weights on one side of the scale, and potatoes on the other.
+            The diver added another 2-pound weight to his belt to neutralize his buoyancy.
+            Each jockey had weights added to his saddle bags.
+            They used cobblestones as weights in the bottom of the ship. (heavy pieces of material)
+        </examples>
+        <mappings>
+            <wn version="2.1">4,7</wn>
+            <omega></omega><pb></pb>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    
+    
+    <sense n="7" type="" name="a coefficient assigned to elements in a frequency distribution in order to indicate the relative importance of each element" group="1">
+        <commentary>
+            WEIGHT[+quantity][+number][+coefficient][+distribution][+frequency]
+        </commentary>
+        <examples>
+            These weights were not adjusted for age or income.
+            The weighted round-robin scheduling model was used because computer server weight can be adjusted in this algorithm.
+        </examples>
+        <mappings>
+            <wn version="2.1">8</wn>
+            <omega></omega><pb></pb>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    
+    
+    <sense n="8" type="" name="a grade of density, as of fabric or typeset" group="1">
+        <commentary>
+            WEIGHT[+quantity][+grade][+density][+fabric/+type]
+        </commentary>
+        <examples>
+            These summer suits are made of a lighter weight fabric than those winter suits.
+            Use a heavier weight font for the section headings.
+            The lamp and sculpture next to the couch add too much weight to that side of the room. (extension)
+        </examples>
+        <mappings>
+            <wn version="MW online">11,13</wn>
+            <omega></omega><pb></pb>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    
+    
+<sense group="1" n="9" name="none of the above" type="">
+  <commentary>
+Automatically generated NOTA sense (bbn)
+  </commentary>
+  <examples>
+  </examples>
+  <mappings>
+    <wn version="2.1"></wn>
+    <omega></omega><pb></pb>
+    <fn></fn>
+  </mappings><SENSE_META clarity=""/>
+</sense>
+    <WORD_META authors="ahouston" sample_score="-"/>
+
+<ita count="31" ann_1_2_agreement="0.903225806452" />
+</inventory>

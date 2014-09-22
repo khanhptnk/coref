@@ -1,0 +1,210 @@
+<?xml version="1.0" ?>
+<!DOCTYPE inventory
+  SYSTEM 'inventory.dtd'>
+<inventory lemma="live-v">
+    <commentary>
+    </commentary>
+    <sense group="1" n="1" name="exist in a certain manner, mode, or style" type="">
+        <commentary>
+            Note: Could be either a general mode of living or a specific set of experiences.
+            Syntax Includes:
+            NP1 LIVE ADVP
+            NP1 LIVE PP
+            NP1 LIVE NP2
+            Note: location, as in "He lived a thrilling life at sea,"
+            can be omitted without changing the meaning.
+        </commentary>
+        <examples>
+            We had to live frugally after the war.
+            Many people in the world have to live on $1 a day.
+            She lived lavishly on her inheritence.
+            He said Italians really know how to live.
+            I lived through two divorces
+            The holocaust survivors have lived a nightmare.
+            He lived a thrilling life at sea.
+            She lived a boring existence at the private school.
+        </examples>
+        <mappings>
+            <wn version="3.0">2,4,6,7</wn>
+            <omega/>
+            <pb/>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    <sense group="1" n="2" name="inhabit, dwell" type="">
+        <commentary>
+            Syntax Is: NP1 LIVE PP{P NP[location]}
+            Note: location cannot be omitted.
+        </commentary>
+        <examples>
+            She lived in New Jersey all her life.
+            For many years only a few people lived on that island.
+            I live in a 220 year old house.
+            The Anazazi Indians lived in cliffs above the desert floor.
+            Who knows what evil lives in the hearts of men?
+        </examples>
+        <mappings>
+            <wn version="3.0">1</wn>
+            <omega/>
+            <pb/>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    <sense group="1" n="3" name="survive, continue" type="">
+        <commentary>
+        </commentary>
+        <examples>
+            The legend of Elvis lives on.
+            We lived without water and food for 3 days.
+            These superstitions live in the backwaters of America.
+        </examples>
+        <mappings>
+            <wn version="3.0">3</wn>
+            <omega/>
+            <pb/>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    <sense group="1" n="4" name="have a mortal existence" type="">
+        <commentary>
+            Syntax Is: NP1[agent[animate]] LIVE (PP)
+        </commentary>
+        <examples>
+            My grandfather lived until the end of war.
+            Tiny mammals lived during the age of dinosaurs.
+            The terminally ill patient wished he could live to see his grandchild.
+        </examples>
+        <mappings>
+            <wn version="3.0">5</wn>
+            <omega/>
+            <pb/>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    <sense group="1" n="5.1" name="Live_on" type="3">
+        <commentary>
+        </commentary>
+        <examples>
+            He lives on through his art.
+            Elvis lives on in Vegas.
+        </examples>
+        <mappings>
+            <wn version="3.0">3</wn>
+            <wn lemma="live_on" version="3.0">1</wn>
+            <omega></omega><pb></pb>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    <sense group="1" n="5.2" name="live to the end" type="">
+        <commentary>
+            Includes: LIVE OUT
+        </commentary>
+        <examples>
+            Let me live out my years in heat of blood!
+            Stubborness helps Bears coach live out boyhood dream.
+        </examples>
+        <mappings>
+            <wn version="3.0"></wn>
+            <wn lemma="live_out" version="3.0">1</wn>
+            <omega></omega><pb></pb>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    <sense group="1" n="5.3" name="work in a house where one doesn't live" type="">
+        <commentary>
+            Includes: LIVE OUT
+        </commentary>
+        <examples>
+            If your nanny lives out, she's entitled to minimum wage.
+            The maid lives out but comes and provides daily service.
+        </examples>
+        <mappings>
+            <wn version=""></wn>
+            <wn lemma="live_out" version="3.0">2</wn>
+            <omega></omega><pb></pb>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    <sense group="1" n="5.4" name="Live_down" type="">
+        <commentary>
+        </commentary>
+        <examples>
+            You can never live this down!
+            We couldn't stop laughing and he never lived it down.
+        </examples>
+        <mappings>
+            <wn version=""></wn>
+            <wn lemma="live_down" version="3.0">1</wn>
+            <omega></omega><pb></pb>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    <sense group="1" n="5.5" name="Live_in" type="">
+        <commentary>
+        </commentary>
+        <examples>
+            If your nanny lives in, you do not have to pay minimum wage.
+            Our trusted maid lives in and performs domestic duties. 
+        </examples>
+        <mappings>
+            <wn version=""></wn>
+            <wn lemma="live_in" version="3.0">1</wn>
+            <omega></omega><pb></pb>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    <sense group="1" n="5.6" name="Live_it_up" type="">
+        <commentary>
+        </commentary>
+        <examples>
+            It's your birthday, so let's live it up!
+            Live it up on your next trip!
+        </examples>
+        <mappings>
+            <wn version=""></wn>
+            <wn lemma="live_it_up" version="3.0">1</wn>
+            <omega></omega><pb></pb>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    <sense group="1" n="5.7" name="Live_over" type="">
+        <commentary>
+        </commentary>
+        <examples>
+            If I had my life to live over I'd pick more daisies.
+        </examples>
+        <mappings>
+            <wn version=""></wn>
+            <wn lemma="live_over" version="3.0">1</wn>
+            <omega></omega><pb></pb>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+<sense group="1" n="5.8" name="none of the above" type="">
+  <commentary>
+Automatically generated NOTA sense (bbn)
+  </commentary>
+  <examples>
+  </examples>
+  <mappings>
+    <wn version="2.1"></wn>
+    <omega></omega><pb></pb>
+    <fn></fn>
+  </mappings><SENSE_META clarity=""/>
+</sense>
+<sense group="1" n="6" name="none of the above" type="">
+  <commentary>
+Automatically generated NOTA sense (bbn)
+  </commentary>
+  <examples>
+  </examples>
+  <mappings>
+    <wn version="2.1"></wn>
+    <omega></omega><pb></pb>
+    <fn></fn>
+  </mappings><SENSE_META clarity=""/>
+</sense>
+    <WORD_META authors="ahouston,duffielc" sample_score="-"/>
+
+<ita count="598" ann_1_2_agreement="0.784280936455" />
+</inventory>

@@ -1,0 +1,353 @@
+<?xml version="1.0" ?>
+<!DOCTYPE inventory
+  SYSTEM 'inventory.dtd'>
+<inventory lemma="turn-v">
+    <commentary>
+    </commentary>
+    <sense group="1" n="1" name="(cause to) change orientation or direction" type="">
+        <commentary>
+            Note: The change in orientation or direction is usually around a
+            center point or axis. Can be metaphorical.
+            
+            Includes: TURN AROUND, TURN AWAY, TURN BACK, TURN DOWN, TURN IN,
+            TURN OFF, TURN ON, TURN OUT, TURN OVER, TURN TO, TURN UP
+        </commentary>
+        <examples>
+            He turned toward me with a surprised look.
+            She slowly turned the key in the lock.
+            Turn the page.
+            Turn in after you see the gate.
+            Turn off at the next exit.
+            The wheels are turning.
+            She turned the cake onto the plate.
+            My daughter loves to turn cartwheels.
+            February is too early to turn the soil for planting.
+            He turned his warm smile on me.
+            Turn the dial to AM850 and then turn down the volume.
+            When I need help, I always turn to my sister.
+            The issue turns on how the evidence is to be interpreted.
+            I need some time to turn it over in my mind.
+        </examples>
+        <mappings>
+            <wn version="2.1">1,4,7,8,9,11,14,18,20,22,23,24,25</wn>
+            <wn lemma="turn_around" version="2.1">1</wn>
+            <wn lemma="turn_away" version="2.1">1,2,4</wn>
+            <wn lemma="turn_back" version="2.1">1,5</wn>
+            <wn lemma="turn_down" version="2.1">4,5</wn>
+            <wn lemma="turn_in" version="2.1">1</wn>
+            <wn lemma="turn_off" version="2.1">2</wn>
+            <wn lemma="turn_on" version="2.1">2</wn>
+            <wn lemma="turn_out" version="2.1">10</wn>
+            <wn lemma="turn_over" version="2.1">2,3,4,6,7,8,9</wn>
+            <wn lemma="turn_to" version="2.1">1,2</wn>
+            <wn lemma="turn_up" version="2.1">2</wn>
+            <omega/>
+            <pb>turn.01,turn.14</pb>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    <sense group="1" n="2" name="(cause to) undergo a transformation of substance, shape, or feature" type="">
+        <commentary>
+            Note: No direction (e.g., to, away, out) is referred to.
+            Sometimes the type of change is not mentioned when it is typical for the thing changing (see ex. 7 and 8)
+        </commentary>
+        <examples>
+            The water turned into ice.
+            We have turned this garden into a paradise!
+            Their house was turned into a battle ground.
+            The weather turned nasty.
+            The light gradually turned from green to blue.
+            She turned the frog into a prince with her kiss.
+            In Vermont, the leaves turn early.
+            I can tell the milk has turned by the smell.
+            When do you turn 40?
+        </examples>
+        <mappings>
+            <wn version="2.1">2,5,12,13,17,26</wn>
+            <wn lemma="" version="2.1"></wn>
+            <omega/>
+            <pb>turn.02</pb>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    <sense group="1" n="3" name="(cause to) undergo a change in attitude, emotion, belief, or custom" type="">
+        <commentary>
+            Includes: TURN BACK, TURN ON, TURN TO
+        </commentary>
+        <examples>
+            Public opinion turned after the scandal came out.
+            The elders want us to turn back to our old ways.
+            The crowd quickly turned against the speaker.
+            He turned back their anger with a word.
+            He turned Mary from a reactionary to an activist.
+            People turn to mysticism at the turn of the millenium.
+            After the cold war, many nations turned from communism to capitalism.
+            He turned traitor.
+            There was one night when even his fans turned on him. 
+        </examples>
+        <mappings>
+            <wn version="2.1">3,10,21</wn>
+            <wn lemma="turn_back" version="2.1">2,3</wn>
+            <wn lemma="turn_on" version="2.1">4</wn>
+            <wn lemma="turn_to" version="2.1">2</wn>
+            <omega/>
+            <pb>turn.01,turn.02</pb>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    <sense group="1" n="4" name="send away or reject" type="">
+        <commentary>
+            Includes: TURN AWAY, TURN BACK, TURN DOWN, TURN OUT
+        </commentary>
+        <examples>
+            The supermarket had to turn away many disappointed customers.
+            He turned back the demons with a spell.
+            She turned down the offer of work.
+            It's a rare man who can turn down her advances.
+            Marcie was turned out of her home at the age of 16.
+        </examples>
+        <mappings>
+            <wn version="2.1">6</wn>
+            <wn lemma="turn_away" version="2.1">3</wn>
+            <wn lemma="turn_back" version="2.1">3,4</wn>
+            <wn lemma="turn_down" version="2.1">1,2,3</wn>
+            <wn lemma="turn_out" version="2.1">7</wn>
+            <omega/>
+            <pb>turn.04,turn.05,turn.08</pb>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    <sense group="1" n="5" name="change the activation or arousal of" type="">
+        <commentary>
+            Includes: TURN OFF, TURN ON, TURN OUT
+        </commentary>
+        <examples>
+            She turned on the air conditioner.
+            He turned off the radio.
+            Would you turn out the lights?
+            He really knows how to turn on the charm.
+            I love her, but she no longer turns me on.
+            Her psychobabble turns him off. 
+            Turn on, tune in, and drop out. --Timothy Leary
+        </examples>
+        <mappings>
+            <wn version="2.1"></wn>
+            <wn lemma="turn_off" version="2.1">1,3</wn>
+            <wn lemma="turn_on" version="2.1">1,3,5,6,7</wn>
+            <wn lemma="turn_out" version="2.1">11</wn>
+            <omega/>
+            <pb>turn.07,turn.08,turn.09,turn.13</pb>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    <sense group="1" n="6" name="prove, show to be, end up" type="">
+        <commentary>
+            Includes: TURN OUT
+        </commentary>
+        <examples>
+            Richard turned out to be the wrong man for the job.
+            The medicine turned out to save her life.
+            Turns out she was right.
+            How do you think the game will turn out?
+        </examples>
+        <mappings>
+            <wn version="2.1"></wn>
+            <wn lemma="turn_out" version="2.1">1,2,4</wn>
+            <omega/>
+            <pb>turn.11</pb>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    <sense group="1" n="7" name="appear, discover, find" type="">
+        <commentary>
+            Includes: TURN UP
+        </commentary>
+        <examples>
+            She turned up looking stunning.
+            My search turned up nothing.
+            I turned up an old box in the garden.
+        </examples>
+        <mappings>
+            <wn version="2.1"></wn>
+            <wn lemma="turn_up" version="2.1">1,3,4,5</wn>
+            <omega/>
+            <pb>turn.15</pb>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    <sense group="1" n="8" name="produce, especially through commerce or business" type="">
+        <commentary>
+            Includes: TURN A NICE PENNY/DIME/DOLLAR, TURN A PROFIT, TURN A
+            LOSS, TURN OUT, TURN OVER 
+        </commentary>
+        <examples>
+            The factory can turn out five cars a minute.
+            Celent turned a profit for the first time this year.
+            Should we close up shop if the company turns a loss again?
+            For the first half of the 20th century, the corporation turned a nice dollar.
+            I think we can turn over $2 million a year. 
+        </examples>
+        <mappings>
+            <wn version="2.1">19</wn>
+            <wn lemma="turn_a_nice_dime" version="2.1">1</wn>
+            <wn lemma="turn_a_nice_dollar" version="2.1">1</wn>
+            <wn lemma="turn_a_nice_penny" version="2.1">1</wn>
+            <wn lemma="turn_a_loss" version="2.1">1</wn>
+            <wn lemma="turn_a_profit" version="2.1">1</wn>
+            <wn lemma="turn_out" version="2.1">3,6</wn>
+            <wn lemma="turn_over" version="2.1">5</wn>
+            <omega/>
+            <pb>turn.10,turn.16</pb>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    <sense group="1" n="9" name="shape by rotating" type="">
+        <commentary>
+        </commentary>
+        <examples>
+            After purchasing the wood, I ripped all the pieces to length, then turned the legs on a motorized lathe.
+            After 1980, Wilson turned the pots while his sister and brother glazed, loaded and fired the kilns. 
+        </examples>
+        <mappings>
+            <wn version="2.1">16</wn>
+            <wn lemma="" version="2.1"></wn>
+            <omega/>
+            <pb></pb>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    <sense group="1" n="10" name="sprain, hurt by twisting" type="">
+        <commentary>
+        </commentary>
+        <examples>
+            The claimant testified that she turned her ankle on a wet floor at work.
+            He got his skate caught in a rut or something and turned his knee.
+        </examples>
+        <mappings>
+            <wn version="2.1">15</wn>
+            <wn lemma="" version="2.1"></wn>
+            <omega/>
+            <pb></pb>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    <sense group="1" n="11" name="deliver, hand over" type="">
+        <commentary>
+            Includes: TURN IN, TURN OVER
+        </commentary>
+        <examples>
+            Everyone turn in your papers by the end of the day.
+            The shop owner turned him in to the police.
+            He had been turned over to the Gestapo for "special treatment."
+            She turned in the performance of a lifetime!
+        </examples>
+        <mappings>
+            <wn version="2.1"></wn>
+            <wn lemma="turn_in" version="2.1">2,3</wn>
+            <wn lemma="turn_over" version="2.1">1</wn>
+            <omega/>
+            <pb>turn.06,turn.12</pb>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    <sense group="1" n="12" name="go to or get up from sleep" type="">
+        <commentary>
+            Includes: TURN IN, TURN OUT
+        </commentary>
+        <examples>
+            She turns out every morning at the crack of dawn.
+        </examples>
+        <mappings>
+            <wn version="2.1"></wn>
+            <wn lemma="turn_in" version="2.1">4</wn>
+            <wn lemma="turn_out" version="2.1">12</wn>
+            <omega/>
+            <pb></pb>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    <sense group="1" n="13" name="(cause to) improve" type="">
+        <commentary>
+            Includes: TURN AROUND
+        </commentary>
+        <examples>
+            That tutor really turned around my son's performance in math!
+            We're taking on the tough issues and we're going to get the company turned around.
+            Sales turned around in the second quarter.
+        </examples>
+        <mappings>
+            <wn version="2.1"></wn>
+            <wn lemma="turn_around" version="2.1">2,3</wn>
+            <omega/>
+            <pb></pb>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    <sense group="1" n="14" name="come or gather" type="">
+        <commentary>
+            Includes: TURN OUT  
+        </commentary>
+        <examples>
+            How many people turned out for the party?
+            Thousands of Democrats turned out for the rally.
+        </examples>
+        <mappings>
+            <wn version="2.1"></wn>
+            <wn lemma="turn_out" version="2.1">5,8,9</wn>
+            <omega/>
+            <pb>turn.17</pb>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    <sense group="1" n="15" name="idioms" type="">
+        <commentary>
+            Includes: TURN A BLIND EYE, TURN A TRICK, TURN ON A DIME, TURN
+            ONE'S STOMACH, TURN TAIL, TURN THE TABLE, TURN THE TIDE, TURN THUMB'S DOWN, TURN TURTLE, TURN UP THE HEAT, TURN UP THE PRESSURE
+        </commentary>
+        <examples>
+            How can you turn a blind eye to his misbehavior?
+            Much as she hated having sex with strangers, she turned tricks to make a living.
+            That car can turn on a dime!
+            His hypocracy turn's my stomach.
+            When actually confronted by the bully, he turned tail and ran.
+            She turned the tables on her rival with allegations of corruption.
+            The council turned thumb's down at the proposal.
+            A private passenger bus turned turtle, injuring 15.
+            Your performance had better improve, or I'll really turn up the heat.
+            Key European governments turned up the pressure on Iran over its nuclear plans. 
+        </examples>
+        <mappings>
+            <wn version="2.1"></wn>
+            <wn lemma="turn_a_blind_eye" version="2.1">1</wn>
+            <wn lemma="turn_a_trick" version="2.1">1</wn>
+            <wn lemma="turn_on_a_dime" version="2.1">1</wn>
+            <wn lemma="turn_one's_stomach" version="2.1">1</wn>
+            <wn lemma="turn_tail" version="2.1">1</wn>
+            <wn lemma="turn_the_tables" version="2.1">1</wn>
+            <wn lemma="turn_the_tide" version="2.1">1</wn>
+            <wn lemma="turn_thumbs_down" version="2.1">1</wn>
+            <wn lemma="turn_turtle" version="2.1">1</wn>
+            <wn lemma="turn_up_the_heat" version="2.1">1</wn>
+            <wn lemma="turn_up_the_pressure" version="2.1">1</wn>
+            <omega/>
+            <pb>turn.03</pb>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+<sense group="1" n="16" name="none of the above" type="">
+  <commentary>
+Automatically generated NOTA sense (bbn)
+  </commentary>
+  <examples>
+  </examples>
+  <mappings>
+    <wn version="2.1"></wn>
+    <omega></omega><pb></pb>
+    <fn></fn>
+  </mappings><SENSE_META clarity=""/>
+</sense>
+    <WORD_META authors="brownsw" sample_score="-"/>
+
+<ita count="798" ann_1_2_agreement="0.848370927318" />
+</inventory>
+

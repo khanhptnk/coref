@@ -1,0 +1,137 @@
+<!DOCTYPE inventory SYSTEM "inventory.dtd">
+<inventory lemma="matter-n">
+    <commentary>
+    </commentary>
+    <sense n="1" type="" name="generic substance that has mass" group="1">
+        <commentary>
+            MATTER[+substance][+mass][+generic]
+        </commentary>
+        <examples>
+            Matter can be converted to energy according to Einstein's famous equation.
+            Cosmologists don't yet understand the nature of dark matter in the universe.
+            Matter and antimatter will annihilate each other in an interaction.
+            The occultist lectured about the limits of matter and the power of the spirit.
+        </examples>
+        <mappings>
+            <wn version="2.1">1</wn>
+            <omega></omega><pb></pb>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    
+    <sense n="2" type="" name="particular kinds of physical substance" group="1">
+        <commentary>
+            MATTER[+substance][+physical][+particular]
+        </commentary>
+        <examples>
+            Dead leaves and decayed vegetable matter lay in the ditch.
+            The autopsy revealed fecal matter on the corpse.
+            This diagram shows the areas of gray matter of the brain.
+        </examples>
+        <mappings>
+            <wn version="MW online">2c,2d</wn>
+            <omega></omega><pb></pb>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    
+    <sense n="3" type="" name="a concern or affair" group="1">
+        <commentary>
+            MATTER[+state][+situation][+concern]
+        </commentary>
+        <examples>
+            John has several matters to attend to after the meeting.
+            This is really a matter for the police to deal with.
+            The president will be discussing matters of state with the foreign dignitaries.
+            Driving while intoxicated is a serious matter.
+            She deals mostly with the firm's financial matters.
+            Those are matters of the heart.
+        </examples>
+        <mappings>
+            <wn version="2.1">2,3</wn>
+            <omega></omega><pb></pb>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    
+    <sense n="4" type="" name="a problem, something wrong" group="1">
+        <commentary>
+            MATTER[+state][+situation][+problem]
+            Note: usually in the phrase 'something/nothing the matter'
+        </commentary>
+        <examples>
+            Is anything the matter?
+            The mechanic could find nothing the matter with my brakes.
+            What's the matter with leaving our coats here while we go for lunch?
+        </examples>
+        <mappings>
+            <wn version="2.1">4</wn>
+            <omega></omega><pb></pb>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    
+    <sense n="5" type="" name="of consequence" group="1">
+        <commentary>
+            MATTER[+state][+situation][+consequence]
+            Note: often occurs with negation, e.g. no matter
+        </commentary>
+        <examples>
+            It was of little matter whether they stayed or went.
+            The little duckling followed Mary no matter where she went.
+            Don't buy anything from that carpet seller, no matter what kind of deal he offers you.
+        </examples>
+        <mappings>
+            <wn version="2.1">5</wn>
+            <omega></omega><pb></pb>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    
+    <sense n="6" type="" name="set of writings" group="1">
+        <commentary>
+            MATTER[+set][+document]
+        </commentary>
+        <examples>
+            Jane brought some reading matter for the plane ride.
+            I wonder if that book store has some interesting humorous matter.
+            Sally finished going through several stacks of financial matters on her desk.
+        </examples>
+        <mappings>
+            <wn version="2.1">6</wn>
+            <omega></omega><pb></pb>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    
+    <sense n="7" type="" name="vague or unspecified quantity" group="1">
+        <commentary>
+            MATTER[+quantity][+vague]
+        </commentary>
+        <examples>
+            The noodles will cook in a matter of minutes.
+            In a matter of seconds the fire had spread to the upstairs floor.
+        </examples>
+        <mappings>
+            <wn version="MW online">4</wn>
+            <omega></omega><pb></pb>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    
+<sense group="1" n="8" name="none of the above" type="">
+  <commentary>
+Automatically generated NOTA sense (bbn)
+  </commentary>
+  <examples>
+  </examples>
+  <mappings>
+    <wn version="2.1"></wn>
+    <omega></omega><pb></pb>
+    <fn></fn>
+  </mappings><SENSE_META clarity=""/>
+</sense>
+    <WORD_META authors="ahouston" sample_score="-"/>
+
+<ita count="151" ann_1_2_agreement="0.920529801325" />
+</inventory>

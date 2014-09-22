@@ -1,0 +1,184 @@
+
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+  "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    
+    <title>Installation &mdash; OntoNotes DB Tool v0.999b documentation</title>
+    <link rel="stylesheet" href="_static/default.css" type="text/css" />
+    <link rel="stylesheet" href="_static/pygments.css" type="text/css" />
+    <script type="text/javascript">
+      var DOCUMENTATION_OPTIONS = {
+        URL_ROOT:    '',
+        VERSION:     '0.999b',
+        COLLAPSE_INDEX: false,
+        FILE_SUFFIX: '.html',
+        HAS_SOURCE:  true
+      };
+    </script>
+    <script type="text/javascript" src="_static/jquery.js"></script>
+    <script type="text/javascript" src="_static/underscore.js"></script>
+    <script type="text/javascript" src="_static/doctools.js"></script>
+    <link rel="top" title="OntoNotes DB Tool v0.999b documentation" href="index.html" />
+    <link rel="next" title="Getting Started" href="getting_started.html" />
+    <link rel="prev" title="Introduction" href="intro.html" /> 
+  </head>
+  <body>
+    <div class="related">
+      <h3>Navigation</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="genindex.html" title="General Index"
+             accesskey="I">index</a></li>
+        <li class="right" >
+          <a href="py-modindex.html" title="Python Module Index"
+             >modules</a> |</li>
+        <li class="right" >
+          <a href="getting_started.html" title="Getting Started"
+             accesskey="N">next</a> |</li>
+        <li class="right" >
+          <a href="intro.html" title="Introduction"
+             accesskey="P">previous</a> |</li>
+        <li><a href="index.html">OntoNotes DB Tool v0.999b documentation</a> &raquo;</li> 
+      </ul>
+    </div>  
+
+    <div class="document">
+      <div class="documentwrapper">
+        <div class="bodywrapper">
+          <div class="body">
+            
+  <div class="section" id="installation">
+<h1>Installation<a class="headerlink" href="#installation" title="Permalink to this headline">¶</a></h1>
+<div class="section" id="dependencies">
+<h2>Dependencies<a class="headerlink" href="#dependencies" title="Permalink to this headline">¶</a></h2>
+<p>The OntoNotes DB Tool is implemented in Python, using a MySQL database
+and Python access routines from the MySQLdb package.  Users will need
+to have Python installed, and if they wish to use any of the code that
+works with the database they will need MySQL as well.</p>
+<div class="section" id="python">
+<h3>Python<a class="headerlink" href="#python" title="Permalink to this headline">¶</a></h3>
+<p>The tool was designed under Python 2.5, but should work on any later
+Python 2.x release.  Python 3 is not supported, though users working
+with Python 3 might have success with the official Python 2.x to 3.0
+&#8216;2to3&#8217; <a class="reference external" href="http://docs.python.org/library/2to3.html">converter</a>.</p>
+</div>
+<div class="section" id="mysql-and-mysqldb">
+<h3>MySQL and MySQLdb<a class="headerlink" href="#mysql-and-mysqldb" title="Permalink to this headline">¶</a></h3>
+<p>These two dependencies are optional, but recommended.  The tool can
+function in two modes, either reading information from the filesystem
+or the database.  To have the latter mode available, you must have a
+MySQL database to store the data as well as the MySQLdb Python module.
+You can download MySQL from <a class="reference external" href="http://dev.mysql.com/downloads/">http://dev.mysql.com/downloads/</a> and
+MySQLdb from <a class="reference external" href="http://sourceforge.net/projects/mysql-python">http://sourceforge.net/projects/mysql-python</a>.</p>
+<p>The version of MySQL that we have tested the OntoNotes DB Tool is
+version 5.0, but we do not use much of the newly added functionality
+as of now, and so an earlier version of MySQL will do as well &#8211; in
+case you already have it installed.  We would highly recommend using
+version 4.1 or later as they have better Unicode support.  This is
+quite important, as all the data uses the UTF-8 character encoding.</p>
+<div class="admonition-see-also admonition seealso">
+<p class="first admonition-title">See also</p>
+<dl class="last docutils">
+<dt><a class="reference external" href="http://dev.mysql.com/doc/">Official MySQL Documentation</a></dt>
+<dd>Extensive documentation on MySQL can be found at site.</dd>
+<dt><a class="reference external" href="http://www.kitebird.com/articles/pydbapi.html">Writing MySQL Scripts with Python DB-API</a></dt>
+<dd>This is a good starting point for writing scripts using MySQLdb API.</dd>
+</dl>
+</div>
+</div>
+</div>
+<div class="section" id="installing-ontonotes-db-tool">
+<h2>Installing OntoNotes DB Tool<a class="headerlink" href="#installing-ontonotes-db-tool" title="Permalink to this headline">¶</a></h2>
+<p>Once you have the dependencies installed, we can install the OntoNotes
+DB Tool.  It follows the standard Python module distribution
+guidelines and uses the Python <tt class="docutils literal"><span class="pre">distutils</span></tt> package.  After you
+have installed the above mentioned dependencies, you can install the
+OntoNotes DB Tool by running:</p>
+<div class="highlight-bash"><div class="highlight"><pre><span class="nv">$ </span>python setup.py install
+</pre></div>
+</div>
+<div class="admonition-see-also admonition seealso">
+<p class="first admonition-title">See also</p>
+<dl class="last docutils">
+<dt><a class="reference external" href="http://docs.python.org/inst/inst.html">Installing Python Modules</a></dt>
+<dd>Documentation on how to install Python modules</dd>
+</dl>
+</div>
+</div>
+</div>
+
+
+          </div>
+        </div>
+      </div>
+      <div class="sphinxsidebar">
+        <div class="sphinxsidebarwrapper">
+  <h3><a href="index.html">Table Of Contents</a></h3>
+  <ul>
+<li><a class="reference internal" href="#">Installation</a><ul>
+<li><a class="reference internal" href="#dependencies">Dependencies</a><ul>
+<li><a class="reference internal" href="#python">Python</a></li>
+<li><a class="reference internal" href="#mysql-and-mysqldb">MySQL and MySQLdb</a></li>
+</ul>
+</li>
+<li><a class="reference internal" href="#installing-ontonotes-db-tool">Installing OntoNotes DB Tool</a></li>
+</ul>
+</li>
+</ul>
+
+  <h4>Previous topic</h4>
+  <p class="topless"><a href="intro.html"
+                        title="previous chapter">Introduction</a></p>
+  <h4>Next topic</h4>
+  <p class="topless"><a href="getting_started.html"
+                        title="next chapter">Getting Started</a></p>
+  <h3>This Page</h3>
+  <ul class="this-page-menu">
+    <li><a href="_sources/installation.txt"
+           rel="nofollow">Show Source</a></li>
+  </ul>
+<div id="searchbox" style="display: none">
+  <h3>Quick search</h3>
+    <form class="search" action="search.html" method="get">
+      <input type="text" name="q" size="18" />
+      <input type="submit" value="Go" />
+      <input type="hidden" name="check_keywords" value="yes" />
+      <input type="hidden" name="area" value="default" />
+    </form>
+    <p class="searchtip" style="font-size: 90%">
+    Enter search terms or a module, class or function name.
+    </p>
+</div>
+<script type="text/javascript">$('#searchbox').show(0);</script>
+        </div>
+      </div>
+      <div class="clearer"></div>
+    </div>
+    <div class="related">
+      <h3>Navigation</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="genindex.html" title="General Index"
+             >index</a></li>
+        <li class="right" >
+          <a href="py-modindex.html" title="Python Module Index"
+             >modules</a> |</li>
+        <li class="right" >
+          <a href="getting_started.html" title="Getting Started"
+             >next</a> |</li>
+        <li class="right" >
+          <a href="intro.html" title="Introduction"
+             >previous</a> |</li>
+        <li><a href="index.html">OntoNotes DB Tool v0.999b documentation</a> &raquo;</li> 
+      </ul>
+    </div>
+    <div class="footer">
+        &copy; Copyright 2008, BBN Technologies.
+      Created using <a href="http://sphinx.pocoo.org/">Sphinx</a> 1.0.4.
+    </div>
+  </body>
+</html>

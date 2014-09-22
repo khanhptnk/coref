@@ -1,0 +1,118 @@
+<?xml version="1.0" ?>
+<!DOCTYPE inventory
+  SYSTEM 'inventory.dtd'>
+<inventory lemma="lose-v">
+    <commentary>
+    </commentary>
+    <sense group="1" n="1" name="misplace some concrete thing, be unable to account or track something or someone" type="">
+        <commentary>
+            Note: it is assumed the thing or person is desired to be found or recovered.
+        </commentary>
+        <examples>
+            She lost her purse when she left it unattended on her seat.
+            I've lost my car keys for the third time this week!
+            He thinks he may have lost his glasses at the gym.
+            The cops lost him again as he snuck around the back of the building.
+        </examples>
+        <mappings>
+            <wn version="2.1">1,4,5,6</wn>
+            <wn lemma="" version="3.0"></wn>
+            <omega></omega><pb>lose.02</pb>
+            <vn>contribute-13.2-1</vn><fn>NM</fn>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    <sense group="1" n="2" name="not succeed in achieving some abstract thing" type="">
+        <commentary>
+        </commentary>
+        <examples>
+            The Red Sox have lost the last five games.
+            He lost custody of his son.
+            I lost the opportunity to spend a year abroad.
+            She lost her son's respect by lying to him.
+        </examples>
+        <mappings>
+            <wn version="2.1">2,7,8</wn>
+            <wn lemma="" version="3.0"></wn>
+            <omega></omega><pb>lose.03,lose.06</pb>
+            <vn>NM</vn><fn>Finish_competition</fn>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    <sense group="1" n="3" name=" to attempt communication that is missing clarity or accuracy." type="">
+        <commentary>
+            Note: Also, to be unable to discern or perceive something (see the last
+            two examples)
+        </commentary>
+        <examples>
+            I am losing you with this bad phone connection.
+            I think the film 'Portrait of a Lady' completely lost what Henry James had in mind.
+            He'll lose the marketing department with these technical slides.
+            He lost the forest for the trees.
+            I lost the clarinet theme through the complicated instrumentation.
+        </examples>
+        <mappings>
+            <wn version="2.1">10,11</wn>
+            <wn lemma="" version="3.0"></wn>
+            <omega></omega><pb>lose.04,lose.07</pb>
+            <vn>NM</vn><fn>NM</fn>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    <sense group="1" n="4" name="relinquish something physical or emotional, usually involuntarily" type="">
+        <commentary>
+            Includes: LOSE WEIGHT, LOSE ONE'S TEMPER, LOSE IT (as in losing control)
+        </commentary>
+        <examples>
+            He lost his life on 9/11.
+            She lost her husband to that woman from Washington.
+            He lost a finger in the boating accident.
+            She lost her voice before the Met auditions.
+            Your pestering is making me lose my temper!
+            Pancho lost weight before the big cruise.
+            When my cousin started cursing at my mom, I lost it.
+        </examples>
+        <mappings>
+            <wn version="2.1">3</wn>
+            <wn lemma="lose_weight" version="3.0">1</wn>
+            <wn lemma="lose_one's_temper" version="3.0">1</wn>
+            <omega></omega><pb>lose.02,lose.01</pb>
+            <vn>NM</vn><fn>NM</fn>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    <sense group="1" n="5" name="to recede, fade away or fall off" type="">
+        <commentary>
+        </commentary>
+        <examples>
+            I was losing the shape of the distant skyline through the fog.
+            France is losing its tradition of classic cooking to the fast food industry.
+            She lost fifteen pounds last summer.
+            Those old customs have been lost to history.
+            I've lost my appetite.
+            Let's lose him!
+        </examples>
+        <mappings>
+            <wn version="2.1">9</wn>
+            <wn lemma="" version="3.0"></wn>
+            <omega></omega><pb>NM</pb>
+            <vn>NM</vn><fn>NM</fn>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+<sense group="1" n="6" name="none of the above" type="">
+  <commentary>
+Automatically generated NOTA sense (bbn)
+  </commentary>
+  <examples>
+  </examples>
+  <mappings>
+    <wn version="2.1"></wn>
+    <omega></omega><pb></pb>
+    <fn></fn>
+  </mappings><SENSE_META clarity=""/>
+</sense>
+    <WORD_META authors="ahouston,greenlm" sample_score="-"/>
+
+<ita count="496" ann_1_2_agreement="0.679435483871" />
+</inventory>

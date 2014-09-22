@@ -1,0 +1,169 @@
+
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+  "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    
+    <title>Introduction &mdash; OntoNotes DB Tool v0.999b documentation</title>
+    <link rel="stylesheet" href="_static/default.css" type="text/css" />
+    <link rel="stylesheet" href="_static/pygments.css" type="text/css" />
+    <script type="text/javascript">
+      var DOCUMENTATION_OPTIONS = {
+        URL_ROOT:    '',
+        VERSION:     '0.999b',
+        COLLAPSE_INDEX: false,
+        FILE_SUFFIX: '.html',
+        HAS_SOURCE:  true
+      };
+    </script>
+    <script type="text/javascript" src="_static/jquery.js"></script>
+    <script type="text/javascript" src="_static/underscore.js"></script>
+    <script type="text/javascript" src="_static/doctools.js"></script>
+    <link rel="top" title="OntoNotes DB Tool v0.999b documentation" href="index.html" />
+    <link rel="next" title="Installation" href="installation.html" />
+    <link rel="prev" title="Ontonotes DB Tool 0.999b" href="index.html" /> 
+  </head>
+  <body>
+    <div class="related">
+      <h3>Navigation</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="genindex.html" title="General Index"
+             accesskey="I">index</a></li>
+        <li class="right" >
+          <a href="py-modindex.html" title="Python Module Index"
+             >modules</a> |</li>
+        <li class="right" >
+          <a href="installation.html" title="Installation"
+             accesskey="N">next</a> |</li>
+        <li class="right" >
+          <a href="index.html" title="Ontonotes DB Tool 0.999b"
+             accesskey="P">previous</a> |</li>
+        <li><a href="index.html">OntoNotes DB Tool v0.999b documentation</a> &raquo;</li> 
+      </ul>
+    </div>  
+
+    <div class="document">
+      <div class="documentwrapper">
+        <div class="bodywrapper">
+          <div class="body">
+            
+  <div class="section" id="introduction">
+<h1>Introduction<a class="headerlink" href="#introduction" title="Permalink to this headline">¶</a></h1>
+<div class="section" id="purpose">
+<h2>Purpose<a class="headerlink" href="#purpose" title="Permalink to this headline">¶</a></h2>
+<p>The OntoNotes DB Tool provides code for working with the OntoNotes
+data, including building and accessing the relational database.  The
+linked tables of the database store a text corpus along with the
+layers of annotation specifying syntactic structure, propositional
+structure, word senses for nouns and verbs, names, and the coreference
+between entities mentioned in the text. It also contains metadata such
+as proposition frames, sense inventories, and where available, speaker
+information, pointers to the original or translation and lemma
+details.</p>
+<p>Also included are functions that extract particular views of the
+merged data.  Each of the individual input annotation formats, which
+was used in building the database, can also be extracted as a view.
+There is also a combined &#8220;OntoNotes Normal Form&#8221; view that includes
+all of the layers in a version intended for human review.</p>
+<p>In addition to the top-level routines used to build the database and
+to extract views, the DB Tool provides an API with access to each of
+the individual tables, allowing users to construct many kinds of
+database queries more conveniently than would be possible in raw SQL,
+especially for defining new views.</p>
+</div>
+<div class="section" id="platforms">
+<h2>Platforms<a class="headerlink" href="#platforms" title="Permalink to this headline">¶</a></h2>
+<p>The OntoNotes DB Tool was built with cross-platform compatibility in
+mind, and therefore all the core components of the system as well as
+the external libraries that were used are themselves available for
+multiple platforms &#8211; at least for Linux/Unix and Windows.  Given the
+limited resource availability during development, however, all
+development was done in the Linux environment and we could not
+thoroughly test the distribution across other platforms.  It would be
+quite surprising if it does not work out of the box, or with a few
+minor tweaks in a Windows environment.  The majority of the code is
+written in Python.  The version used for development was Python 2.5.1.</p>
+<p>Since this is a software in its Beta release and has not been
+thoroughly tested, it is quite likely that it has bugs in it.  Please
+refer to <a class="reference internal" href="reporting_bugs.html#reporting-bugs"><em>Appendix A: Reporting Bugs</em></a> for more details in how to go
+about reporting bugs that you might find.</p>
+<div class="admonition-see-also admonition seealso">
+<p class="first admonition-title">See also</p>
+<p class="last"><a class="reference external" href="http://www.bbn.com/NLP/OntoNotes">The OntoNotes Project</a>
+The official OntoNotes project webpage, with details about the
+individual components, latest developments, etc.</p>
+</div>
+</div>
+</div>
+
+
+          </div>
+        </div>
+      </div>
+      <div class="sphinxsidebar">
+        <div class="sphinxsidebarwrapper">
+  <h3><a href="index.html">Table Of Contents</a></h3>
+  <ul>
+<li><a class="reference internal" href="#">Introduction</a><ul>
+<li><a class="reference internal" href="#purpose">Purpose</a></li>
+<li><a class="reference internal" href="#platforms">Platforms</a></li>
+</ul>
+</li>
+</ul>
+
+  <h4>Previous topic</h4>
+  <p class="topless"><a href="index.html"
+                        title="previous chapter">Ontonotes DB Tool 0.999b</a></p>
+  <h4>Next topic</h4>
+  <p class="topless"><a href="installation.html"
+                        title="next chapter">Installation</a></p>
+  <h3>This Page</h3>
+  <ul class="this-page-menu">
+    <li><a href="_sources/intro.txt"
+           rel="nofollow">Show Source</a></li>
+  </ul>
+<div id="searchbox" style="display: none">
+  <h3>Quick search</h3>
+    <form class="search" action="search.html" method="get">
+      <input type="text" name="q" size="18" />
+      <input type="submit" value="Go" />
+      <input type="hidden" name="check_keywords" value="yes" />
+      <input type="hidden" name="area" value="default" />
+    </form>
+    <p class="searchtip" style="font-size: 90%">
+    Enter search terms or a module, class or function name.
+    </p>
+</div>
+<script type="text/javascript">$('#searchbox').show(0);</script>
+        </div>
+      </div>
+      <div class="clearer"></div>
+    </div>
+    <div class="related">
+      <h3>Navigation</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="genindex.html" title="General Index"
+             >index</a></li>
+        <li class="right" >
+          <a href="py-modindex.html" title="Python Module Index"
+             >modules</a> |</li>
+        <li class="right" >
+          <a href="installation.html" title="Installation"
+             >next</a> |</li>
+        <li class="right" >
+          <a href="index.html" title="Ontonotes DB Tool 0.999b"
+             >previous</a> |</li>
+        <li><a href="index.html">OntoNotes DB Tool v0.999b documentation</a> &raquo;</li> 
+      </ul>
+    </div>
+    <div class="footer">
+        &copy; Copyright 2008, BBN Technologies.
+      Created using <a href="http://sphinx.pocoo.org/">Sphinx</a> 1.0.4.
+    </div>
+  </body>
+</html>

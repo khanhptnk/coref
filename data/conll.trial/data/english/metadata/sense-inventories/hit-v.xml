@@ -1,0 +1,196 @@
+<?xml version="1.0" ?>
+<!DOCTYPE inventory SYSTEM "inventory.dtd">
+<inventory lemma="hit-v">
+    <commentary>
+    </commentary>
+    <sense group="1" n="1" name="strike with an instrument, missile, or oneself" type="">
+        <commentary>
+        </commentary>
+        <examples>
+            Jasmine hit the ball to her cousin.
+            When the car hit the tree, the windshield shattered.
+            Don't hit your brother!
+            He was hit with a bullet at close range.
+            Khruschev is famous for hitting his shoe against a table to interrupt a United Nation's speech.
+        </examples>
+        <mappings>
+            <wn version="2.1">1,2,4,7,16</wn>
+            <wn lemma="" version="2.1"></wn>
+            <omega></omega><pb>hit.01</pb>
+            <vn>bump-18.4,hit-18.1-1,throw-17.1-1</vn><fn>Cause_harm,Impact,Experience_bodily_harm,Cause_impact,Hit_target</fn>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    <sense group="1" n="2" name="figuratively strike; affect or experience suddenly" type="">
+        <commentary>
+            Includes: HIT HOME
+        </commentary>
+        <examples>
+            We were hit by really bad weather.
+            The earthquake hit a midnight.
+            The Germans hit Poland that September.
+            An interesting thought hit her.
+            His words really hit home.
+            The company was hit with an injunction.
+        </examples>
+        <mappings>
+            <wn version="2.1">3,8,9,15</wn>
+            <wn lemma="hit_home" version="2.1">1</wn>
+            <omega></omega><pb>hit.01</pb>
+            <vn>hit-18.1-1</vn><fn>NM</fn>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    <sense group="1" n="3" name="reach, attain" type="">
+        <commentary>
+            Includes: HIT THE BOOKS, HIT THE JACKPOT
+        </commentary>
+        <examples>
+            We hit Detroit by noon.
+            The product should hit the market in June.
+            Let's hit the stores right when they open tomorrow.
+            I need to hit the books before exams.
+            The temperature hit 100 degrees today.
+            The water hit the top stair in out basement.
+            Her speech hit a sour note at the end.
+            You hit the bullseye!
+            He hit the jackpot!
+            You hit the nail on the head!
+        </examples>
+        <mappings>
+            <wn version="2.1">5,6,10,11</wn>
+            <wn lemma="hit_the_books" version="2.1">1</wn>
+            <wn lemma="hit_the_jackpot" version="2.1">1</wn>
+            <omega></omega><pb>hit.02,hit.03</pb>
+            <vn>hit-18.1-1,reach-51.8</vn><fn>NM</fn>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    <sense group="1" n="4" name="consume to excess" type="">
+        <commentary>
+            Includes: HIT IT UP
+        </commentary>
+        <examples>
+            Every time she gets upset, she hits the bottle.
+            Don't you think you're hitting the cookies kind of hard?
+            He really hit it up last night.
+        </examples>
+        <mappings>
+            <wn version="2.1">14</wn>
+            <wn lemma="hit_it_up" version="2.1">1</wn>
+            <omega></omega><pb>NM</pb>
+            <vn>NM</vn><fn>NM</fn>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    <sense group="1" n="5" name="perform a type of ball striking in a sport" type="">
+        <commentary>
+        </commentary>
+        <examples>
+            Williams hit a pop fly to center field.
+            He's hit 32 home runs already this season.
+            She hit a long drive to the middle of the fairway.
+            He hit .300 last season.
+        </examples>
+        <mappings>
+            <wn version="2.1">13</wn>
+            <wn lemma="" version="2.1"></wn>
+            <omega></omega><pb>NM</pb>
+            <vn>NM</vn><fn>NM</fn>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    <sense group="1" n="6" name="discover or encounter, esp. by chance" type="">
+        <commentary>
+        </commentary>
+        <examples>
+            I hit on the idea while chopping vegetables.
+        </examples>
+        <mappings>
+            <wn version="2.1">12</wn>
+            <wn lemma="" version="2.1"></wn>
+            <omega></omega><pb>NM</pb>
+            <vn>NM</vn><fn></fn>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    <sense group="1" n="7" name="pay unsolicited sexual attention to" type="">
+        <commentary>
+        </commentary>
+        <examples>
+            He likes to go to bars and hit on women.
+        </examples>
+        <mappings>
+            <wn version="2.1">17</wn>
+            <wn lemma="" version="2.1"></wn>
+            <omega></omega><pb>NM</pb>
+            <vn>NM</vn><fn>NM</fn>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    <sense group="1" n="8" name="throw oneself to the ground" type="">
+        <commentary>
+            Includes: HIT THE DIRT, HIT THE DECK
+        </commentary>
+        <examples>
+            When the shots rang out, everyone hit the dirt.
+        </examples>
+        <mappings>
+            <wn version="2.1"></wn>
+            <wn lemma="hit_the_deck" version="2.1">1</wn>
+            <wn lemma="hit_the_dirt" version="2.1">1</wn>
+            <omega></omega><pb>NM</pb>
+            <vn>NM</vn><fn>NM</fn>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    <sense group="1" n="9" name="become angry and express rage" type="">
+        <commentary>
+            Includes: HIT THE CEILING, HIT THE ROOF
+        </commentary>
+        <examples>
+            When she came home at 2a.m., her father hit the ceiling.
+            I nearly hit the roof when I saw the Visa bill.
+        </examples>
+        <mappings>
+            <wn version="2.1"></wn>
+            <wn lemma="hit_the_ceiling" version="2.1">1</wn>
+            <wn lemma="hit_the_roof" version="2.1">1</wn>
+            <omega></omega><pb>NM</pb>
+            <vn>NM</vn><fn>NM</fn>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    <sense group="1" n="10" name="go to sleep" type="">
+        <commentary>
+            Includes: HIT THE HAY, HIT THE SACK
+        </commentary>
+        <examples>
+            I need to hit the hay.
+            You should hit the sack
+        </examples>
+        <mappings>
+            <wn version="2.1"></wn>
+            <wn lemma="hit_the_hay" version="2.1">1</wn>
+            <wn lemma="hit_the_sack" version="2.1">1</wn>
+            <omega></omega><pb>NM</pb>
+            <vn>NM</vn><fn>NM</fn>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+<sense group="1" n="11" name="none of the above" type="">
+  <commentary>
+Automatically generated NOTA sense (bbn)
+  </commentary>
+  <examples>
+  </examples>
+  <mappings>
+    <wn version="2.1"></wn>
+    <omega></omega><pb></pb>
+    <fn></fn>
+  </mappings><SENSE_META clarity=""/>
+</sense>
+    <WORD_META authors="brownsw" sample_score="-"/>
+
+<ita count="232" ann_1_2_agreement="0.823275862069" />
+</inventory>

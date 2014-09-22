@@ -1,0 +1,141 @@
+<?xml version="1.0" ?>
+<!DOCTYPE inventory
+  SYSTEM 'inventory.dtd'>
+<inventory lemma="deliver-v">
+    <commentary>
+    </commentary>
+    <sense group="1" n="1" name="present, produce" type="">
+        <commentary>
+        </commentary>
+        <examples>
+            The candidate delivered a compelling argument for his position during the debate.
+            The plaintiff hoped the jury would deliver a verdict in his favor.
+        </examples>
+        <mappings>
+            <wn version="2.1">1,6</wn>
+            <omega/>
+            <pb>NM</pb>
+            <vn>NM</vn><fn>NP</fn>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    <sense group="1" n="2" name="surrender, relinquish" type="">
+        <commentary>
+        </commentary>
+        <examples>
+            The prisoners will be delivered to the maximum security prison.
+            The terrorist was delivered to the authorities of his own country.
+            She won't deliver those documents to the commission without legal pressure.
+        </examples>
+        <mappings>
+            <wn version="2.1">3,5,10</wn>
+            <omega/>
+            <pb>deliver.01</pb>
+            <vn></vn><fn>NP</fn>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    <sense group="1" n="3" name="rescue, save" type="">
+        <commentary>
+        </commentary>
+        <examples>
+            The fireman was able to deliver the children from the burning building.
+            Deliver us from evil.
+        </examples>
+        <mappings>
+            <wn version="2.1">4,8</wn>
+            <omega/>
+            <pb>deliver.01</pb>
+            <vn></vn><fn>NP</fn>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    <sense group="1" n="4" name="carry out, enact" type="">
+        <commentary>
+        </commentary>
+        <examples>
+            He kept delivering blows to his opponent's left temple.
+            The pitcher delivered the ball just over the inside corner of the plate for a strike.
+        </examples>
+        <mappings>
+            <wn version="2.1">9,11</wn>
+            <omega/>
+            <pb>NM</pb>
+            <vn>send-11.1</vn><fn>NP</fn>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    <sense group="1" n="5" name="bring, carry to" type="">
+        <commentary>
+        </commentary>
+        <examples>
+            They will be delivering the new furniture tomorrow.
+        </examples>
+        <mappings>
+            <wn version="2.1">2</wn>
+            <omega/>
+            <pb>deliver.01</pb>
+            <vn>send-11.1</vn><fn>NP</fn>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    <sense group="1" n="6" name="utter" type="">
+        <commentary>
+        </commentary>
+        <examples>
+            The child delivered a yelp of delight at the pile of presents.
+        </examples>
+        <mappings>
+            <wn version="2.1">7</wn>
+            <omega/>
+            <pb>NM</pb>
+            <vn>NM</vn><fn>NP</fn>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    <sense group="1" n="7" name="give birth" type="">
+        <commentary>
+        </commentary>
+        <examples>
+            Yesterday Mary delivered twin girls.
+        </examples>
+        <mappings>
+            <wn version="2.1">12</wn>
+            <omega/>
+            <pb>NM</pb>
+            <vn>NM</vn><fn>NP</fn>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    <sense group="1" n="8" name="DELIVER THE GOODS: attain success, reach a goal" type="">
+        <commentary>
+            Is: DELIVER THE GOODS
+        </commentary>
+        <examples>
+            Martinelli's speech really delivered the goods to the audience.
+        </examples>
+        <mappings>
+            <wn version="2.1"></wn>
+            <wn lemma="deliver_the_goods" version="3.0">1</wn>
+            <omega/>
+            <pb>NM</pb>
+            <vn>NM</vn><fn>NP</fn>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+<sense group="1" n="9" name="none of the above" type="">
+  <commentary>
+Automatically generated NOTA sense (bbn)
+  </commentary>
+  <examples>
+  </examples>
+  <mappings>
+    <wn version="2.1"></wn>
+    <omega></omega><pb></pb>
+    <fn></fn>
+  </mappings><SENSE_META clarity=""/>
+</sense>
+    <WORD_META authors="ahouston,clarklm,greenlm" sample_score="-"/>
+
+<ita count="124" ann_1_2_agreement="0.782258064516" />
+</inventory>

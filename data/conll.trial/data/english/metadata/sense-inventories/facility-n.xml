@@ -1,0 +1,88 @@
+<!DOCTYPE inventory SYSTEM "inventory.dtd">
+<inventory lemma="facility-n">
+    <commentary>
+    </commentary>
+    <sense n="1" type="" name="a physical building, place or artifact that serves some purpose" group="1">
+        <commentary>
+            FACILITY[+physical][+site][+building/+area/+artifact]
+            Note: the physical facet of sense 2
+        </commentary>
+        <examples>
+            The Allies bombed many manufacturing facilities in Germany during WWII.
+            The facilities for both men and women are located behind the bar. (euphemism: toilets)
+            This state park has three facilities for picnicking. 
+            How does this facility work?
+            That tall granite building is the new medical facility.
+        </examples>
+        <mappings>
+            <wn version="2.1">1,4</wn>
+            <omega></omega><pb></pb>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    
+    <sense n="2" type="" name="the role of being a provider of a resource, service or amenity" group="1">
+        <commentary>
+            FACILITY[+role][+provider][+resource/+service/+amenity]
+            Note:  the functional or purposive facet of sense 1
+        </commentary>
+        <examples>
+            Does the suite include kitchen facilities?
+            As a preferred customer you will have free access to all the hotel's facilities.
+            Many developing nations have limited educational facilities for their children,.
+            Free childcare and a spa are just two of the many facilities available at the new resort.
+        </examples>
+        <mappings>
+            <wn version="2.1">1,4</wn>
+            <omega></omega><pb></pb>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    
+    <sense n="3" type="" name="skillfulness, adeptness" group="1">
+        <commentary>
+            FACILITY[+quality][+skill][+adeptness]
+        </commentary>
+        <examples>
+            She has a facility for remembering faces.
+            They spoke French with great facility.
+            John displays a natural facility for cooking.
+        </examples>
+        <mappings>
+            <wn version="2.1">2,3</wn>
+            <omega></omega><pb></pb>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    
+    <sense n="4" type="" name="a useful feature of something" group="1">
+        <commentary>
+            FACILITY[+quality][+feature][+service]
+        </commentary>
+        <examples>
+            Does your cell phone have an Internet facility?
+            This software application doesn't seem to have a help facility.
+        </examples>
+        <mappings>
+            <wn version="2.1">5</wn>
+            <omega></omega><pb></pb>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    
+<sense group="1" n="5" name="none of the above" type="">
+  <commentary>
+Automatically generated NOTA sense (bbn)
+  </commentary>
+  <examples>
+  </examples>
+  <mappings>
+    <wn version="2.1"></wn>
+    <omega></omega><pb></pb>
+    <fn></fn>
+  </mappings><SENSE_META clarity=""/>
+</sense>
+    <WORD_META authors="ahouston" sample_score="-"/>
+
+<ita count="81" ann_1_2_agreement="0.987654320988" />
+</inventory>

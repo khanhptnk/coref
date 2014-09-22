@@ -1,0 +1,164 @@
+<?xml version="1.0" ?>
+<!DOCTYPE inventory
+  SYSTEM 'inventory.dtd'>
+<inventory lemma="raise-v">
+    <commentary>
+    </commentary>
+    <sense group="1" n="1" name="increase" type="">
+        <commentary>
+        </commentary>
+        <examples>
+            The cartel raised the price of oil last week.
+            Medidation may raise your awareness of being alive.
+            The dough raised to twice its original size in three hours.
+            He's raising hearts.
+            I'll see you and raise you twenty.
+            Ten raised to the 100th power is a large number.
+            The sunshine and singing birds raised his spirit.
+        </examples>
+        <mappings>
+            <wn version="2.1">1,13,15,16,17,23,25</wn>
+            <omega/>
+            <pb>raise.01</pb>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    <sense group="1" n="2" name="lift, elevate, orient upwards" type="">
+        <commentary>
+            Includes: RAISE UP
+        </commentary>
+        <examples>
+            I raised my skirts to step over the mud puddle.
+            Raise the flag high!
+            Slowly, she raised her eyes up towards the tiny window near the ceiling.
+            You need to raise your e's more.
+            See how the artist has raised the edges of figures here?
+        </examples>
+        <mappings>
+            <wn version="2.1">2,8,20,24</wn>
+            <wn lemma="raise_up" version="2.1">1</wn>
+            <omega/>
+            <pb>raise.01</pb>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    <sense group="1" n="3" name="express, activate" type="">
+        <commentary>
+            Note: includes idiomatic expressions
+        </commentary>
+        <examples>
+            They raised their voices to the heavens.
+            The hooligans raised hell at the last soccer match.
+            Those old time fiddlers really raised the roof last night!
+            He is raising a ruckus over that parking ticket.
+            He raised the roof when he heard about the tuition increase.
+        </examples>
+        <mappings>
+            <wn version="2.1">3,11,21</wn>
+            <omega/>
+            <pb>raise.01</pb>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    <sense group="1" n="4" name="collect, levy" type="">
+        <commentary>
+        </commentary>
+        <examples>
+            They need to raise taxes to finance the war.
+            The king raised an army of ten thousand.
+        </examples>
+        <mappings>
+            <wn version="2.1">4,18</wn>
+            <omega/>
+            <pb>raise.01</pb>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    <sense group="1" n="5" name="cultivate, nurture" type="">
+        <commentary>
+        </commentary>
+        <examples>
+            They raised corn and hogs where I grew up.
+            She is basically raising her sister's kids.
+            The crops you could raise on this land wouldn't pay enough to raise a family of four.
+        </examples>
+        <mappings>
+            <wn version="2.1">5,6</wn>
+            <omega/>
+            <pb>raise.01</pb>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    <sense group="1" n="6" name="invoke, elicit, set off" type="">
+        <commentary>
+        </commentary>
+        <examples>
+            The specter of famine has again been raised.
+            I couldn't so much as raise a smile out of him.
+            I wish she'd stop raising the issue of her rotten marriage.
+            They managed to raise Hanoi last night on the shortwave radio.
+            You might as well try to raise the dead as get him to change his views.
+        </examples>
+        <mappings>
+            <wn version="2.1">7,10,19,22,27</wn>
+            <omega/>
+            <pb/>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    <sense group="1" n="7" name="advance, better, promote" type="">
+        <commentary>
+        </commentary>
+        <examples>
+            She has worked hard to raise the teaching standards at her school.
+            They have raised him to the rank of Colonel.
+        </examples>
+        <mappings>
+            <wn version="2.1">12,14</wn>
+            <omega/>
+            <pb>raise.01</pb>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    <sense group="1" n="8" name="construct, build" type="">
+        <commentary>
+        </commentary>
+        <examples>
+            Will you help us raise the new barn this weekend?
+        </examples>
+        <mappings>
+            <wn version="2.1">9</wn>
+            <omega/>
+            <pb/>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    <sense group="1" n="9" name="end" type="">
+        <commentary>
+        </commentary>
+        <examples>
+            They decided to raise the sanctions against that country.
+        </examples>
+        <mappings>
+            <wn version="2.1">26</wn>
+            <omega/>
+            <pb/>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+<sense group="1" n="10" name="none of the above" type="">
+  <commentary>
+Automatically generated NOTA sense (bbn)
+  </commentary>
+  <examples>
+  </examples>
+  <mappings>
+    <wn version="2.1"></wn>
+    <omega></omega><pb></pb>
+    <fn></fn>
+  </mappings><SENSE_META clarity=""/>
+</sense>
+    <WORD_META authors="ahouston" sample_score="-"/>
+
+<ita count="381" ann_1_2_agreement="0.792650918635" />
+</inventory>

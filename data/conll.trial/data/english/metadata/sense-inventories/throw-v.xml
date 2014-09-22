@@ -1,0 +1,237 @@
+<?xml version="1.0" ?>
+<!DOCTYPE inventory SYSTEM "inventory.dtd">
+<inventory lemma="throw-v">    
+    <commentary>
+        Contains duplicate WN mappings.
+    </commentary>
+    <sense group="1" n="1" name="Propel or hurl something/someone with
+   force; toss or put forward an idea or gesture." type="">  
+        <commentary>
+            Syntax includes: NP1[agent] THROW NP2[patient] (PP{P NP})
+            NP1[agent] THROW NP2[patient] (ADVP)
+            Includes: THROW BACK, THROW IN, THROW TOGETHER
+            NOTE: Compare to sense 9. In sense 1, a patient is being
+            thrown. Sense 1 does not involve giving up or quitting. 
+        </commentary>
+        <examples>
+            The delinquents threw a brick through the school window.
+            My friend threw the ball back over the fence.
+            He threw a punch at his attacker.
+            The horse reared and threw the rider into the bushes.
+            He threw sixes on both die.
+            She threw herself enthusiastically into the project.
+            He finally got the message after she almost threw herself at him.
+            The earthquake threw them onto the floor.
+            Others threw insults and abusive words my way.
+            She instantly spun around and threw me a scowl.
+            The pirates then grasped him and threw him overboard.
+            The beauty queen threw kisses at the crowd. 
+            She hangs out while the boys fight and throw money around.
+            He abruptly stopped and threw a glance at me, but he didn't react.
+            She threw me a look of encouragement.
+            He threw in a couple of wisecracks during her speech.
+            I'm just throwing my ideas out there. Let me know what you think.
+            Here are some ideas and examples to throw out.
+        </examples>
+        <mappings>
+            <wn version="2.1">1,2,4,5,8,10,13,14</wn>   
+            <wn lemma="throw_overboard" version="2.1">1,2</wn>
+            <wn lemma="throw_back" version="2.1">1</wn>
+            <wn lemma="throw_in" version="2.1">3</wn>
+            <wn lemma="throw_out" version="2.1">5</wn>
+            <wn lemma="throw_together" version="2.1">1,2</wn>
+            <omega></omega><pb>throw.01</pb>
+            <vn>throw-17.1-1-1</vn><fn>Body_movement</fn>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    <sense group="1" n="2" name="Discard, dispose, expel, or get rid of." type="">
+        <commentary>
+            Includes: THROW AWAY, THROW OFF
+        </commentary>
+        <examples>
+            Throw your worries into the wind!
+            I have always wished I could cut things out and throw the old magazines away.
+            So throw away your old habits and regain your confidence.
+            He can't seem to throw off the bad first impression he made on Sally.
+            Let's try to throw off this guy who's been following us across town.
+            So, before you throw out the trash, see what you can recycle.
+            They mistook him for a kid in a costume and threw him out of the bar.
+            We need to calm down before we are thrown out of the room.
+            That proposal was thrown out of the committee last year.
+            The case was thrown out yesterday after the judges became impatient with delays.
+        </examples>
+        <mappings>
+            <wn version="2.1">3</wn>
+            <wn lemma="throw_away" version="2.1">1,2</wn>
+            <wn lemma="throw_off" version="2.1">1,2</wn>
+            <wn lemma="throw_out" version="2.1">1,2,3,4,6</wn>
+            <omega></omega><pb>NM</pb>
+            <vn>NM</vn><fn>NM</fn>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    <sense group="1" n="3" name="Manipulate or move something in order to operate." type="">
+        <commentary>
+        </commentary>
+        <examples>
+            John threw the car into reverse and squealed the tires.
+            They threw the switch just as the train was approaching.
+            He reversed the engine and threw the lever back.
+        </examples>
+        <mappings>
+            <wn version="2.1">6,8</wn>
+            <wn lemma="" version="2.1"></wn>
+            <omega></omega><pb>NM</pb>
+            <vn>throw-17.1-1-1</vn><fn>NM</fn>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    <sense group="1" n="4" name="Cast, emit, or radiate." type="">
+        <commentary>
+            Includes: THROW LIGHT
+            Note: (metaphorical usage meaning 'to cast understanding')
+        </commentary>
+        <examples>
+            Is the fireplace throwing any heat yet?
+            We threw the tape of vacation highlights up on the screen for the audience.
+            We can put up a reflector to throw light into the dark places
+            This workshop will throw light into the dark corners of your mind.
+            The searchlights are throwing out powerful beams.
+            My wizard doesn't throw spells around left and right.
+        </examples>
+        <mappings>
+            <wn version="2.1">7</wn>
+            <omega></omega><pb>NM</pb>
+            <vn>NM</vn><fn>NM</fn>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    <sense group="1" n="5" name="Confuse or bewilder" type="">
+        <commentary>
+            Include: THROW OFF, THROW OFF KILTER, THROW OUT OF KILTER
+        </commentary>
+        <examples>
+            Mary was really thrown by his unexpected apology.
+            The game contestants were thrown by that last clue.
+            Don't be thrown off by these equations; the underlying concept is simple.
+            Maybe your remarks threw him off kilter.
+            When you stop paying attention to her mistakes, you will throw her out of kilter.
+        </examples>
+        <mappings>
+            <wn version="2.1">9,15</wn>
+            <wn lemma="throw_out_of_kilter" version="2.1">1</wn>
+            <omega></omega><pb>NM</pb>
+            <vn>amuse-31.1</vn><fn>NM</fn>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    <sense group="1" n="6" name="Hold an event" type="">  
+        <commentary>
+            Includes: THROW A FIT
+        </commentary>
+        <examples>
+            Our department is throwing Jim a farewell party.
+            Mary threw an informal get-together at her place last night.
+            She'll throw a fit when she sees what you've done with her toys.
+        </examples>
+        <mappings>
+            <wn version="2.1">11</wn>   
+            <wn lemma="throw_a_fit" version="2.1">1</wn>
+            <omega></omega><pb>throw.02</pb>
+            <vn>NM</vn><fn>NM</fn>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    <sense group="1" n="7" name="Form or shape, as pottery" type="">
+        <commentary>
+        </commentary>
+        <examples>
+            We watched the potter throw a large vase on his wheel.
+            John is going down to the ceramics studio to throw a few pots this afternoon.
+        </examples>
+        <mappings>
+            <wn version="2.1">12</wn>
+            <omega></omega><pb>NM</pb>
+            <vn>NM</vn><fn>NM</fn>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    <sense group="1" n="8" name="Lose, as a game, intentionally" type="">
+        <commentary>
+            Note: NOT THROW IN, THROW IN THE TOWEL; compare to Sense 10.
+        </commentary>
+        <examples>
+            They were suspected of throwing the game last Sunday.
+            Deep Blue threw the match!
+            Will the current chair throw the elections to the new candidate?
+        </examples>
+        <mappings>
+            <wn lemma="" version="2.1"></wn>
+            <omega></omega><pb>NM</pb>
+            <vn>NM</vn><fn>NM</fn>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    <sense group="1" n="9" name="Give up, quit" type="">
+        <commentary>
+            Includes: THROW IN, THROW IN THE TOWEL
+        </commentary>
+        <examples>
+            Bob is ready to throw it in on this endless legal battle.
+            They have decided to throw in the towel about fighting the rezoning commission.
+        </examples>
+        <mappings>
+            <wn lemma="throw_in" version="2.1">2</wn>
+            <wn lemma="throw_in_the_towel" version="2.1">1</wn>
+            <omega></omega><pb>NM</pb>
+            <vn>NM</vn><fn>NM</fn>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    <sense group="1" n="10" name="THROW UP: vomit" type="">
+        <commentary>
+            Is: THROW UP
+        </commentary>
+        <examples>
+            Obviously the shellfish we just ate disagreed with me. I just threw up.
+        </examples>
+        <mappings>
+            <wn lemma="throw_up" version="2.1">1</wn>
+            <omega></omega><pb>NM</pb>
+            <vn>NM</vn><fn>NM</fn>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    <sense group="1" n="11" name="THROW IN: add as an extra or gratuity" type="">
+        <commentary>
+            Is: THROW IN
+        </commentary>
+        <examples>
+            The landlord threw in a free month of rent and let them move in two weeks early.
+            When I bought my new glasses, they threw in a free pair of sunglasses.
+        </examples>
+        <mappings>
+            <wn lemma="throw_in" version="2.1">1</wn>
+            <omega></omega><pb>NM</pb>
+            <vn>NM</vn><fn>NM</fn>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+<sense group="1" n="12" name="none of the above" type="">
+  <commentary>
+Automatically generated NOTA sense (bbn)
+  </commentary>
+  <examples>
+  </examples>
+  <mappings>
+    <wn version="2.1"></wn>
+    <omega></omega><pb></pb>
+    <fn></fn>
+  </mappings><SENSE_META clarity=""/>
+</sense>
+    <WORD_META authors="ahouston,hwangd,corvey,greenlm" sample_score="-"/>
+     
+
+<ita count="91" ann_1_2_agreement="0.791208791209" />
+</inventory>

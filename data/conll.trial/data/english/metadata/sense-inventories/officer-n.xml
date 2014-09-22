@@ -1,0 +1,68 @@
+<!DOCTYPE inventory SYSTEM "inventory.dtd">
+<inventory lemma="officer-n">
+    <commentary>
+    </commentary>
+    <sense n="1" type="" name="military commander of some rank" group="1">
+        <commentary>
+            OFFICER[+authority][+military]
+        </commentary>
+        <examples>
+            He was the commanding office of that platoon.
+            The officers on the destroyer all went down with their ship.
+            She is facing court martial for striking an officer.
+        </examples>
+        <mappings>
+            <wn version="2.1">1,4</wn>
+            <omega></omega><pb></pb>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    
+    <sense n="2" type="" name="someone elected or appointed to an office" group="1">
+        <commentary>
+            OFFICER[+trustee][+elected/+appointed]
+        </commentary>
+        <examples>
+            Two bank officers have been indicted for fraud.
+            Our club has elected its officers for the coming year.
+            John is an officer of the court.
+        </examples>
+        <mappings>
+            <wn version="2.1">2</wn>
+            <omega></omega><pb></pb>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    
+    <sense n="3" type="" name="a member of a police force" group="1">
+        <commentary>
+            OFFICER[+authority][+civilian]
+        </commentary>
+        <examples>
+            The officer gave Mary a speeding ticket for going 40 in a school zone.
+            The officers used their night sticks to control the thrashing assailant.
+            Bill is an officer with the NYPD.
+        </examples>
+        <mappings>
+            <wn version="2.1">3</wn>
+            <omega></omega><pb></pb>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    
+<sense group="1" n="4" name="none of the above" type="">
+  <commentary>
+Automatically generated NOTA sense (bbn)
+  </commentary>
+  <examples>
+  </examples>
+  <mappings>
+    <wn version="2.1"></wn>
+    <omega></omega><pb></pb>
+    <fn></fn>
+  </mappings><SENSE_META clarity=""/>
+</sense>
+    <WORD_META authors="ahouston" sample_score="-"/>
+
+<ita count="186" ann_1_2_agreement="0.967741935484" />
+</inventory>

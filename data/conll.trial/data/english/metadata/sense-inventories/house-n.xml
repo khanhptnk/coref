@@ -1,0 +1,246 @@
+<!DOCTYPE inventory SYSTEM "inventory.dtd">
+<inventory lemma="house-n">
+    <commentary>
+        Includes idioms on_the_house, full_house
+    </commentary>
+    <sense n="1" type="" name="a domicile or physical place to live" group="1">
+        <commentary>
+            HOUSE[+physical][+building][+domicile]
+        </commentary>
+        <examples>
+            We are selling our house and moving to California.
+            Those houses have been on the market for two weeks.
+            Can you read the address on that house?
+            John took Mary to his new beach house.
+            We went to several open houses last week.
+            These refugees will need houses to live in.
+            Sally has a beautiful Victorian doll house in her living room. (extension)
+            The realtor showed us two townhouses and a row house, but we decided to buy the farmhouse.
+            The spies met at one of the safe houses in Virginia. (extension)
+        </examples>
+        <mappings>
+            <wn version="2.1">1</wn>
+            <omega></omega><pb></pb>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    
+    <sense n="2" type="" name="people living together" group="1">
+        <commentary>
+            HOUSE[+social][+group][+family/+order]
+            Note: 'house' functions as an agent or patient
+        </commentary>
+        <examples>
+            Our house hosts a scrabble game after dinner on Tuesday nights.
+            Their house has a cooking audition for people who would like to move in.
+            He joined a Christian house on campus.
+            That fraternity house was shut down for underage drinking.
+        </examples>
+        <mappings>
+            <wn version="2.1">4,8</wn>
+            <omega></omega><pb></pb>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    
+    <sense n="3" type="" name="a building to store or shelter things" group="1">
+        <commentary>
+            HOUSE[+physical][+building][+shelter]
+            Note: Differs from Sense 1 in 
+        </commentary>
+        <examples>
+            Our club is building a new boathouse. 
+            Mary grows orchids in her greenhouse.
+            There is concern that the earth could become a greenhouse. (metaphoric)
+            Bob built a doghouse for his poodle.
+            These are bee houses where the bees make honey.
+            He's been living in an old brick carriage house. (original purpose was to hold carriages)
+        </examples>
+        <mappings>
+            <wn version="2.1">3</wn>
+            <omega></omega><pb></pb>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    
+    <sense n="4" type="" name="a public building where activities take place" group="1">
+        <commentary>
+            HOUSE[+physical][+building][+public]
+            Note: house of/for NP/NP-house implies the service/activity of/to NP occurs in the house.
+            Note: differs from sense 3; sense 3 'house of NP. NP-house' implies NP is located or protected by house
+        </commentary>
+        <examples>
+            This is the larger of the two opera houses which are both built out of granite.
+            The old movie house burned down last summer.
+            The gated community built a new two-story clubhouse last year.
+            The lights in the house went down before everyone had taken their seat.
+            We enjoyed the bathhouse at the old resort.
+            There are two outhouses at the nearby camp grounds.
+            The heroine spends two years in a madhouse in that Victorian novel.	
+            The convicts broke out of the death house.
+        </examples>
+        <mappings>
+            <wn version="2.1">5</wn>
+            <omega></omega><pb></pb>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    
+    <sense n="5" type="" name="aristocratic lineage" group="1">
+        <commentary>
+            HOUSE[+social][+lineage][+aristocratic]
+        </commentary>
+        <examples>
+            He belongs to the royal House of York.	
+            She is a descendant of the House of Medici.
+            There has been turmoil in the House of Chanel since the departure of their top designer.  (metaphoric)
+        </examples>
+        <mappings>
+            <wn version="2.1">7</wn>
+            <omega></omega><pb></pb>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    
+    <sense n="6" type="" name="a business firm" group="1">
+        <commentary>
+            HOUSE[+organization][+business]
+            Note: highlights the business venture itself.
+        </commentary>
+        <examples>
+            She has worked for two different brokerage houses.
+            The French fashion houses are presenting a pared-down silhouette this year.
+            They periodically raid the flop houses in the Tenderloin district.
+            They traced the stolen painting through a New York auction house.
+        </examples>
+        <mappings>
+            <wn version="2.1">6</wn>
+            <omega></omega><pb></pb>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    
+    <sense n="7" type="" name="the management of a business or establishment" group="1">
+        <commentary>
+            HOUSE[+business][+management]
+        </commentary>
+        <examples>
+            This house only takes a cut of the ante from the poker tables.
+            When the house dims the lights it is time to sit down.
+            John has beat the house many times at Black Jack with his card counting methods.
+        </examples>
+        <mappings>
+            <wn version="2.1">12</wn>
+            <omega></omega><pb></pb>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    
+    <sense n="8" type="" name="an official or political assembly" group="1">
+        <commentary>
+            HOUSE[+assembly][+official][+legislative]
+        </commentary>
+        <examples>
+            There are two houses in a bicameral legislature.
+            The bill is expected to go before the House tomorrow.
+            She was elected to the House three times.
+        </examples>
+        <mappings>
+            <wn version="2.1">2</wn>
+            <omega></omega><pb></pb>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    
+    <sense n="9" type="" name="the people attending a theater or entertainment" group="1">
+        <commentary>
+            HOUSE[+assembly][+entertainment]
+        </commentary>
+        <examples>
+            That joke brought down the house.
+            The entire house jumped to its feet in a standing ovation.
+        </examples>
+        <mappings>
+            <wn version="2.1">9</wn>
+            <omega></omega><pb></pb>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    
+    <sense n="10" type="" name="regions of the zodiac" group="1">
+        <commentary>
+            HOUSE[+region][+astrological]
+        </commentary>
+        <examples>
+            Do you know the twelve houses of the zodiac?
+            The moon is in the seventh house right now.
+        </examples>
+        <mappings>
+            <wn version="2.1">11</wn>
+            <omega></omega><pb></pb>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    
+    <sense n="11" type="" name="a child's game" group="1">
+        <commentary>
+            HOUSE[+game][+child]
+        </commentary>
+        <examples>
+            Let's play house with our Barbie dolls.
+            Susie wants to play house and Johnny wants to play doctor.
+        </examples>
+        <mappings>
+            <wn version="2.1">10</wn>
+            <omega></omega><pb></pb>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    
+    <sense n="12" type="" name="free, without expense" group="1">
+        <commentary>
+            Idiom: on_the_house
+        </commentary>
+        <examples>
+            Drinks are on the house!
+            Bob is always expecting things to be on the house.
+            Dessert was on the house, but dinner was not.
+        </examples>
+        <mappings>
+            <wn version="Merriam-Webster online">idiom</wn>
+            <omega></omega><pb></pb>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    
+    <sense n="13" type="" name="specific hands in five-card Poker" group="1">
+        <commentary>
+            idiom: full_house
+        </commentary>
+        <examples>
+            Three of a kind and a pair makes a full house in poker.
+            I raised the bet while holding a full house in my hand.
+        </examples>
+        <mappings>
+            <wn version="2.1">idiom</wn>
+            <omega></omega><pb></pb>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    
+<sense group="1" n="14" name="none of the above" type="">
+  <commentary>
+Automatically generated NOTA sense (bbn)
+  </commentary>
+  <examples>
+  </examples>
+  <mappings>
+    <wn version="2.1"></wn>
+    <omega></omega><pb></pb>
+    <fn></fn>
+  </mappings><SENSE_META clarity=""/>
+</sense>
+    <WORD_META authors="ahouston" sample_score="-"/>
+
+<ita count="161" ann_1_2_agreement="0.906832298137" />
+</inventory>

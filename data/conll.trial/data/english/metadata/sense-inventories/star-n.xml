@@ -1,0 +1,204 @@
+<!DOCTYPE inventory SYSTEM "inventory.dtd">
+<inventory lemma="star-n">
+    <commentary>
+        Includes idiom: see_stars
+    </commentary>
+    
+    <sense n="1" type="" name="self-illuminating gaseous celestial bodies" group="1">
+        <commentary>
+            STAR[+body][+celestial][+self_illuminating]
+        </commentary>
+        <examples>
+            The nearest star to our solar system is about four light years away.
+            A neutron star no longer emits light. (But it once did, so it qualifies)
+            Betelgeuse is a star that can be seen with the naked eye.
+            Imagery from the telescope revealed a star nursery within the nebula.
+        </examples>
+        <mappings>
+            <wn version="2.1">1,3</wn>
+            <omega></omega><pb></pb>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    
+    
+    <sense n="2" type="" name="a hotshot or ace, a gifted person or animal" group="1">
+        <commentary>
+            STAR[+individual][+skilled][+exceptionally]
+            Note: focus is on ability, aptitude, not fame or prominence (see Sense 4)
+        </commentary>
+        <examples>
+            John was a track star in high school.
+            The young professor from Argentina is considered a rising star in the field of economics. (figurative)
+            We watched the all star game on television. (top sports players)
+            She proved to be the star of the debating club.
+            That three-year-old filly is one of this year's stars on the racing circuit.
+            One of the Red Sox's star pitchers received an injury last night when a ball struck his shin.
+        </examples>
+        <mappings>
+            <wn version="2.1">2</wn>
+            <omega></omega><pb></pb>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    
+    
+    <sense n="3" type="" name="a geometric plane figure, typically with five points" group="1">
+        <commentary>
+            STAR[+figure][+plane][+point][+five]
+            Note: A star may have more points, but not less than five.
+        </commentary>
+        <examples>
+            Mary hung a star on top of the Christmas tree.
+            The child drew a six-pointed star on the page.
+            You can cut the cookie dough into stars or circles, or other shapes.
+        </examples>
+        <mappings>
+            <wn version="2.1">4</wn>
+            <omega></omega><pb></pb>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    
+    
+    <sense n="4" type="" name="a famous, principal participant,  e.g., entertainers, headliners" group="1">
+        <commentary>
+            STAR[+entertainer][+famous]
+            [+role][+performer][+principal]
+            Note: focus is on fame, notoriety and prominence, rather than ability or aptitude. (see Sense 2)
+            Note: often refers to entertainers, but can include politicians, witnesses and others who play a central role in something.
+        </commentary>
+        <examples>
+            The woman sitting at the next table is a famous opera star.
+            Many film stars attended the opening last night.
+            The director is looking for a star to play the leading man.
+            Penguins are the stars in that documentary.
+            John is singing backup vocals for that famous rock star.
+        </examples>
+        <mappings>
+            <wn version="2.1">5,6</wn>
+            <omega></omega><pb></pb>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    
+    
+    <sense n="5" type="" name="notation, an asterisk" group="1">
+        <commentary>
+            STAR[+notation][+asterisk]
+        </commentary>
+        <examples>
+            An asterisk is also called the star character.
+            Enter the numbers and then hit the star key.
+            I put a star next to the items on the task list that I must get finished today.
+        </examples>
+        <mappings>
+            <wn version="2.1">7</wn>
+            <omega></omega><pb></pb>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    
+    
+    <sense n="6" type="" name="a network topology, a network configuration" group="1">
+        <commentary>
+            STAR[+topology][+form]
+        </commentary>
+        <examples>
+            A star network topology has a central hub unlike a ring network.
+            The company has linked several star networks together to form a hybrid.
+        </examples>
+        <mappings>
+            <wn version="2.1">8</wn>
+            <omega></omega><pb></pb>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    
+    
+    <sense n="7" type="" name="a white marking on the nose of an animal, e.g., horse" group="1">
+        <commentary>
+            STAR[+marking][+nose][+animal]
+        </commentary>
+        <examples>
+            Mary's chestnut stallion has a white star on his forehead.
+            The kitten was all black except for a white star on his face.
+        </examples>
+        <mappings>
+            <wn version="MAC">2c</wn>
+            <omega></omega><pb></pb>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    
+    
+    <sense n="8" type="" name="destiny, fate, horoscope" group="1">
+        <commentary>
+            STAR[+state][+destiny][+horoscope]
+            Note: 'stars' includes planets in this sense, harkening back to the times when the planets were noticed to be 'wandering stars', distinct from the fixed stars. 
+        </commentary>
+        <examples>
+            You should thank your lucky stars!
+            She believes her fate is written in the stars.
+            The stars say you will meet a handsome stranger today.
+            His star has faded of late. (figurative sense, his power and fate are not going well)
+            He was born under an unlucky star.
+            Observers have been watching China's rising star. (figurative, good fortune)
+        </examples>
+        <mappings>
+            <wn version="MW online">2</wn>
+            <omega></omega><pb></pb>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    
+    
+    <sense n="9" type="" name="a judgement of excellence" group="1">
+        <commentary>
+            STAR[+event][+judgement][+excellence]
+        </commentary>
+        <examples>
+            Pierre's restaurant received its third Michelin star this year.
+            The teacher put a gold star on Johnny's spelling test, and a silver one on Tommy's.
+            They stayed at a four-star hotel on Barbados.
+        </examples>
+        <mappings>
+            <wn version="MAC">2a</wn>
+            <omega></omega><pb></pb>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    
+    
+    <sense n="10" type="" name="experience visual effects from hitting the head" group="1">
+        <commentary>
+            Idiom: see_stars
+        </commentary>
+        <examples>
+            Pete saw stars when the lid of the piano fell down on his head.
+            I'd better sit down for a moment because I'm still seeing stars.
+        </examples>
+        <mappings>
+            <wn version="MW online">see_stars</wn>
+            <omega></omega><pb></pb>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    
+    
+<sense group="1" n="11" name="none of the above" type="">
+  <commentary>
+Automatically generated NOTA sense (bbn)
+  </commentary>
+  <examples>
+  </examples>
+  <mappings>
+    <wn version="2.1"></wn>
+    <omega></omega><pb></pb>
+    <fn></fn>
+  </mappings><SENSE_META clarity=""/>
+</sense>
+    <WORD_META authors="ahouston" sample_score="-"/>
+
+<ita count="74" ann_1_2_agreement="0.891891891892" />
+</inventory>

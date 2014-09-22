@@ -1,0 +1,50 @@
+<!DOCTYPE inventory SYSTEM "inventory.dtd">
+<inventory lemma="chief-n">
+    <commentary>
+    </commentary>
+    <sense n="1" type="" name="a leader or boss" group="1">
+        <commentary>
+            CHIEF[+person][+leader]
+        </commentary>
+        <examples>
+            The tribal chiefs met to arrange a peace treaty.
+            Ask the chief if you can leave the assembly line for an hour this afternoon.
+            She was the President's chief of staff for two years.
+        </examples>
+        <mappings>
+            <wn version="2.1">1,2</wn>
+            <omega></omega><pb></pb>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    <sense n="2" type="" name="the upper portion of a heraldic field" group="1">
+        <commentary>
+            CHIEF[+artifact][+heraldry][+portion]
+        </commentary>
+        <examples>
+            The legion was recognized by the crimson eagles on the chief of their shields.
+        </examples>
+        <mappings>
+            <wn version="Merriam-Webster online">1</wn>
+            <omega></omega><pb></pb>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    
+    <sense group="1" n="3" name="none of the above" type="">
+        <commentary>
+            Automatically generated NOTA sense (bbn)
+        </commentary>
+        <examples>
+        </examples>
+        <mappings>
+            <wn version="2.1"></wn>
+            <omega></omega><pb></pb>
+            <fn></fn>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    <WORD_META authors="ahouston" sample_score="-"/>
+
+<ita count="68" ann_1_2_agreement="0.970588235294" />
+</inventory>

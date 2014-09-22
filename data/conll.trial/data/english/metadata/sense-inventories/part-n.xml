@@ -1,0 +1,147 @@
+<!DOCTYPE inventory SYSTEM "inventory.dtd">
+<inventory lemma="part-n">
+    <commentary>
+        
+    </commentary>
+    
+    <sense n="1" type="" name="portion" group="1">
+        <commentary>
+            component part, component, piece - 
+            something determined in relation to something that includes it
+        </commentary>
+        <examples>
+            He wanted to feel a part of something bigger than himself.
+            I read a part of the manuscript.
+            The smaller part is hard to reach.
+            They analyzed the river into three parts.
+            The rear part of the house.
+            Glue the two parts together.
+            Religions is in all parts of the world.
+            The written part of the exam.
+            The finance section of the company.
+        </examples>
+        <mappings>
+            <wn version="2.0">1 2 4 5 7</wn>
+            <omega></omega>
+            <pb></pb>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    
+    <sense n="2" type="Phrasal" name="our/his/my part" group="1">
+        <commentary>
+            so far as concerns the actor specified (can be replaced with "by him/us/my")
+        </commentary>
+        <examples>
+            It requires vigilance on our part.
+            They resisted every effort on his part.
+        </examples>
+        <mappings>
+            <wn version="2.0">3</wn>
+            <omega></omega>
+            <pb></pb>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    
+    <sense n="3" type="" name="function" group="1">
+        <commentary>
+            office, role - 
+            the actions and activities assigned to or required or expected of a
+            person or group
+        </commentary>
+        <examples>
+            The part of a teacher is not to act as a babysitter.
+            The government must do its part.
+        </examples>
+        <mappings>
+            <wn version="2.0">6</wn>
+            <omega></omega>
+            <pb></pb>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    
+    <sense n="4" type="" name="theatrical role" group="1">
+        <commentary>
+            character, role, persona -
+            an actor's portrayal of someone in a play
+        </commentary>
+        <examples>
+            She played the part of Desdemona.
+        </examples>
+        <mappings>
+            <wn version="2.0">8</wn>
+            <omega></omega>
+            <pb></pb>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    
+    <sense n="5" type="" name="share" group="1">
+        <commentary>
+            portion - 
+            assets belonging to or due to or contributed by an individual person
+            or group
+        </commentary>
+        <examples>
+            He wanted his part in cash.
+            They all did their part of the work.
+        </examples>
+        <mappings>
+            <wn version="2.0">9 10</wn>
+            <omega></omega>
+            <pb></pb>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    
+    <sense n="6" type="Music" name="voice" group="1">
+        <commentary>
+            the melody carried by a particular voice or instrument in polyphonic music
+        </commentary>
+        <examples>
+            He tried to sing the tenor part.
+        </examples>
+        <mappings>
+            <wn version="2.0">11</wn>
+            <omega></omega>
+            <pb></pb>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    
+    <sense n="7" type="" name="divide in hair" group="1">
+        <commentary>
+            a line where the hair is parted
+        </commentary>
+        <examples>
+            His part was right in the middle.
+            She moved her part to the side when she went out at night.
+        </examples>
+        <mappings>
+            <wn version="2.0">12</wn>
+            <omega></omega>
+            <pb></pb>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    
+    <!-- more senses go here -->
+<sense group="1" n="8" name="none of the above" type="">
+  <commentary>
+Automatically generated NOTA sense (bbn)
+  </commentary>
+  <examples>
+  </examples>
+  <mappings>
+    <wn version="2.1"></wn>
+    <omega></omega><pb></pb>
+    <fn></fn>
+  </mappings><SENSE_META clarity=""/>
+</sense>
+    <WORD_META authors="cstocker ajarrett" sample_score=""/>
+
+<ita count="502" ann_1_2_agreement="0.956175298805" />
+</inventory>
+

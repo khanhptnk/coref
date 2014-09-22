@@ -1,0 +1,237 @@
+<?xml version="1.0" ?>
+<!DOCTYPE inventory SYSTEM "inventory.dtd">
+<inventory lemma="pull-v">
+    <commentary>
+    </commentary>
+    <sense group="1" n="1" name="exert force to cause movement" type="">
+        <commentary>
+            Syntax is: NP1 PULL NP2 (PP[directional])
+            Note: (where NP1 exerts force causing NP2 to move relative to/toward NP1)
+            Includes: PULL ALONG, PULL AT, PULL BACK, PULL DOWN, PULL IN, PULL OFF, 
+            PULL OUT, PULL TOGETHER, PULL UP
+            NOTE: many of these V + PP expressions are found in other senses too
+        </commentary>
+        <examples>
+            Tommy pulled the wagon behind him.
+            This pianist pulls huge crowds.
+            Pull the rope to ring the bell.
+            She pulled her knees up to her chin.
+            When he pulled the trigger, nothing happened.
+            A declining dollar pulled down the export figurs for the last quarter.
+            As I pulled the oars, I discovered that these were smaller than my old ones.
+            He pulled nervously at the cuffs of his shirt.
+            Pull back on the bow string in order to fire.
+            Can you believe they pulled down that beautiful old building?
+            How much money do you pull in every month?
+            Don't pull off that cloth!
+            The mugger pulled a knife on his victim.
+            Pull together your thoughts before you go in.
+            Watch while I pull a rabbit out of my hat.
+            He pulled out a gun and waved it in the air.
+            She pulled the petals off one by one.
+            The dentist pulled three teeth.
+            I spent all weekend pulling weeds.
+        </examples>
+        <mappings>
+            <wn version="3.0">1,2,4,6,9,10,14,15</wn>
+            <wn lemma="pull_along" version="3.0">1</wn>
+            <wn lemma="pull_at" version="3.0">1</wn>
+            <wn lemma="pull_back" version="3.0">2,3,4</wn>
+            <wn lemma="pull_down" version="3.0">1,2</wn>
+            <wn lemma="pull_in" version="3.0">1,2,4</wn>
+            <wn lemma="pull_off" version="3.0">1,2,4</wn>
+            <wn lemma="pull_out" version="3.0">2,3</wn>
+            <wn lemma="pull_together" version="3.0">1</wn>
+            <wn lemma="pull_up" version="3.0">4</wn>
+            <omega></omega><pb>pull.01</pb>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    <sense group="1" n="2" name="steer something or move oneself in a certain direction" type="">
+        <commentary>
+            Includes: PULL AHEAD, PULL AWAY, PULL BACK, PULL IN, PULL OUT, PULL OVER,
+            PULL UP, PULL UP SHORT
+        </commentary>
+        <examples>
+            Your car pulls to the right.
+            I'm going to pull over and let that car go by.
+            He pulled the car up to the curb.
+            Jackson pulled the ball to Ortiz's right to start the possible inning-ending double play.
+            Jeanne pulled ahead in the last yard to win the race.
+            The limo pulled away from the curb.
+            The regiment pulled back in order to regroup.
+            The bullet train pulled in to Tokyo Station.
+            He pulled out of the project when he discovered how much work was involved.
+            They pulled together after the disaster.
+            He pulled up short at the strange sight.
+        </examples>
+        <mappings>
+            <wn version="3.0">3,7,13</wn>
+            <wn lemma="pull_ahead" version="3.0">1</wn>
+            <wn lemma="pull_away" version="3.0">1</wn>
+            <wn lemma="pull_back" version="3.0">1,5</wn>
+            <wn lemma="pull_in" version="3.0">3</wn>
+            <wn lemma="pull_out" version="3.0">1,4</wn>
+            <wn lemma="pull_over" version="3.0">1</wn>
+            <wn lemma="pull_up" version="3.0">1,2,3</wn>
+            <wn lemma="pull_up_short" version="3.0">1</wn>
+            <omega></omega><pb>pull.01,pull.02,pull.05</pb>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    <sense group="1" n="3" name="eliminate from a situation or obligation" type="">
+        <commentary>
+            Includes: PULL OUT
+        </commentary>
+        <examples>
+            Pull the old soup cans from the shelf.
+            We reserve the right to pull the promotion at our discretion.
+            Due to his poor performance, he was pulled from the project.
+            Each feared that the other might pull out of the war effort and make a separate settlement with Germany.
+        </examples>
+        <mappings>
+            <wn version="3.0">17</wn>
+            <wn lemma="pull_out" version="3.0">4</wn>
+            <omega></omega><pb>pull.02</pb>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    <sense group="1" n="4" name="commit, do" type="">
+        <commentary>
+            Includes: PULL OFF
+        </commentary>
+        <examples>
+            He's pulled five bank robberies.
+            You can't pull that crap on me!
+            Steve has always loved to pull practical jokes on people.
+            Gerald Ford pulled off the difficult transition from Nixon's disastrous presidency.
+        </examples>
+        <mappings>
+            <wn version="3.0">5</wn>
+            <wn lemma="pull_off" version="3.0">3</wn>
+            <omega></omega><pb>pull.03</pb>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    <sense group="1" n="5" name="strain abnormally, overstretch" type="">
+        <commentary>
+        </commentary>
+        <examples>
+            Ann pulled a muscle skiing last weekend.
+        </examples>
+        <mappings>
+            <wn version="3.0">8</wn>
+            <wn lemma="" version="3.0"></wn>
+            <omega></omega><pb></pb>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    <sense group="1" n="6" name="tear" type="">
+        <commentary>
+        </commentary>
+        <examples>
+            Next, pull the cooked chicken into strips.
+        </examples>
+        <mappings>
+            <wn version="3.0">12</wn>
+            <wn lemma="" version="3.0"></wn>
+            <omega></omega><pb></pb>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    <sense group="1" n="7" name="(cause to) survive" type="">
+        <commentary>
+            Includes: PULL ROUND, PULL THROUGH
+        </commentary>
+        <examples>
+            He'll pull round in a day or two, the surgeon said.
+            She pulled through the surgery just fine.
+            We pulled through most of the victims of the bomb attack.
+        </examples>
+        <mappings>
+            <wn version="3.0"></wn>
+            <wn lemma="pull_round" version="3.0">1</wn>
+            <wn lemma="pull_through" version="3.0">1,2</wn>
+            <omega></omega><pb>pull.04</pb>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    <sense group="1" n="8" name="rein in a horse to lose a race" type="">
+        <commentary>
+        </commentary>
+        <examples>
+            Do you really think Dan pulled the horse in the last race?
+        </examples>
+        <mappings>
+            <wn version="3.0">11</wn>
+            <wn lemma="" version="3.0"></wn>
+            <omega></omega><pb></pb>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    <sense group="1" n="9" name="take sides with, show support for" type="">
+        <commentary>
+        </commentary>
+        <examples>
+            I'm pulling for the Libertarian.
+            Americans love to pull for the underdog.
+        </examples>
+        <mappings>
+            <wn version="3.0">16</wn>
+            <wn lemma="" version="3.0"></wn>
+            <omega></omega><pb></pb>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    <sense group="1" n="10" name="idioms" type="">
+        <commentary>
+            Includes: PULL A FACE, PULL A FAST ONE, PULL IN ONE'S HORNS, PULL ONE'S WEIGHT, 
+            PULL SOMEONE'S LEG, PULL STRINGS, PULL THE LEG OFF, PULL THE WOOL OVER
+            SOMEONE'S EYES, PULL UP STAKES, PULL WIRES, PULL OUT ALL THE STOPS
+        </commentary>
+        <examples>
+            He pulled a face when his mother asked him to eat his vegetables.
+            We pulled a fast one on the substitute teacher.
+            The aggressive investment company pulled in its horns.
+            I'm sick of doing all the chores. You need to pull your own weight.
+            He really slept that long? Are you pulling my leg?
+            When they realized how unprofitable the division was, they pulled the plug.
+            The con men\'s charm helped pull the wool over the eyes of their victims.
+            The family of an Army officer must frequently pull up stakes to move.
+            He pulled wires to get his nephew that job.
+            She pulled out all the stops for this party.
+        </examples>
+        <mappings>
+            <wn version="3.0"></wn>
+            <wn lemma="pull_a_face" version="3.0">1</wn>
+            <wn lemma="pull_a_fast_one" version="3.0">1</wn>
+            <wn lemma="pull_in_one\'s_horns" version="3.0">1</wn>
+            <wn lemma="pull_one\'s weight" version="3.0">1</wn>
+            <wn lemma="pull_someone\'s leg" version="3.0">1</wn>
+            <wn lemma="pull_strings" version="3.0">1</wn>
+            <wn lemma="pull_the_leg_of" version="3.0">1</wn>
+            <wn lemma="pull_the_plug" version="3.0">1</wn>
+            <wn lemma="pull_the_wool_over_someone\'s_eyes" version="3.0">1</wn>
+            <wn lemma="pull_up_stakes" version="3.0">1</wn>
+            <wn lemma="pull_wires" version="3.0">1</wn>
+            <wn lemma="pull_out_all_the_stops" version="3.0">1</wn>
+            <omega></omega><pb>pull.06</pb>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+<sense group="1" n="11" name="none of the above" type="">
+  <commentary>
+Automatically generated NOTA sense (bbn)
+  </commentary>
+  <examples>
+  </examples>
+  <mappings>
+    <wn version="2.1"></wn>
+    <omega></omega><pb></pb>
+    <fn></fn>
+  </mappings><SENSE_META clarity=""/>
+</sense>
+    <WORD_META authors="brownsw,duffielc" sample_score="-"/>
+
+<ita count="211" ann_1_2_agreement="0.815165876777" />
+</inventory>

@@ -1,0 +1,53 @@
+---------------------------------
+Introduction
+---------------------------------
+
+Purpose
+-------
+
+The OntoNotes DB Tool provides code for working with the OntoNotes
+data, including building and accessing the relational database.  The
+linked tables of the database store a text corpus along with the
+layers of annotation specifying syntactic structure, propositional
+structure, word senses for nouns and verbs, names, and the coreference
+between entities mentioned in the text. It also contains metadata such
+as proposition frames, sense inventories, and where available, speaker
+information, pointers to the original or translation and lemma
+details.
+
+Also included are functions that extract particular views of the
+merged data.  Each of the individual input annotation formats, which
+was used in building the database, can also be extracted as a view.
+There is also a combined "OntoNotes Normal Form" view that includes
+all of the layers in a version intended for human review.
+
+In addition to the top-level routines used to build the database and
+to extract views, the DB Tool provides an API with access to each of
+the individual tables, allowing users to construct many kinds of
+database queries more conveniently than would be possible in raw SQL,
+especially for defining new views.
+
+Platforms
+---------
+
+The OntoNotes DB Tool was built with cross-platform compatibility in
+mind, and therefore all the core components of the system as well as
+the external libraries that were used are themselves available for
+multiple platforms -- at least for Linux/Unix and Windows.  Given the
+limited resource availability during development, however, all
+development was done in the Linux environment and we could not
+thoroughly test the distribution across other platforms.  It would be
+quite surprising if it does not work out of the box, or with a few
+minor tweaks in a Windows environment.  The majority of the code is
+written in Python.  The version used for development was Python 2.5.1.
+
+Since this is a software in its Beta release and has not been
+thoroughly tested, it is quite likely that it has bugs in it.  Please
+refer to :ref:`reporting-bugs` for more details in how to go
+about reporting bugs that you might find.
+
+.. seealso::
+
+  `The OntoNotes Project <http://www.bbn.com/NLP/OntoNotes>`_
+  The official OntoNotes project webpage, with details about the
+  individual components, latest developments, etc.

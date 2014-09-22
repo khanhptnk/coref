@@ -1,0 +1,89 @@
+<!DOCTYPE inventory SYSTEM "inventory.dtd">
+<inventory lemma="confirm-v">    
+    <commentary>
+    </commentary>
+    <sense n="1" type="" name="attest to the truth of a proposition, corroborate with evidence" group="1">  
+        <commentary>
+            Syntax Is:	
+            NP1[topic] CONFIRM NP2
+            NP1[instrument] CONFIRM NP2
+        </commentary>
+        <examples>
+            "The evidence confirms the defendant's story."
+            "Similar findings have been confirmed in recent clinical experiments."
+            "The smoke confirmed what he had expected: there had been a party in his absence!"
+            "The witness confirmed the victim's account."
+        </examples>
+        <mappings>
+            <wn version="2.1">1,2</wn>   
+            <omega></omega><pb>confirm.01</pb>
+            <vn>indicate-78-1-1</vn><fn>Statement</fn>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    <sense n="2" type="" name="make a situation definite or official" group="1">
+        <commentary>
+            Syntax Includes:	
+            NP1[agent] CONFIRM NP2[state]
+            NP1[actor] CONFIRM NP2[state]
+            NP1[cause] CONFIRM NP2[state]
+        </commentary>
+        <examples>
+            "Working on the campaign confirmed her desire to go into politics."
+            "Call the travel agency to confirm your reservation."
+            "I have accepted the job over the phone, but I haven't confirmed it in writing."
+        </examples>
+        <mappings>
+            <wn version="2.1">3</wn>
+            <omega></omega><pb>NM</pb>
+            <vn>indicate-78-1-1</vn><fn>Statement</fn>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    <sense n="3" type="" name="legally approve or ratify a person for a position" group="1">
+        <commentary>
+            Note: This is a narrow, restricted sense from sense 2, relating to political ratification.
+        </commentary>
+        <examples>
+            "The Senate confirmed the President's candiate for Secretary of Defense."
+            "They confirmed his appointment to the post with a unanimous vote."
+        </examples>
+        <mappings>
+            <wn version="2.1">4</wn>
+            <omega></omega><pb>NM</pb>
+            <vn>NM</vn><fn>NM</fn>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    <sense n="4" type="" name="administer the rite of religious confirmation" group="1">
+        <commentary>
+            Syntax Is: NP1[agent] CONFIRM NP2[patient] (PP[attribute])
+        </commentary>
+        <examples>
+            "The children were confirmed in their mother's faith."
+            "The elders confirmed the newcomer as a full member of the church."
+        </examples>
+        <mappings>
+            <wn version="2.1">5</wn>
+            <omega></omega><pb>NM</pb>
+            <vn>NM</vn><fn>NM</fn>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+<sense group="1" n="5" name="none of the above" type="">
+  <commentary>
+Automatically generated NOTA sense (bbn)
+  </commentary>
+  <examples>
+  </examples>
+  <mappings>
+    <wn version="2.1"></wn>
+    <omega></omega><pb></pb>
+    <fn></fn>
+  </mappings><SENSE_META clarity=""/>
+</sense>
+    <WORD_META authors="hwangd, ahouston" sample_score="-"/>
+     
+
+<ita count="148" ann_1_2_agreement="0.743243243243" />
+</inventory>

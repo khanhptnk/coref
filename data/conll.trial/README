@@ -1,0 +1,50 @@
+
+The top-level directory "data" contains the following structure:
+
+data/
+`-- english
+    |-- annotations
+    |   |-- bc
+    |   |   `-- cnn
+    |   |       `-- 00
+    |   |-- bn
+    |   |   `-- abc
+    |   |       `-- 00
+    |   |-- nw
+    |   |   `-- wsj
+    |   |       `-- 00
+    |   `-- wb
+    |       `-- eng
+    |           `-- 00
+    `-- metadata
+        |-- frames
+        `-- sense-inventories
+
+
+The "annotations" directory contains a sub-directory for each genre.
+
+bc: Broadcast Conversation
+bn: Broadcast News
+nw: Newswire
+wb: Web (Blogs and Newsgroups)
+
+Under each genre directory there is a directory for the source, which
+itself contains sections -- each containing at most 100 files.
+
+There are several annotation layers that are separate files per
+document:
+
+   .parse: Treebank-style parse trees
+    .prop: PropBank-style propositions
+   .sense: Word Sense
+.parallel: Pointer to the parallel file (if any)
+ .speaker: Speaker information for each sentence (or tree)
+   .coref: Coreference
+
+There is also some metadata that is required to interpret the sense
+and proposition layers. These are the "frames" and "sense-inventory"
+directories.
+
+
+
+

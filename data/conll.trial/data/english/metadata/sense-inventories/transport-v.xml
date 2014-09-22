@@ -1,0 +1,59 @@
+<?xml version="1.0" ?>
+<!DOCTYPE inventory SYSTEM "inventory.dtd">
+<inventory lemma="transport-v">    
+    <commentary>
+    </commentary>
+    <sense n="1" type="" name="move, transfer or carry something or someone" group="1">  
+        <commentary>
+            Syntax is: NP1[instrument] TRANSPORT[concrete] NP2[object] (PP[location])
+        </commentary>
+        <examples>
+            The troops were transported to Iraq by big military aircraft.
+            I wasn't strong enough to transport the canoe on my head over the rough terrain.
+            The freshly picked lettuce is then transported by truck to the city.
+            They discovered that he had been transporting plans for a terrorist attack on New York.
+        </examples>
+        <mappings>
+            <wn version="2.1">1,2,4,5</wn>   
+            <wn lemma="" version="2.1"></wn>
+            <omega></omega><pb>transport.01</pb>
+            <vn>send-11.1</vn>
+            <fn>Bringing</fn>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    <sense n="2" type="" name="capture or divert one's attention" group="1">  
+        <commentary>
+            Syntax is: NP1 TRANSPORT[abstract] NP2[patient] PP[location]
+            Note: a figurative sense of movement, rather than a physical one
+        </commentary>
+        <examples>
+            The ballet Swan Lake transported us into a world of sorcerers and magic.
+            A day at the spa always transports Mary to a state of complete relaxation.
+            These old photos are transporting me back to my childhood.
+        </examples>
+        <mappings>
+            <wn version="2.1">3</wn>
+            <wn lemma="" version="2.1"></wn>
+            <omega></omega><pb>transport.01</pb>
+            <vn>amuse-31.1</vn>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+<sense group="1" n="3" name="none of the above" type="">
+  <commentary>
+Automatically generated NOTA sense (bbn)
+  </commentary>
+  <examples>
+  </examples>
+  <mappings>
+    <wn version="2.1"></wn>
+    <omega></omega><pb></pb>
+    <fn></fn>
+  </mappings><SENSE_META clarity=""/>
+</sense>
+    <WORD_META authors="ahouston" sample_score="-"/>
+     
+
+<ita count="40" ann_1_2_agreement="0.95" />
+</inventory>

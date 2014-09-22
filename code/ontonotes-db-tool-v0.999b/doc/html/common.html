@@ -1,0 +1,537 @@
+
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+  "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    
+    <title>on.common – Utility and Logging Functions &mdash; OntoNotes DB Tool v0.999b documentation</title>
+    <link rel="stylesheet" href="_static/default.css" type="text/css" />
+    <link rel="stylesheet" href="_static/pygments.css" type="text/css" />
+    <script type="text/javascript">
+      var DOCUMENTATION_OPTIONS = {
+        URL_ROOT:    '',
+        VERSION:     '0.999b',
+        COLLAPSE_INDEX: false,
+        FILE_SUFFIX: '.html',
+        HAS_SOURCE:  true
+      };
+    </script>
+    <script type="text/javascript" src="_static/jquery.js"></script>
+    <script type="text/javascript" src="_static/underscore.js"></script>
+    <script type="text/javascript" src="_static/doctools.js"></script>
+    <link rel="top" title="OntoNotes DB Tool v0.999b documentation" href="index.html" />
+    <link rel="up" title="API Reference" href="API_reference.html" />
+    <link rel="next" title="on.corpora – classes for interpreting annotation" href="corpora.html" />
+    <link rel="prev" title="API Reference" href="API_reference.html" /> 
+  </head>
+  <body>
+    <div class="related">
+      <h3>Navigation</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="genindex.html" title="General Index"
+             accesskey="I">index</a></li>
+        <li class="right" >
+          <a href="py-modindex.html" title="Python Module Index"
+             >modules</a> |</li>
+        <li class="right" >
+          <a href="corpora.html" title="on.corpora – classes for interpreting annotation"
+             accesskey="N">next</a> |</li>
+        <li class="right" >
+          <a href="API_reference.html" title="API Reference"
+             accesskey="P">previous</a> |</li>
+        <li><a href="index.html">OntoNotes DB Tool v0.999b documentation</a> &raquo;</li>
+          <li><a href="API_reference.html" accesskey="U">API Reference</a> &raquo;</li> 
+      </ul>
+    </div>  
+
+    <div class="document">
+      <div class="documentwrapper">
+        <div class="bodywrapper">
+          <div class="body">
+            
+  <span class="target" id="module-on.common"></span><div class="section" id="module-on.common.util">
+<span id="on-common-utility-and-logging-functions"></span><h1><a class="reference internal" href="#module-on.common" title="on.common"><tt class="xref py py-mod docutils literal"><span class="pre">on.common</span></tt></a> &#8211; Utility and Logging Functions<a class="headerlink" href="#module-on.common.util" title="Permalink to this headline">¶</a></h1>
+<div class="section" id="util-utility-functions">
+<h2><tt class="xref py py-mod docutils literal"><span class="pre">util</span></tt> &#8211; Utility functions<a class="headerlink" href="#util-utility-functions" title="Permalink to this headline">¶</a></h2>
+<p>See:</p>
+<blockquote>
+<ul class="simple">
+<li>Dealing with config file, command line options, etc:<ul>
+<li><a class="reference internal" href="#on.common.util.load_options" title="on.common.util.load_options"><tt class="xref py py-func docutils literal"><span class="pre">load_options()</span></tt></a></li>
+<li><a class="reference internal" href="#on.common.util.load_config" title="on.common.util.load_config"><tt class="xref py py-func docutils literal"><span class="pre">load_config()</span></tt></a></li>
+<li><a class="reference internal" href="#on.common.util.parse_cfg_args" title="on.common.util.parse_cfg_args"><tt class="xref py py-func docutils literal"><span class="pre">parse_cfg_args()</span></tt></a></li>
+<li><a class="reference internal" href="#on.common.util.FancyConfigParser" title="on.common.util.FancyConfigParser"><tt class="xref py py-class docutils literal"><span class="pre">FancyConfigParser</span></tt></a></li>
+<li><a class="reference internal" href="#on.common.util.register_config" title="on.common.util.register_config"><tt class="xref py py-func docutils literal"><span class="pre">register_config()</span></tt></a></li>
+</ul>
+</li>
+<li>Buckwalter Arabic encoding:<ul>
+<li><a class="reference internal" href="#on.common.util.buckwalter2unicode" title="on.common.util.buckwalter2unicode"><tt class="xref py py-func docutils literal"><span class="pre">buckwalter2unicode()</span></tt></a></li>
+<li><a class="reference internal" href="#on.common.util.unicode2buckwalter" title="on.common.util.unicode2buckwalter"><tt class="xref py py-func docutils literal"><span class="pre">unicode2buckwalter()</span></tt></a></li>
+<li><tt class="xref py py-func docutils literal"><span class="pre">devocalize_buckwalter()</span></tt></li>
+</ul>
+</li>
+<li>DB:<ul>
+<li><a class="reference internal" href="#on.common.util.esc" title="on.common.util.esc"><tt class="xref py py-func docutils literal"><span class="pre">esc()</span></tt></a></li>
+<li><a class="reference internal" href="#on.common.util.insert_ignoring_dups" title="on.common.util.insert_ignoring_dups"><tt class="xref py py-func docutils literal"><span class="pre">insert_ignoring_dups()</span></tt></a></li>
+<li><a class="reference internal" href="#on.common.util.is_db_ref" title="on.common.util.is_db_ref"><tt class="xref py py-func docutils literal"><span class="pre">is_db_ref()</span></tt></a></li>
+<li><a class="reference internal" href="#on.common.util.make_db_ref" title="on.common.util.make_db_ref"><tt class="xref py py-func docutils literal"><span class="pre">make_db_ref()</span></tt></a></li>
+<li><a class="reference internal" href="#on.common.util.is_not_loaded" title="on.common.util.is_not_loaded"><tt class="xref py py-func docutils literal"><span class="pre">is_not_loaded()</span></tt></a></li>
+<li><a class="reference internal" href="#on.common.util.make_not_loaded" title="on.common.util.make_not_loaded"><tt class="xref py py-func docutils literal"><span class="pre">make_not_loaded()</span></tt></a></li>
+</ul>
+</li>
+<li>SGML (<tt class="docutils literal"><span class="pre">.name</span></tt> and <tt class="docutils literal"><span class="pre">.coref</span></tt> files):<ul>
+<li><a class="reference internal" href="#on.common.util.make_sgml_safe" title="on.common.util.make_sgml_safe"><tt class="xref py py-func docutils literal"><span class="pre">make_sgml_safe()</span></tt></a></li>
+<li><a class="reference internal" href="#on.common.util.make_sgml_unsafe" title="on.common.util.make_sgml_unsafe"><tt class="xref py py-func docutils literal"><span class="pre">make_sgml_unsafe()</span></tt></a></li>
+</ul>
+</li>
+<li>File System:<ul>
+<li><a class="reference internal" href="#on.common.util.matches_an_affix" title="on.common.util.matches_an_affix"><tt class="xref py py-func docutils literal"><span class="pre">matches_an_affix()</span></tt></a></li>
+<li><a class="reference internal" href="#on.common.util.mkdirs" title="on.common.util.mkdirs"><tt class="xref py py-func docutils literal"><span class="pre">mkdirs()</span></tt></a></li>
+<li><a class="reference internal" href="#on.common.util.output_file_name" title="on.common.util.output_file_name"><tt class="xref py py-func docutils literal"><span class="pre">output_file_name()</span></tt></a></li>
+<li><tt class="xref py py-func docutils literal"><span class="pre">sopen()</span></tt></li>
+<li><a class="reference internal" href="#on.common.util.listdir" title="on.common.util.listdir"><tt class="xref py py-func docutils literal"><span class="pre">listdir()</span></tt></a></li>
+<li><a class="reference internal" href="#on.common.util.listdir_full" title="on.common.util.listdir_full"><tt class="xref py py-func docutils literal"><span class="pre">listdir_full()</span></tt></a></li>
+<li><a class="reference internal" href="#on.common.util.listdir_both" title="on.common.util.listdir_both"><tt class="xref py py-func docutils literal"><span class="pre">listdir_both()</span></tt></a></li>
+</ul>
+</li>
+<li>Other:<ul>
+<li><a class="reference internal" href="#on.common.util.bunch" title="on.common.util.bunch"><tt class="xref py py-func docutils literal"><span class="pre">bunch()</span></tt></a></li>
+<li><a class="reference internal" href="#on.common.util.get_lemma" title="on.common.util.get_lemma"><tt class="xref py py-func docutils literal"><span class="pre">get_lemma()</span></tt></a></li>
+</ul>
+</li>
+</ul>
+</blockquote>
+<p>Functions:</p>
+<blockquote>
+<dl class="function">
+<dt id="on.common.util.buckwalter2unicode">
+<tt class="descclassname">on.common.util.</tt><tt class="descname">buckwalter2unicode</tt><big>(</big><em>b_word</em>, <em>sgml_safety=True</em><big>)</big><a class="headerlink" href="#on.common.util.buckwalter2unicode" title="Permalink to this definition">¶</a></dt>
+<dd><p>Given a string in Buckwalter ASCII encoded Arabic, return the Unicode version.</p>
+</dd></dl>
+
+<dl class="function">
+<dt id="on.common.util.unicode2buckwalter">
+<tt class="descclassname">on.common.util.</tt><tt class="descname">unicode2buckwalter</tt><big>(</big><em>u_word</em>, <em>sgml_safe=False</em>, <em>devocalize=False</em><big>)</big><a class="headerlink" href="#on.common.util.unicode2buckwalter" title="Permalink to this definition">¶</a></dt>
+<dd><p>Given a Unicode word, return the Buckwalter ASCII encoded version.</p>
+<p>If <tt class="docutils literal"><span class="pre">sgml_safe</span></tt> is set, run the output through <a class="reference internal" href="#on.common.util.make_sgml_safe" title="on.common.util.make_sgml_safe"><tt class="xref py py-func docutils literal"><span class="pre">make_sgml_safe()</span></tt></a> before returning.</p>
+<p>If <tt class="docutils literal"><span class="pre">devocalize</span></tt> is set delete a,u,i,o before returning.</p>
+</dd></dl>
+
+<dl class="function">
+<dt id="on.common.util.register_config">
+<tt class="descclassname">on.common.util.</tt><tt class="descname">register_config</tt><big>(</big><em>section</em>, <em>value</em>, <em>allowed_values=</em><span class="optional">[</span><span class="optional">]</span>, <em>doc=None</em>, <em>required=False</em>, <em>section_required=False</em>, <em>allow_multiple=False</em><big>)</big><a class="headerlink" href="#on.common.util.register_config" title="Permalink to this definition">¶</a></dt>
+<dd><p>make decorator so funcs can specify which config options they take.</p>
+<p>usage is:</p>
+<div class="highlight-python"><div class="highlight"><pre><span class="nd">@register_config</span><span class="p">(</span><span class="s">&#39;corpus&#39;</span><span class="p">,</span> <span class="s">&#39;load&#39;</span><span class="p">,</span> <span class="s">&#39;specify which data to load to the db                                           in the format lang-genre-source&#39;</span><span class="p">)</span>
+<span class="k">def</span> <span class="nf">load_banks</span><span class="p">(</span><span class="n">config</span><span class="p">):</span>
+    <span class="o">...</span>
+</pre></div>
+</div>
+<p>The special value &#8216;__dynamic&#8217; means that some config values are
+created dynamically and we can&#8217;t verify if a config argument is
+correct simply by seeing if it&#8217;s on the list.  Documentation is
+also generated to this effect.</p>
+<p>If <tt class="docutils literal"><span class="pre">allowed_values</span></tt> is non-empty, then check to see that the
+setting the user chose is on the list.</p>
+<p>If <tt class="docutils literal"><span class="pre">allow_multiple</span></tt> is True, then when checking whether only
+allowed values are being given the key is first split on
+whitespace and then each component is tested.</p>
+<p>If <tt class="docutils literal"><span class="pre">required</span></tt> is True, then if the section exists it must
+specify this value.  If the section does not exist, it is free to
+ignore this value.  See <tt class="docutils literal"><span class="pre">section_required</span></tt> .</p>
+<p>If <tt class="docutils literal"><span class="pre">section_required</span></tt> is True, then issue an error if
+<tt class="docutils literal"><span class="pre">section</span></tt> is not defined by the user.  Often wanted in
+combination with <tt class="docutils literal"><span class="pre">required</span></tt> .</p>
+</dd></dl>
+
+<dl class="function">
+<dt id="on.common.util.insert_ignoring_dups">
+<tt class="descclassname">on.common.util.</tt><tt class="descname">insert_ignoring_dups</tt><big>(</big><em>inserter</em>, <em>a_cursor</em>, <em>*values</em><big>)</big><a class="headerlink" href="#on.common.util.insert_ignoring_dups" title="Permalink to this definition">¶</a></dt>
+<dd><p>insert values to db ignoring duplicates</p>
+<p>The caller can be a string, another class instance or a class:</p>
+<blockquote>
+string  : take to be an sql insert statement
+class   : use it&#8217;s sql_insert_statement field, then proceed as with string
+instance: get it&#8217;s __class__ and proceed as with class</blockquote>
+<p>So any of the following are good:</p>
+<div class="highlight-python"><div class="highlight"><pre><span class="n">insert_ignoring_dups</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">a_cursor</span><span class="p">,</span> <span class="nb">id</span><span class="p">,</span> <span class="n">tag</span><span class="p">)</span>
+<span class="n">insert_ignoring_dups</span><span class="p">(</span><span class="n">cls</span><span class="p">,</span>  <span class="n">a_cursor</span><span class="p">,</span> <span class="nb">id</span><span class="p">,</span> <span class="n">tag</span><span class="p">)</span>
+<span class="n">insert_ignoring_dups</span><span class="p">(</span><span class="bp">self</span><span class="o">.</span><span class="n">__class__</span><span class="o">.</span><span class="n">weirdly_named_sql_insert_statement</span><span class="p">,</span> <span class="n">a_cursor</span><span class="p">,</span> <span class="nb">id</span><span class="p">,</span> <span class="n">tag</span><span class="p">)</span>
+</pre></div>
+</div>
+</dd></dl>
+
+<dl class="function">
+<dt id="on.common.util.matches_an_affix">
+<tt class="descclassname">on.common.util.</tt><tt class="descname">matches_an_affix</tt><big>(</big><em>s</em>, <em>affixes</em><big>)</big><a class="headerlink" href="#on.common.util.matches_an_affix" title="Permalink to this definition">¶</a></dt>
+<dd><p>Does the given id match the affixes?</p>
+<p>Affixes = prefixes, suffixes</p>
+<p>Given either a four digit string or a document id, return whether
+at least one of the prefixes and at least one of the suffixes
+matches it</p>
+</dd></dl>
+
+<dl class="function">
+<dt id="on.common.util.output_file_name">
+<tt class="descclassname">on.common.util.</tt><tt class="descname">output_file_name</tt><big>(</big><em>doc_id</em>, <em>doc_type</em>, <em>out_dir=''</em><big>)</big><a class="headerlink" href="#on.common.util.output_file_name" title="Permalink to this definition">¶</a></dt>
+<dd><p>Determine what file to write an X_document to</p>
+<p>doc_id: a document id
+doc_type: the type of the document, like a suffix (parse, prop, name, ...)
+out_dir: if set, make the output as a child of out_dir</p>
+</dd></dl>
+
+<dl class="function">
+<dt id="on.common.util.get_lemma">
+<tt class="descclassname">on.common.util.</tt><tt class="descname">get_lemma</tt><big>(</big><em>a_leaf</em>, <em>verb2morph</em>, <em>noun2morph</em>, <em>fail_on_not_found=False</em><big>)</big><a class="headerlink" href="#on.common.util.get_lemma" title="Permalink to this definition">¶</a></dt>
+<dd><p>return the lemma for a_leaf&#8217;s word</p>
+<p>if we have appropriate word2morph hashes, look the work up
+there.  Otherwise just return the word.  Functionally, for
+chinese we use the word itself and for english we have the
+hashes.  When we get to doing arabic we&#8217;ll need to add a
+case.</p>
+<p>if fail_on_not_found is set, return &#8220;&#8221; instead of a_leaf.word if
+we don&#8217;t have a mapping for this lemma.</p>
+</dd></dl>
+
+<dl class="function">
+<dt id="on.common.util.load_config">
+<tt class="descclassname">on.common.util.</tt><tt class="descname">load_config</tt><big>(</big><em>cfg_name=None</em>, <em>config_append=</em><span class="optional">[</span><span class="optional">]</span><big>)</big><a class="headerlink" href="#on.common.util.load_config" title="Permalink to this definition">¶</a></dt>
+<dd><p>Load a configuration file to memory.</p>
+<p>The given configuration file name can be a full path, in which
+case we simply read that configuration file.  Otherwise, if you
+give &#8216;myconfig&#8217; or something similar, we look in the current
+directory and the home directory.  We also look to see if files
+with this name and extension &#8216;.conf&#8217; exist.  So for &#8216;myconfig&#8217; we
+would look in the following places:</p>
+<blockquote>
+<ul class="simple">
+<li>./myconfig</li>
+<li>./myconfig.conf</li>
+<li>[home]/.myconfig</li>
+<li>[home]/.myconfig.conf</li>
+</ul>
+</blockquote>
+<p>Once we find the configuration, we load it.  We also extend
+ConfigParser to support <tt class="docutils literal"><span class="pre">[]</span></tt> notation.  So you could look up key
+<tt class="docutils literal"><span class="pre">k</span></tt> in section <tt class="docutils literal"><span class="pre">s</span></tt> with <tt class="docutils literal"><span class="pre">config[s,k]</span></tt>.  See
+<a class="reference internal" href="#on.common.util.FancyConfigParser" title="on.common.util.FancyConfigParser"><tt class="xref py py-func docutils literal"><span class="pre">FancyConfigParser()</span></tt></a> .</p>
+<p>If config_append is set we use <a class="reference internal" href="#on.common.util.parse_cfg_args" title="on.common.util.parse_cfg_args"><tt class="xref py py-func docutils literal"><span class="pre">parse_cfg_args()</span></tt></a> and add any
+values it creates to the config object.  These values override any
+previous ones.</p>
+</dd></dl>
+
+<dl class="function">
+<dt id="on.common.util.mkdirs">
+<tt class="descclassname">on.common.util.</tt><tt class="descname">mkdirs</tt><big>(</big><em>long_path</em><big>)</big><a class="headerlink" href="#on.common.util.mkdirs" title="Permalink to this definition">¶</a></dt>
+<dd><p>Make the given path exist.  If the path already exists, raise an exception.</p>
+</dd></dl>
+
+<dl class="function">
+<dt id="on.common.util.load_options">
+<tt class="descclassname">on.common.util.</tt><tt class="descname">load_options</tt><big>(</big><em>parser=None</em>, <em>argv=</em><span class="optional">[</span><span class="optional">]</span>, <em>positional_args=True</em><big>)</big><a class="headerlink" href="#on.common.util.load_options" title="Permalink to this definition">¶</a></dt>
+<dd><p>parses sys.argv, possibly exiting if there are mistakes</p>
+<p>If you set parser to a ConfigParser object, then you have control
+over the usage string and you can prepopulate it with options you
+intend to use.  But don&#8217;t set a <tt class="docutils literal"><span class="pre">--config</span></tt> / <tt class="docutils literal"><span class="pre">-c</span></tt> option;
+load_options uses that to find a configuration file to load</p>
+<p>If a parser was passed in, we return <tt class="docutils literal"><span class="pre">(config,</span> <span class="pre">parser,</span> <span class="pre">[args])</span></tt>.
+Otherwise we return <tt class="docutils literal"><span class="pre">(config,</span> <span class="pre">[args])</span></tt>.  Args is only included
+if <tt class="docutils literal"><span class="pre">positional_args</span></tt> is True and there are positional arguments</p>
+<p>See <a class="reference internal" href="#on.common.util.load_config" title="on.common.util.load_config"><tt class="xref py py-func docutils literal"><span class="pre">load_config()</span></tt></a> for details on the <tt class="docutils literal"><span class="pre">--config</span></tt> option.</p>
+</dd></dl>
+
+<dl class="function">
+<dt id="on.common.util.parse_cfg_args">
+<tt class="descclassname">on.common.util.</tt><tt class="descname">parse_cfg_args</tt><big>(</big><em>arg_list</em><big>)</big><a class="headerlink" href="#on.common.util.parse_cfg_args" title="Permalink to this definition">¶</a></dt>
+<dd><p>Parse command-line style config settings to a dictionary.</p>
+<p>If you want to override configuration file values on the command
+line or set ones that were not set, this should make it simpler.
+Given a list in format [section.key=value, ...] return a
+dictionary in form { (section, key): value, ...}.</p>
+<p>So we might have:</p>
+<div class="highlight-python"><div class="highlight"><pre><span class="p">[</span><span class="s">&#39;corpus.load=english-mz&#39;</span><span class="p">,</span>
+ <span class="s">&#39;corpus.data_in=/home/user/corpora/ontonotes/data/&#39;</span><span class="p">]</span>
+</pre></div>
+</div>
+<p>we would then return the dictionary:</p>
+<div class="highlight-python"><div class="highlight"><pre><span class="p">{</span> <span class="p">(</span><span class="s">&#39;corpus&#39;</span><span class="p">,</span> <span class="s">&#39;load&#39;</span><span class="p">)</span> <span class="p">:</span> <span class="s">&#39;english-mz&#39;</span><span class="p">,</span>
+  <span class="p">(</span><span class="s">&#39;corpus&#39;</span><span class="p">,</span> <span class="s">&#39;data_in&#39;</span><span class="p">)</span> <span class="p">:</span> <span class="s">&#39;/home/user/corpora/ontonotes/data/&#39;</span> <span class="p">}</span>
+</pre></div>
+</div>
+<p>See also <a class="reference internal" href="#on.common.util.load_config" title="on.common.util.load_config"><tt class="xref py py-func docutils literal"><span class="pre">load_config()</span></tt></a> and <a class="reference internal" href="#on.common.util.load_options" title="on.common.util.load_options"><tt class="xref py py-func docutils literal"><span class="pre">load_options()</span></tt></a></p>
+</dd></dl>
+
+<dl class="function">
+<dt id="on.common.util.listdir">
+<tt class="descclassname">on.common.util.</tt><tt class="descname">listdir</tt><big>(</big><em>dirname</em><big>)</big><a class="headerlink" href="#on.common.util.listdir" title="Permalink to this definition">¶</a></dt>
+<dd><p>List a dir&#8217;s child dirs, sorted and without hidden files.</p>
+<p>Basically <tt class="xref py py-func docutils literal"><span class="pre">os.listdir()</span></tt>, sorted and without hidden (in the
+Unix sense: starting with a &#8216;.&#8217;) files.</p>
+</dd></dl>
+
+<dl class="function">
+<dt id="on.common.util.listdir_full">
+<tt class="descclassname">on.common.util.</tt><tt class="descname">listdir_full</tt><big>(</big><em>dirname</em><big>)</big><a class="headerlink" href="#on.common.util.listdir_full" title="Permalink to this definition">¶</a></dt>
+<dd><p>A full path to file version of <a class="reference internal" href="#on.common.util.listdir" title="on.common.util.listdir"><tt class="xref py py-func docutils literal"><span class="pre">on.common.util.listdir()</span></tt></a>.</p>
+</dd></dl>
+
+<dl class="function">
+<dt id="on.common.util.listdir_both">
+<tt class="descclassname">on.common.util.</tt><tt class="descname">listdir_both</tt><big>(</big><em>dirname</em><big>)</big><a class="headerlink" href="#on.common.util.listdir_both" title="Permalink to this definition">¶</a></dt>
+<dd><p>return a list of short_path, full_path tuples</p>
+<p>identical to <tt class="docutils literal"><span class="pre">zip(listdir(dirname),</span> <span class="pre">listdir_full(dirname))</span></tt></p>
+</dd></dl>
+
+<dl class="exception">
+<dt id="on.common.util.NotInConfigError">
+<em class="property">exception </em><tt class="descclassname">on.common.util.</tt><tt class="descname">NotInConfigError</tt><a class="headerlink" href="#on.common.util.NotInConfigError" title="Permalink to this definition">¶</a></dt>
+<dd><p>Because people might want to use a dictionary in place of a
+<tt class="xref py py-mod docutils literal"><span class="pre">ConfigParser</span></tt> object, use a <a class="reference internal" href="#on.common.util.NotInConfigError" title="on.common.util.NotInConfigError"><tt class="xref py py-exc docutils literal"><span class="pre">NotInConfigError</span></tt></a> as
+the error to catch for <tt class="docutils literal"><span class="pre">config[section,</span> <span class="pre">value]</span></tt> call.
+For example:</p>
+<div class="highlight-python"><div class="highlight"><pre><span class="k">try</span><span class="p">:</span>
+   <span class="n">load_data</span><span class="p">(</span><span class="n">config</span><span class="p">[</span><span class="s">&#39;Data&#39;</span><span class="p">,</span> <span class="s">&#39;data_location&#39;</span><span class="p">])</span>
+<span class="k">except</span> <span class="n">on</span><span class="o">.</span><span class="n">common</span><span class="o">.</span><span class="n">util</span><span class="o">.</span><span class="n">NotInConfigError</span><span class="p">:</span>
+   <span class="k">print</span> <span class="s">&#39;Loading data failed.  Sorry.&#39;</span>
+</pre></div>
+</div>
+</dd></dl>
+
+<dl class="class">
+<dt id="on.common.util.bunch">
+<em class="property">class </em><tt class="descclassname">on.common.util.</tt><tt class="descname">bunch</tt><big>(</big><em>**kwargs</em><big>)</big><a class="headerlink" href="#on.common.util.bunch" title="Permalink to this definition">¶</a></dt>
+<dd><p>a simple class for short term holding related variables</p>
+<p>change code like:</p>
+<div class="highlight-python"><div class="highlight"><pre><span class="k">def</span> <span class="nf">foo_some</span><span class="p">(</span><span class="n">a_ontonotes</span><span class="p">,</span> <span class="n">b_ontonotes</span><span class="p">):</span>
+  <span class="n">a_sense_bank</span> <span class="o">=</span> <span class="o">...</span>
+  <span class="n">a_ontonotes</span><span class="o">.</span><span class="n">foo</span><span class="p">(</span><span class="n">a_sense_bank</span><span class="p">)</span>
+  <span class="n">a_</span><span class="o">...</span>
+  <span class="n">a_</span><span class="o">...</span>
+
+  <span class="n">b_sense_bank</span> <span class="o">=</span> <span class="o">...</span>
+  <span class="n">b_ontonotes</span><span class="o">.</span><span class="n">foo</span><span class="p">(</span><span class="n">b_sense_bank</span><span class="p">)</span>
+  <span class="n">b_</span><span class="o">...</span>
+  <span class="n">b_</span><span class="o">...</span>
+
+  <span class="n">big_func</span><span class="p">(</span><span class="n">a_bar</span><span class="p">,</span> <span class="n">b_bar</span><span class="p">)</span>
+</pre></div>
+</div>
+<p>To:</p>
+<div class="highlight-python"><div class="highlight"><pre><span class="k">def</span> <span class="nf">foo_some</span><span class="p">():</span>
+  <span class="n">a</span> <span class="o">=</span> <span class="n">bunch</span><span class="p">(</span><span class="n">ontonotes</span><span class="o">=</span><span class="n">a_ontonotes</span><span class="p">)</span>
+  <span class="n">b</span> <span class="o">=</span> <span class="n">bunch</span><span class="p">(</span><span class="n">ontonotes</span><span class="o">=</span><span class="n">b_ontonotes</span><span class="p">)</span>
+
+  <span class="k">for</span> <span class="n">v</span> <span class="ow">in</span> <span class="p">[</span><span class="n">a</span><span class="p">,</span><span class="n">b</span><span class="p">]:</span>
+    <span class="n">v</span><span class="o">.</span><span class="n">sense_bank</span> <span class="o">=</span> <span class="o">...</span>
+    <span class="n">v</span><span class="o">.</span><span class="n">ontonotes</span><span class="o">.</span><span class="n">foo</span><span class="p">(</span><span class="n">v</span><span class="o">.</span><span class="n">sense_bank</span><span class="p">)</span>
+    <span class="n">v</span><span class="o">.</span> <span class="o">...</span>
+    <span class="n">v</span><span class="o">.</span> <span class="o">...</span>
+
+  <span class="n">big_func</span><span class="p">(</span><span class="n">a</span><span class="o">.</span><span class="n">bar</span><span class="p">,</span> <span class="n">b</span><span class="o">.</span><span class="n">bar</span><span class="p">)</span>
+</pre></div>
+</div>
+<p>Or:</p>
+<div class="highlight-python"><div class="highlight"><pre><span class="k">def</span>  <span class="nf">foo_some</span><span class="p">():</span>
+  <span class="k">def</span> <span class="nf">foo_one</span><span class="p">(</span><span class="n">v</span><span class="p">):</span>
+    <span class="n">v</span><span class="o">.</span><span class="n">sense_bank</span> <span class="o">=</span> <span class="o">...</span>
+    <span class="n">v</span><span class="o">.</span><span class="n">ontonotes</span><span class="o">.</span><span class="n">foo</span><span class="p">(</span><span class="n">v</span><span class="o">.</span><span class="n">sense_bank</span><span class="p">)</span>
+    <span class="n">v</span><span class="o">.</span> <span class="o">...</span>
+    <span class="n">v</span><span class="o">.</span> <span class="o">...</span>
+    <span class="k">return</span> <span class="n">v</span>
+
+  <span class="n">big_func</span><span class="p">(</span><span class="n">foo_one</span><span class="p">(</span><span class="n">bunch</span><span class="p">(</span><span class="n">ontonotes</span><span class="o">=</span><span class="n">a_ontonotes</span><span class="p">))</span><span class="o">.</span><span class="n">bar</span><span class="p">,</span>
+           <span class="n">foo_one</span><span class="p">(</span><span class="n">bunch</span><span class="p">(</span><span class="n">ontonotes</span><span class="o">=</span><span class="n">b_ontonotes</span><span class="p">))</span><span class="o">.</span><span class="n">bar</span><span class="p">)</span>
+</pre></div>
+</div>
+<p>Basically it lets you group similar things.  It&#8217;s adding hierarchy
+to the local variables.  It&#8217;s a hash table with more convenient
+syntax.</p>
+</dd></dl>
+
+<dl class="function">
+<dt id="on.common.util.is_db_ref">
+<tt class="descclassname">on.common.util.</tt><tt class="descname">is_db_ref</tt><big>(</big><em>a_hash</em><big>)</big><a class="headerlink" href="#on.common.util.is_db_ref" title="Permalink to this definition">¶</a></dt>
+<dd><p>Is this hash a reference to the database?</p>
+<p>If a hash (sense inventories, frames, etc) is equal to
+<tt class="docutils literal"><span class="pre">{'DB'</span> <span class="pre">:</span> <span class="pre">a_cursor}</span></tt> that means instead of using the hash as
+information we should go look for our information in the database
+instead.</p>
+</dd></dl>
+
+<dl class="function">
+<dt id="on.common.util.make_db_ref">
+<tt class="descclassname">on.common.util.</tt><tt class="descname">make_db_ref</tt><big>(</big><em>a_cursor</em><big>)</big><a class="headerlink" href="#on.common.util.make_db_ref" title="Permalink to this definition">¶</a></dt>
+<dd><p>Create a hash substitute that means &#8216;go look in the db instead&#8217;.</p>
+<p>See <a class="reference internal" href="#on.common.util.is_db_ref" title="on.common.util.is_db_ref"><tt class="xref py py-func docutils literal"><span class="pre">is_db_ref()</span></tt></a></p>
+</dd></dl>
+
+<dl class="function">
+<dt id="on.common.util.is_not_loaded">
+<tt class="descclassname">on.common.util.</tt><tt class="descname">is_not_loaded</tt><big>(</big><em>a_hash</em><big>)</big><a class="headerlink" href="#on.common.util.is_not_loaded" title="Permalink to this definition">¶</a></dt>
+<dd><p>Do we have no intention of loading the data a_hash is supposed to contain?</p>
+<p>If a hash has a single key &#8216;NotLoaded&#8217; that means we don&#8217;t
+intend to load that hash and we shouldn&#8217;t complain about data
+inconsistency involving the hash.  So if we&#8217;re loading senses and
+the sense_inventory_hash <a class="reference internal" href="#on.common.util.is_not_loaded" title="on.common.util.is_not_loaded"><tt class="xref py py-func docutils literal"><span class="pre">is_not_loaded()</span></tt></a> then we shouldn&#8217;t
+drop senses for being references against lemmas that don&#8217;t exist.</p>
+</dd></dl>
+
+<dl class="function">
+<dt id="on.common.util.make_not_loaded">
+<tt class="descclassname">on.common.util.</tt><tt class="descname">make_not_loaded</tt><big>(</big><big>)</big><a class="headerlink" href="#on.common.util.make_not_loaded" title="Permalink to this definition">¶</a></dt>
+<dd><p>Create a hash substitute that means &#8216;act as if you had this information&#8217;</p>
+<p>See <a class="reference internal" href="#on.common.util.is_not_loaded" title="on.common.util.is_not_loaded"><tt class="xref py py-func docutils literal"><span class="pre">is_not_loaded()</span></tt></a></p>
+</dd></dl>
+
+<dl class="function">
+<dt id="on.common.util.esc">
+<tt class="descclassname">on.common.util.</tt><tt class="descname">esc</tt><big>(</big><em>*varargs</em><big>)</big><a class="headerlink" href="#on.common.util.esc" title="Permalink to this definition">¶</a></dt>
+<dd><p>given a number of arguments, return escaped (for mysql) versions of each of them</p>
+</dd></dl>
+
+<dl class="function">
+<dt id="on.common.util.make_sgml_safe">
+<tt class="descclassname">on.common.util.</tt><tt class="descname">make_sgml_safe</tt><big>(</big><em>s</em>, <em>reverse=False</em>, <em>keep_turn=True</em><big>)</big><a class="headerlink" href="#on.common.util.make_sgml_safe" title="Permalink to this definition">¶</a></dt>
+<dd><p>return a version of the string that can be put in an sgml document</p>
+<p>This means changing angle brackets and ampersands to &#8216;-LAB-&#8216;,
+&#8216;-RAB-&#8216;, and &#8216;-AMP-&#8216;.  Needed for creating <tt class="docutils literal"><span class="pre">.name</span></tt> and
+<tt class="docutils literal"><span class="pre">.coref</span></tt> files.</p>
+<p>If keep_turn is set, &lt;TURN&gt; in the input is turned into [TURN], not turned into -LAB-TURN-RAB-</p>
+</dd></dl>
+
+<dl class="function">
+<dt id="on.common.util.make_sgml_unsafe">
+<tt class="descclassname">on.common.util.</tt><tt class="descname">make_sgml_unsafe</tt><big>(</big><em>s</em><big>)</big><a class="headerlink" href="#on.common.util.make_sgml_unsafe" title="Permalink to this definition">¶</a></dt>
+<dd><p>return a version of the string that has real &lt;, &gt;, and &amp;.</p>
+<p>Convert the &#8216;escaped&#8217; versions of dangerous characters back to
+their normal ascii form.  Needed for reading .name and .coref
+files, as well as any other sgml files like the frames and the
+sense inventories and pools.</p>
+<p>See <a class="reference internal" href="#on.common.util.make_sgml_safe" title="on.common.util.make_sgml_safe"><tt class="xref py py-func docutils literal"><span class="pre">make_sgml_safe()</span></tt></a></p>
+</dd></dl>
+
+<dl class="class">
+<dt id="on.common.util.FancyConfigParser">
+<em class="property">class </em><tt class="descclassname">on.common.util.</tt><tt class="descname">FancyConfigParser</tt><big>(</big><em>defaults=None</em><big>)</big><a class="headerlink" href="#on.common.util.FancyConfigParser" title="Permalink to this definition">¶</a></dt>
+<dd><p>make a config parser with support for config[section, value]</p>
+<p>raises <tt class="xref py py-class docutils literal"><span class="pre">FancyConfigParserError</span></tt> on improper usage.</p>
+</dd></dl>
+
+</blockquote>
+</div>
+<span class="target" id="module-on.common.log"></span><div class="section" id="log-logging-and-reporting-functions">
+<h2><tt class="xref py py-mod docutils literal"><span class="pre">log</span></tt> &#8211; Logging and reporting functions<a class="headerlink" href="#log-logging-and-reporting-functions" title="Permalink to this headline">¶</a></h2>
+<p>See:</p>
+<blockquote>
+<ul class="simple">
+<li><a class="reference internal" href="#on.common.log.error" title="on.common.log.error"><tt class="xref py py-func docutils literal"><span class="pre">error()</span></tt></a></li>
+<li><a class="reference internal" href="#on.common.log.warning" title="on.common.log.warning"><tt class="xref py py-func docutils literal"><span class="pre">warning()</span></tt></a></li>
+</ul>
+</blockquote>
+<p>Functions:</p>
+<blockquote>
+<dl class="function">
+<dt id="on.common.log.error">
+<tt class="descclassname">on.common.log.</tt><tt class="descname">error</tt><big>(</big><em>error_string</em>, <em>terminate_program=True</em>, <em>current_frame=False</em><big>)</big><a class="headerlink" href="#on.common.log.error" title="Permalink to this definition">¶</a></dt>
+<dd><p>Print error messages to stderr, optionally sys.exit.</p>
+</dd></dl>
+
+<dl class="function">
+<dt id="on.common.log.warning">
+<tt class="descclassname">on.common.log.</tt><tt class="descname">warning</tt><big>(</big><em>warning_string</em>, <em>verbosity=0</em><big>)</big><a class="headerlink" href="#on.common.log.warning" title="Permalink to this definition">¶</a></dt>
+<dd><p>print warning string depending on the value of on.common.log.VERBOSITY</p>
+</dd></dl>
+
+<dl class="function">
+<dt id="on.common.log.info">
+<tt class="descclassname">on.common.log.</tt><tt class="descname">info</tt><big>(</big><em>text</em>, <em>newline=True</em><big>)</big><a class="headerlink" href="#on.common.log.info" title="Permalink to this definition">¶</a></dt>
+<dd><p>write the text to standard error followed by a newline</p>
+</dd></dl>
+
+<dl class="function">
+<dt id="on.common.log.debug">
+<tt class="descclassname">on.common.log.</tt><tt class="descname">debug</tt><big>(</big><em>debug_object</em>, <em>debug_flag</em>, <em>verbosity=0</em><big>)</big><a class="headerlink" href="#on.common.log.debug" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="function">
+<dt id="on.common.log.status">
+<tt class="descclassname">on.common.log.</tt><tt class="descname">status</tt><big>(</big><em>*args</em><big>)</big><a class="headerlink" href="#on.common.log.status" title="Permalink to this definition">¶</a></dt>
+<dd><p>write each argument to stderr, space separated, with a trailing newline</p>
+</dd></dl>
+
+</blockquote>
+</div>
+</div>
+
+
+          </div>
+        </div>
+      </div>
+      <div class="sphinxsidebar">
+        <div class="sphinxsidebarwrapper">
+  <h3><a href="index.html">Table Of Contents</a></h3>
+  <ul>
+<li><a class="reference internal" href="#"><tt class="docutils literal"><span class="pre">on.common</span></tt> &#8211; Utility and Logging Functions</a><ul>
+<li><a class="reference internal" href="#util-utility-functions"><tt class="docutils literal"><span class="pre">util</span></tt> &#8211; Utility functions</a></li>
+<li><a class="reference internal" href="#log-logging-and-reporting-functions"><tt class="docutils literal"><span class="pre">log</span></tt> &#8211; Logging and reporting functions</a></li>
+</ul>
+</li>
+</ul>
+
+  <h4>Previous topic</h4>
+  <p class="topless"><a href="API_reference.html"
+                        title="previous chapter">API Reference</a></p>
+  <h4>Next topic</h4>
+  <p class="topless"><a href="corpora.html"
+                        title="next chapter"><tt class="docutils literal"><span class="pre">on.corpora</span></tt> &#8211; classes for interpreting annotation</a></p>
+  <h3>This Page</h3>
+  <ul class="this-page-menu">
+    <li><a href="_sources/common.txt"
+           rel="nofollow">Show Source</a></li>
+  </ul>
+<div id="searchbox" style="display: none">
+  <h3>Quick search</h3>
+    <form class="search" action="search.html" method="get">
+      <input type="text" name="q" size="18" />
+      <input type="submit" value="Go" />
+      <input type="hidden" name="check_keywords" value="yes" />
+      <input type="hidden" name="area" value="default" />
+    </form>
+    <p class="searchtip" style="font-size: 90%">
+    Enter search terms or a module, class or function name.
+    </p>
+</div>
+<script type="text/javascript">$('#searchbox').show(0);</script>
+        </div>
+      </div>
+      <div class="clearer"></div>
+    </div>
+    <div class="related">
+      <h3>Navigation</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="genindex.html" title="General Index"
+             >index</a></li>
+        <li class="right" >
+          <a href="py-modindex.html" title="Python Module Index"
+             >modules</a> |</li>
+        <li class="right" >
+          <a href="corpora.html" title="on.corpora – classes for interpreting annotation"
+             >next</a> |</li>
+        <li class="right" >
+          <a href="API_reference.html" title="API Reference"
+             >previous</a> |</li>
+        <li><a href="index.html">OntoNotes DB Tool v0.999b documentation</a> &raquo;</li>
+          <li><a href="API_reference.html" >API Reference</a> &raquo;</li> 
+      </ul>
+    </div>
+    <div class="footer">
+        &copy; Copyright 2008, BBN Technologies.
+      Created using <a href="http://sphinx.pocoo.org/">Sphinx</a> 1.0.4.
+    </div>
+  </body>
+</html>

@@ -1,0 +1,52 @@
+<?xml version="1.0" ?>
+<!DOCTYPE inventory SYSTEM "inventory.dtd">
+<inventory lemma="respect-v">
+    <commentary>
+    </commentary>
+    <sense group="1" n="1" name="regard highly, show respect for" type="">
+        <commentary>
+        </commentary>
+        <examples>
+            Children should respect their elders and do as they say.
+            Please respect my privacy.
+            How can I respect your judgment when you do things like that?
+        </examples>
+        <mappings>
+            <wn version="2.1">1,2</wn>
+            <wn lemma="" version="2.1"></wn>
+            <omega></omega><pb>respect.01</pb>
+            <vn>admire-31.2</vn>
+            <fn>Judgment</fn>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    <sense group="1" n="2" name="have reference to" type="">
+        <commentary>
+        </commentary>
+        <examples>
+            These directions respect the current setting only.
+        </examples>
+        <mappings>
+            <wn version="2.1"></wn>
+            <omega></omega><pb></pb>
+            <vn></vn>
+            <fn></fn>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+<sense group="1" n="3" name="none of the above" type="">
+  <commentary>
+Automatically generated NOTA sense (bbn)
+  </commentary>
+  <examples>
+  </examples>
+  <mappings>
+    <wn version="2.1"></wn>
+    <omega></omega><pb></pb>
+    <fn></fn>
+  </mappings><SENSE_META clarity=""/>
+</sense>
+    <WORD_META authors="brownsw" sample_score="-"/>
+
+<ita count="56" ann_1_2_agreement="0.946428571429" />
+</inventory>

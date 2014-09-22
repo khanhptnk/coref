@@ -1,0 +1,234 @@
+<!DOCTYPE inventory SYSTEM "inventory.dtd">
+<inventory lemma="line-n">
+    <commentary>
+    </commentary>
+    <sense n="1" type="" name="a queue or sequence of things or events" group="1">
+        <commentary>
+            LINE[+arrangement][+queue]
+        </commentary>
+        <examples>
+            We stood in line two hours to get tickets.
+            The bread line stretched all the way around the block.
+            It was a strange line of events that led to the start of World War I. 
+            They had to shut down two assembly lines last night at the plant.
+        </examples>
+        <mappings>
+            <wn version="2.1">1,3,10,29</wn>
+            <omega></omega><pb></pb>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    
+    <sense n="2" type="" name="an elongated form with little (or no) breadth" group="1">
+        <commentary>
+            LINE[+form][+elongation]
+        </commentary>
+        <examples>
+            Draw two lines across and two lines down to make a tic-tac-toe grid.
+            Euclid conceived of lines as having infinite extension in one dimension.
+            These spectral lines indicate the presence of sodium among the elements of that star.
+            The line around the middle of the earth is called the equator.
+            Her face had lines around the eyes from years in the sun.
+            John laid out six lines of cocaine on the mirror.
+            We could see several lines of jet trail in the sky.
+        </examples>
+        <mappings>
+            <wn version="2.1">2,4,6,11,12</wn>
+            <wn version="Merriam-Webster online">3c,3g</wn>
+            <omega></omega><pb></pb>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    
+    <sense n="3" type="" name="unit of a larger whole text, picture or melody" group="1">
+        <commentary>
+            LINE[+unit][+text/+music/+picture]
+        </commentary>
+        <examples>
+            Each couplet of the poem consists of two lines.
+            Your display monitor is composed of lines of pixels.
+            This paper charged a lot per line to run our ad. 
+            John added a couple of his own lines to the symphonic score.
+            She only drops me a line now and again. (metaphoric)
+            Jane forgot her opening lines of the play.	
+            There's a great line in that movie.
+        </examples>
+        <mappings>
+            <wn version="2.1">5,24,26,27</wn>
+            <wn version="Merriam-Webster online">2d,2e</wn>
+            <omega></omega><pb></pb>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    
+    <sense n="4" type="" name="argumentation, often spoken" group="1">
+        <commentary>
+            LINE[+activity][+argumentation]
+        </commentary>
+        <examples>
+            You won't believe the line that guy tried on me last night in the bar.
+            The tobacco industry's lawyers have used that same line for years.
+            Your line of reasoning seems flawed somewhere.
+        </examples>
+        <mappings>
+            <wn version="2.1">8</wn>
+            <wn version="Merriam-Webster online">4c</wn>
+            <omega></omega><pb></pb>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    
+    <sense n="5" type="" name="a conduit that conveys  or transports something" group="1">
+        <commentary>
+            LINE[+conduit][+physical/+social]
+        </commentary>
+        <examples>
+            The storm brought down a lot of power lines.
+            John has three phone lines going into his house.
+            The Alaskan pipe line was a controversial project.
+            They bombed all the rail lines going into the city.
+            These lines etched on the circuit board convey electrons.
+            The enemy destroyed our supply lines so no food got to the front.
+            She's searching for any line of communication with her son.
+            Our firm has excellent lines of communication with our suppliers and clients.
+        </examples>
+        <mappings>
+            <wn version="2.1">9,13,14,15,21</wn>
+            <omega></omega><pb></pb>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    
+    <sense n="6" type="" name="a boundary or demarcation" group="1">
+        <commentary>
+            LINE[+relation][+demarcation]
+        </commentary>
+        <examples>
+            The enemy breached our front line in two places.
+            The referee said the player's foot was over the line when he still had the ball.
+            They carried the ball to the twenty-yard line.
+            You were way out of line last night. (metaphoric)
+            She's good at keeping those headstrong children in line.
+            Sometimes there is a fine line between genius and insanity.
+            Critics believe the President has stepped over the line of legality.
+            Georgia's offensive line has reacted quickly to the ball.
+        </examples>
+        <mappings>
+            <wn version="2.1">7,18,20,28</wn>
+            <wn version="Merriam-Webster online">6k</wn>
+            <omega></omega><pb></pb>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    
+    <sense n="7" type="" name="relation of inheritance or pedigree" group="1">
+        <commentary>
+            LINE[+relation][+inheritance]
+        </commentary>
+        <examples>
+            The evolutionary line from flatworm to human is long and arduous.
+            He comes from a long line of liars.
+            One line of my family tree can be traced back to Scotland.
+        </examples>
+        <mappings>
+            <wn version="2.1">17</wn>
+            <omega></omega><pb></pb>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    
+    <sense n="8" type="" name="a slender rope, cord or thread" group="1">
+        <commentary>
+            LINE[+cordage]
+        </commentary>
+        <examples>
+            I bought some new rope to replace lines on my sailboat.
+            Hang the sheets on the line to dry in the sun.
+            John just caught something on his line!
+            Use a mason's line to set these bricks properly.
+        </examples>
+        <mappings>
+            <wn version="2.1">18</wn>
+            <omega></omega><pb></pb>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    
+    <sense n="9" type="" name="vocation or career" group="1">
+        <commentary>
+            LINE[+activity][+vocation]
+        </commentary>
+        <examples>
+            That's a dangerous line of work he's in.
+            I was in that line of business years ago. 
+        </examples>
+        <mappings>
+            <wn version="2.1">19</wn>
+            <omega></omega><pb></pb>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    
+    <sense n="10" type="" name="style or brand of merchandise" group="1">
+        <commentary>
+            LINE[+merchandise][+style]
+        </commentary>
+        <examples>
+            They make an expensive line of stereo speaker.
+            Our company is starting a new line of swim wear this spring
+        </examples>
+        <mappings>
+            <wn version="2.1">22</wn>
+            <omega></omega><pb></pb>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    
+    <sense n="11" type="" name="transportation enterprise or company" group="1">
+        <commentary>
+            LINE[+enterprise][+transportation]
+        </commentary>
+        <examples>
+            How many routes does the Peter Pan bus line provide?
+            We booked our trip on an Italian cruise line.
+        </examples>
+        <mappings>
+            <wn version="2.1">23</wn>
+            <omega></omega><pb></pb>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    
+    <sense n="12" type="" name="an allowed limit, usually of credit" group="1">
+        <commentary>
+            LINE[+quantity][+limit]
+        </commentary>
+        <examples>
+            We've set up a line of credit for our small company.
+            Sally went over the line on her credit card last month.
+        </examples>
+        <mappings>
+            <wn version="2.1">25</wn>
+            <omega></omega><pb></pb>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    
+<sense group="1" n="13" name="none of the above" type="">
+  <commentary>
+Automatically generated NOTA sense (bbn)
+  </commentary>
+  <examples>
+  </examples>
+  <mappings>
+    <wn version="2.1"></wn>
+    <omega></omega><pb></pb>
+    <fn></fn>
+  </mappings><SENSE_META clarity=""/>
+</sense>
+    <WORD_META authors="ahouston" sample_score="-"/>
+
+<ita count="201" ann_1_2_agreement="1.0" />
+</inventory>
+
+

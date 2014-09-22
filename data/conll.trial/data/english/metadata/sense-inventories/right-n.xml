@@ -1,0 +1,142 @@
+<!DOCTYPE inventory SYSTEM "inventory.dtd">
+<inventory lemma="right-n">
+    <commentary>
+        
+    </commentary>
+    
+    <sense n="1" type="" name="liberties" group="2">
+        <commentary>
+            an abstract idea of that which is due a person or governmental body by
+            law or tradition or nature (typically legal rights)
+        </commentary>
+        <examples>
+            They are endowed by thier Creator with certain unalienable Rights.
+            "Certain rights can never granted to the government but must be kept in the hands of the people." -Eleanor Roosevelt
+            A right is not something that somebody give you it is something that nobody can take away.
+            The author of my favorite book sold the film rights recently. 
+        </examples>
+        <mappings>
+            <wn version="2.0">1 2</wn>
+            <omega></omega>
+            <pb></pb>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    
+    <sense n="2" type="Location" name="a position beside" group="1">
+        <commentary>
+            location near or direction toward the right side; the side to the
+            south when a person faces east
+        </commentary>
+        <examples>
+            He stood on the right.
+            Follow the road for 2.3 miles and my house will be on the right.
+        </examples>
+        <mappings>
+            <wn version="2.0">3</wn>
+            <omega></omega>
+            <pb></pb>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    
+    <sense n="3" type="" name="a turn" group="1">
+        <commentary>
+            a turn to the right
+        </commentary>
+        <examples>
+            Make a right at the corner of Broad and Market.
+            Take right after you see the church.
+        </examples>
+        <mappings>
+            <wn version="2.0">4</wn>
+            <omega></omega>
+            <pb></pb>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    
+    <sense n="4" type="Politics" name="right wing" group="1">
+        <commentary>
+            those who support political or social or economic conservatism, 
+            those who believe that things are better left unchanged
+        </commentary>
+        <examples>
+            I'm affiliated with the Right these days.
+            The political right will be disappointed if their candidate doesn't win.
+        </examples>
+        <mappings>
+            <wn version="2.0">5</wn>
+            <omega></omega>
+            <pb></pb>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    
+    <sense n="5" type="" name="fairness" group="2">
+        <commentary>
+            rightfulness - 
+            anything in accord with principles of justice
+        </commentary>
+        <examples>
+            He feels he is in the right.
+        </examples>
+        <mappings>
+            <wn version="2.0"></wn>
+            <omega></omega>
+            <pb></pb>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    
+    <sense n="6" type="" name="your other left hand" group="1">
+        <commentary>
+            the hand that is on the right side of the body
+        </commentary>
+        <examples>
+            He writes with his right hand but pitches with his left. 
+            Hit him with quick rights to the body.
+        </examples>
+        <mappings>
+            <wn version="2.0">7</wn>
+            <omega></omega>
+            <pb></pb>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    
+    <sense n="7" type="Baseball" name="outfield" group="1">
+        <commentary>
+            the piece of ground in the outfield on the catcher's right
+        </commentary>
+        <examples>
+            George always plays right.
+            The player in right was looking around when the ball was flying at him.
+        </examples>
+        <mappings>
+            <wn version="2.0">8</wn>
+            <omega></omega>
+            <pb></pb>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    
+    
+    <!-- more senses go here -->
+<sense group="1" n="8" name="none of the above" type="">
+  <commentary>
+Automatically generated NOTA sense (bbn)
+  </commentary>
+  <examples>
+  </examples>
+  <mappings>
+    <wn version="2.1"></wn>
+    <omega></omega><pb></pb>
+    <fn></fn>
+  </mappings><SENSE_META clarity=""/>
+</sense>
+    <WORD_META authors="ajarrett" sample_score=""/>
+
+<ita count="163" ann_1_2_agreement="0.98773006135" />
+</inventory>
+

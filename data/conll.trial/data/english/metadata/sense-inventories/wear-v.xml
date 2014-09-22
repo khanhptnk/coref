@@ -1,0 +1,68 @@
+<?xml version="1.0" ?>
+<!DOCTYPE inventory
+  SYSTEM 'inventory.dtd'>
+<inventory lemma="wear-v">
+    <commentary>
+    </commentary>
+    <sense group="1" n="1" name="don, assume, feature" type="">
+        <commentary>
+        </commentary>
+        <examples>
+            She was wearing yellow that day.
+            He wore a red rose bud in his lapel.
+            She wore her prettiest smile for him.
+            He wore a look of disgust through the entire speech.
+            I like to wear my hair in a French twist.
+            He decided to wear his white silk suit.
+        </examples>
+        <mappings>
+            <wn version="2.1">1,2,3,5,9</wn>
+            <omega/>
+            <pb/>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    <sense group="1" n="2" name="deteriorate, tire, break down" type="">
+        <commentary>
+        </commentary>
+        <examples>
+            I wore a hole in my jeans.
+            This vacuum cleaner seems to be wearing out.
+            It was really wearing to weed the strawberry fields from dawn to dusk.
+        </examples>
+        <mappings>
+            <wn version="2.1">4,7,8</wn>
+            <omega/>
+            <pb/>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    <sense group="1" n="3" name="endure, last, be usable" type="">
+        <commentary>
+        </commentary>
+        <examples>
+            The treads on those tires will wear for years.
+        </examples>
+        <mappings>
+            <wn version="2.1">6</wn>
+            <omega/>
+            <pb/>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+<sense group="1" n="4" name="none of the above" type="">
+  <commentary>
+Automatically generated NOTA sense (bbn)
+  </commentary>
+  <examples>
+  </examples>
+  <mappings>
+    <wn version="2.1"></wn>
+    <omega></omega><pb></pb>
+    <fn></fn>
+  </mappings><SENSE_META clarity=""/>
+</sense>
+    <WORD_META authors="ahouston" sample_score="-"/>
+
+<ita count="219" ann_1_2_agreement="0.977168949772" />
+</inventory>

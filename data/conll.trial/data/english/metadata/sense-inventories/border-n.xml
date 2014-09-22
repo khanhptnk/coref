@@ -1,0 +1,64 @@
+<!DOCTYPE inventory SYSTEM "inventory.dtd">
+<inventory lemma="border-n">
+    <commentary>
+        15Aug06 - updated to 2.1, added examples and features. ahouston
+    </commentary>
+    
+    <sense n="1" type="" name="boundary line, demarcation between regions" group="1">
+        <commentary>
+            BORDER[+location][+region][+boundary]
+            boundary line, borderline, delimitation, mete, margin, perimeter - 
+            the boundary line or the area immediately inside the boundary
+            (usually specific to land)
+        </commentary>
+        <examples>
+            The borders of the countries were redrawn after the war.
+            Two men were picked up by the border patrol in Arizona.
+            The accounting firm was skating the border between legal and illegal practices.
+        </examples>
+        <mappings>
+            <wn version="2.1">1 2 3</wn>
+            <omega></omega>
+            <pb></pb>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    
+    <sense n="2" type="" name="decorative strip or margin of an object" group="1">
+        <commentary>
+            BORDER[+entity][+structure][+strip][+decorative][+carpet/+garden/+stationary]
+            a decorative strip forming the outer edge of something
+        </commentary>
+        <examples>
+            The rug had a wide blue border.
+            These perennials make nice decorative borders in the garden.
+            Mary's stationary has a floral design around the border.
+        </examples>
+        <mappings>
+            <wn version="2.1">4 5</wn>
+            <omega></omega>
+            <pb></pb>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    
+    <!-- more senses go here -->
+    <sense group="1" n="3" name="none of the above" type="">
+        <commentary>
+            Automatically generated NOTA sense (bbn)
+        </commentary>
+        <examples>
+        </examples>
+        <mappings>
+            <wn version="2.1"></wn>
+            <omega></omega><pb></pb>
+            <fn></fn>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    <WORD_META authors="cstocker ajarrett" sample_score=""/>
+
+<ita count="97" ann_1_2_agreement="0.989690721649" />
+</inventory>
+
+

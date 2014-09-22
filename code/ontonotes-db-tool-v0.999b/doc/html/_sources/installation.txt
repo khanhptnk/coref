@@ -1,0 +1,62 @@
+----------------------------------------
+Installation
+----------------------------------------
+
+Dependencies
+------------
+
+The OntoNotes DB Tool is implemented in Python, using a MySQL database
+and Python access routines from the MySQLdb package.  Users will need
+to have Python installed, and if they wish to use any of the code that
+works with the database they will need MySQL as well.
+
+Python
+~~~~~~
+The tool was designed under Python 2.5, but should work on any later
+Python 2.x release.  Python 3 is not supported, though users working
+with Python 3 might have success with the official Python 2.x to 3.0
+'2to3' `converter <http://docs.python.org/library/2to3.html>`_.
+
+MySQL and MySQLdb
+~~~~~~~~~~~~~~~~~
+
+These two dependencies are optional, but recommended.  The tool can
+function in two modes, either reading information from the filesystem
+or the database.  To have the latter mode available, you must have a
+MySQL database to store the data as well as the MySQLdb Python module.
+You can download MySQL from http://dev.mysql.com/downloads/ and
+MySQLdb from http://sourceforge.net/projects/mysql-python.
+
+The version of MySQL that we have tested the OntoNotes DB Tool is
+version 5.0, but we do not use much of the newly added functionality
+as of now, and so an earlier version of MySQL will do as well -- in
+case you already have it installed.  We would highly recommend using
+version 4.1 or later as they have better Unicode support.  This is
+quite important, as all the data uses the UTF-8 character encoding.
+
+.. seealso::
+
+  `Official MySQL Documentation <http://dev.mysql.com/doc/>`_
+   Extensive documentation on MySQL can be found at site.
+
+  `Writing MySQL Scripts with Python DB-API <http://www.kitebird.com/articles/pydbapi.html>`_
+   This is a good starting point for writing scripts using MySQLdb API.
+
+
+Installing OntoNotes DB Tool
+----------------------------
+
+Once you have the dependencies installed, we can install the OntoNotes
+DB Tool.  It follows the standard Python module distribution
+guidelines and uses the Python ``distutils`` package.  After you
+have installed the above mentioned dependencies, you can install the
+OntoNotes DB Tool by running:
+
+.. code-block:: bash
+
+  $ python setup.py install
+
+.. seealso::
+
+  `Installing Python Modules <http://docs.python.org/inst/inst.html>`_
+   Documentation on how to install Python modules

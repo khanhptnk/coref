@@ -1,0 +1,71 @@
+<!DOCTYPE inventory SYSTEM "inventory.dtd">
+<inventory lemma="nothing-n">
+    <commentary>
+        Does not include pronominal uses, only nominal ones
+    </commentary>
+    <sense n="1" type="" name="a quantity of zero" group="1">
+        <commentary>
+            NOTHING[+quantity][+zero]
+        </commentary>
+        <examples>
+            The bill for dinner came to almost nothing. (a bit figurative)
+            The fuel gauge is reading nothing, we'd better find a gas station.
+            Five minus five leaves nothing.
+        </examples>
+        <mappings>
+            <wn version="2.1">1</wn>
+            <omega></omega><pb></pb>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    
+    
+    <sense n="2" type="" name="nonexistence, a non-existent thing" group="1">
+        <commentary>
+            NOTHING[+entity][-existent]
+        </commentary>
+        <examples>
+            Heidegger's philosophical question was why is there something rather than nothing.
+            Those accusations turned out to be nothing.  (no true state of affairs corresponded to them)
+        </examples>
+        <mappings>
+            <wn version="2.1"></wn>
+            <omega></omega><pb></pb>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    
+    
+    <sense n="3" type="" name="insignificant value or worth" group="1">
+        <commentary>
+            NOTHING[+quality][+value][-significant]
+        </commentary>
+        <examples>
+            The man felt like a big nothing.
+            Sally considers their line of cosmetics to be nothing.
+            She seems to get upset over nothing. (events or situations of trivial significance)
+        </examples>
+        <mappings>
+            <wn version="MW online ">2</wn>
+            <omega></omega><pb></pb>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    
+    
+<sense group="1" n="4" name="none of the above" type="">
+  <commentary>
+Automatically generated NOTA sense (bbn)
+  </commentary>
+  <examples>
+  </examples>
+  <mappings>
+    <wn version="2.1"></wn>
+    <omega></omega><pb></pb>
+    <fn></fn>
+  </mappings><SENSE_META clarity=""/>
+</sense>
+    <WORD_META authors="ahouston" sample_score="-"/>
+
+<ita count="120" ann_1_2_agreement="0.966666666667" />
+</inventory>

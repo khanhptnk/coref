@@ -1,0 +1,26 @@
+<?xml version="1.0" ?>
+<!DOCTYPE inventory SYSTEM "inventory.dtd">
+<inventory lemma="matter-v">
+    <commentary>
+    </commentary>
+    <sense group="1" n="1" name="have import or weight" type="">
+        <commentary>
+        </commentary>
+        <examples>
+            Does it matter what she wears as long as she comes?
+            It matters to him whether she wants to have children.
+            "Yes! Money matters to me!" she cried.
+        </examples>
+        <mappings>
+            <wn version="2.1">1</wn>
+            <wn lemma="matters_to" version="2.1">1</wn>
+            <omega></omega><pb>matter.01</pb>
+            <vn>appeal-31.4-3,matter-91</vn>
+            <fn>NP</fn>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    <WORD_META authors="brownsw" sample_score="-"/>
+
+<ita count="59" ann_1_2_agreement="1.0" />
+</inventory>

@@ -1,0 +1,418 @@
+<?xml version="1.0" ?>
+<!DOCTYPE inventory SYSTEM "inventory.dtd">
+<inventory lemma="stand-v">
+    <commentary>
+    </commentary>
+    <sense group="1" n="1" name="(cause to) assume upright position" type="">
+        <commentary>
+            NP1 STAND (ADV[orientation])
+            
+            Includes: STAND UP
+            Note: This sense necessarily entails the UPRIGHT position of NP1. Like sense 2
+            location is also implied, but the focus is on the upright orientation of the
+            NP1. If the word does not entail this orientation, then go with sense 2.
+        </commentary>
+        <examples>
+            We had to stand for the entire performance.
+            When it stood upright, it was about twice the height of an elephant.
+            It stood on its hind legs, and belted out the British national anthem.
+            When we are standing, the spine naturally curves both inwards and outwards.
+            Can you stand the bookshelf up?
+            Stand the tamales up in a large steamer or colander with the pinched end up.
+            The dog's hair stood up on end as he growled at us.
+        </examples>
+        <mappings>
+            <wn version="3.0">1,10,11</wn>
+            <wn lemma="stand_up" version="3.0">1,3,4,7</wn>
+            <wn lemma="stand_still" version="3.0">1</wn>
+            <omega></omega><pb>stand.01</pb>
+            <vn>put_spatial-9.2-1,spatial_configuration-47.6,assuming_position-50</vn><fn>Posture,Change_posture</fn>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    
+    <sense group="1" n="2" name="(cause to) be in a particular location" type="">
+        <commentary>
+            NP1 STAND PP[location or quantifier]
+            Note: This sense does not entail UPRIGHT orientation of NP1. If such is entailed
+            then go with sense 1. The sense can be metaphorical.
+            HINT: For many of these examples, you can replace 'stand' with 'be'
+            (or with 'put' for the causative) without a big change in meaning.
+            Such a substitution with examples in sense 1 would be strange.
+            EX: ??? We had to be for the entire performance. (sense 1)
+            The bookshelf was in the corner. (sense 2)
+            ??? Put the tamales in a large steamer (sounds okay, but loses some meaning)
+            Put the bookshelf in the corner.
+        </commentary>
+        <examples>
+            Trade deficit with India stands at $10 million.
+            We all stand on the shoulders of giants.
+            I want to stand as close to the edge as I can without going over.
+            We stand at the intersection of computers and humanism.
+            The bookshelf stood in the corner.
+            Stand the bookshelf in the corner.
+            The castle stands on a hill.
+            Where do you stand on this issue?
+            Do not use your septic system when surface water is standing on the field.
+        </examples>
+        <mappings>
+            <wn version="3.0">3,6,7,10</wn>
+            <wn lemma="" version=""></wn>
+            <omega></omega><pb>stand.04</pb>
+            <vn>put_spatial-9.2-1,spatial_configuration-47.6</vn><fn>Placing,Being_located</fn>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    <sense group="1" n="3" name="have a particular attribute or feature; be in a particular state" type="">
+        <commentary>
+            NP1 STAND ADJ[state, feature, attribute]
+        </commentary>
+        <examples>
+            She stands 6 feet tall.
+            I stand corrected.
+            The house stood empty for years.
+            You stand accused of murder, how do you plead?
+        </examples>
+        <mappings>
+            <wn version="3.0">2,9</wn>
+            <wn lemma="" version=""></wn>
+            <omega></omega><pb>stand.04</pb>
+            <vn></vn><fn>NM</fn>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    <sense group="1" n="4" name="endure, persist or tolerate" type="">
+        <commentary>
+            includes STAND UP
+        </commentary>
+        <examples>
+            Supermarkets stand the test of time.
+            This love won't stand the test of time.
+            If you can't stand the heat, get out of the kitchen.
+            Those shoes really stand up to a lot of wear and tear.
+            Our football team has stood up to adversity a lot this season.
+            He stood up to the racial taunts.
+            I'm standing my ground and I won't give in!
+            Whether you like it or not, the rule stands.
+        </examples>
+        <mappings>
+            <wn version="3.0">4,5,8</wn>
+            <wn lemma="stand_up" version="3.0">2,6</wn>
+            <omega></omega><pb>stand.03,admire-31.2</pb>
+            <vn>admire-31.2</vn><fn>NM</fn>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    <sense group="1" n="5" name="male domestic animals such as stallions serve selected females" type="">
+        <commentary>
+        </commentary>
+        <examples>
+            Muscles Yankee will retire from racing to stand stud at Perretti Farms in Cream Ridge.
+        </examples>
+        <mappings>
+            <wn version="3.0">12</wn>
+            <wn lemma="" version=""></wn>
+            <omega></omega><pb>NM</pb>
+            <vn></vn><fn>NM</fn>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    <sense group="1" n="6" name="be in a position to do something" type="">
+        <commentary>
+        </commentary>
+        <examples>
+            I could stand to lose a few more pounds.
+            If rates rise, you stand to receive less than you paid.
+            Everyone could stand to conserve energy. 
+        </examples>
+        <mappings>
+            <wn version="3.0"></wn>
+            <wn lemma="" version=""></wn>
+            <omega></omega><pb>stand.02</pb>
+            <vn></vn><fn>NM</fn>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    <sense group="1" n="7.1" name="stand back" type="">
+        <commentary>
+            Note: means both "keep one's distance" and "position oneself away from someone or something"
+        </commentary>
+        <examples>
+            Stand back! Or I will be forced to make my upper thighs look blotchy!
+            He stood back to look at her.
+        </examples>
+        <mappings>
+            <gr_sense></gr_sense>
+            <wn version="3.0"></wn>
+            <wn lemma="stand_back" version="3.0">1,2</wn>
+            <omega></omega><pb>NM</pb>
+            <vn>NM</vn><fn>NM</fn>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    <sense group="1" n="7.2" name="Be loyal, unwavering" type="">
+        <commentary>
+            Includes: stand by, stand fast
+        </commentary>
+        <examples>
+            She stood by her husband in times of trouble.
+            Shortage looming, yet nurses stand fast.
+        </examples>
+        <mappings>
+            <gr_sense></gr_sense>
+            <wn version="3.0"></wn>
+            <wn lemma="stand_by" version="3.0">3</wn>
+            <wn lemma="stand_fast" version="3.0">1</wn>
+            <omega></omega><pb>NM</pb>
+            <vn>NM</vn><fn>NM</fn>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    <sense group="1" n="7.3" name="Stand firm" type="">
+        <commentary>
+            Note: means both "resist/withstand" and "refuse to abandon one's beliefs of opinions"
+        </commentary>
+        <examples>
+            Stand firm! Don't let them intimidate you!
+            I agree we should stand firm behind the president.
+        </examples>
+        <mappings>
+            <gr_sense></gr_sense>
+            <wn version="3.0"></wn>
+            <wn lemma="stand_firm" version="3.0">1,2</wn>
+            <omega></omega><pb>NM</pb>
+            <vn>NM</vn><fn>NM</fn>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    <sense group="1" n="7.4" name="Signify, mean, symbolize" type="">
+        <commentary>
+            Includes: stand for
+        </commentary>
+        <examples>
+            What does the Statue of Liberty stand for?
+            T stands for Tab.
+            An 'h' in Greek stands for an 's' in Latin.       
+        </examples>
+        <mappings>
+            <gr_sense></gr_sense>
+            <wn version="3.0"></wn>
+            <wn lemma="stand_for" version="3.0">1,2,3</wn>
+            <omega></omega><pb>NM</pb>
+            <vn>NM</vn><fn>NM</fn>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    <sense group="1" n="7.5" name="Watch over as to protect" type="">
+        <commentary>
+            Includes: stand guard, stand sentinel, stand watch
+        </commentary>
+        <examples>
+            The jewels over which they stood guard were stolen.
+            We must stand sentinel to protect ourselves.
+            Tech saavy staff stand watch over their networks.    
+        </examples>
+        <mappings>
+            <gr_sense></gr_sense>
+            <wn version="3.0"></wn>
+            <wn lemma="stand_guard" version="3.0">1</wn>
+            <wn lemma="stand_sentinel" version="3.0">1</wn>
+            <wn lemma="stand_watch" version="3.0">1</wn>
+            <omega></omega><pb>NM</pb>
+            <vn>NM</vn><fn>NM</fn>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    <sense group="1" n="7.6" name="Stand pat" type="">
+        <commentary>
+            Note: means "nonprogressive"
+        </commentary>
+        <examples>
+            Look for the Lakers to stand pat as the NBA trade deadline looms.                
+        </examples>
+        <mappings>
+            <gr_sense></gr_sense>
+            <wn version="3.0"></wn>
+            <wn lemma="stand_pat" version="3.0">1</wn>
+            <omega></omega><pb>NM</pb>
+            <vn>NM</vn><fn>NM</fn>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    <sense group="1" n="7.7" name="Stand still" type="">
+        <commentary>
+            Note: means "remain in place"
+        </commentary>
+        <examples>
+            Please stand still with your feet together for 10 minutes.                                     
+        </examples>
+        <mappings>
+            <gr_sense></gr_sense>
+            <wn version="3.0"></wn>
+            <wn lemma="stand_still" version="3.0">1</wn>
+            <omega></omega><pb>NM</pb>
+            <vn>NM</vn><fn>NM</fn>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    <sense group="1" n="7.8" name="Arise, get up, be upright" type="">
+        <commentary>
+            Includes: Stand up
+        </commentary>
+        <examples>
+            We had to stand up for the entire performance.
+            Can you stand the bookshelf up?               
+            My hair stood up when I saw the bear.  
+        </examples>
+        <mappings>
+            <gr_sense>1</gr_sense>
+            <wn version="3.0">1,10,11</wn>
+            <wn lemma="stand_up" version="3.0">1,3,4,7</wn>
+            <omega></omega><pb>stand.07</pb>
+            <vn>assuming_position-50,put_spatial-9.2-1,spatial_configuration-47.6</vn><fn>Posture,Change_posture</fn>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    <sense group="1" n="7.9" name="Refuse to back down, resist, hold water" type="">
+        <commentary>
+            Includes: Stand up
+        </commentary>
+        <examples>
+            He stood up for his friend.                                     
+            The balloon theory won't stand up.          
+        </examples>
+        <mappings>
+            <gr_sense>4</gr_sense>
+            <wn version="3.0">4,5,8</wn>
+            <wn lemma="stand_up" version="3.0">2,5,6</wn>
+            <omega></omega><pb>NM</pb>
+            <vn>NM</vn><fn>NM</fn>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    <sense group="1" n="7.10" name="Stand in" type="">
+        <commentary>
+            Note: means "be a substitute"
+        </commentary>
+        <examples>
+            She will stand in for the President in case of absence.           
+        </examples>
+        <mappings>
+            <gr_sense></gr_sense>
+            <wn version="3.0"></wn>
+            <wn lemma="stand_in" version="3.0">1</wn>
+            <omega></omega><pb>NM</pb>
+            <vn>NM</vn><fn>NM</fn>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    <sense group="1" n="7.11" name="Distinguish oneself, be noticable" type="">
+        <commentary>
+            Includes: Stand out
+        </commentary>
+        <examples>
+            He stood out as a beacon of humility.
+            She stands out because she's never been afraid to speak her mind.    
+        </examples>
+        <mappings>
+            <gr_sense></gr_sense>
+            <wn version="3.0"></wn>
+            <wn lemma="stand_out" version="3.0">1,2,4</wn>
+            <omega></omega><pb>stand.06</pb>
+            <vn>NM</vn><fn>NM</fn>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    <sense group="1" n="7.12" name="Of ships - steer away from shore" type="">
+        <commentary>
+            Includes: Stand out
+        </commentary>
+        <examples>
+            The ship stood out of the bay.        
+        </examples>
+        <mappings>
+            <gr_sense></gr_sense>
+            <wn version=""></wn>
+            <wn lemma="stand_out" version="3.0">3</wn>
+            <omega></omega><pb>NM</pb>
+            <vn>NM</vn><fn>NM</fn>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    <sense group="1" n="7.13" name="Put up with, tolerate" type="">
+        <commentary>
+            Includes: Stand for
+        </commentary>
+        <examples>
+            I won't stand for this kind of behavior!                
+        </examples>
+        <mappings>
+            <gr_sense></gr_sense>
+            <wn version=""></wn>
+            <wn lemma="stand_for" version="3.0">4</wn>
+            <omega></omega><pb>stand.03</pb>
+            <vn>NM</vn><fn>NM</fn>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    <sense group="1" n="7.14" name="Not act or do anything" type="">
+        <commentary>
+            Includes: Stand by
+        </commentary>
+        <examples>
+            He just stood by while the Police beat the demonstrators.          
+        </examples>
+        <mappings>
+            <gr_sense></gr_sense>
+            <wn version=""></wn>
+            <wn lemma="stand_by" version="3.0">1</wn>
+            <omega></omega><pb>NM</pb>
+            <vn>NM</vn><fn>NM</fn>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    <sense group="1" n="7.15" name="Stick around, be available" type="">
+        <commentary>
+            Includes: Stand by
+        </commentary>
+        <examples>
+            Stand by for the next installment of this article. 
+        </examples>
+        <mappings>
+            <gr_sense></gr_sense>
+            <wn version=""></wn>
+            <wn lemma="stand_by" version="3.0">2</wn>
+            <omega></omega><pb>NM</pb>
+            <vn>NM</vn><fn>NM</fn>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+<sense group="1" n="7.16" name="none of the above" type="">
+  <commentary>
+Automatically generated NOTA sense (bbn)
+  </commentary>
+  <examples>
+  </examples>
+  <mappings>
+    <wn version="2.1"></wn>
+    <omega></omega><pb></pb>
+    <fn></fn>
+  </mappings><SENSE_META clarity=""/>
+</sense>
+    
+<sense group="1" n="8" name="none of the above" type="">
+  <commentary>
+Automatically generated NOTA sense (bbn)
+  </commentary>
+  <examples>
+  </examples>
+  <mappings>
+    <wn version="2.1"></wn>
+    <omega></omega><pb></pb>
+    <fn></fn>
+  </mappings><SENSE_META clarity=""/>
+</sense>
+    <WORD_META authors="duffielc,vieweg,hwangd,greenlm" sample_score="-"/>
+
+<ita count="512" ann_1_2_agreement="0.619140625" />
+</inventory>

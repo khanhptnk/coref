@@ -1,0 +1,80 @@
+<?xml version="1.0" ?>
+<!DOCTYPE inventory
+  SYSTEM 'inventory.dtd'>
+<inventory lemma="need-v">
+    <commentary>
+    </commentary>
+    <sense group="1" n="1" name="must have, demand" type="">
+        <commentary>
+            Syntax Includes:
+            NP1 NEED NP2
+            NP1 NEED SCOMP
+        </commentary>
+        <examples>
+            Babies need constant care.
+            The doctor said I need an operation.
+            He was always needing money.
+            This stew needs more salt.
+            Will I need a passport to enter that country?
+            Jet engines need special fuel.
+            I don't need all this hassle.
+            I really need a rest from all this.
+            What you need is a hot bowl of soup.
+            This room needs brightening up.
+            I need my hair cut short.
+            Being a good parent needs lots of patience.
+            Eye surgery needs a very steady hand.
+            I need a lot of time to practice my violin.
+            I need you to help me.
+        </examples>
+        <mappings>
+            <wn version="2.1">1,2,3</wn>
+            <omega></omega><pb>need.01,order-60,want-32.1,want-32.1-1-1</pb>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    <sense group="1" n="2" name="must do something" type="">
+        <commentary>
+            Syntax Includes:
+            NP1 NEED COMP[Infinitival clause: TO + VERB + NP]
+            NP1 NEED TO BE VP (British leaves out TO)
+            NP1 NEED NOT BE VP
+            NP1 NEED NOT VP
+        </commentary>
+        <examples>
+            The doctors said I needed to get an operation.
+            I need to get a haircut.
+            You need to help me choose an outfit.
+            What if I need to see a doctor while I'm away? 
+            I needed to remember.     
+            We need to ask ourselves what it means to integrate. 
+            I don't think we need ask him.
+            
+            Nothing needs to be done about this until next week.
+            Nothing need be done about this until next week.
+            Users need not see this command to use the application.
+            Official blogs and wikis needn't be so boring!
+            You needn't smirk like that.
+        </examples>
+        <mappings>
+            <wn version="2.1"></wn>
+            <omega></omega><pb>need.01</pb>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+<sense group="1" n="3" name="none of the above" type="">
+  <commentary>
+Automatically generated NOTA sense (bbn)
+  </commentary>
+  <examples>
+  </examples>
+  <mappings>
+    <wn version="2.1"></wn>
+    <omega></omega><pb></pb>
+    <fn></fn>
+  </mappings><SENSE_META clarity=""/>
+</sense>
+    <WORD_META authors="ahouston,duffielc,hwangd" sample_score="-"/>
+
+<ita count="820" ann_1_2_agreement="0.879268292683" />
+</inventory>

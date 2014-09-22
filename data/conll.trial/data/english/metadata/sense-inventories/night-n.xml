@@ -1,0 +1,131 @@
+<!DOCTYPE inventory SYSTEM "inventory.dtd">
+<inventory lemma="night-n">
+    <commentary>
+        
+    </commentary>
+    <sense n="1" type="" name="the dark portion of the diurnal cycle of a 24-hour day" group="1">
+        <commentary>
+            NIGHT[+portion][+cycle][+time][+diurnal][-sunlight]
+        </commentary>
+        <examples>
+            That hotel costs $200 a night during the high season.
+            If you pay for four nights at this hotel you get the fifth night free.
+            Lions usually hunt at night.
+            They will play the Yankees in a night game.
+            We sat on the hillside and watched falling stars on a warm summer night.
+            The package includes five days and four nights in Acapulco. 
+            They lock the front gate every night.
+            It's always night somewhere on the earth.
+        </examples>
+        <mappings>
+            <wn version="2.1">1,2,3,4</wn>
+            <omega></omega><pb></pb>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    
+    
+    <sense n="2" type="" name="a state or period of regular sleep" group="1">
+        <commentary>
+            NIGHT[+state][+sleep][+habitual]
+        </commentary>
+        <examples>
+            John had a lot of short nights working on his dissertation. 
+            They spent a restless night in the hot, humid hotel room.
+            She wished the children a good night as she tucked them into bed.
+            The man was delirious after three sleepless nights.
+        </examples>
+        <mappings>
+            <wn version="2.1">3</wn>
+            <omega></omega><pb></pb>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    
+    
+    <sense n="3" type="" name="the quality of darkness, diminished visibility" group="1">
+        <commentary>
+            NIGHT[+quality][+visibility][+diminished]
+            Note: focus is on the quality of darkness rather than a stretch of time.
+        </commentary>
+        <examples>
+            The night hid her face from him, but he could hear her voice.
+            We watched the lights of the ship recede into the night.
+            The commandos snuck into the town under the cover of night.
+        </examples>
+        <mappings>
+            <wn version="2.1">5</wn>
+            <omega></omega><pb></pb>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    
+    
+    <sense n="4" type="" name="the transition from day to night, nightfall" group="1">
+        <commentary>
+            NIGHT[+state][+transition][-daytime]
+            Note: focus is on the boundary between the end of day and the beginning point of night.
+        </commentary>
+        <examples>
+            As night fell, the shadows grew long and birds nested in the trees.
+            We managed to reach the cabin just before night.
+        </examples>
+        <mappings>
+            <wn version="2.1">6</wn>
+            <omega></omega><pb></pb>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    
+    
+    <sense n="5" type="" name="a deteriorated social state" group="1">
+        <commentary>
+            NIGHT[+state][+social][+deteriorated]
+        </commentary>
+        <examples>
+            Night fell over Europe as the Nazis invaded Poland and France.
+            The long night of the Middle Ages ended with the stirrings of the Renaissance. 
+        </examples>
+        <mappings>
+            <wn version="2.1">7</wn>
+            <omega></omega><pb></pb>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    
+    
+    <sense n="6" type="" name="a social event or occasion, usually festive" group="1">
+        <commentary>
+            NIGHT[+event][+social][+occasion][+festive]
+        </commentary>
+        <examples>
+            Mary has organized a girls' night out this evening.
+            Will you be attending opening night of the Met?
+            This is an evening gown to wear on your big nights.
+            John and Bill had quite a night on the town.
+            There isn't much night life on Main Street these days.
+        </examples>
+        <mappings>
+            <wn version="MW online">2</wn>
+            <omega></omega><pb></pb>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    
+    
+<sense group="1" n="7" name="none of the above" type="">
+  <commentary>
+Automatically generated NOTA sense (bbn)
+  </commentary>
+  <examples>
+  </examples>
+  <mappings>
+    <wn version="2.1"></wn>
+    <omega></omega><pb></pb>
+    <fn></fn>
+  </mappings><SENSE_META clarity=""/>
+</sense>
+    <WORD_META authors="ahouston" sample_score="-"/>
+
+<ita count="22" ann_1_2_agreement="1.0" />
+</inventory>

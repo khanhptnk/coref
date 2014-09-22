@@ -1,0 +1,81 @@
+<!DOCTYPE inventory SYSTEM "inventory.dtd">
+<inventory lemma="representative-n">
+    <commentary>
+        11AUG06 - added examples, features ahouston
+    </commentary>
+    
+    <sense n="1" type="" name="spokesperson" group="1">
+        <commentary>
+            REPRESENTATIVE[+person][+stand_in]
+            [+relation][+role][+spokesperson]
+            interpreter, voice - 
+            a person who represents others
+        </commentary>
+        <examples>
+            The meeting was attended by representatives of all the major universities.
+            Representatives from several local banks and law firms were at the luncheon.
+            We asked Bill to be our representative at the club meeting.
+        </examples>
+        <mappings>
+            <wn version="2.1">1 2</wn>
+            <omega></omega>
+            <pb></pb>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    
+    <sense n="2" type="" name="congressman, congresswoman" group="1">
+        <commentary>
+            REPRESENTATIVE[+person][+official][+elected][+congress]
+            congressman, congresswoman - 
+            a member of the United States House of Representatives
+        </commentary>
+        <examples>
+            Write your local representative and let them know you disagree.
+            He served as a state representative for three terms.
+        </examples>
+        <mappings>
+            <wn version="2.1">3</wn>
+            <omega></omega>
+            <pb></pb>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    
+    <sense n="3" type="" name="example" group="1">
+        <commentary>
+            REPRESENTATIVE[+instance][+illustrative]
+            [+relation][+role][+example]
+            illustration, instance - 
+            an item of information that is representative fo a type
+        </commentary>
+        <examples>
+            This painting is a good representative of his earlier cubist works.
+            These are fossil representatives of lampreys and hagfishes.
+            This is a representative of the types of questions you will find on the exam.
+        </examples>
+        <mappings>
+            <wn version="2.1">4</wn>
+            <omega></omega>
+            <pb></pb>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    
+    <!-- more senses go here -->
+<sense group="1" n="4" name="none of the above" type="">
+  <commentary>
+Automatically generated NOTA sense (bbn)
+  </commentary>
+  <examples>
+  </examples>
+  <mappings>
+    <wn version="2.1"></wn>
+    <omega></omega><pb></pb>
+    <fn></fn>
+  </mappings><SENSE_META clarity=""/>
+</sense>
+    <WORD_META authors="cstocker ajarrett" sample_score=""/>
+
+<ita count="88" ann_1_2_agreement="0.954545454545" />
+</inventory>

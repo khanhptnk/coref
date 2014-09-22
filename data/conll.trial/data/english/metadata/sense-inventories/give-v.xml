@@ -1,0 +1,372 @@
+<?xml version="1.0" ?>
+<!DOCTYPE inventory
+  SYSTEM 'inventory.dtd'>
+<inventory lemma="give-v">
+    <commentary>
+        Contains dupilicate WN mappings.
+    </commentary>
+    <sense group="1" n="1" name="transfer possession of something, often physical" type="">
+        <commentary>
+            Syntax Includes:
+            NP1[agent[animate]] GIVE NP2[theme[inanimate[concrete]]] PP{to NP[recipient[animate]]}
+            NP1[agent[animate]] GIVE NP3[recipient[animate]] NP2[theme[inanimate[concrete]]]
+            Includes: GIVE AWAY; GIVE BACK; GIVE IT THE DEEP SIX; GIVE OUT; GIVE UP
+        </commentary>
+        <examples>
+            He gave her a bouquet of roses.
+            Can I give you my keys while I go to the pool?
+            Would you please give him the files.
+            Let's give the leftovers to the cat.
+            He gives a lot to charity every year.
+            I'll give you two pieces of licorice in exchange for six jelly beans.
+            She gave away that ugly vase.
+            They never give back the money.
+            We should give these old plates the deep six.
+            The teacher gave out the exams a day early.
+            Do you have any clothes you can give up for a good cause?
+            The doctors gave her a new heart.
+        </examples>
+        <mappings>
+            <wn version="2.1">1,8,9,14,17,22,24,25,29,40,41</wn>
+            <wn lemma="give_away" version="2.1">1</wn>
+            <wn lemma="give_back" version="2.1">1</wn>
+            <wn lemma="give_it_the_deep_six" version="2.1">1</wn>
+            <wn lemma="give_out" version="2.1">2</wn>
+            <wn lemma="give_up" version="2.1">5</wn>
+            <omega/>
+            <pb>give.01,give.02,give.03,give.06</pb>
+            <vn>give-13.1-1</vn><fn>Giving</fn>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    <sense group="1" n="2" name="offer or relinquish a personal resource, attribute, knowledge, etc." type="">
+        <commentary>
+            Syntax Includes:
+            NP1[agent[animate]] GIVE NP3[theme] (PP{P NP[recipient]})
+            NP1[agent[animate]] GIVE NP3[recipient] NP2[theme]
+            Note: NP2 is a personal resource or attribute of NP1
+            Note:  compare carefully to sense 1; this sense does not deal with "possession" or legal transfer
+            this sense also does not refer to physical items
+            Note: compare carefully to sense 4; this sense refers to an AGENT (volitional, intentional subject)
+            giving resources, attributes, etc, and does NOT include natural forces or historical events
+            Includes: GIVE A DAMN; GIVE A HANG; GIVE A HOOT; GIVE AND TAKE; GIVE AWAY; GIVE EAR;
+            GIVE FULL MEASURE; GIVE IT A TRY; GIVE IT A WHIRL; GIVE ONE'S BEST;
+            GIVE SUCK; GIVE THANKS; GIVE TONGUE TO; GIVE VOICE
+        </commentary>
+        <examples>
+            She gave tremendous energy and time to the new production.
+            He gave his life for his children.
+            The scholar was asked to give an opinion on the new painting.
+            They wouldn't give him the specifics of the plan.
+            He's giving a talk on identity theft next Thursday.
+            She won't give herself to just anyone.
+            He gave me his hand as I stepped from the carriage.
+            They have given his name to the police.
+            He gave this furniture collection the modern styling so popular today.
+            I don't give a damn.
+            He gave away their location to the police.
+            They gave ear to all he had to say.
+            I'm willing to give it a try.
+            The mother gave suck to the infant.
+            They gave thanks for their good fortune.
+            He gave tongue to his anger.
+            He gave voice to his opinions.
+        </examples>
+        <mappings>
+            <wn version="2.1">4,10,12,16,18,37,38,43,44</wn>
+            <wn lemma="give_a_damn" version="2.1">1</wn>
+            <wn lemma="give_a_hang" version="2.1">1</wn>
+            <wn lemma="give_a_hoot" version="2.1">1</wn>
+            <wn lemma="give_and_take" version="2.1">1</wn>
+            <wn lemma="give_away" version="2.1">2,4</wn>
+            <wn lemma="give_ear" version="2.1">1</wn>
+            <wn lemma="give_full_measure" version="2.1">1</wn>
+            <wn lemma="give_it_a_try" version="2.1">1,2</wn>
+            <wn lemma="give_it_a_whirl" version="2.1">1</wn>
+            <wn lemma="give_one\'s_best" version="2.1">1</wn>
+            <wn lemma="give_suck" version="2.1">1</wn>
+            <wn lemma="give_thanks" version="2.1">1</wn>
+            <wn lemma="give_tongue_to" version="2.1">1</wn>
+            <wn lemma="give_voice" version="2.1">1</wn>
+            <omega/>
+            <pb>give.01,give.06</pb>
+            <vn>NM</vn><fn>NM</fn>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    <sense group="1" n="3" name="(intentionally)grant, decree, assign or force upon" type="">
+        <commentary>
+            Syntax Includes:
+            NP1[agent] GIVE NP2[patient[abstract]] PP{P NP[recipient]}
+            NP1[agent] GIVE NP3[recipient] NP2[patient[abstract]]       
+        </commentary>
+        <examples>
+            Will she give him a divorce?
+            The plan gives them two years to pay back the loan.
+            The administrator gave exemptions to anyone who had joined before 1997.
+            You should give your children as much freedom as they can responsibly handle.
+            The judge gave the man 20 years in prison.
+            She gave him the week off.
+            Please give me another chance!
+            You gave him an opportunity of showing greatness of character and he did not seize it.
+        </examples>
+        <mappings>
+            <wn version="2.1">3,5,21,22,34,35,40,41</wn>
+            <omega/>
+            <pb>give.01</pb>
+            <vn>NM</vn><fn>NM</fn>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    <sense group="1" n="4" name="be the source of (unintentionally or naturally)" type="">
+        <commentary>
+            Note: the subject is not intentionally giving the object.
+            Syntax Is: NP1 GIVE NP2 PP{P NP[attribute]}
+            Includes: GIVE RISE
+        </commentary>
+        <examples>
+            The large window gave us our view of the sea.
+            Last year the farm gave us a bumper crop.
+            This is giving me an idea!
+            That boy is giving us all sorts of trouble.
+            We want this building to give visitors a sense of welcome.
+            Isaac Newton gave us calculus.
+            Rich food will give him indigestion.
+            The wet ceiling gave evidence of a leak in the roof.
+            That painting technique gives interesting texture to the walls.
+            The new law gave rise to many complaints.
+        </examples>
+        <mappings>
+            <wn version="2.1">2,11,13</wn>
+            <wn lemma="give_rise" version="2.1">1</wn>
+            <omega/>
+            <pb>give.01</pb>
+            <vn>NM</vn><fn>NM</fn>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    <sense group="1" n="5" name="relinquish, yield, fail" type="">
+        <commentary>
+            Syntax Includes:
+            NP1 GIVE NP2
+            NP1 GIVE (PP) 
+            Includes: GIVE IN, GIVE OUT, GIVE UP, GIVE VENT, GIVE WAY
+        </commentary>
+        <examples>
+            My dog settled in on the couch and wouldn't give an inch.
+            The dam looks ready to give any minute!
+            She's a tough leader who won't give under pressure.
+            You must give in to my demands.
+            The engine finally gave out.
+            Our supply of water will give out in a few days.
+            Don't give up now!
+            She gave up the right to her children when she abandoned them.
+            You really should give up smoking.
+            He gave vent to his emotions.
+            The bridge just gave way.
+            Aspens give way to pines as you approach the summit.
+        </examples>
+        <mappings>
+            <wn version="2.1">23,26,33</wn>
+            <wn lemma="give_in" version="2.1">1,2</wn>
+            <wn lemma="give_out" version="2.1">3,4</wn>
+            <wn lemma="give_up" version="2.1">1,2,3,4,6,8,9,10,11,12</wn>
+            <wn lemma="give_vent" version="2.1">1</wn>
+            <wn lemma="give_way" version="2.1">1,2,3,4</wn>
+            <omega/>
+            <pb>give.05,give.07,give.08,give.09</pb>
+            <vn>NM</vn><fn>NM</fn>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    <sense group="1" n="6" name="communicate nonverbally, intentionally or not" type="">
+        <commentary>
+        </commentary>
+        <examples>
+            He gave me a wink.
+            He will give the sign to sit down.
+            He gave me to think he would vote yes on the referendum.
+        </examples>
+        <mappings>
+            <wn version="2.1">7,31,36,39</wn>
+            <omega/>
+            <pb>give.01</pb>
+            <vn>NM</vn><fn>NM</fn>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    <sense group="1" n="7" name="hold or organize an event" type="">
+        <commentary>
+        </commentary>
+        <examples>
+            I'm going to give a reception for the new dean.
+            That band won't be giving another concert in our town this year.
+            I came to New York City and gave a speech to high profile members of the media.
+        </examples>
+        <mappings>
+            <wn version="2.1">6,32</wn>
+            <omega/>
+            <pb>give.01</pb>
+            <vn>NM</vn><fn>NM</fn>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    <sense group="1" n="8" name="administer" type="">
+        <commentary>
+            Syntax Includes: NP1[agent] GIVE NP2[theme[concrete]] PP{P NP[recipient]}
+            Includes: GIVE CARE
+        </commentary>
+        <examples>
+            I gave the baby his medicine.
+            The bypasser was able to give CPR to the stricken man.
+            He gave the plants a good watering before he left.
+            The nurse gave care to the wounded.
+        </examples>
+        <mappings>
+            <wn version="2.1">19,20</wn>
+            <wn lemma="give_care" version="2.1">1</wn>
+            <omega/>
+            <pb>give.01</pb>
+            <vn>give-13.1-1</vn><fn>Giving</fn>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    <sense group="1" n="9" name="emit" type="">
+        <commentary>
+            Syntax Includes:        
+            NP1[agent] GIVE NP
+            NP1[agent] GIVE PP
+            Includes: GIVE FORTH, GIVE OFF, GIVE OUT
+        </commentary>
+        <examples>
+            He gave a shudder at the thought.
+            We gave a collective gasp at the beautiful fireworks display.
+            The chimney gave forth a thick smoke.
+            That new radio gives off a strange odor.
+            This radiator gives out a lot of heat.
+        </examples>
+        <mappings>
+            <wn version="2.1">15</wn>
+            <wn lemma="give_forth" version="2.1">1</wn>
+            <wn lemma="give_off" version="2.1">1,2</wn>
+            <wn lemma="give_out" version="2.1">1</wn>
+            <omega/>
+            <pb>give.01,give.04</pb>
+            <vn>NM</vn><fn>NM</fn>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    <sense group="1" n="10" name="estimate, calculate, predict" type="">
+        <commentary>
+        </commentary>
+        <examples>
+            I gave the project a 50-50 chance of success, but John gave it better odds.
+            His doctor is giving him the prognosis of a full recovery.
+        </examples>
+        <mappings>
+            <wn version="2.1">27</wn>
+            <omega/>
+            <pb>give.01</pb>
+            <vn>NM</vn><fn>NM</fn>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    <sense group="1" n="11" name="provide access" type="">
+        <commentary>
+            Syntax Is: NP1 GIVE[intransitive] PP{P NP[location]}
+        </commentary>
+        <examples>
+            The French doors give onto a terrace.
+        </examples>
+        <mappings>
+            <wn version="2.1">30</wn>
+            <omega/>
+            <pb>give.01</pb>
+            <vn>NM</vn><fn>NM</fn>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    <sense group="1" n="12" name="occur" type="">
+        <commentary>
+        </commentary>
+        <examples>
+            What gives?
+        </examples>
+        <mappings>
+            <wn version="2.1">42</wn>
+            <omega/>
+            <pb>NM</pb>
+            <vn>NM</vn><fn>NM</fn>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    <sense group="1" n="13" name="execute and deliver" type="">
+        <commentary>
+            Narrow legal sense
+        </commentary>
+        <examples>
+            Wilson appointed Moore and gave bond and security and took the oath according to law.
+        </examples>
+        <mappings>
+            <wn version="2.1">28</wn>
+            <omega/>
+            <pb>give.01</pb>
+            <vn>NM</vn><fn>NM</fn>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    <sense group="1" n="14" name="idioms" type="">
+        <commentary>
+            Note: Use this sense ONLY for the idioms listed.
+            Includes: GIVE AWAY; GIVE BIRTH; GIVE CHASE; GIVE NOTICE; GIVE THE AXE;
+            GIVE THE BOUNCE; GIVE THE EYE; GIVE THE GATE; GIVE THE GLAD EYE; 
+            GIVE THE ONCE OVER; GIVE THE SACK;
+        </commentary>
+        <examples>
+            Her step-father gave her away at the wedding.
+            She gave birth in a blinding snowstorm.
+            He took off on a motorcycle and the police gave chase.
+            I'm giving notice at my job tomorrow.
+            I had to give him the axe because he never came in on time.
+            When he walked in, they all gave him the eye.
+            Mary gave John the gate when she saw him with another woman.
+            She gives the glad eye to any man who walks by.
+            My father always gave me the once over before I left.
+            She must find a new job because her employer just gave her the sack.
+            He gave tongue to his anger.
+        </examples>
+        <mappings>
+            <wn version="2.1">42</wn>
+            <wn lemma="give_away" version="2.1">3</wn>
+            <wn lemma="give_birth" version="2.1">1,2</wn>
+            <wn lemma="give_chase" version="2.1">1</wn>
+            <wn lemma="give_notice" version="2.1">1,2</wn>
+            <wn lemma="give_the_axe" version="2.1">1,2</wn>
+            <wn lemma="give_the_bounce" version="2.1">1</wn>
+            <wn lemma="give_the_eye" version="2.1">1</wn>
+            <wn lemma="give_the_gate" version="2.1">1</wn>
+            <wn lemma="give_the_glad_eye" version="2.1">1</wn>
+            <wn lemma="give_the_once_over" version="2.1">1</wn>
+            <wn lemma="give_the_sack" version="2.1">1</wn>
+            <omega/>
+            <pb>NM</pb>
+            <vn>NM</vn><fn>NM</fn>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+<sense group="1" n="15" name="none of the above" type="">
+  <commentary>
+Automatically generated NOTA sense (bbn)
+  </commentary>
+  <examples>
+  </examples>
+  <mappings>
+    <wn version="2.1"></wn>
+    <omega></omega><pb></pb>
+    <fn></fn>
+  </mappings><SENSE_META clarity=""/>
+</sense>
+    <WORD_META authors="ahouston,brownsw,duffielc" sample_score="-"/>
+
+<ita count="853" ann_1_2_agreement="0.567409144197" />
+</inventory>

@@ -1,0 +1,21 @@
+---------------------------
+Ontonotes DB Tool |release|
+---------------------------
+
+This document describes the installation and basic uses of the
+OntoNotes Database Tool (DB Tool).  It shows how to build the
+OntoNotes database from the individual source files and describes the
+design of the database tables, as well as parts of the API that can be
+used to manipulate the data.  It also provides some documentation on
+the core API.
+
+.. toctree::
+
+  intro
+  installation
+  getting_started
+  database_and_API_design
+  API_reference
+  reporting_bugs
+
+

@@ -1,0 +1,127 @@
+<?xml version="1.0" ?>
+<!DOCTYPE inventory SYSTEM "inventory.dtd">
+<inventory lemma="shoot-v">
+    <commentary>
+    </commentary>
+    <sense group="1" n="1" name="propel a projectile, hit with a projectile" type="">
+        <commentary>
+            Syntax is: NP1[agent] SHOOT NP2
+            NP1[agent] SHOOT (NP2[concrete])
+            
+            NOTE: includes metaphorical examples.
+        </commentary>
+        <examples>
+            He was shot in the head.
+            Stop shooting me with those rubberbands!
+            He shot 3 innocent bystanders before being apprehended.
+            They shot down several enemy aircraft.
+            She shot down my proposal.
+            Don't shoot until you see the whites of their eyes.
+            The ballistic missiles were shot at noon.
+            I wonder what they shot at?
+            You can't go around shooting off your mouth.
+            Martine shot back an answer.
+        </examples>
+        <mappings>
+            <wn version="2.1">1,2,3,17</wn>
+            <wn lemma="shoot_down" version="2.1">2,3</wn>
+            <omega></omega><pb>shoot.01,shoot.02</pb>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    <sense group="1" n="2" name="(cause to) move suddenly and swiftly in a particular direction" type="">
+        <commentary>
+            Note: Can be figurative.
+        </commentary>
+        <examples>
+            He shot into the street to grab his daughter.
+            The star shot through the sky.
+            The dragon shot flames out of his mouth.
+            The pain shot up her leg.
+            Shoot the dice.
+            I shot him a glance.
+            The cloth was shot through with metallic thread.
+            Prices shot up overnight.
+            The motorcycle shot down the street.
+        </examples>
+        <mappings>
+            <wn version="2.1">5,6,7,8,10,11,13,14,15,19</wn>
+            <wn lemma="shoot_up" version="2.1">1</wn>
+            <wn lemma="shoot_down" version="2.1">1</wn>
+            <omega></omega><pb>shoot.06</pb>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    <sense group="1" n="3" name="make a film or picture" type="">
+        <commentary>
+        </commentary>
+        <examples>
+            He shot the movie in black and white.
+            She shot over 200 photos at the wedding.
+        </examples>
+        <mappings>
+            <wn version="2.1">4,9</wn>
+            <wn lemma="" version="2.1"></wn>
+            <omega></omega><pb>shoot.03</pb>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    <sense group="1" n="4" name="inject" type="">
+        <commentary>
+        </commentary>
+        <examples>
+            We shot glucose into the patient's veins.
+            They shot hydrogen into the balloon.
+            He shoots up every chance he gets.
+        </examples>
+        <mappings>
+            <wn version="2.1">12,20</wn>
+            <wn lemma="" version="2.1"></wn>
+            <omega></omega><pb></pb>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    <sense group="1" n="5" name="score in or play a game" type="">
+        <commentary>
+        </commentary>
+        <examples>
+            He shot a 3-point basket to win the game.
+            My uncle loves to shoot craps.
+            She shot a hole-in-one!
+        </examples>
+        <mappings>
+            <wn version="2.1">16</wn>
+            <wn lemma="shoot_craps" version="2.1">1</wn>
+            <omega></omega><pb></pb>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    <sense group="1" n="6" name="measure the altitude by using a sextant" type="">
+        <commentary>
+        </commentary>
+        <examples>
+            The astronomer shot the star Sirius. 
+        </examples>
+        <mappings>
+            <wn version="2.1">18</wn>
+            <wn lemma="" version="2.1"></wn>
+            <omega></omega><pb></pb>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+<sense group="1" n="7" name="none of the above" type="">
+  <commentary>
+Automatically generated NOTA sense (bbn)
+  </commentary>
+  <examples>
+  </examples>
+  <mappings>
+    <wn version="2.1"></wn>
+    <omega></omega><pb></pb>
+    <fn></fn>
+  </mappings><SENSE_META clarity=""/>
+</sense>
+    <WORD_META authors="brownsw,duffielc" sample_score="-"/>
+
+<ita count="131" ann_1_2_agreement="0.954198473282" />
+</inventory>

@@ -1,0 +1,74 @@
+<!DOCTYPE inventory SYSTEM "inventory.dtd">
+<inventory lemma="disorder-n">
+    <commentary>
+    </commentary>
+    
+    <sense n="1" type="" name="abnormal medical condition" group="1">
+        <commentary>
+            DISORDER[+state][+physiological][+condition][+abnormal]
+        </commentary>
+        <examples>
+            It's a rare form of personality disorder.
+            The child has been diagnosed with a mild learning disorder.
+            She takes medication for a metabolic disorder.
+        </examples>
+        <mappings>
+            <wn version="2.1">1</wn>
+            <omega></omega><pb></pb>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    
+    
+    <sense n="2" type="" name="unorganized, messy, disarray" group="1">
+        <commentary>
+            DISORDER[+state][-organized][+messy]
+            Note: implies either physical or abstract organizational mess
+        </commentary>
+        <examples>
+            The house is in such disorder that I don't know where to start cleaning up.
+            After the talented manager quit, his department fell into a state of disorder and confusion.
+            The girl's clothes lay in disorder all over the bedroom floor.
+        </examples>
+        <mappings>
+            <wn version="2.1">2</wn>
+            <omega></omega><pb></pb>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    
+    
+    <sense n="3" type="" name="civic unrest, disturbing the peace" group="1">
+        <commentary>
+            DISORDER[+state][+unrest][+civic]
+            Note: implies protest, unlawful conduct, violence
+        </commentary>
+        <examples>
+            Widespread social disorder has resulted from the currency collapse.
+            The police reported a disorder last night in front of Rosie's bar.
+            Recurrent food shortages led to outbreaks of disorder in the city.
+        </examples>
+        <mappings>
+            <wn version="2.1">3</wn>
+            <omega></omega><pb></pb>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    
+    
+<sense group="1" n="4" name="none of the above" type="">
+  <commentary>
+Automatically generated NOTA sense (bbn)
+  </commentary>
+  <examples>
+  </examples>
+  <mappings>
+    <wn version="2.1"></wn>
+    <omega></omega><pb></pb>
+    <fn></fn>
+  </mappings><SENSE_META clarity=""/>
+</sense>
+    <WORD_META authors="ahouston" sample_score="-"/>
+
+<ita count="17" ann_1_2_agreement="0.882352941176" />
+</inventory>

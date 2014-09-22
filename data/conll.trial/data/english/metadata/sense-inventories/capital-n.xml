@@ -1,0 +1,93 @@
+<!DOCTYPE inventory SYSTEM "inventory.dtd">
+<inventory lemma="capital-n">
+    <commentary>
+    </commentary>
+    <sense n="1" type="" name="available wealth or assets" group="1">
+        <commentary>
+            CAPITAL[+financial]
+            Wealth in the form of money or property. 
+        </commentary>
+        <examples>
+            It will take a lot of capital to turn this idea into a product.
+            The accumulation of capital led to the rise of wealthy nations.
+        </examples>
+        <mappings>
+            <wn version="2.1">1,2</wn>
+            <omega></omega><pb></pb>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    <sense n="2" type="" name="a seat of government or influence" group="1">
+        <commentary>
+            CAPITAL[+location][+social]
+        </commentary>
+        <examples>
+            What is the capital of Denmark?
+            Mary named 40 out of 50 state capitals correctly.
+            The fashion capitals of the world include Paris, New York and Milan.
+        </examples>
+        <mappings>
+            <wn version="2.1">3</wn>
+            <omega></omega><pb></pb>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    <sense n="3" type="" name="a letter represented in uppercase" group="1">
+        <commentary>
+            CAPITAL[+symbolic][+physical]
+        </commentary>
+        <examples>
+            The first word in each of your bullets should begin with a capital.
+            He sent me an email message that was typed all in capitals.
+        </examples>
+        <mappings>
+            <wn version="2.1">4</wn>
+            <omega></omega><pb></pb>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    <sense n="4" type="" name="a book by Karl Marx" group="1">
+        <commentary>
+            CAPITAL[+proper_name]
+        </commentary>
+        <examples>
+            'Capital' is the English translation of 'Das Kapital'.
+            We read excerpts from Capital in class last semester.
+        </examples>
+        <mappings>
+            <wn version="2.1">5</wn>
+            <omega></omega><pb></pb>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    <sense n="5" type="Technical" name="uppermost part of a column" group="1">
+        <commentary>
+            CAPITAL[+physical](integral part of larger structure)
+        </commentary>
+        <examples>
+            The capitals on those columns are made of a rare black marble.
+        </examples>
+        <mappings>
+            <wn version="2.1">6</wn>
+            <omega></omega><pb></pb>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    <sense group="1" n="6" name="none of the above" type="">
+        <commentary>
+            Automatically generated NOTA sense (bbn)
+        </commentary>
+        <examples>
+        </examples>
+        <mappings>
+            <wn version="2.1"></wn>
+            <omega></omega><pb></pb>
+            <fn></fn>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    <WORD_META authors="ahouston" sample_score="-"/>
+
+<ita count="358" ann_1_2_agreement="0.946927374302" />
+</inventory>
+

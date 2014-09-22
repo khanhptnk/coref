@@ -1,0 +1,134 @@
+<!DOCTYPE inventory SYSTEM "inventory.dtd">
+<inventory lemma="level-n">
+    <commentary>
+        28aug06 upgraded to ordnet 2.1 ahouston
+        28aug06 split sense 1 into sense 1, sense 5 ahouston
+        28aug06 moved WordNet 8 from sense 2 to sense 5, created sense 6 from wordnet 3 ahouston
+    </commentary>
+    <sense n="1" type="" name="position or height, relative to a base - usually the ground" group="1">
+        <commentary>
+            LEVEL[+quantity][+measure][+relative][+height]
+            Position on a fixed physical scale.  Often indicating height above ground.
+        </commentary>
+        <examples>
+            Glacial melt may raise the sea level by six inches.
+            THe two pictures on the wall were placed at the same level.
+            The mud was at ankle level in some places.
+            Water seeks its own level.  (an equilibrium of height)
+            The snow drift was at waist level.
+        </examples>
+        <mappings>
+            <wn version="2.1">4</wn>
+            <omega></omega><pb></pb>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    
+    <sense n="2" type="" name="the amount of something, as a concentration, degree or occurrence" group="1">
+        <commentary>
+            LIMT[+quantity][+amount][+degree/+concentration/+occurrence]
+            Note: answers the question 'how much X was there'
+        </commentary>
+        <examples>
+            That job does not require a high level of intelligence.
+            There is a high level of unemployment in that region of the country.
+            The doctor told Mary she had a low level bronchial infection. 
+            The candidate spoke to his audience with a refreshing level of frankness. (implies a lot of frankness)
+            They found low levels of mercury in the harbor water.
+            The sound engineer decreased the amplitude level of the recording equipment. (loudness)
+        </examples>
+        <mappings>
+            <wn version="2.1">1,2</wn>
+            <omega></omega><pb></pb>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    
+    <sense n="3" type="" name="Flat horizontal surface" group="1">
+        <commentary>
+            LEVEL[+form][+surface][+horizontal][+flat]
+            A flat surface at right angles to the plumb line.  
+        </commentary>
+        <examples>
+            Park the car on the level.
+            The levels were flooded from the heavy rains. (flat lands)
+            John didn't think the offer was on the level. (metaphoric extension, not perfectly straight)
+        </examples>
+        <mappings>
+            <wn version="2.1">6</wn>
+            <omega></omega><pb></pb>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    
+    <sense n="4" type="Technical" name="a tool for measuring and adjusting the horizontal orientation of things" group="1">
+        <commentary>
+            LEVEL[+entity][+artifact][+tool][+adjustment][+horizontal]
+        </commentary>
+        <examples>
+            The tripod had a level built into it for adjusting the three legs.
+            The surveyor used his level to take a measurement.
+            The carpenter used his spirit level to check the alignment of the shelving.
+        </examples>
+        <mappings>
+            <wn version="2.1">5</wn>
+            <omega></omega><pb></pb>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    
+    <sense n="5" type="" name="structural layer or stratum" group="1">
+        <commentary>
+            LEVEL[+entity][+structure][+stratum][+stacked][+story[+building]]/[+seam[+ore]]/[+meaning[+pun]]
+            Note: implies the structure is one of a number of layers, stacked together.
+        </commentary>
+        <examples>
+            There is a restaurant on the fifth level of that office building.
+            Our car is parked on level five.
+            Their home is built on three levels, with two above ground.
+            There was corruption at every level of the government. (abstract extension)
+            A pun is a joke that works on two levels. (metaphoric extension)
+            There are several levels of fossil bed in this rock face, from different geological periods.
+        </examples>
+        <mappings>
+            <wn version="2.1">7,8</wn>
+            <omega></omega><pb></pb>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    
+    <sense n="6" type="" name="a rank or position relative to others" group="1">
+        <commentary>
+            LEVEL[+relation][+position][+rank][+comparative]
+            Note: answers the question 'What rank?'
+        </commentary>
+        <examples>
+            My son is in a college level math class. (as opposed to high school level)
+            Only athletes who are performing at the highest level will make the Olympic team.
+            These children are reading below their grade level.
+            The study reports that more families were below the poverty level last year than the year before. (a threshold point)
+        </examples>
+        <mappings>
+            <wn version="2.1">3</wn>
+            <omega></omega><pb></pb>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    
+<sense group="1" n="7" name="none of the above" type="">
+  <commentary>
+Automatically generated NOTA sense (bbn)
+  </commentary>
+  <examples>
+  </examples>
+  <mappings>
+    <wn version="2.1"></wn>
+    <omega></omega><pb></pb>
+    <fn></fn>
+  </mappings><SENSE_META clarity=""/>
+</sense>
+    <WORD_META authors="ajarrett" sample_score="-"/>
+
+<ita count="294" ann_1_2_agreement="1.0" />
+</inventory>
+

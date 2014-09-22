@@ -1,0 +1,79 @@
+<?xml version="1.0" ?>
+<!DOCTYPE inventory SYSTEM "inventory.dtd">
+<inventory lemma="suggest-v">    
+    <commentary>
+    </commentary>
+    <sense group="1" n="1" name="propose or put forward for consideration" type="">  
+        <commentary>
+            Syntax is: NP1[(agent)] SUGGEST NP2
+            (see last example for non-agentive NP subject)
+            NOTE: compare carefully to sense 2; here, in sense 1, the SCOMP
+            refers to a possible future course of action that is recommended.
+            See commentary for sense 2.
+        </commentary>
+        <examples>
+            Feel free to suggest something else.
+            I want to suggest an answer from a slightly different perspective.
+            He couldn't do the job himself but he suggested that John might.
+            Such a crime suggests apt punishment.
+        </examples>
+        <mappings>
+            <wn version="2.1">1,4</wn>   
+            <omega></omega><pb>suggest.01</pb>
+            <fn>Statement</fn>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    <sense group="1" n="2" name="imply or indicate; provide evidence for" type="">
+        <commentary>
+            Syntax is: NP1 SUGGEST NP2
+            NOTE: compare carefully to sense 1; here, in sense 2, the SCOMP
+            refers to a proposition that the suggester likely believes to be true,
+            not to a possible recommendation.
+            See commentary for sense 1.
+        </commentary>
+        <examples>
+            Are you suggesting that I am not doing my job?
+            A long silence suggested that everyone who wanted to speak had spoken.
+            I am not suggesting the deal is off, but we may need to renegotiate.
+            Declining catches suggest the area is overfinished.
+            The evidence suggests a need for more clarification.
+        </examples>
+        <mappings>
+            <wn version="2.1">2,3</wn>
+            <omega></omega><pb>suggest.01</pb>
+            <fn>Evidence</fn>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    <sense group="1" n="3" name="bring to mind by logic or association/conjure" type="">
+        <commentary>
+        </commentary>
+        <examples>
+            The sound of the flute is meant to suggest the rippling of a brook.
+            This ring-like symbol suggests unity.
+        </examples>
+        <mappings>
+            <wn version="2.1">5</wn>
+            <omega></omega><pb>suggest.01</pb>
+            <fn/>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+<sense group="1" n="4" name="none of the above" type="">
+  <commentary>
+Automatically generated NOTA sense (bbn)
+  </commentary>
+  <examples>
+  </examples>
+  <mappings>
+    <wn version="2.1"></wn>
+    <omega></omega><pb></pb>
+    <fn></fn>
+  </mappings><SENSE_META clarity=""/>
+</sense>
+    <WORD_META authors="hwangd,vieweg,duffielc" sample_score="-"/>
+     
+
+<ita count="247" ann_1_2_agreement="0.712550607287" />
+</inventory>

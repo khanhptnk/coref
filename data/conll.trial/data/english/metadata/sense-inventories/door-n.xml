@@ -1,0 +1,165 @@
+<!DOCTYPE inventory SYSTEM "inventory.dtd">
+<inventory lemma="door-n">
+    <commentary>
+    </commentary>
+    
+    <sense n="1" type="" name="a moveable barrier that provides access to a room or building" group="1">
+        <commentary>
+            DOOR[+entity][+physical][+structure][+barrier][+moving][+opening][+room]
+        </commentary>
+        <examples>
+            Will you go see who is at the door?
+            This company installs windows and doors for private residences.
+            The front door of the old house was made of solid oak.
+            You should always show your guests to the door when saying goodnight. (literally escort them)
+            His father was once a door-to-door salesman.
+            It was a secret door used only by the Pope, in case of a need to escape quickly.
+            He broke his glasses walking into a door last week.
+        </examples>
+        <mappings>
+            <wn version="2.1">1</wn>
+            <omega></omega><pb></pb>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    
+    
+    <sense n="2" type="" name="the space which is the opening to a room" group="1">
+        <commentary>
+            DOOR[+location][+space][+opening][+room]
+        </commentary>
+        <examples>
+            Sally stood in the door of my office, describing last night's party.
+            He stood in the darkened door, looking tall and mysterious.
+            Guess who just walked through the door?  (the space, not the actual barrier)
+            Take these letters with you before you run out the door. 
+        </examples>
+        <mappings>
+            <wn version="2.1">2</wn>
+            <omega></omega><pb></pb>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    
+    
+    <sense n="3" type="" name="an opportunity or chance to have access to something" group="1">
+        <commentary>
+            ROOM[+state][+situation][+opportunity][+access]
+        </commentary>
+        <examples>
+            Nowadays, the only door to an operatic career is through a young artists' program.
+            They've closed the door on Haitian immigrants.
+            The two nations have an open door policy with respect to trade.
+            This leaves the door open for further negotiations.
+            Her research has opened new doors to a deeper understanding of the subject.
+            That winter trip to the Caribbean felt like finding the door into summer. 
+        </examples>
+        <mappings>
+            <wn version="2.1">3</wn>
+            <omega></omega><pb></pb>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    
+    
+    <sense n="4" type="" name="an informal unit of measuring distance between buildings, rooms" group="1">
+        <commentary>
+            DOOR[+quantity][+measure][+distance][+building][+house/+shop/+office]
+        </commentary>
+        <examples>
+            He lives three doors down from me.
+            Bob's office is two doors down from Mary's, on the left.
+            The new bookshop is only a few doors beyond the drugstore.
+        </examples>
+        <mappings>
+            <wn version="2.1">4,5</wn>
+            <omega></omega><pb></pb>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    
+    
+    <sense n="5" type="" name="the assignment of blame or responsibility" group="1">
+        <commentary>
+            DOOR[+action][+assignment][+responsibility]
+            Idiom: lay_at_someone's_door
+        </commentary>
+        <examples>
+            The failure is laid at the door of the state government.
+            He won't allow the union to lay this at management's door.
+        </examples>
+        <mappings>
+            <wn version="MAC">lay_at_someone's_door</wn>
+            <omega></omega><pb></pb>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    
+    
+    <sense n="6" type="" name="outside, in the open" group="1">
+        <commentary>
+            DOOR[+location][+outside]
+            Idiom: out_of_doors
+        </commentary>
+        <examples>
+            Bob felt a need to be out of doors on such a beautiful day.
+            Food always seems to taste even better out of doors.
+        </examples>
+        <mappings>
+            <wn version="MAC">out_of_doors</wn>
+            <omega></omega><pb></pb>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    
+    
+    <sense n="7" type="" name="reject socially, disassociate oneself with" group="1">
+        <commentary>
+            DOOR[+action][+rejection][+social]
+            Idiom: show_one_the_door
+        </commentary>
+        <examples>
+            After that social gaffe, the club decided to show him the door.
+            The company showed him the door after they discovered the false information on his resume.
+        </examples>
+        <mappings>
+            <wn version="MAC">show_one_the_door</wn>
+            <omega></omega><pb></pb>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    
+    
+    <sense n="8" type="" name="upon admission to an event, not in advance" group="1">
+        <commentary>
+            DOOR[+state][+admission][+on_site][+event]
+            Idiom: at_the_door
+        </commentary>
+        <examples>
+            Tickets may only be purchased at the door.
+            You can sometimes find tickets to the performance at the door.
+        </examples>
+        <mappings>
+            <wn version="MAC">at_the_door</wn>
+            <omega></omega><pb></pb>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    
+    
+<sense group="1" n="9" name="none of the above" type="">
+  <commentary>
+Automatically generated NOTA sense (bbn)
+  </commentary>
+  <examples>
+  </examples>
+  <mappings>
+    <wn version="2.1"></wn>
+    <omega></omega><pb></pb>
+    <fn></fn>
+  </mappings><SENSE_META clarity=""/>
+</sense>
+    <WORD_META authors="ahouston" sample_score="-"/>
+
+<ita count="66" ann_1_2_agreement="0.893939393939" />
+</inventory>

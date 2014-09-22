@@ -1,0 +1,79 @@
+<?xml version="1.0" ?>
+<!DOCTYPE inventory
+  SYSTEM 'inventory.dtd'>
+<inventory lemma="fail-v">
+    <commentary>
+    </commentary>
+    <sense group="1" n="1" name=" fall short of a goal, not succeed, cause to not succeed" type="">
+        <commentary>
+            Syntax Includes:
+            NP FAIL [predicate]
+            NP1[agent] FAIL NP2
+            Either the agent is aware of the intended goal, or someone describing the failed
+            goal was expecting it (as in the case of predicted events specified by a theory)
+        </commentary>
+        <examples>
+            Why is the public school system failing?
+            Her confidence failed her at the audition and she didn't get the job.
+            Try as I would, I failed to understand the poetry of Ezra Pound.
+            That math professor failed his whole class.
+            John never studied the material and so he failed the class.
+            She failed to be a good daughter to him.
+        </examples>
+        <mappings>
+            <wn version="2.1">2,3,5,6,7,8</wn>
+            <omega/>
+            <pb>fail.01,fail.02</pb>
+            <vn>succeed-74-2</vn><fn>Success_or_failure,Successful_action</fn>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    <sense group="1" n="2" name=" give out, stop functioning" type="">
+        <commentary>
+            Syntax Is: NP1 FAIL[intransitive] (PP)
+        </commentary>
+        <examples>
+            The engines failed during take-off.
+            Three banks failed in our state last month.
+            The water supply for the town failed after a long drought.
+            Her grandfather's health is failing.
+        </examples>
+        <mappings>
+            <wn version="2.1">4,9,10,11</wn>
+            <omega/>
+            <pb/>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    <sense group="1" n="3" name=" neglect,leave undone" type="">
+        <commentary>
+            Note: Implies the agent was not aware of the action that needed attention
+        </commentary>
+        <examples>
+            She failed to turn the heat down while stirring the pudding.
+            I failed to leave the key under the mat for the cleaning lady.
+        </examples>
+        <mappings>
+            <wn version="2.1">1</wn>
+            <omega/>
+            <pb/>
+            <vn>neglect-75-1-1</vn><fn></fn>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+<sense group="1" n="4" name="none of the above" type="">
+  <commentary>
+Automatically generated NOTA sense (bbn)
+  </commentary>
+  <examples>
+  </examples>
+  <mappings>
+    <wn version="2.1"></wn>
+    <omega></omega><pb></pb>
+    <fn></fn>
+  </mappings><SENSE_META clarity=""/>
+</sense>
+    <WORD_META authors="ahouston" sample_score="-"/>
+
+<ita count="242" ann_1_2_agreement="0.719008264463" />
+</inventory>

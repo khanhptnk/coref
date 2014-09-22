@@ -1,0 +1,335 @@
+
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+  "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+
+    <title>Database and API Design &mdash; OntoNotes DB Tool v0.999b documentation</title>
+    <link rel="stylesheet" href="_static/default.css" type="text/css" />
+    <link rel="stylesheet" href="_static/pygments.css" type="text/css" />
+    <script type="text/javascript">
+      var DOCUMENTATION_OPTIONS = {
+        URL_ROOT:    '',
+        VERSION:     '0.999b',
+        COLLAPSE_INDEX: false,
+        FILE_SUFFIX: '.html',
+        HAS_SOURCE:  true
+      };
+    </script>
+    <script type="text/javascript" src="_static/jquery.js"></script>
+    <script type="text/javascript" src="_static/underscore.js"></script>
+    <script type="text/javascript" src="_static/doctools.js"></script>
+    <link rel="top" title="OntoNotes DB Tool v0.999b documentation" href="index.html" />
+    <link rel="next" title="API Reference" href="API_reference.html" />
+    <link rel="prev" title="Getting Started" href="getting_started.html" />
+  </head>
+  <body>
+    <div class="related">
+      <h3>Navigation</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="genindex.html" title="General Index"
+             accesskey="I">index</a></li>
+        <li class="right" >
+          <a href="py-modindex.html" title="Python Module Index"
+             >modules</a> |</li>
+        <li class="right" >
+          <a href="API_reference.html" title="API Reference"
+             accesskey="N">next</a> |</li>
+        <li class="right" >
+          <a href="getting_started.html" title="Getting Started"
+             accesskey="P">previous</a> |</li>
+        <li><a href="index.html">OntoNotes DB Tool v0.999b documentation</a> &raquo;</li>
+      </ul>
+    </div>
+
+    <div class="document">
+      <div class="documentwrapper">
+        <div class="bodywrapper">
+          <div class="body">
+
+  <div class="section" id="database-and-api-design">
+<h1>Database and API Design<a class="headerlink" href="#database-and-api-design" title="Permalink to this headline">¶</a></h1>
+<div class="section" id="overview">
+<h2>Overview<a class="headerlink" href="#overview" title="Permalink to this headline">¶</a></h2>
+<p>The entire database ER diagram is as shown below. The space is divided
+logically into &#8220;Corpus&#8221;, &#8220;Trees&#8221;, &#8220;Propositions&#8221;, &#8220;Senses&#8221;, &#8220;Names&#8221;,
+&#8220;Coreference&#8221; and &#8220;Ontology.&#8221;</p>
+<div class="figure">
+<img width="80%" alt="_images/er.png" src="_images/er.png" />
+<p class="caption">The OntoNotes database ER diagram</p>
+</div>
+<p>We will look at the individual group of tables in the following
+subsections.  The design of the database was chosen to be close as
+possible to the object-oriented structure of the overall OntoNotes
+design.  It should also be noted that we have traded-off database
+design principles for ease of querying in the computational semantics
+space.  That is, we have not tried to reach the third or higher
+database normal form.  The advantage of this is that there is a
+seamless connection between the database world and the object-oriented
+world, and therefore complex queries can be answered either using SQL
+or using the methods of the objects themselves.  It should also be
+noted that the primary keys of almost all the tables are composite
+formed using the concatenation of individual foreign keys separated by
+the &#8220;&#64;&#8221; symbol.  This facilitates understanding the object in most
+cases by just looking at its primary key.  The seamlessness is further
+enhanced by the use of the same primary keys for object ids.  We
+decided to use the MyISAM database engine, and enforce only the primary
+key constraints, as adding foreign key constraints add a significant
+overhead on the queries, and since the data are not likely to be
+updated, it is only at load time that the constraint checking is
+important.  Constraint checking is hence done in the DB Tool logic.
+Even though MyISAM ignores foreign key constraints, we do include
+them in table create statements to document them.</p>
+</div>
+<div class="section" id="corpus">
+<h2>Corpus<a class="headerlink" href="#corpus" title="Permalink to this headline">¶</a></h2>
+<p>The collection of tables that manage the corpora are shown in Figure 1.1
+The &#8220;ontonotes&#8221; table stores the main ontonotes id.  There can be more
+than one &#8220;subcorpus&#8221;&#8217; (subcorpora) associated with the OntoNotes
+table.  Each subcorpus represents an arbitrary set of documents, by
+default all the documents for a given source.  The &#8220;subcorpus&#8221; table
+has associated with it a &#8220;language_id&#8221; and can contain many &#8220;file&#8221;s.
+Each file can contain one or more &#8220;documents&#8221;.  In the current
+situation, there is only one document per file in all subcorpora, but
+this might change in the future.  Then, each document has associated
+with it a list of &#8220;sentences&#8221;</p>
+<div class="figure">
+<a class="reference internal image-reference" href="_images/corpus.png"><img width="60%" alt="_images/corpus.png" src="_images/corpus.png" /></a>
+<p class="caption">Corpus Tables</p>
+</div>
+</div>
+<div class="section" id="trees">
+<h2>Trees<a class="headerlink" href="#trees" title="Permalink to this headline">¶</a></h2>
+<p>The tables that are used to represent the Treebank are shown in Figure
+1.2.  The central table in this region is the &#8220;tree&#8221; table which
+contains all the nodes in all the trees in the corpora.  Since we use
+the Treebank tokenization as the lowest granularity for identifying
+elements in the corpus, we show the &#8220;token&#8221; table in this region.
+It contains back-pointer to the sentence and the tree that it belongs
+to. Associated with the tree nodes are various meta tags such as the
+part-of-speech tag, stored in the &#8220;pos_type&#8221; table, the phrase
+types, stored in the &#8220;phrase_type&#8221; table, the function tags stored
+in the &#8220;function tag&#8221; table, and the syntactic links stored in the
+&#8220;syntactic_link&#8221; table.</p>
+<div class="figure">
+<a class="reference internal image-reference" href="_images/treebank.png"><img width="60%" alt="_images/treebank.png" src="_images/treebank.png" /></a>
+<p class="caption">Treebank Tables</p>
+</div>
+</div>
+<div class="section" id="propositions">
+<h2>Propositions<a class="headerlink" href="#propositions" title="Permalink to this headline">¶</a></h2>
+<p>The tables that depict the PropBank information are shown in Figure
+1.3. At the core is the &#8220;proposition&#8221; table which stores all the
+propositions in the corpora.  The &#8220;predicate&#8221; and the
+&#8220;predicate_node&#8221; tables store the many-to-many relationship that can
+be associated with the predicates and the nodes in the tree.  The same
+is the case with the &#8220;argument&#8221; and the &#8220;argument_node&#8221; table.
+The &#8220;argument_type&#8221; and the &#8220;predicate_type&#8221; tables store the
+predicate and argument types as defined in PropBank.</p>
+<div class="figure">
+<img width="60%" alt="_images/propbank.png" src="_images/propbank.png" />
+<p class="caption">Proposition Tables</p>
+</div>
+</div>
+<div class="section" id="word-senses">
+<h2>Word Senses<a class="headerlink" href="#word-senses" title="Permalink to this headline">¶</a></h2>
+<p>The OntoNotes word sense is stored in the &#8220;on_sense&#8221; table shown in
+Figure 1.4  There are connections between the
+OntoNotes sense and the Proposition Bank&#8217;s frames which are captured in
+the &#8220;on_sense_type_pb_sense_type&#8221; table.  The WordNet senses which
+are grouped to form the OntoNotes sense and occasionally vice-versa
+are captured by the &#8220;on_sense_type_wn_sense_type&#8221; table.  The frames
+files in PropBank restrict the types of core arguments that a
+predicate can take, and this information is stored in the
+&#8220;pb_sense_type_argument_type_table&#8221; which then has connections to
+the &#8220;argument_type&#8221; table in the PropBank table space.  It should be
+noted that the WordNet mapping are only available for the English part
+of the corpus.  There is no equivalent in the Chinese part.</p>
+<div class="figure">
+<img width="60%" alt="_images/wordsense.png" src="_images/wordsense.png" />
+<p class="caption">Word Sense Tables</p>
+</div>
+</div>
+<div class="section" id="name">
+<h2>Name<a class="headerlink" href="#name" title="Permalink to this headline">¶</a></h2>
+<p>The Name Entity relations are stored in the &#8220;name_entity&#8221; and
+&#8220;name_entity_type&#8221; tables shown in Figure 1.5 These are then connected
+to the respective tokens in the sentence, and are also connected to
+the appropriated nodes in the tree whenever there is a possible
+alignment.</p>
+<div class="figure">
+<img width="60%" alt="_images/name.png" src="_images/name.png" />
+<p class="caption">Name Tables</p>
+</div>
+</div>
+<div class="section" id="coreference">
+<h2>Coreference<a class="headerlink" href="#coreference" title="Permalink to this headline">¶</a></h2>
+<p>The &#8220;coreference_link&#8221; and &#8220;coreference_chain&#8221; tables, shown in Figure
+1.6, in the Coreference table space store the information required to
+capture equivalent entities in the corpus.  They also have information
+on the string span in the corpus that they are associated with, and in
+case of alignments (which in most cases is true since the coreference
+annotation was done on top of the treebank, withholding some
+exceptional entities) the node information is stored in the
+&#8220;coreference_link&#8221; table.</p>
+<div class="figure">
+<img width="60%" alt="_images/coreference.png" src="_images/coreference.png" />
+<p class="caption">Coreference Tables</p>
+</div>
+</div>
+<div class="section" id="banks">
+<h2>Banks<a class="headerlink" href="#banks" title="Permalink to this headline">¶</a></h2>
+<p>Each annotation project created a set of related data which is called
+a &#8220;bank&#8221; of that annotation &#8211; in accordance with Treebank, PropBank,
+etc.  Each bank has three representations: as a table in the database,
+as as a python object, and as a file.  The correspondences are:</p>
+<blockquote>
+<table border="1" class="docutils">
+<colgroup>
+<col width="13%" />
+<col width="44%" />
+<col width="29%" />
+<col width="13%" />
+</colgroup>
+<thead valign="bottom">
+<tr><th class="head"><strong>Bank Name</strong></th>
+<th class="head"><strong>Database Table</strong></th>
+<th class="head"><strong>Python Module</strong></th>
+<th class="head"><strong>Extension</strong></th>
+</tr>
+</thead>
+<tbody valign="top">
+<tr><td>tree</td>
+<td><tt class="docutils literal"><span class="pre">tree</span></tt></td>
+<td><a class="reference internal" href="corpora.html#module-on.corpora.tree" title="on.corpora.tree"><tt class="xref py py-mod docutils literal"><span class="pre">on.corpora.tree</span></tt></a></td>
+<td><tt class="docutils literal"><span class="pre">.parse</span></tt></td>
+</tr>
+<tr><td>sense</td>
+<td><tt class="docutils literal"><span class="pre">on_sense</span></tt></td>
+<td><a class="reference internal" href="corpora.html#module-on.corpora.sense" title="on.corpora.sense"><tt class="xref py py-mod docutils literal"><span class="pre">on.corpora.sense</span></tt></a></td>
+<td><tt class="docutils literal"><span class="pre">.sense</span></tt></td>
+</tr>
+<tr><td>proposition</td>
+<td><tt class="docutils literal"><span class="pre">argument</span></tt>, <tt class="docutils literal"><span class="pre">predicate</span></tt></td>
+<td><a class="reference internal" href="corpora.html#module-on.corpora.proposition" title="on.corpora.proposition"><tt class="xref py py-mod docutils literal"><span class="pre">on.corpora.proposition</span></tt></a></td>
+<td><tt class="docutils literal"><span class="pre">.prop</span></tt></td>
+</tr>
+<tr><td>coreference</td>
+<td><tt class="docutils literal"><span class="pre">coreference_link</span></tt></td>
+<td><a class="reference internal" href="corpora.html#module-on.corpora.coreference" title="on.corpora.coreference"><tt class="xref py py-mod docutils literal"><span class="pre">on.corpora.coreference</span></tt></a></td>
+<td><tt class="docutils literal"><span class="pre">.coref</span></tt></td>
+</tr>
+<tr><td>name</td>
+<td><tt class="docutils literal"><span class="pre">name_entity</span></tt></td>
+<td><a class="reference internal" href="corpora.html#module-on.corpora.name" title="on.corpora.name"><tt class="xref py py-mod docutils literal"><span class="pre">on.corpora.name</span></tt></a></td>
+<td><tt class="docutils literal"><span class="pre">.name</span></tt></td>
+</tr>
+<tr><td>speaker</td>
+<td><tt class="docutils literal"><span class="pre">speaker_sentence</span></tt></td>
+<td><a class="reference internal" href="corpora.html#module-on.corpora.speaker" title="on.corpora.speaker"><tt class="xref py py-mod docutils literal"><span class="pre">on.corpora.speaker</span></tt></a></td>
+<td><tt class="docutils literal"><span class="pre">.speaker</span></tt></td>
+</tr>
+<tr><td>parallel</td>
+<td><tt class="docutils literal"><span class="pre">parallel_sentence</span></tt>, <tt class="docutils literal"><span class="pre">parallel_document</span></tt></td>
+<td><a class="reference internal" href="corpora.html#module-on.corpora.parallel" title="on.corpora.parallel"><tt class="xref py py-mod docutils literal"><span class="pre">on.corpora.parallel</span></tt></a></td>
+<td><tt class="docutils literal"><span class="pre">.parallel</span></tt></td>
+</tr>
+</tbody>
+</table>
+</blockquote>
+<p>This elucidates the connection between the three levels of
+representation &#8211; text files, python objects and database tables.
+There are actually multiple database tables used to represent the
+data.  In the correspondence table above, we&#8217;ve listed the database
+table which contains the actual annotation alongside the python module
+which contains that bank.  For example, for word sense annotation, we
+list the on_sense table along side the <a class="reference internal" href="corpora.html#module-on.corpora.sense" title="on.corpora.sense"><tt class="xref py py-mod docutils literal"><span class="pre">on.corpora.sense</span></tt></a> module.
+The on_sense table has the actual annotation, including fields for the
+lemma, sense, and a pointer to the annotated word in the tree.  The
+<a class="reference internal" href="corpora.html#module-on.corpora.sense" title="on.corpora.sense"><tt class="xref py py-mod docutils literal"><span class="pre">on.corpora.sense</span></tt></a> module describes a
+<a class="reference internal" href="corpora.html#on.corpora.sense.sense_bank" title="on.corpora.sense.sense_bank"><tt class="xref py py-class docutils literal"><span class="pre">on.corpora.sense.sense_bank</span></tt></a> containing
+<a class="reference internal" href="corpora.html#on.corpora.sense.sense_tagged_document" title="on.corpora.sense.sense_tagged_document"><tt class="xref py py-class docutils literal"><span class="pre">on.corpora.sense.sense_tagged_document</span></tt></a> instances which
+contain <a class="reference internal" href="corpora.html#on.corpora.sense.on_sense" title="on.corpora.sense.on_sense"><tt class="xref py py-class docutils literal"><span class="pre">on.corpora.sense.on_sense</span></tt></a> instances.  This also elides the
+supporting annotation, such as the sense inventories needed to
+interpret and ground the sense annotations.  For the details on each
+bank, look up the documentation for the referenced python module.</p>
+</div>
+</div>
+
+
+          </div>
+        </div>
+      </div>
+      <div class="sphinxsidebar">
+        <div class="sphinxsidebarwrapper">
+  <h3><a href="index.html">Table Of Contents</a></h3>
+  <ul>
+<li><a class="reference internal" href="#">Database and API Design</a><ul>
+<li><a class="reference internal" href="#overview">Overview</a></li>
+<li><a class="reference internal" href="#corpus">Corpus</a></li>
+<li><a class="reference internal" href="#trees">Trees</a></li>
+<li><a class="reference internal" href="#propositions">Propositions</a></li>
+<li><a class="reference internal" href="#word-senses">Word Senses</a></li>
+<li><a class="reference internal" href="#name">Name</a></li>
+<li><a class="reference internal" href="#coreference">Coreference</a></li>
+<li><a class="reference internal" href="#banks">Banks</a></li>
+</ul>
+</li>
+</ul>
+
+  <h4>Previous topic</h4>
+  <p class="topless"><a href="getting_started.html"
+                        title="previous chapter">Getting Started</a></p>
+  <h4>Next topic</h4>
+  <p class="topless"><a href="API_reference.html"
+                        title="next chapter">API Reference</a></p>
+  <h3>This Page</h3>
+  <ul class="this-page-menu">
+    <li><a href="_sources/database_and_API_design.txt"
+           rel="nofollow">Show Source</a></li>
+  </ul>
+<div id="searchbox" style="display: none">
+  <h3>Quick search</h3>
+    <form class="search" action="search.html" method="get">
+      <input type="text" name="q" size="18" />
+      <input type="submit" value="Go" />
+      <input type="hidden" name="check_keywords" value="yes" />
+      <input type="hidden" name="area" value="default" />
+    </form>
+    <p class="searchtip" style="font-size: 90%">
+    Enter search terms or a module, class or function name.
+    </p>
+</div>
+<script type="text/javascript">$('#searchbox').show(0);</script>
+        </div>
+      </div>
+      <div class="clearer"></div>
+    </div>
+    <div class="related">
+      <h3>Navigation</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="genindex.html" title="General Index"
+             >index</a></li>
+        <li class="right" >
+          <a href="py-modindex.html" title="Python Module Index"
+             >modules</a> |</li>
+        <li class="right" >
+          <a href="API_reference.html" title="API Reference"
+             >next</a> |</li>
+        <li class="right" >
+          <a href="getting_started.html" title="Getting Started"
+             >previous</a> |</li>
+        <li><a href="index.html">OntoNotes DB Tool v0.999b documentation</a> &raquo;</li>
+      </ul>
+    </div>
+    <div class="footer">
+        &copy; Copyright 2008, BBN Technologies.
+      Created using <a href="http://sphinx.pocoo.org/">Sphinx</a> 1.0.4.
+    </div>
+  </body>
+</html>

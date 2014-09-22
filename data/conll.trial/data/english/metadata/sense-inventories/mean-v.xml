@@ -1,0 +1,102 @@
+<?xml version="1.0" ?>
+<!DOCTYPE inventory
+  SYSTEM 'inventory.dtd'>
+<inventory lemma="mean-v">
+    <commentary>
+    </commentary>
+    <sense group="1" n="1" name="signify, refer to" type="">
+        <commentary>
+            Syntax Is: NP1[agent[human]] MEAN[telic] NP2
+            Note: ('telic' meaning that the event of meaning is bounded in time--
+            it has a beginning and an end)
+        </commentary>
+        <examples>
+            You never understand what I mean!
+            Yes, I meant you when I complained about people who gossip!
+            I meant the green vase when I said I wanted to buy the vase.
+        </examples>
+        <mappings>
+            <wn version="2.1">1,6</wn>
+            <omega/>
+            <pb/>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    <sense group="1" n="2" name="have purpose,intend" type="">
+        <commentary>
+        </commentary>
+        <examples>
+            I mean no harm.
+            I meant these flowers for you.
+            We meant to return early that night.
+        </examples>
+        <mappings>
+            <wn version="2.1">4,7</wn>
+            <omega/>
+            <pb/>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    <sense group="1" n="3" name="stand for, translate as" type="">
+        <commentary>
+            Syntax Is: NP1[topic[abstract]] MEAN[atelic] NP2
+            Note: (see sense 1 for 'telic')
+        </commentary>
+        <examples>
+            `Maison' means `house' in French.
+            I don't know what this word means in that context.
+            Who decided red means stop and green means go?
+        </examples>
+        <mappings>
+            <wn version="2.1">3</wn>
+            <omega/>
+            <pb/>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    <sense group="1" n="4" name="have a logical result" type="">
+        <commentary> 
+            Note: There is an outcome or result which occurs due to a preceding event.
+        </commentary>
+        <examples>
+            The drought means the crop is ruined.
+            The fact that Jane saw him at home means he has an alibi.
+            The water shortage means that we have to stop taking long showers.
+        </examples>
+        <mappings>
+            <wn version="2.1">2</wn>
+            <omega/>
+            <pb/>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    <sense group="1" n="5" name="have importance or value" type="">
+        <commentary>
+        </commentary>
+        <examples>
+            My ex-husband means nothing to me.
+            Winning means everything to her.
+        </examples>
+        <mappings>
+            <wn version="2.1">5</wn>
+            <omega/>
+            <pb/>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+<sense group="1" n="6" name="none of the above" type="">
+  <commentary>
+Automatically generated NOTA sense (bbn)
+  </commentary>
+  <examples>
+  </examples>
+  <mappings>
+    <wn version="2.1"></wn>
+    <omega></omega><pb></pb>
+    <fn></fn>
+  </mappings><SENSE_META clarity=""/>
+</sense>
+    <WORD_META authors="ahouston,duffielc, vieweg" sample_score="-"/>
+
+<ita count="814" ann_1_2_agreement="0.683046683047" />
+</inventory>

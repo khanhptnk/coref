@@ -1,0 +1,138 @@
+<?xml version="1.0" ?>
+<!DOCTYPE inventory SYSTEM "inventory.dtd">
+<inventory lemma="deal-v">
+    <commentary>
+    </commentary>
+    <sense group="1" n="1" name="handle or manage, exert some control over" type="">
+        <commentary>
+            Syntax Is:
+            NP1[agent] DEAL PP
+            NOTE: usually: WITH NP[issue, problem, conditions]
+            Includes: DEAL WITH
+        </commentary>
+        <examples>
+            How are we going to deal with this problem?
+            She deals with problems as simple as migraines or as complex families falling apart.
+            He works hard to gain an understanding of the information that he deals with every day.
+            Both teams dealt with poor weather conditions.
+            I think that I have dealt with not having a drink for eight months.
+        </examples>
+        <mappings>
+            <wn version="2.1">2,4,7,10</wn>
+            <omega></omega><pb>deal.01</pb>
+            <vn>cope-83</vn><fn>NP</fn>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    <sense group="1" n="2" name="interact with others and within society" type="">
+        <commentary>
+            Syntax Is:
+            NP1[agent] DEAL PP
+            Note: usually: WITH  NP[human])
+        </commentary>
+        <examples>
+            This job requires good problem solving ability, verbal and written communication skills, and the ability to deal with others.
+            Too many people lead unhappy lives due to an inability to deal with others.
+            The spanked children then imitate parental anger when they deal with other children.
+            The depression left me with not wanting to deal with my family or friends.
+        </examples>
+        <mappings>
+            <wn version="2.1">8</wn>
+            <omega></omega><pb>deal.01</pb>
+            <vn>NM</vn><fn>NP</fn>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    <sense group="1" n="3" name="consider, address, look at, focus on a particular topic" type="">
+        <commentary>
+            Syntax Is:
+            NP1[topic] DEAL PP
+            Note: usually: WITH  NP[content, meaning]
+            Note: This usually refers to content or meaning of a written or spoken material.
+        </commentary>
+        <examples>
+            The report dealt with the national efforts to implement the Convention against Torture.
+            Here we deal with the following case.
+            A number of global reports produced by ILO have dealt with poverty.
+            This book deals with alcohol and drug abuse.
+        </examples>
+        <mappings>
+            <wn version="2.1">1,3</wn>
+            <omega></omega><pb>deal.01</pb>
+            <vn>NM</vn><fn>NP</fn>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    <sense group="1" n="4" name="distribute or portion out" type="">
+        <commentary>
+            Includes: DEAL OUT
+        </commentary>
+        <examples>
+            The cook came with the dishes and dealt out the rations.
+            This is the water which all the estates receive in turn, dealt out to them on regular days.
+            Bad provisions, bad water, and scanted rations were dealt to the prisoners.
+            Unfortunately fate has dealt a cruel blow and we have little choice but to move on.
+        </examples>
+        <mappings>
+            <wn version="2.1">5,11</wn>
+            <wn lemma="deal_out" version="2.1">1</wn>
+            <omega></omega><pb>NM</pb>
+            <vn>NM</vn><fn>NP</fn>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    <sense group="1" n="5" name="distribute to players in a game" type="">
+        <commentary>
+            Note: may be used metaphorically (see examples)
+        </commentary>
+        <examples>
+            Just because Fate doesn't deal you the right cards, it doesn't mean you should give up.
+            A total of four cards are initially dealt by the dealer or a player in the game. 
+            He dealt me the King of Spades.
+            The game begins with each player being dealt a "loyalty" card.
+            You play the hand you're dealt.
+            The number of bones dealt at start of the game varies in different parts of the world.
+        </examples>
+        <mappings>
+            <wn version="2.1">9,12</wn>
+            <omega></omega><pb>deal.02</pb>
+            <vn>NM</vn><fn>NP</fn>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    <sense group="1" n="6" name="sell" type="">
+        <commentary>
+            Syntax Is:
+            NP1[agent] DEAL PP
+            Note:usually: WITH NP[object for sale, especially illegal materials])
+            Includes: DEAL WITH
+        </commentary>
+        <examples>
+            People have sent us a clear message they do not want people who deal drugs to live among them.
+            The state stripped him of both his business license and his license to deal cars.
+            People who deal in marijuana are likely to deal in other illicit drugs.
+            Later he dealt arms in Latin America.
+        </examples>
+        <mappings>
+            <wn version="2.1">6,13</wn>
+            <omega></omega><pb>deal.01</pb>
+            <vn>NM</vn><fn>NP</fn>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+<sense group="1" n="7" name="none of the above" type="">
+  <commentary>
+Automatically generated NOTA sense (bbn)
+  </commentary>
+  <examples>
+  </examples>
+  <mappings>
+    <wn version="2.1"></wn>
+    <omega></omega><pb></pb>
+    <fn></fn>
+  </mappings><SENSE_META clarity=""/>
+</sense>
+    <WORD_META authors="duffielc" sample_score="-"/>
+
+<ita count="216" ann_1_2_agreement="0.708333333333" />
+</inventory>

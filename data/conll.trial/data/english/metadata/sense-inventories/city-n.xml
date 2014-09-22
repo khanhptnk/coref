@@ -1,0 +1,71 @@
+<!DOCTYPE inventory SYSTEM "inventory.dtd">
+<inventory lemma="city-n">
+    <commentary>
+    </commentary>
+    <sense n="1" type="" name="a large urban center, a metropolis" group="1">
+        <commentary>
+            CITY[+place][+social/+physical]
+        </commentary>
+        <examples>
+            Thousands were killed when the city was bombed.
+            Mary has always lived in big cities.
+            The city seemed indifferent to the young immigrant's plight.
+            The city looked beautiful at night across the water.
+            We got lost in the city and had to ask directions.
+        </examples>
+        <mappings>
+            <wn version="2.1">1,3</wn>
+            <omega></omega><pb></pb>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    
+    <sense n="2" type="" name="an administrative district" group="1">
+        <commentary>
+            CITY[+organization][+administrative]
+        </commentary>
+        <examples>
+            The residents were angry at the city for closing two elementary schools.
+            Three cities in our state have adopted a ban on using cell phones while driving.
+            The city decided to raise taxes to fund the new tunnel project.
+        </examples>
+        <mappings>
+            <wn version="2.1">2</wn>
+            <omega></omega><pb></pb>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    
+    <sense n="3" type="" name="a defining or quintessential quality" group="1">
+        <commentary>
+            CITY[+quality][+essential]
+            Note: a slang usage
+        </commentary>
+        <examples>
+            That movie was basically shoot-out city.
+            It's going to be fat city for us!
+        </examples>
+        <mappings>
+            <wn version="Merriam-Webster online">4</wn>
+            <omega></omega><pb></pb>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    
+    <sense group="1" n="4" name="none of the above" type="">
+        <commentary>
+            Automatically generated NOTA sense (bbn)
+        </commentary>
+        <examples>
+        </examples>
+        <mappings>
+            <wn version="2.1"></wn>
+            <omega></omega><pb></pb>
+            <fn></fn>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    <WORD_META authors="ahouston" sample_score="-"/>
+
+<ita count="423" ann_1_2_agreement="1.0" />
+</inventory>

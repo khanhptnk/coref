@@ -1,0 +1,643 @@
+<DOC DOCNO="cnn_0000">
+<TEXT PARTNO="000">
+<COREF ID="0" TYPE="IDENT">A much better looking News Night</COREF> <COREF ID="m_17" TYPE="IDENT" SPEAKER="speaker1">I</COREF> might add as <COREF ID="m_12" TYPE="IDENT" SPEAKER="Paula_Zahn">Paula Zahn</COREF> sits in for <COREF ID="3" TYPE="IDENT"><COREF ID="30" TYPE="IDENT">Anderson</COREF> and <COREF ID="31" TYPE="IDENT">Aaron</COREF></COREF> /.
+<COREF ID="3" TYPE="IDENT">They</COREF> 're both off /-
+Look at <COREF ID="m_12" TYPE="IDENT" SPEAKER="Paula_Zahn">that</COREF> /.
+Is <COREF ID="m_12" TYPE="IDENT" SPEAKER="Paula_Zahn">that</COREF> a replacement /?
+<COREF ID="m_12" TYPE="IDENT" SPEAKER="Paula_Zahn">Paula</COREF> <COREF ID="m_12" TYPE="IDENT" SPEAKER="Paula_Zahn">Paula</COREF> /.
+Thank <COREF ID="m_17" TYPE="IDENT" SPEAKER="speaker1">you</COREF> for <COREF ID="m_17" TYPE="IDENT" SPEAKER="speaker1">your</COREF> faith <COREF ID="m_17" TYPE="IDENT" SPEAKER="speaker1">Larry</COREF> and thank <COREF ID="m_17" TYPE="IDENT" SPEAKER="speaker1">you</COREF> for <COREF ID="m_17" TYPE="IDENT" SPEAKER="speaker1">your</COREF> graciousness /.
+And we 're going to get started here /.
+Good evening everybody /.
+Welcome to <COREF ID="0" TYPE="IDENT">News Night</COREF> /.
+As uh <COREF ID="m_17" TYPE="IDENT" SPEAKER="speaker1">Larry</COREF> just told you <COREF ID="m_12" TYPE="IDENT" SPEAKER="Paula_Zahn">I</COREF> 'm Paula Zahn filling in for <COREF ID="3" TYPE="IDENT">the two men <COREF ID="30" TYPE="IDENT">Anderson Cooper</COREF> and <COREF ID="31" TYPE="IDENT">Aaron Brown</COREF></COREF> /.
+<COREF ID="32" TYPE="IDENT">He</COREF> lost <COREF ID="32" TYPE="IDENT">his</COREF> life long ago /.
+but there 's still something modern science can give <COREF ID="32" TYPE="IDENT">him</COREF> back <COREF ID="32" TYPE="IDENT">his</COREF> identity /.
+The mystery of <COREF ID="32" TYPE="IDENT">the frozen airman</COREF> continues /.
+Next stop the lab /.
+And anger in the hood over a sign of the times /.
+If <COREF ID="53" TYPE="IDENT">Fifty Cent</COREF> does n't have good sense then <COREF ID="53" TYPE="IDENT">he</COREF> needs to stop doing what <COREF ID="53" TYPE="IDENT">he</COREF> 's doing /.
+<COREF ID="60" TYPE="IDENT"><COREF ID="53" TYPE="IDENT">The rap star 's</COREF> new movie</COREF> is one thing /.
+but <COREF ID="63" TYPE="IDENT">the billboards for <COREF ID="60" TYPE="IDENT">it</COREF></COREF> are another /.
+Residents of Los Angeles want <COREF ID="63" TYPE="IDENT">them</COREF> and <COREF ID="63" TYPE="IDENT">their</COREF> message moved /.
+and the studio is caving /.
+Also tonight the rise and fall and rise and fall and rise and fall of Martha Stewart /.
+How many ups and downs can one woman have /?
+<COREF ID="0" TYPE="IDENT">This</COREF> is News Night /.
+</TEXT>
+<TEXT PARTNO="001">
+First of all here 's a quick track of some of the stories we 're following tonight /.
+<COREF ID="11" TYPE="IDENT">President Bush</COREF> unveiled <COREF ID="12" TYPE="IDENT">a seven point one billion dollar plan to help protect Americans against the threat from bird flu</COREF> /.
+<COREF ID="12" TYPE="IDENT">It</COREF> includes stockpiling enough vaccine to protect twenty million people /.
+<COREF ID="11" TYPE="IDENT">The president</COREF> says there is no immediate threat but there is cause for concern /.
+In Washington tensions are high after an unsual Senate session /.
+Democrats <COREF ID="41" TYPE="IDENT">used</COREF> a little used rule to force a special closed session /.
+Democrats say <COREF ID="41" TYPE="IDENT">it</COREF> was to force Republican leaders to complete a long promised investigation into how <COREF ID="11" TYPE="IDENT">Bush</COREF> administration officials handled pre-war intelligence on <COREF ID="50" TYPE="IDENT">Iraq</COREF> /.
+<COREF ID="51" TYPE="IDENT">Republicans</COREF> for <COREF ID="51" TYPE="IDENT">their</COREF> part are calling <COREF ID="41" TYPE="IDENT">it</COREF> a political stunt /.
+And <COREF ID="56" TYPE="IDENT">Defense Secretary Donald Rumsfeld</COREF> says <COREF ID="57" TYPE="IDENT">more American troops</COREF> could soon be heading to <COREF ID="50" TYPE="IDENT">Iraq</COREF> /.
+<COREF ID="56" TYPE="IDENT">He</COREF> says <COREF ID="57" TYPE="IDENT">they</COREF> will be needed temporarily to prevent an expected increase in insurgent attacks ahead of <COREF ID="50" TYPE="IDENT">Iraq 's</COREF> parliamentary election in December /.
+</TEXT>
+<TEXT PARTNO="002">
+But we begin tonight with <COREF ID="2" TYPE="IDENT">an ongoing mystery</COREF> /.
+Who is <COREF ID="3" TYPE="IDENT">that lone man discovered last month frozen in <COREF ID="9" TYPE="IDENT">California 's Sierra Nevada mountains</COREF> with just a few tantalizing clues to <COREF ID="3" TYPE="IDENT">his</COREF> identity</COREF> /?
+This we do know at this hour /.
+<COREF ID="3" TYPE="IDENT">The man</COREF> died more than sixty years ago /.
+<COREF ID="3" TYPE="IDENT">He</COREF> was in the military apparently a <COREF ID="CNN_AARONBROWN_ENG_20051101_215800.part-2-E1" TYPE="IDENT">World War Two</COREF> airman /.
+And while it looks like <COREF ID="3" TYPE="IDENT">his</COREF> plane crashed in <COREF ID="9" TYPE="IDENT">the mountains</COREF> so did <COREF ID="28" TYPE="IDENT">twenty - five other planes</COREF> around the same time /.
+<COREF ID="m_22" TYPE="IDENT" SPEAKER="Thelma_Gutierrez">Thelma Gutierrez</COREF> went inside the forensic laboratory where scientists are trying to solve <COREF ID="2" TYPE="IDENT">this mystery</COREF> /.
+<COREF ID="36" TYPE="IDENT">An address book <COREF ID="38" TYPE="IDENT">a plastic comb</COREF> a vintage penny /.</COREF>
+You 're looking at <COREF ID="36" TYPE="IDENT">the last things <COREF ID="3" TYPE="IDENT">a young airman</COREF> put into his pockets on the day <COREF ID="3" TYPE="IDENT">he</COREF> died clues to <COREF ID="2" TYPE="IDENT">a <COREF ID="CNN_AARONBROWN_ENG_20051101_215800.part-2-E1" TYPE="IDENT">World War Two</COREF> cold case that you 're about to see for the very first time</COREF></COREF> /.
+<COREF ID="2" TYPE="IDENT">It</COREF> is a mystery that begins high in <COREF ID="9" TYPE="IDENT">the Sierra Nevada Mountains</COREF> at the bottom of a glacier /.
+Two weeks ago climbers discovered <COREF ID="3" TYPE="IDENT">a frozen man face down in the snow still in <COREF ID="219" TYPE="IDENT">his army air force uniform</COREF> and an unopened silk parachute</COREF> /.
+After six decades <COREF ID="3" TYPE="IDENT">the airman</COREF> is exhumed from <COREF ID="3" TYPE="IDENT">his</COREF> icy tomb and thawed out /.
+but <COREF ID="3" TYPE="IDENT">he</COREF> 's wearing no military dog tags or ID /.
+Did <COREF ID="3" TYPE="IDENT">this <COREF ID="CNN_AARONBROWN_ENG_20051101_215800.part-2-E1" TYPE="IDENT">World War Two</COREF> pilot</COREF> perish when <COREF ID="3" TYPE="IDENT">his</COREF> training flight crashed in <COREF ID="9" TYPE="IDENT">the mountains</COREF> like <COREF ID="28" TYPE="IDENT">twenty - five other ill fated flights</COREF> more than sixty years ago /?
+The search for clues takes us to <COREF ID="90" TYPE="IDENT">Honolulu <COREF ID="92" TYPE="IDENT">Hawaii</COREF></COREF> to <COREF ID="93" TYPE="IDENT" SPEAKER="uncertain]_jpac_[/uncertain">the joint powmia accounting command or jpac</COREF> /.
+<COREF ID="2" TYPE="IDENT">The mystery of <COREF ID="3" TYPE="IDENT">the frozen airman</COREF></COREF> is just one of more than a thousand different unsolved cases that scientists here at jpac are trying to solve /.
+In this laboratory alone <COREF ID="m_22" TYPE="IDENT" SPEAKER="Thelma_Gutierrez">I</COREF> 'm surrounded by the remains of <COREF ID="114" TYPE="IDENT">at least twenty different service members who are in the process of being identified so that <COREF ID="114" TYPE="IDENT">they</COREF> too can go home</COREF> /.
+The investigation begins with a team of forensic specialists who probe and study <COREF ID="3" TYPE="IDENT">the airman 's</COREF> bones teeth and <COREF ID="3" TYPE="IDENT">his</COREF> belongings to piece together who <COREF ID="3" TYPE="IDENT">he</COREF> is /.
+And almost immediately clues begin to surface /.
+<COREF ID="m_4" TYPE="IDENT" SPEAKER="Dr_Mann">Dr. Robert Mann a forensic anthropologist</COREF> has determined that <COREF ID="3" TYPE="IDENT">the airman</COREF> was Caucasian and had fair hair /.
+Next though <COREF ID="m_4" TYPE="IDENT" SPEAKER="Dr_Mann">I</COREF> 'm going to have to look at <COREF ID="3" TYPE="IDENT">his</COREF> clavicles /.
+<COREF ID="147" TYPE="IDENT"><COREF ID="146" TYPE="IDENT"><COREF ID="3" TYPE="IDENT">The airman 's</COREF> collar bones</COREF> and pelvic bones</COREF> prove that <COREF ID="3" TYPE="IDENT">he</COREF> was in <COREF ID="3" TYPE="IDENT">his</COREF> twenties and died in an airplane crash /.
+<COREF ID="3" TYPE="IDENT">This</COREF> is a person who likely died on impact versus perhaps freezing to death up in <COREF ID="9" TYPE="IDENT">the mountains</COREF> /.
+<COREF ID="m_4" TYPE="IDENT" SPEAKER="Dr_Mann">I</COREF> think that uh the injuries were so substantial um and severe that <COREF ID="3" TYPE="IDENT">he</COREF> would n't have felt anything /.
+<COREF ID="3" TYPE="IDENT">He</COREF> would have died immediately /.
+One two /-
+Another important clue /.
+<COREF ID="3" TYPE="IDENT">He</COREF> has a significant number of uh fillings /.
+Like <COREF ID="147" TYPE="IDENT">the bones</COREF> xrays of <COREF ID="3" TYPE="IDENT">his</COREF> wisdom teeth also tell us something about <COREF ID="3" TYPE="IDENT">his</COREF> age /.
+<COREF ID="177" TYPE="IDENT">Root tips</COREF> are closed /.
+<COREF ID="177" TYPE="IDENT">they</COREF> 're sealed up which is more indicative of someone who would be at least twenty - one years old /.
+And <COREF ID="m_0" TYPE="IDENT" SPEAKER="Dr_Henry">Dr. Andy Henry</COREF> notices something else /.
+<COREF ID="3" TYPE="IDENT">The airmen</COREF> have straight teeth /.
+so <COREF ID="3" TYPE="IDENT">he</COREF> <COREF ID="196" TYPE="IDENT">had</COREF> a nice smile good teeth /.
+Yes <COREF ID="m_0" TYPE="IDENT" SPEAKER="Dr_Henry">I</COREF> would have to say <COREF ID="196" TYPE="IDENT">that</COREF> yes /.
+Then there are the material clues the things <COREF ID="3" TYPE="IDENT">he</COREF> had on <COREF ID="3" TYPE="IDENT">him</COREF> when <COREF ID="3" TYPE="IDENT">he</COREF> died that offer a snapshot into who <COREF ID="3" TYPE="IDENT">he</COREF> could have been /.
+If there 's a badge or anything else that /-
+We know <COREF ID="3" TYPE="IDENT">he</COREF> was wearing <COREF ID="219" TYPE="IDENT">a <COREF ID="CNN_AARONBROWN_ENG_20051101_215800.part-2-E1" TYPE="IDENT">World War Two</COREF> army air force uniform</COREF> /.
+Remnants of <COREF ID="3" TYPE="IDENT">his</COREF> sweater undergarments and socks are still intact /.
+And <COREF ID="223" TYPE="IDENT">more clues</COREF> emerge from <COREF ID="219" TYPE="IDENT"><COREF ID="3" TYPE="IDENT">his</COREF> tattered uniform</COREF> <COREF ID="223" TYPE="IDENT">a corroded nameplate this pin on <COREF ID="3" TYPE="IDENT">his</COREF> collar and <COREF ID="230" TYPE="IDENT">this army aircorps insignia</COREF></COREF> /.
+When <COREF ID="m_4" TYPE="IDENT" SPEAKER="Dr_Mann">I</COREF> found <COREF ID="230" TYPE="IDENT">these insignia</COREF> <COREF ID="m_4" TYPE="IDENT" SPEAKER="Dr_Mann">I</COREF> was happy to see <COREF ID="230" TYPE="IDENT">them</COREF> /.
+And <COREF ID="3" TYPE="IDENT">our young white - haired airman</COREF> also carried <COREF ID="38" TYPE="IDENT">this black comb</COREF> and some pocket change forty - five cents worth /.
+Some of these dimes are in ranging from nineteen thirty - six to <COREF ID="247" TYPE="IDENT">nineteen forty - two</COREF> /.
+In <COREF ID="3" TYPE="IDENT">his</COREF> uniform breast pocket Dr. Paul Emanovsky found this vintage Schafer pen and <COREF ID="252" TYPE="IDENT">three small leatherbound address books</COREF> /.
+The pages have been decomposing /.
+but could <COREF ID="252" TYPE="IDENT">they</COREF> contain names of friends and loved ones /?
+And we 're going to put it in a spectral comparator /.
+At first nothing /.
+then like magic clues begin to emerge /.
+Uh you can see all these letters from the calendar Sunday Monday Tuesday up at the top one nine four and two /.
+<COREF ID="247" TYPE="IDENT">Nineteen forty - two /.</COREF>
+Yeah /.
+After hours of meticulous examination of each address book <COREF ID="252" TYPE="IDENT">they</COREF> yield no personal information clues that could have faded with time /.
+And so while we still do not know who <COREF ID="3" TYPE="IDENT">our twenty - something fair - haired airman</COREF> is enormous progress has been made /.
+Out of the thousands of unidentified <COREF ID="CNN_AARONBROWN_ENG_20051101_215800.part-2-E1" TYPE="IDENT">World War Two</COREF> service members <COREF ID="m_4" TYPE="IDENT" SPEAKER="Dr_Mann">Dr. Mann</COREF> says they 've narrowed it down to just ten /.
+So what was it like to grow up there /?
+In Pleasant Grove we recently met <COREF ID="312" TYPE="IDENT">these three sisters all in <COREF ID="312" TYPE="IDENT">their</COREF> eighties who have high hopes that <COREF ID="3" TYPE="IDENT">the frozen airman</COREF> proves to be <COREF ID="320" TYPE="IDENT"><COREF ID="322" TYPE="IDENT"><COREF ID="312" TYPE="IDENT">their</COREF> big brother</COREF> <COREF ID="322" TYPE="IDENT">Glen Munn</COREF> whose plane went missing in <COREF ID="9" TYPE="IDENT">the Sierra</COREF> back in <COREF ID="247" TYPE="IDENT">nineteen forty - two</COREF></COREF></COREF> /.
+Oh <COREF ID="m_61" TYPE="IDENT" SPEAKER="sister_one">I</COREF> just wanted you know to know that <COREF ID="320" TYPE="IDENT">he</COREF> was <COREF ID="339" TYPE="IDENT">found</COREF> and that <COREF ID="312" TYPE="IDENT">we</COREF> can have <COREF ID="320" TYPE="IDENT">him</COREF> brought home here for burial and /-
+<COREF ID="312" TYPE="IDENT">We</COREF> do n't know <COREF ID="339" TYPE="IDENT">that</COREF> though /.
+<COREF ID="312" TYPE="IDENT">We</COREF> do n't /.
+but that 's <COREF ID="m_61" TYPE="IDENT" SPEAKER="sister_one">my</COREF> wishes /.
+And until <COREF ID="312" TYPE="IDENT">they</COREF> learn otherwise <COREF ID="312" TYPE="IDENT">they</COREF> say <COREF ID="312" TYPE="IDENT">they</COREF> will keep that hope alive /.
+And in the weeks and months ahead <COREF ID="350" TYPE="IDENT">scientists</COREF> are convinced <COREF ID="350" TYPE="IDENT">they</COREF> will identify <COREF ID="3" TYPE="IDENT">this airman</COREF> and return <COREF ID="3" TYPE="IDENT">him</COREF> home to <COREF ID="356" TYPE="IDENT"><COREF ID="3" TYPE="IDENT">his</COREF> family</COREF> wherever <COREF ID="356" TYPE="IDENT">they</COREF> might be /.
+<COREF ID="m_22" TYPE="IDENT" SPEAKER="Thelma_Gutierrez">Thelma Gutierrez</COREF> CNN <COREF ID="90" TYPE="IDENT">Honolulu <COREF ID="92" TYPE="IDENT">Hawaii</COREF></COREF> /.
+</TEXT>
+<TEXT PARTNO="003">
+And there are some new developments to talk about <COREF ID="5" TYPE="IDENT">tonight</COREF> /.
+<COREF ID="6" TYPE="IDENT">Scientists</COREF> may be even closer to solving the mystery /.
+For an update <COREF ID="245" TYPE="IDENT">we</COREF> 're joined by <COREF ID="m_15" TYPE="IDENT" SPEAKER="Dr_Mann">Dr. Robert Mann one of the senior scientists you just saw working on <COREF ID="8" TYPE="IDENT">this cold case</COREF></COREF> /.
+Thanks for spending time with <COREF ID="245" TYPE="IDENT">us</COREF> <COREF ID="5" TYPE="IDENT">tonight</COREF> <COREF ID="m_15" TYPE="IDENT" SPEAKER="Dr_Mann">doctor</COREF> /.
+<COREF ID="245" TYPE="IDENT">We</COREF> understand since Thelma left <COREF ID="6" TYPE="IDENT">your</COREF> laboratories <COREF ID="6" TYPE="IDENT">you</COREF> 've now <COREF ID="34" TYPE="IDENT">wittled</COREF> <COREF ID="32" TYPE="IDENT">this</COREF> down to perhaps four airmen /.
+is <COREF ID="34" TYPE="IDENT">that</COREF> true /?
+Well hi <COREF ID="m_0" TYPE="IDENT" SPEAKER="Paula_Zahn">Paula</COREF> /.
+yes <COREF ID="6" TYPE="IDENT">we</COREF> have /.
+Uh when <COREF ID="37" TYPE="IDENT">the remains</COREF> came in a little over a week ago <COREF ID="40" TYPE="IDENT"><COREF ID="6" TYPE="IDENT">our</COREF> analysts and historians</COREF> got to work on that /.
+and <COREF ID="40" TYPE="IDENT">they</COREF> were able to wittle <COREF ID="47" TYPE="IDENT">it</COREF> down <COREF ID="47" TYPE="IDENT">the number of missing aircraft</COREF> uh to a few /.
+and at this point <COREF ID="40" TYPE="IDENT">they</COREF> 've <COREF ID="66" TYPE="IDENT">wittled</COREF> <COREF ID="47" TYPE="IDENT">it</COREF> down to <COREF ID="57" TYPE="IDENT">one aircraft</COREF> and <COREF ID="33" TYPE="IDENT">a missing crew of four individuals</COREF> /.
+So we 've gone from several possible aircraft to <COREF ID="57" TYPE="IDENT">one aircraft</COREF> and from several missing airmen to <COREF ID="33" TYPE="IDENT">four</COREF> /.
+So how much easier will <COREF ID="66" TYPE="IDENT">that</COREF> make it for <COREF ID="6" TYPE="IDENT">you</COREF> to unlock <COREF ID="8" TYPE="IDENT">this case</COREF> , do <COREF ID="m_15" TYPE="IDENT" SPEAKER="Dr_Mann">you</COREF> think /?
+Well <COREF ID="m_15" TYPE="IDENT" SPEAKER="Dr_Mann">I</COREF> think <COREF ID="66" TYPE="IDENT">it</COREF> 'll help quite a bit /.
+Um any time you 've got a body uh or remains like <COREF ID="37" TYPE="IDENT">this</COREF> that has come in and <COREF ID="78" TYPE="IDENT">they</COREF> 're in pretty good condition such as <COREF ID="37" TYPE="IDENT">this one</COREF> is , <COREF ID="37" TYPE="IDENT">it</COREF> 's mummified remains /.
+<COREF ID="6" TYPE="IDENT">We</COREF> have some soft tissue <COREF ID="6" TYPE="IDENT">we</COREF> can deal with /.
+so <COREF ID="6" TYPE="IDENT">we</COREF> can look at the color of the hair /.
+<COREF ID="6" TYPE="IDENT">we</COREF> can tell right away the race and the sex of <COREF ID="CNN_AARONBROWN_ENG_20051101_215800.part-3-E1" TYPE="IDENT">the individual</COREF> /.
+but then there are other things that are hidden beneath the soft tissue that are revealed only in <COREF ID="113" TYPE="IDENT">the skeleton</COREF> /.
+and <COREF ID="113" TYPE="IDENT">that</COREF> 's where <COREF ID="6" TYPE="IDENT">we</COREF> 're going to now /.
+So in the interest of full disclosure what <COREF ID="m_0" TYPE="IDENT" SPEAKER="Paula_Zahn">I</COREF> know about forensics is basically what <COREF ID="m_0" TYPE="IDENT" SPEAKER="Paula_Zahn">I</COREF> 've learned on CSI /.
+and one would think that because <COREF ID="6" TYPE="IDENT">you</COREF> 've got <COREF ID="32" TYPE="IDENT">it</COREF> now narrowed down to <COREF ID="33" TYPE="IDENT">four potential airmen</COREF> that perhaps <COREF ID="6" TYPE="IDENT">you</COREF> could go to four families get strands of hair and try to do a potential DNA match with what <COREF ID="6" TYPE="IDENT">you</COREF> 've found in the ice /.
+Is <COREF ID="141" TYPE="IDENT">it</COREF> not that simple /?
+Well no no <COREF ID="141" TYPE="IDENT">it</COREF> 's not that simple /.
+Um one thing <COREF ID="6" TYPE="IDENT">we</COREF> always caution people about is the pool of aircraft and missing airmen could be larger than what <COREF ID="6" TYPE="IDENT">we</COREF> 're looking at /.
+And what <COREF ID="6" TYPE="IDENT">we</COREF> want to do is <COREF ID="6" TYPE="IDENT">we</COREF> do n't want to just look at the material evidence that <COREF ID="6" TYPE="IDENT">we</COREF> have and immediately um jump to a conclusion that <COREF ID="CNN_AARONBROWN_ENG_20051101_215800.part-3-E1" TYPE="IDENT">this</COREF> is a certain individual /.
+What <COREF ID="6" TYPE="IDENT">we</COREF> want to do is have <COREF ID="172" TYPE="IDENT">the evidence</COREF> speak for <COREF ID="172" TYPE="IDENT">itself</COREF> /.
+and when <COREF ID="6" TYPE="IDENT">we</COREF> look at <COREF ID="CNN_AARONBROWN_ENG_20051101_215800.part-3-E1" TYPE="IDENT">this individual</COREF> as <COREF ID="6" TYPE="IDENT">we</COREF> 've done the biological profile looking at <COREF ID="CNN_AARONBROWN_ENG_20051101_215800.part-3-E1" TYPE="IDENT">his</COREF> remains <COREF ID="CNN_AARONBROWN_ENG_20051101_215800.part-3-E1" TYPE="IDENT">his</COREF> bones <COREF ID="CNN_AARONBROWN_ENG_20051101_215800.part-3-E1" TYPE="IDENT">his</COREF> teeth and the material evidence /.
+and what <COREF ID="6" TYPE="IDENT">we</COREF> 're able to tell from <COREF ID="CNN_AARONBROWN_ENG_20051101_215800.part-3-E1" TYPE="IDENT">this individual</COREF> is that <COREF ID="CNN_AARONBROWN_ENG_20051101_215800.part-3-E1" TYPE="IDENT">he</COREF> died in <COREF ID="CNN_AARONBROWN_ENG_20051101_215800.part-3-E1" TYPE="IDENT">his</COREF> twenties <COREF ID="CNN_AARONBROWN_ENG_20051101_215800.part-3-E1" TYPE="IDENT">he</COREF> stood somewhere between five foot nine and six foot two inches tall um <COREF ID="CNN_AARONBROWN_ENG_20051101_215800.part-3-E1" TYPE="IDENT">he</COREF> sustained massive trauma to <COREF ID="CNN_AARONBROWN_ENG_20051101_215800.part-3-E1" TYPE="IDENT">his</COREF> body on impact /.
+And <COREF ID="CNN_AARONBROWN_ENG_20051101_215800.part-3-E1" TYPE="IDENT">he</COREF> 's Caucasoid male /.
+and so <COREF ID="6" TYPE="IDENT">we</COREF> know much more now just one week later than what <COREF ID="6" TYPE="IDENT">we</COREF> did when <COREF ID="CNN_AARONBROWN_ENG_20051101_215800.part-3-E1" TYPE="IDENT">he</COREF> came in about eight days ago /.
+So the most important question is when do <COREF ID="6" TYPE="IDENT">you</COREF> think <COREF ID="6" TYPE="IDENT">you</COREF> 're going to know exactly who <COREF ID="CNN_AARONBROWN_ENG_20051101_215800.part-3-E1" TYPE="IDENT">he</COREF> is /?
+Well that 's the most commonly asked question that we have /.
+and you know the reality is nobody can give you the answer /.
+Nobody knows for sure exactly when <COREF ID="6" TYPE="IDENT">we</COREF> 'll <COREF ID="230" TYPE="IDENT">identify</COREF> <COREF ID="CNN_AARONBROWN_ENG_20051101_215800.part-3-E1" TYPE="IDENT">him</COREF> /.
+What <COREF ID="230" TYPE="IDENT">it</COREF> depends on is that all the lines of evidence come together for successful identification /.
+If <COREF ID="m_15" TYPE="IDENT" SPEAKER="Dr_Mann">I</COREF> were to give <COREF ID="m_15" TYPE="IDENT" SPEAKER="Dr_Mann">my</COREF> best opinion in this it would be a few weeks to a few months /.
+Well <COREF ID="245" TYPE="IDENT">we</COREF> 'll be keeping <COREF ID="245" TYPE="IDENT">our</COREF> fingers crossed for <COREF ID="6" TYPE="IDENT">you</COREF> /.
+Know how hard <COREF ID="6" TYPE="IDENT">you all</COREF> are working in the lab there <COREF ID="m_15" TYPE="IDENT" SPEAKER="Dr_Mann">Dr. Mann</COREF> /.
+Thank <COREF ID="m_15" TYPE="IDENT" SPEAKER="Dr_Mann">you</COREF> for spending some time with <COREF ID="245" TYPE="IDENT">us</COREF> <COREF ID="5" TYPE="IDENT">tonight</COREF> /.
+<COREF ID="245" TYPE="IDENT">Our</COREF> pleasure /.
+Thank <COREF ID="m_0" TYPE="IDENT" SPEAKER="Paula_Zahn">you</COREF> <COREF ID="m_0" TYPE="IDENT" SPEAKER="Paula_Zahn">Paula</COREF> /.
+thank <COREF ID="m_0" TYPE="IDENT" SPEAKER="Paula_Zahn">you</COREF> /.
+</TEXT>
+<TEXT PARTNO="004">
+We 're going to turn now to some of the other stories in our world tonight /.
+Here 's <COREF ID="m_0" TYPE="IDENT" SPEAKER="Erica_Hill">Erica Hill from Headline News</COREF> /.
+Hi <COREF ID="m_0" TYPE="IDENT" SPEAKER="Erica_Hill">Erica</COREF> /.
+Hi <COREF ID="m_21" TYPE="IDENT" SPEAKER="Paula_Zahn">Paula</COREF> /.
+we start off with <COREF ID="15" TYPE="IDENT">a tragic dispute after a traffic</COREF> /.
+<COREF ID="18" TYPE="IDENT">a tragic death</COREF> has now been settled in court /.
+Now <COREF ID="15" TYPE="IDENT">the dispute</COREF> came between <COREF ID="23" TYPE="IDENT">divorced parents</COREF> over where to bury <COREF ID="25" TYPE="IDENT"><COREF ID="23" TYPE="IDENT">their</COREF> son who was <COREF ID="18" TYPE="IDENT">killed</COREF> in Iraq</COREF> /.
+<COREF ID="30" TYPE="IDENT">A California judge</COREF> has now ruled <COREF ID="25" TYPE="IDENT">army staff sergeant Jason Hendrix</COREF> to remain buried next to <COREF ID="25" TYPE="IDENT">his</COREF> grandfather that is in Oklahoma where <COREF ID="25" TYPE="IDENT">his</COREF> father lives /.
+<COREF ID="38" TYPE="IDENT"><COREF ID="25" TYPE="IDENT">His</COREF> mother</COREF> claimed <COREF ID="25" TYPE="IDENT"><COREF ID="38" TYPE="IDENT">her</COREF> son</COREF> wanted to be buried in California where <COREF ID="38" TYPE="IDENT">she</COREF> lived /.
+but <COREF ID="30" TYPE="IDENT">the judge</COREF> says <COREF ID="38" TYPE="IDENT">her</COREF> testimony was quote forced and contrived /.
+Austin Texas <COREF ID="50" TYPE="IDENT">Republican Congressman Tom DeLay</COREF> gets <COREF ID="50" TYPE="IDENT">his</COREF> way /.
+<COREF ID="52" TYPE="IDENT">The judge scheduled to preside over <COREF ID="50" TYPE="IDENT">his</COREF> trial</COREF> was <COREF ID="62" TYPE="IDENT">removed</COREF> from the case today /.
+<COREF ID="60" TYPE="IDENT"><COREF ID="50" TYPE="IDENT">DeLay 's</COREF> attorneys</COREF> heads off <COREF ID="62" TYPE="IDENT">the recusal</COREF> because <COREF ID="60" TYPE="IDENT">they</COREF> questioned <COREF ID="52" TYPE="IDENT">the judge 's</COREF> impartiality since <COREF ID="52" TYPE="IDENT">he</COREF> had contributed to Democratic causes /.
+<COREF ID="50" TYPE="IDENT">DeLay</COREF> is charged with money laundering and conspiracy /.
+<COREF ID="50" TYPE="IDENT">He</COREF> has pleaded not guilty /.
+In Washington <COREF ID="76" TYPE="IDENT">the federal reserve</COREF> once again <COREF ID="79" TYPE="IDENT">raising</COREF> a key short term interest rate by a quarter percent /.
+<COREF ID="79" TYPE="IDENT">It</COREF> is the twelfth such hike since June of last year /.
+More could be on the way /.
+In <COREF ID="76" TYPE="IDENT">its</COREF> statement the fed dismissed concerns that the economy has slowed down because of Hurricane Katrina /.
+And in case you missed it <COREF ID="95" TYPE="IDENT">the Royals</COREF> are here /.
+Today <COREF ID="95" TYPE="IDENT"><COREF ID="98" TYPE="IDENT">Britain 's Prince Charles</COREF> and <COREF ID="98" TYPE="IDENT">his</COREF> wife Camilla</COREF> laid flowers at <COREF ID="104" TYPE="IDENT">the World Trade Center site in <COREF ID="106" TYPE="IDENT">New York</COREF></COREF> and then dedicated a nearby memorial to British victims of the nine eleven attack /.
+<COREF ID="104" TYPE="IDENT">It</COREF> is the first stop on <COREF ID="115" TYPE="IDENT"><COREF ID="95" TYPE="IDENT">their</COREF> eight day trip across the United States</COREF> <COREF ID="m_21" TYPE="IDENT" SPEAKER="Paula_Zahn">Paula</COREF> /.
+and <COREF ID="m_0" TYPE="IDENT" SPEAKER="Erica_Hill">I</COREF> 'm sure <COREF ID="m_0" TYPE="IDENT" SPEAKER="Erica_Hill">I</COREF> 'll be hearing a little bit more about <COREF ID="115" TYPE="IDENT">it</COREF> all week /.
+Yeah <COREF ID="m_0" TYPE="IDENT" SPEAKER="Erica_Hill">Erica</COREF> <COREF ID="m_21" TYPE="IDENT" SPEAKER="Paula_Zahn">I</COREF> actually um bumped into <COREF ID="95" TYPE="IDENT">them</COREF> along with three hundred of <COREF ID="95" TYPE="IDENT">their</COREF> closest friends earlier tonight on <COREF ID="95" TYPE="IDENT">their</COREF> last stop of the day here in <COREF ID="106" TYPE="IDENT">New York</COREF> /.
+and <COREF ID="95" TYPE="IDENT">they</COREF> <COREF ID="139" TYPE="IDENT">were</COREF> uh uh uh amazingly casual and accessible /.
+We were all quite surprised /.
+<COREF ID="139" TYPE="IDENT">That</COREF> 's good to hear /.
+Thanks <COREF ID="m_0" TYPE="IDENT" SPEAKER="Erica_Hill">Erica</COREF> /.
+see <COREF ID="m_0" TYPE="IDENT" SPEAKER="Erica_Hill">you</COREF> a little bit later on /.
+</TEXT>
+<TEXT PARTNO="005">
+And still to come on <COREF ID="0" TYPE="IDENT">News Night</COREF> tonight the saddest post-Katrina stories were those of the eldery who <COREF ID="14" TYPE="IDENT">died</COREF> in hospitals and nursing homes /.
+Now there are thirteen investigations into why and how <COREF ID="14" TYPE="IDENT">such tragedies</COREF> happened /.
+And supermodels are n't the only ones to whom weight matters /.
+Jockies also may go too far to stay thin much too far /.
+When at <COREF ID="m_5" TYPE="IDENT" SPEAKER="Shane_Sellers">my</COREF> worst <COREF ID="m_5" TYPE="IDENT" SPEAKER="Shane_Sellers">I</COREF> was heaving three or five to six seven times a day /.
+Starving to stay thin that and more still to come on <COREF ID="0" TYPE="IDENT">News Night</COREF> /.
+</TEXT>
+<TEXT PARTNO="006">
+<COREF ID="0" TYPE="IDENT">They</COREF> happen to be the most vulnerable of hurricane victims <COREF ID="0" TYPE="IDENT">the elderly</COREF> <COREF ID="7" TYPE="IDENT">many</COREF> desperately ill living in nursing homes <COREF ID="7" TYPE="IDENT">their</COREF> fate in the hands of others /.
+Dozens died /.
+There are at least thirteen investigations now underway /.
+And at some nursing homes the failure to evacuate cost lives /.
+In other cases it was <COREF ID="24" TYPE="IDENT">the evacuation <COREF ID="24" TYPE="IDENT">itself</COREF></COREF> that proved fatal /.
+Here 's <COREF ID="m_16" TYPE="IDENT" SPEAKER="Keith_Oppenheim">Keith Oppenheim</COREF> /.
+<COREF ID="30" TYPE="IDENT"><COREF ID="m_5" TYPE="IDENT" SPEAKER="Priscilla_Scott">My</COREF> mother</COREF> was Thelma Wahl /.
+<COREF ID="30" TYPE="IDENT">She</COREF> was ninety years old /.
+<COREF ID="30" TYPE="IDENT">She</COREF> was a very good mother /.
+<COREF ID="30" TYPE="IDENT">She</COREF> was at <COREF ID="36" TYPE="IDENT">Huntingdon</COREF> because <COREF ID="30" TYPE="IDENT">she</COREF> needed care /.
+<COREF ID="m_5" TYPE="IDENT" SPEAKER="Priscilla_Scott">Priscilla Scott</COREF> is mourning /.
+<COREF ID="30" TYPE="IDENT"><COREF ID="m_5" TYPE="IDENT" SPEAKER="Priscilla_Scott">Her</COREF> ninety year old mother Thelma Wahl</COREF> was a resident of <COREF ID="36" TYPE="IDENT">the Huntingdon Place Nursing Home in Chalmette outside <COREF ID="49" TYPE="IDENT">New Orleans</COREF></COREF> /.
+<COREF ID="m_5" TYPE="IDENT" SPEAKER="Priscilla_Scott">Priscilla</COREF> says <COREF ID="30" TYPE="IDENT">Thelma Wahl</COREF> had serious osteoperosis fractures in <COREF ID="30" TYPE="IDENT">her</COREF> vertebrae but says <COREF ID="30" TYPE="IDENT">Thelma</COREF> was not on the verge of death /.
+On Sunday August twenty - eighth the day before <COREF ID="66" TYPE="IDENT">Hurricane Katrina</COREF> struck <COREF ID="36" TYPE="IDENT">the nursing home</COREF> <COREF ID="72" TYPE="IDENT">decided</COREF> to evacuate patients /.
+<COREF ID="36" TYPE="IDENT">They</COREF> waited too late to make <COREF ID="72" TYPE="IDENT">the decision</COREF> /.
+<COREF ID="m_5" TYPE="IDENT" SPEAKER="Priscilla_Scott">Priscilla</COREF> says <COREF ID="30" TYPE="IDENT"><COREF ID="m_5" TYPE="IDENT" SPEAKER="Priscilla_Scott">her</COREF> mother</COREF> should have been transported by ambulance /.
+Instead <COREF ID="m_5" TYPE="IDENT" SPEAKER="Priscilla_Scott">she</COREF> says <COREF ID="30" TYPE="IDENT"><COREF ID="m_5" TYPE="IDENT" SPEAKER="Priscilla_Scott">her</COREF> mother</COREF> sat on <COREF ID="79" TYPE="IDENT">a school bus</COREF> for twelve hours to <COREF ID="82" TYPE="IDENT">Lafayette <COREF ID="84" TYPE="IDENT">Louisiana</COREF></COREF> normally a three hour trip /.
+<COREF ID="m_5" TYPE="IDENT" SPEAKER="Priscilla_Scott">She</COREF> says police told <COREF ID="m_5" TYPE="IDENT" SPEAKER="Priscilla_Scott">her</COREF> there was no air conditioning /.
+Police declined comment /.
+The owner of the nursing home <COREF ID="30" TYPE="IDENT">Thelma Wahl</COREF> was being taken to tells <COREF ID="117" TYPE="IDENT">us</COREF> by the time <COREF ID="79" TYPE="IDENT">the bus</COREF> arrived <COREF ID="30" TYPE="IDENT">Thelma Wahl</COREF> was dead /.
+<COREF ID="m_5" TYPE="IDENT" SPEAKER="Priscilla_Scott">I</COREF> feel that uh <COREF ID="79" TYPE="IDENT">the bus</COREF> is what did it to <COREF ID="30" TYPE="IDENT">her</COREF> /.
+<COREF ID="30" TYPE="IDENT">She</COREF> was alive when <COREF ID="30" TYPE="IDENT">she</COREF> left <COREF ID="36" TYPE="IDENT">that nursing home</COREF> /.
+but <COREF ID="30" TYPE="IDENT">she</COREF> was not alive when <COREF ID="30" TYPE="IDENT">she</COREF> got to the <COREF ID="82" TYPE="IDENT">Lafayette</COREF> area /.
+<COREF ID="117" TYPE="IDENT">CNN</COREF> made repeated attempts to contact administrators or representatives of <COREF ID="36" TYPE="IDENT">Huntingdon Place</COREF> /.
+but either <COREF ID="117" TYPE="IDENT">we</COREF> could not make contact or <COREF ID="117" TYPE="IDENT">our</COREF> calls were not returned /.
+But staff for the Louisiana Attorney General 's office did speak to <COREF ID="117" TYPE="IDENT">us</COREF> by phone and confirmed that the matter of just what happened to <COREF ID="30" TYPE="IDENT">Thelma Wahl</COREF> when <COREF ID="30" TYPE="IDENT">she</COREF> was transported from <COREF ID="36" TYPE="IDENT">this facility</COREF> is under investigation /.
+After dozens of patients died in the wake of <COREF ID="66" TYPE="IDENT">Hurricane Katrina</COREF> nursing homes have been under scrutiny /.
+<COREF ID="149" TYPE="IDENT">Thirty - four patients</COREF> were left behind at <COREF ID="151" TYPE="IDENT">Saint Rita 's nursing home in <COREF ID="49" TYPE="IDENT">New Orleans</COREF></COREF> when <COREF ID="66" TYPE="IDENT">Katrina</COREF> hit /.
+<COREF ID="149" TYPE="IDENT">They all</COREF> died in the flood /.
+The owners were charged with negligent homicide /.
+<COREF ID="163" TYPE="IDENT">The county coroner</COREF> says <COREF ID="163" TYPE="IDENT">he</COREF> urged <COREF ID="151" TYPE="IDENT">Saint Rita 's</COREF> to move <COREF ID="151" TYPE="IDENT">its</COREF> patients /.
+<COREF ID="151" TYPE="IDENT">They</COREF> insisted several patients were too fragile to move /.
+Before Hurricane Rita a busload of nursing home residents were being evacuated from Houston /.
+but during the ride a fire from a back wheel accelerated because of oxygen canisters patients on board were using /.
+Twenty - three people died /.
+Federal officials are investigating /.
+No charges have been filed /.
+<COREF ID="m_0" TYPE="IDENT" SPEAKER="Joe_Dodges">Joe Dodges executive director of the Louisiana Nursing Home Association</COREF> says when it comes to evacuations <COREF ID="199" TYPE="IDENT">elder care facilities</COREF> are damned if <COREF ID="199" TYPE="IDENT">they</COREF> do and damned if <COREF ID="199" TYPE="IDENT">they</COREF> do n't /.
+Walk a mile in <COREF ID="220" TYPE="IDENT">our</COREF> shoes that 's all <COREF ID="m_0" TYPE="IDENT" SPEAKER="Joe_Dodges">I</COREF> have to say because anybody who works in a nursing home will very quickly learn that these are very fragile patients /.
+<COREF ID="220" TYPE="IDENT">We</COREF> did the very best <COREF ID="220" TYPE="IDENT">we</COREF> could in these situations /.
+<COREF ID="220" TYPE="IDENT">We</COREF> 've got /-
+<COREF ID="m_0" TYPE="IDENT" SPEAKER="Joe_Dodges">Dodges</COREF> says the reality is <COREF ID="229" TYPE="IDENT">old sick patients</COREF> are always in jeopardy when a hurricane strikes a dilemma made worse by massive traffic jams during pre-storm evacuations /.
+<COREF ID="m_0" TYPE="IDENT" SPEAKER="Joe_Dodges">I</COREF> mean if <COREF ID="229" TYPE="IDENT">they</COREF> 're on a bus for nine or twelve hours there 's a good chance someone 's going to die unfortunately /.
+Certainly it 's a very very difficult question to answer should I evacuate /?
+<COREF ID="252" TYPE="IDENT"><COREF ID="m_4" TYPE="IDENT" SPEAKER="Jeff_Meitrod">Jeff Meitrod</COREF> and <COREF ID="m_13" TYPE="IDENT" SPEAKER="Steve_Riddyah">Steve Riddyah</COREF></COREF> write for the Times Picayune <COREF ID="49" TYPE="IDENT">New Orleans '</COREF> daily newspaper /.
+<COREF ID="252" TYPE="IDENT">They</COREF> say nursing homes had to make tough calls /.
+But last spring in <COREF ID="264" TYPE="IDENT">a series of stories called State of Neglect</COREF> <COREF ID="252" TYPE="IDENT">they</COREF> reported that <COREF ID="84" TYPE="IDENT">Louisiana 's</COREF> nursing homes are often poorly run and poorly regulated /.
+Nursing homes that kill residents nursing homes that um seriously injure patients um because of bad care /.
+uh and <COREF ID="84" TYPE="IDENT">the state</COREF> does n't really do very much about it /.
+and so nursing home owners know that in a lot of cases it 's less expensive to break the rules and to hurt people than it is to provide the level of care that /-
+<COREF ID="36" TYPE="IDENT">Huntington Place</COREF> was criticized in <COREF ID="264" TYPE="IDENT">the articles</COREF> and has had several law suits brought against <COREF ID="36" TYPE="IDENT">it</COREF> /.
+but <COREF ID="36" TYPE="IDENT">it</COREF> had a good inspection record /.
+<COREF ID="m_5" TYPE="IDENT" SPEAKER="Priscilla_Scott">Priscilla Scott</COREF> says <COREF ID="m_5" TYPE="IDENT" SPEAKER="Priscilla_Scott">she</COREF> is trying to contact <COREF ID="318" TYPE="IDENT">the nursing home owners</COREF> but has n't been able to find <COREF ID="318" TYPE="IDENT">them</COREF> /.
+<COREF ID="m_5" TYPE="IDENT" SPEAKER="Priscilla_Scott">She</COREF> feels even if <COREF ID="318" TYPE="IDENT">they</COREF> had to make a tough call <COREF ID="318" TYPE="IDENT">they</COREF> owe <COREF ID="m_5" TYPE="IDENT" SPEAKER="Priscilla_Scott">her</COREF> a better explanation as to why <COREF ID="30" TYPE="IDENT"><COREF ID="m_5" TYPE="IDENT" SPEAKER="Priscilla_Scott">her</COREF> mother</COREF> died /.
+<COREF ID="m_16" TYPE="IDENT" SPEAKER="Keith_Oppenheim">Keith Oppenheim</COREF> <COREF ID="117" TYPE="IDENT">CNN</COREF> <COREF ID="49" TYPE="IDENT">New Orleans</COREF> /.
+It still is n't clear why <COREF ID="36" TYPE="IDENT">Huntington</COREF> evacuated <COREF ID="30" TYPE="IDENT">Thelma Wahl</COREF> by bus rather than by ambulance /.
+but officials have said there were not enough ambulances to take care of everyone in the region /.
+</TEXT>
+<TEXT PARTNO="007">
+Tomorrow night <COREF ID="m_0" TYPE="IDENT" SPEAKER="Paula_Zahn">I</COREF> will have <COREF ID="2" TYPE="IDENT">a special report on a struggle that affects more than ten million Americans including one million men the struggle with <COREF ID="13" TYPE="IDENT">eating disorders anorexia and bulimia</COREF></COREF> /.
+As <COREF ID="m_0" TYPE="IDENT" SPEAKER="Paula_Zahn">I</COREF> just said it 's not just women and girls who are affected /.
+Men too struggle with <COREF ID="13" TYPE="IDENT">these disorders</COREF> /.
+and <COREF ID="m_0" TYPE="IDENT" SPEAKER="Paula_Zahn">I</COREF> interviewed <COREF ID="m_19" TYPE="IDENT" SPEAKER="Shane_Sellers">one of the nation 's top jockies Shane Sellers</COREF> about the battle <COREF ID="m_19" TYPE="IDENT" SPEAKER="Shane_Sellers">he</COREF> waged everyday to control <COREF ID="m_19" TYPE="IDENT" SPEAKER="Shane_Sellers">his</COREF> weight /.
+In the morning <COREF ID="m_19" TYPE="IDENT" SPEAKER="Shane_Sellers">I</COREF> 'd get up and take a diet pill um drink a cup of coffee um and then head out to <COREF ID="45" TYPE="IDENT">the race track</COREF> and /-
+With no food in <COREF ID="48" TYPE="IDENT"><COREF ID="m_19" TYPE="IDENT" SPEAKER="Shane_Sellers">your</COREF> stomach</COREF> /.
+No food in <COREF ID="48" TYPE="IDENT"><COREF ID="m_19" TYPE="IDENT" SPEAKER="Shane_Sellers">my</COREF> stomach</COREF> no /.
+And um you know you go and see the trainers and work your horses in the morning that you have to work /.
+Um by <COREF ID="61" TYPE="IDENT">ten o'clock</COREF> you 're finished uh /-
+Were <COREF ID="m_19" TYPE="IDENT" SPEAKER="Shane_Sellers">you</COREF> hungry at <COREF ID="61" TYPE="IDENT">this point</COREF> /?
+Oh <COREF ID="m_19" TYPE="IDENT" SPEAKER="Shane_Sellers">I</COREF> 'm starving you know /.
+<COREF ID="m_19" TYPE="IDENT" SPEAKER="Shane_Sellers">I</COREF> mean <COREF ID="m_19" TYPE="IDENT" SPEAKER="Shane_Sellers">I</COREF> went to bed with nothing in <COREF ID="48" TYPE="IDENT"><COREF ID="m_19" TYPE="IDENT" SPEAKER="Shane_Sellers">my</COREF> stomach</COREF> either /.
+Maybe you know just a piece of ham or s- /-
+You know just grab something to put in <COREF ID="48" TYPE="IDENT"><COREF ID="m_19" TYPE="IDENT" SPEAKER="Shane_Sellers">my</COREF> stomach</COREF> before <COREF ID="m_19" TYPE="IDENT" SPEAKER="Shane_Sellers">I</COREF> went to bed and head to the track and maybe lay down for an hour and then uh head to <COREF ID="89" TYPE="IDENT">the hotbox</COREF> for a couple hours four or five pounds of water /.
+<COREF ID="89" TYPE="IDENT">The hotbox</COREF> is a sauna a fixture in almost every jockey locker room /.
+<COREF ID="89" TYPE="IDENT">The hotbox sweatbox /.</COREF>
+<COREF ID="m_19" TYPE="IDENT" SPEAKER="Shane_Sellers">Sellers</COREF> would often spend two hours inside pooling or sweating off extra pounds /.
+And are you miserable the whole time you <COREF ID="111" TYPE="IDENT">'re</COREF> in there /?
+Oh <COREF ID="111" TYPE="IDENT">it</COREF> 's horrible /.
+You have to be very weak /.
+Weak /.
+Ca n't have nothing /.
+Yeah you 're already dehydrated you know /?
+So for more than twenty years <COREF ID="m_19" TYPE="IDENT" SPEAKER="Shane_Sellers">you</COREF> went through this process of basically not eating anything during the day sitting in <COREF ID="89" TYPE="IDENT">the sauna</COREF> a couple hours a day sweating two or three pounds off getting back on <COREF ID="m_19" TYPE="IDENT" SPEAKER="Shane_Sellers">your</COREF> horses training and maybe maybe having <COREF ID="132" TYPE="IDENT">a piece of ham</COREF> /.
+and <COREF ID="132" TYPE="IDENT">that</COREF> 's all <COREF ID="m_19" TYPE="IDENT" SPEAKER="Shane_Sellers">you</COREF> had to sustain <COREF ID="m_19" TYPE="IDENT" SPEAKER="Shane_Sellers">you</COREF> /.
+If <COREF ID="m_19" TYPE="IDENT" SPEAKER="Shane_Sellers">I</COREF> did eat anything sometime , when at <COREF ID="m_19" TYPE="IDENT" SPEAKER="Shane_Sellers">my</COREF> worst three or five to six seven times a day <COREF ID="m_19" TYPE="IDENT" SPEAKER="Shane_Sellers">I</COREF> was heaving /.
+<COREF ID="150" TYPE="IDENT">Jockies</COREF> call <COREF ID="151" TYPE="IDENT">it</COREF> heaving or flipping /.
+doctors would call <COREF ID="151" TYPE="IDENT">it</COREF> bulimia /.
+Overcome by hunger pains <COREF ID="m_19" TYPE="IDENT" SPEAKER="Shane_Sellers">Sellers</COREF> would eat <COREF ID="162" TYPE="IDENT">massive amounts of food</COREF> and then throw <COREF ID="162" TYPE="IDENT">it</COREF> up to make weight /.
+<COREF ID="m_19" TYPE="IDENT" SPEAKER="Shane_Sellers">He</COREF> says a tour of a jockey locker room shows you just how easy and accepted <COREF ID="151" TYPE="IDENT">it</COREF> was /.
+These are regular toilets /.
+and <COREF ID="176" TYPE="IDENT">this</COREF> is what they call a heaving /.
+<COREF ID="176" TYPE="IDENT">this</COREF> is where <COREF ID="150" TYPE="IDENT">they</COREF> <COREF ID="195" TYPE="IDENT">heave</COREF> /.
+You know <COREF ID="176" TYPE="IDENT">it</COREF> 's a much different type of commode /.
+<COREF ID="m_19" TYPE="IDENT" SPEAKER="Shane_Sellers">I</COREF> do n't know if <COREF ID="176" TYPE="IDENT">it</COREF> was especially made for <COREF ID="195" TYPE="IDENT">that purpose</COREF> /.
+but <COREF ID="176" TYPE="IDENT">it</COREF> 's sure not the same as the other /.
+and <COREF ID="195" TYPE="IDENT">that</COREF> 's what <COREF ID="202" TYPE="IDENT">we</COREF> used <COREF ID="176" TYPE="IDENT">it</COREF> for /.
+Is it true that <COREF ID="207" TYPE="IDENT">some of <COREF ID="202" TYPE="IDENT">you</COREF></COREF> got so efficient at <COREF ID="210" TYPE="IDENT">flipping</COREF> that <COREF ID="207" TYPE="IDENT">you</COREF> could actually do <COREF ID="210" TYPE="IDENT">it</COREF> without putting <COREF ID="207" TYPE="IDENT">your</COREF> finger down <COREF ID="207" TYPE="IDENT">your</COREF> throat /.
+<COREF ID="m_19" TYPE="IDENT" SPEAKER="Shane_Sellers">I</COREF> was one /.
+<COREF ID="m_19" TYPE="IDENT" SPEAKER="Shane_Sellers">Jockey Shane Sellers just one of the many people you 'll meet tomorrow night in <COREF ID="2" TYPE="IDENT">Walking the Thin Line</COREF> /.</COREF>
+<COREF ID="2" TYPE="IDENT">It</COREF> is a special edition of Paula Zahn Now that gets underway at eight pm eastern /.
+</TEXT>
+<TEXT PARTNO="008">
+Still to come on News Night <COREF ID="1" TYPE="IDENT">tonight</COREF> the Senate shuts down the doors clears the gallery /.
+Was <COREF ID="5" TYPE="IDENT">today 's rare closed session</COREF> needed to gaurd national secrets /.
+or was <COREF ID="5" TYPE="IDENT">it</COREF> a political forum /.
+And the president wants <COREF ID="13" TYPE="IDENT">billions</COREF> to help fight a possible bird flu pandemic /.
+Sounds like a lot of money /.
+but will <COREF ID="13" TYPE="IDENT">it</COREF> actually be enough /?
+Also <COREF ID="1" TYPE="IDENT">tonight</COREF> rap star Fifty Cent may be at the top of the charts /.
+but one LA neighborhood is n't buying it /.
+</TEXT>
+<TEXT PARTNO="009">
+<COREF ID="0" TYPE="IDENT">We</COREF> ca n't say how those who will be voting on <COREF ID="6" TYPE="IDENT">Samuel Alito 's</COREF> nomination to Supreme Court feel about <COREF ID="6" TYPE="IDENT">him</COREF> /.
+but <COREF ID="0" TYPE="IDENT">we</COREF> can say something about how you feel tonight /.
+Here are the results of the <COREF ID="68" TYPE="IDENT">CNN</COREF> USA Today Gallup poll released just minutes ago of those asked about <COREF ID="6" TYPE="IDENT"><COREF ID="214" TYPE="IDENT">the president 's</COREF> choice Judge Alito to succeed Justice Sandra Day O'Connor</COREF> /.
+Seventeen percent said <COREF ID="6" TYPE="IDENT">he</COREF> 's an excellent choice /.
+twenty - six percent called <COREF ID="6" TYPE="IDENT">him</COREF> a good choice /.
+twenty - two percent rated <COREF ID="6" TYPE="IDENT">him</COREF> only fair /.
+seventeen percent thought <COREF ID="6" TYPE="IDENT">he</COREF> was a poor choice /.
+Questions about the facts or what were <COREF ID="197" TYPE="IDENT">presented</COREF> as facts that led the United States into <COREF ID="55" TYPE="IDENT">the war in <COREF ID="57" TYPE="IDENT">Iraq</COREF></COREF> spilled into open warfare <COREF ID="59" TYPE="IDENT">today</COREF> on the <COREF ID="62" TYPE="IDENT">Senate</COREF> floor /.
+Democrats <COREF ID="103" TYPE="IDENT">forced</COREF> <COREF ID="62" TYPE="IDENT">the Senate</COREF> into a rare closed door session /.
+<COREF ID="m_25" TYPE="IDENT" SPEAKER="Bill_Frist">Republican leader Bill Frist</COREF> said <COREF ID="62" TYPE="IDENT">the Senate</COREF> was <COREF ID="103" TYPE="IDENT">hijacked</COREF> /.
+<COREF ID="m_13" TYPE="IDENT" SPEAKER="Ed_Henry"><COREF ID="68" TYPE="IDENT">CNN 's</COREF> Ed Henry</COREF> was there /.
+<COREF ID="103" TYPE="IDENT">A Democratic sneak attack that sent shock waves through <COREF ID="62" TYPE="IDENT">the Senate</COREF> /.</COREF>
+<COREF ID="74" TYPE="IDENT">Mr. President</COREF> enough time has gone by /.
+<COREF ID="m_30" TYPE="IDENT" SPEAKER="Harry_Reed">I</COREF> demand on behalf of <COREF ID="79" TYPE="IDENT">the American people</COREF> that we understand why <COREF ID="143" TYPE="IDENT">these investigations</COREF> are n't being conducted /.
+<COREF ID="m_30" TYPE="IDENT" SPEAKER="Harry_Reed">Democratic leader Harry Reed</COREF> accused Republicans of failing to probe allegations <COREF ID="88" TYPE="IDENT">the White House</COREF> manipulated intelligence to justify <COREF ID="55" TYPE="IDENT">the war in <COREF ID="57" TYPE="IDENT">Iraq</COREF></COREF> /.
+And in accordance with rule twenty - one <COREF ID="m_30" TYPE="IDENT" SPEAKER="Harry_Reed">I</COREF> now <COREF ID="102" TYPE="IDENT">move</COREF> that <COREF ID="62" TYPE="IDENT">Senate</COREF> go into closed session /.
+<COREF ID="74" TYPE="IDENT">President</COREF> <COREF ID="m_24" TYPE="IDENT" SPEAKER="speaker20">I</COREF> second <COREF ID="102" TYPE="IDENT">the motion</COREF> /.
+<COREF ID="103" TYPE="IDENT">An easy but rare maneuver with extraordinary consequences /.</COREF>
+The <COREF ID="62" TYPE="IDENT">Senate</COREF> chamber was locked down , television cameras shut off , so law makers could go into secret session to debate /.
+<COREF ID="m_25" TYPE="IDENT" SPEAKER="Bill_Frist">Republican leader Bill Frist</COREF> was enraged /.
+Not with the previous Democratic leader or <COREF ID="m_30" TYPE="IDENT" SPEAKER="Harry_Reed">the current Democratic leader</COREF> have ever <COREF ID="m_25" TYPE="IDENT" SPEAKER="Bill_Frist">I</COREF> been slapped in the face with such an affront to the leadership of <COREF ID="62" TYPE="IDENT">this grand institution</COREF> /.
+There has been at least consideration for the other side of the aisle before a stunt /.
+and <COREF ID="103" TYPE="IDENT">this</COREF> is a pure stunt /.
+<COREF ID="m_30" TYPE="IDENT" SPEAKER="Harry_Reed">Reed</COREF> refused to back down demanding <COREF ID="138" TYPE="IDENT">the Republican led intelligence committee</COREF> finish a long awaited report on whether <COREF ID="88" TYPE="IDENT">the <COREF ID="214" TYPE="IDENT">Bush</COREF> administration</COREF> twisted intelligence /.
+<COREF ID="143" TYPE="IDENT">This investigation</COREF> has been stymied stopped , obstructions thrown up every step of the way /.
+<COREF ID="150" TYPE="IDENT">That</COREF> 's the real slap in the face /.
+<COREF ID="150" TYPE="IDENT">that</COREF> 's the slap in the face /.
+And <COREF ID="59" TYPE="IDENT">today</COREF> <COREF ID="79" TYPE="IDENT">the American people</COREF> are going to see a little bit of light /.
+What 's really going on is <COREF ID="165" TYPE="IDENT">Democrats</COREF> feel emboldened by the indictment of Vice President Cheney 's former chief of staff believing this is <COREF ID="165" TYPE="IDENT">their</COREF> chance to issue a broader indictment of <COREF ID="88" TYPE="IDENT">the <COREF ID="214" TYPE="IDENT">Bush</COREF> administration</COREF> /.
+<COREF ID="180" TYPE="IDENT">We</COREF> have lost over two thousand of <COREF ID="180" TYPE="IDENT">our</COREF> best and bravest /.
+over fifteen thousand have been seriously wounded /.
+<COREF ID="180" TYPE="IDENT">We</COREF> are spending more than six million dollars a month with no end in sight /.
+and <COREF ID="138" TYPE="IDENT">this Republican led <COREF ID="62" TYPE="IDENT">Senate</COREF> intelligence committee</COREF> refuses to even ask the hard questions about <COREF ID="197" TYPE="IDENT">the misinformation</COREF> /-
+<COREF ID="198" TYPE="IDENT">Republicans</COREF> insist <COREF ID="198" TYPE="IDENT">they</COREF> 're completing <COREF ID="143" TYPE="IDENT">the investigation</COREF> /.
+and <COREF ID="103" TYPE="IDENT">this</COREF> is just a distraction /.
+<COREF ID="103" TYPE="IDENT">This</COREF> is purely political /.
+<COREF ID="103" TYPE="IDENT">This</COREF> is settling an old political score /.
+<COREF ID="206" TYPE="IDENT">Democrats</COREF> say <COREF ID="206" TYPE="IDENT">they</COREF> also want to signal <COREF ID="206" TYPE="IDENT">they</COREF> 're ready to stand up to the Republican majority and may even <COREF ID="216" TYPE="IDENT">filibuster</COREF> <COREF ID="6" TYPE="IDENT"><COREF ID="214" TYPE="IDENT">the president 's</COREF> latest Supreme Court pick Samuel Alito</COREF> <COREF ID="216" TYPE="IDENT">a move that would make these events seem like the opening fireworks in a much nastier battle</COREF> /.
+<COREF ID="m_13" TYPE="IDENT" SPEAKER="Ed_Henry">Ed Henry</COREF> <COREF ID="68" TYPE="IDENT">CNN</COREF> Capitol Hill /.
+So do you think we just saw the outlines to what the midterm election battlelines might look like /?
+A debate that 's likely to rage on for many many months to come /.
+</TEXT>
+<TEXT PARTNO="010">
+Turning our attention now to <COREF ID="2" TYPE="IDENT">something that has a lot of folks concerned</COREF> /.
+You 've been hearing an awful lot about <COREF ID="2" TYPE="IDENT">avian or bird flu</COREF> /.
+<COREF ID="12" TYPE="IDENT">The most common and deadly form</COREF> has already spread in birds from <COREF ID="14" TYPE="IDENT">South Asia</COREF> to Europe /.
+And now there is real concern that <COREF ID="12" TYPE="IDENT">the virus</COREF> could mutate and become devastating to humans /.
+In fact some health experts say it 's just a matter of time /.
+<COREF ID="26" TYPE="IDENT">Today</COREF> <COREF ID="27" TYPE="IDENT">President Bush</COREF> unveiled <COREF ID="28" TYPE="IDENT">a <COREF ID="34" TYPE="IDENT">seven point one billion dollar</COREF> plan to prepare for a possible flu pandemic</COREF> /.
+Now much of <COREF ID="34" TYPE="IDENT">that money</COREF> would go toward stockpiling enough vaccine to protect twenty million healthcare workers and other first responders speeding up production of vaccines and buying <COREF ID="43" TYPE="IDENT">the anti-viral drugs Tamoflu and Rolenzo which in some cases prevent flu infection</COREF> /.
+And we now turn to <COREF ID="m_22" TYPE="IDENT" SPEAKER="Dr_Gupto">senior medical correspondent Dr. Sanjay Gupto who has just gotten back from <COREF ID="14" TYPE="IDENT">South Asia where <COREF ID="60" TYPE="IDENT">bird flu</COREF> has in the past two years killed at least sixty - two people about half of those who were struck</COREF> with <COREF ID="60" TYPE="IDENT">it</COREF></COREF> /.
+Hundreds of millions of birds around the world have been destroyed to try to contain <COREF ID="60" TYPE="IDENT">the disease</COREF> /.
+And <COREF ID="m_22" TYPE="IDENT" SPEAKER="Dr_Gupto">Dr. Gupto</COREF> now just joins us from <COREF ID="83" TYPE="IDENT">the Emory University hospital in Atlanta</COREF> /.
+Always good to see <COREF ID="m_22" TYPE="IDENT" SPEAKER="Dr_Gupto">you</COREF> <COREF ID="m_22" TYPE="IDENT" SPEAKER="Dr_Gupto">doctor</COREF> /.
+So /-
+Thanks /.
+<COREF ID="m_0" TYPE="IDENT" SPEAKER="Paula_Zahn">I</COREF> know <COREF ID="m_22" TYPE="IDENT" SPEAKER="Dr_Gupto">you</COREF> 've had a chance to study the plan <COREF ID="27" TYPE="IDENT">the president</COREF> put forth <COREF ID="26" TYPE="IDENT">today</COREF> /.
+Does <COREF ID="28" TYPE="IDENT">it</COREF> go far enough in <COREF ID="m_22" TYPE="IDENT" SPEAKER="Dr_Gupto">your</COREF> estimation /?
+You know what 's sort of interesting <COREF ID="m_0" TYPE="IDENT" SPEAKER="Paula_Zahn">Paula</COREF> /.
+on one hand it is remarkable that <COREF ID="27" TYPE="IDENT">the president</COREF> is devoting as much time and as much money uh all towards <COREF ID="113" TYPE="IDENT">a disease that does n't exist yet</COREF> /.
+<COREF ID="113" TYPE="IDENT">Pandemic flu</COREF> does n't exist yet /.
+But a lot of people are <COREF ID="122" TYPE="IDENT">talking</COREF> about <COREF ID="113" TYPE="IDENT">it</COREF> /.
+and <COREF ID="m_22" TYPE="IDENT" SPEAKER="Dr_Gupto">I</COREF> think <COREF ID="122" TYPE="IDENT">that</COREF> 's remarkable to a lot of people eh who are citizens and a lot of people in the public health community as well /.
+On the other hand to be able to outline and do the thing that were talked about <COREF ID="26" TYPE="IDENT">today</COREF> to basically completely <COREF ID="153" TYPE="IDENT">revamp</COREF> the public health system so that local officials can talk to state officials that can talk to federal officials to be able to pinpoint exactly when a cluster of bird flu happens <COREF ID="153" TYPE="IDENT">that</COREF> takes probably a lot more money and really a complete revamping of our public health systems /.
+The other thing <COREF ID="m_0" TYPE="IDENT" SPEAKER="Paula_Zahn">Paula</COREF> really important is that they talk a lot about the fact that <COREF ID="166" TYPE="IDENT">we</COREF> 're a lot better at taking care of patients now than <COREF ID="166" TYPE="IDENT">we</COREF> were in nineteen eighteen , <COREF ID="166" TYPE="IDENT">we</COREF> have a lot of ICUs a lot of ICUs in <COREF ID="83" TYPE="IDENT">the hospital behind <COREF ID="m_22" TYPE="IDENT" SPEAKER="Dr_Gupto">me</COREF></COREF> that can take care of critically ill patients /.
+The problem though at any given time eighty to ninety percent of those ICU rooms are full so <COREF ID="166" TYPE="IDENT">we</COREF> just do n't have the surge capacity and <COREF ID="196" TYPE="IDENT">that</COREF> 's going to cost lots and lots of money to <COREF ID="196" TYPE="IDENT">create</COREF> a health system where <COREF ID="166" TYPE="IDENT">we</COREF> can take care not only of the ill now but the ill that might come in with a pandemic <COREF ID="m_0" TYPE="IDENT" SPEAKER="Paula_Zahn">Paula</COREF> /.
+Uh let 's talk about the other problem of <COREF ID="28" TYPE="IDENT">the plan</COREF> where <COREF ID="27" TYPE="IDENT">the president</COREF> wants to spend a billion dollars to stockpile antiviral medicine like Tamaflu <COREF ID="43" TYPE="IDENT">and</COREF> Rolenza /.
+Do we even <COREF ID="239" TYPE="IDENT">know</COREF> if <COREF ID="43" TYPE="IDENT">these two medications</COREF> are going to be effective against <COREF ID="232" TYPE="IDENT">a strain that has n't even presented <COREF ID="232" TYPE="IDENT">itself</COREF></COREF> /?
+here 's the important thing about <COREF ID="239" TYPE="IDENT">that</COREF> /.
+We do n't know for sure /.
+A lot of people focusing a lot of energy on Tamaflu <COREF ID="43" TYPE="IDENT">and</COREF> Rolenza /.
+<COREF ID="43" TYPE="IDENT">These</COREF> are antiviral drugs /.
+<COREF ID="43" TYPE="IDENT">they</COREF> are not vaccines /.
+<COREF ID="43" TYPE="IDENT">They</COREF> are antiviral drugs uh designed to basically shorten uh how bad <COREF ID="259" TYPE="IDENT">the flu</COREF> might effect you uh try to lessen <COREF ID="259" TYPE="IDENT">its</COREF> impact /.
+But we only know that <COREF ID="264" TYPE="IDENT">it</COREF> might work because of laboratory studies and animal studies uh uh in particular /.
+The way to really <COREF ID="277" TYPE="IDENT">study</COREF> <COREF ID="264" TYPE="IDENT">it</COREF> would be to knowingly expose people to bird flu /.
+and nobody will actually ever do <COREF ID="277" TYPE="IDENT">that study</COREF> for obvious reasons /.
+So it 's just theoretical really for the most part that <COREF ID="43" TYPE="IDENT">those</COREF> will work <COREF ID="m_0" TYPE="IDENT" SPEAKER="Paula_Zahn">Paula</COREF> /.
+<COREF ID="m_22" TYPE="IDENT" SPEAKER="Dr_Gupto">Dr. Sanjay Gupto</COREF> thanks for the update /.
+By the way are <COREF ID="m_22" TYPE="IDENT" SPEAKER="Dr_Gupto">you</COREF> catching a cold /?
+A a little bit /.
+You know <COREF ID="m_22" TYPE="IDENT" SPEAKER="Dr_Gupto">I</COREF> just got back /.
+and the ninteen hour plane ride /.
+<COREF ID="295" TYPE="IDENT">Not bird flu</COREF> though /.
+<COREF ID="m_22" TYPE="IDENT" SPEAKER="Dr_Gupto">I</COREF> can assure <COREF ID="m_0" TYPE="IDENT" SPEAKER="Paula_Zahn">you</COREF> <COREF ID="295" TYPE="IDENT">that</COREF> <COREF ID="m_0" TYPE="IDENT" SPEAKER="Paula_Zahn">Paula</COREF> /.
+Chicken soup /.
+That 's right /.
+Just what the doctor ordered /.
+Works all the time /.
+Yeah right /.
+<COREF ID="m_0" TYPE="IDENT" SPEAKER="Paula_Zahn">I</COREF> made a free house call for <COREF ID="m_22" TYPE="IDENT" SPEAKER="Dr_Gupto">you</COREF> <COREF ID="m_22" TYPE="IDENT" SPEAKER="Dr_Gupto">doctor</COREF> /.
+</TEXT>
+<TEXT PARTNO="011">
+Coming up on News Night Tonight , cooking a turkey is fine /.
+appearing in one is n't /.
+Will <COREF ID="7" TYPE="IDENT">her</COREF> Nielson do to <COREF ID="7" TYPE="IDENT">Martha Stewart</COREF> what <COREF ID="7" TYPE="IDENT">her</COREF> prison time did n't /?
+</TEXT>
+<TEXT PARTNO="012">
+<COREF ID="m_15" TYPE="IDENT" SPEAKER="Fitty_Cent">Rapper Fifty Cents or Fitty Cent as some of you say</COREF> sells millions of records /.
+but <COREF ID="10" TYPE="IDENT">one neighborhood</COREF> does n't like <COREF ID="11" TYPE="IDENT">the sales pitch</COREF> /.
+They call <COREF ID="m_15" TYPE="IDENT" SPEAKER="Fitty_Cent">him</COREF> Fitty Cent /.
+but <COREF ID="m_15" TYPE="IDENT" SPEAKER="Fitty_Cent">he</COREF> is worth millions /.
+<COREF ID="18" TYPE="IDENT"><COREF ID="m_15" TYPE="IDENT" SPEAKER="Fitty_Cent">His</COREF> music like the gold single PIMP</COREF> may come straight from violent inner city streets /.
+but suburban kids from coast to coast love the heavy base beat /.
+<COREF ID="18" TYPE="IDENT">The music</COREF> sells /.
+but not everyone is buying the message /.
+Savela Vargas reports /.
+<COREF ID="33" TYPE="IDENT"><COREF ID="m_15" TYPE="IDENT" SPEAKER="Fitty_Cent">Fitty Cent 's</COREF> film Get Rich or Die Trying</COREF> has n't even hit theaters yet /.
+but <COREF ID="11" TYPE="IDENT"><COREF ID="33" TYPE="IDENT">its</COREF> marketing</COREF> has already enraged people in <COREF ID="10" TYPE="IDENT">South Central Los Angeles</COREF> /.
+Since two thousand there have been <COREF ID="46" TYPE="IDENT">eight hundred homicides in <COREF ID="10" TYPE="IDENT">this community</COREF></COREF> /.
+Now who wants to uphold <COREF ID="46" TYPE="IDENT">that standard</COREF> /?
+Who wants to keep perpetrating <COREF ID="46" TYPE="IDENT">that madness</COREF> /?
+<COREF ID="56" TYPE="IDENT"><COREF ID="33" TYPE="IDENT">The movie 's</COREF> billboard</COREF> shows <COREF ID="m_15" TYPE="IDENT" SPEAKER="Fitty_Cent">the rapper</COREF> in a crucifixion - like pose brandishing a microphone in one hand and a gun in the other /.
+<COREF ID="65" TYPE="IDENT">Paramount</COREF> <COREF ID="65" TYPE="IDENT">you</COREF> are doing damage to <COREF ID="10" TYPE="IDENT"><COREF ID="206" TYPE="IDENT">our</COREF> community</COREF> /.
+<COREF ID="65" TYPE="IDENT">you</COREF> are doing an injustice to <COREF ID="10" TYPE="IDENT"><COREF ID="206" TYPE="IDENT">our</COREF> community</COREF> /.
+and <COREF ID="65" TYPE="IDENT">you</COREF> committing violence in <COREF ID="10" TYPE="IDENT"><COREF ID="206" TYPE="IDENT">our</COREF> community</COREF> /.
+and that includes <COREF ID="m_15" TYPE="IDENT" SPEAKER="Fitty_Cent">Fifty Cent</COREF> too /.
+<COREF ID="56" TYPE="IDENT">It</COREF> must go /.
+And go <COREF ID="56" TYPE="IDENT">it</COREF> did /.
+A day after about twenty five people rallied in Hyde Park <COREF ID="65" TYPE="IDENT">Paramount</COREF> pulled one sign down and since has pulled about half a dozen others near <COREF ID="128" TYPE="IDENT">LA</COREF> area schools /.
+<COREF ID="m_17" TYPE="IDENT" SPEAKER="speaker26">I</COREF> think what happens oftentimes people are so overwhelmed in communities particularly African American communities by say an image in this case Hollywood /.
+It just seems so big /.
+it just seems so overwhelming /.
+it 's almost like can <COREF ID="103" TYPE="IDENT">we</COREF> really fight City Hall /?
+Whatever <COREF ID="103" TYPE="IDENT">we</COREF> 're going to do no matter how much outrage and anger that <COREF ID="103" TYPE="IDENT">we</COREF> express it 's not going to <COREF ID="117" TYPE="IDENT">change</COREF> anything /.
+But in this case that was shown that <COREF ID="117" TYPE="IDENT">that</COREF> 's not the case /.
+A <COREF ID="65" TYPE="IDENT">Paramount</COREF> spokesman says <COREF ID="65" TYPE="IDENT">the company</COREF> is reviewing billboards in other locations /.
+Now similar complaints are coming from Brooklyn New York /.
+Back in <COREF ID="128" TYPE="IDENT">LA</COREF> <COREF ID="56" TYPE="IDENT">the image</COREF> hits too close to home /.
+Not too long ago <COREF ID="131" TYPE="IDENT">we</COREF> was over here /.
+and a guy just pulled out a gun and was shooting right in front of <COREF ID="136" TYPE="IDENT"><COREF ID="m_3" TYPE="IDENT" SPEAKER="speaker27">my</COREF> daughter</COREF> /.
+<COREF ID="131" TYPE="IDENT">We</COREF> did n't come back for a week cause <COREF ID="m_3" TYPE="IDENT" SPEAKER="speaker27">I</COREF> was scared and <COREF ID="136" TYPE="IDENT">she</COREF> was /.
+So <COREF ID="m_3" TYPE="IDENT" SPEAKER="speaker27">I</COREF> mean <COREF ID="56" TYPE="IDENT">that right there</COREF> <COREF ID="56" TYPE="IDENT">it</COREF> enraged <COREF ID="m_3" TYPE="IDENT" SPEAKER="speaker27">me</COREF> /.
+Not a good message /.
+No it 's already enough gang violence out here /.
+We do n't need <COREF ID="56" TYPE="IDENT">that</COREF> /.
+<COREF ID="m_0" TYPE="IDENT" SPEAKER="Cynthia_Levas">Cynthia Levas director of Golden Day preschool</COREF> thinks <COREF ID="56" TYPE="IDENT">the billboard</COREF> touched a nerve because <COREF ID="158" TYPE="IDENT">many children here</COREF> are <COREF ID="m_15" TYPE="IDENT" SPEAKER="Fitty_Cent">Fitty Cent</COREF> fans /.
+When it comes to ABC <COREF ID="158" TYPE="IDENT">they</COREF> be like A B /.
+and you have to wait for the other letters /.
+but <COREF ID="168" TYPE="IDENT"><COREF ID="m_15" TYPE="IDENT" SPEAKER="Fitty_Cent">Fitty Cent</COREF> song</COREF> <COREF ID="158" TYPE="IDENT">they</COREF> can sing <COREF ID="168" TYPE="IDENT">that</COREF> word for word /.
+<COREF ID="m_15" TYPE="IDENT" SPEAKER="Fitty_Cent">Rapper Fitty Cent whose real name is Curtis Jackson</COREF> says it was ludicrous to single out <COREF ID="56" TYPE="IDENT"><COREF ID="m_15" TYPE="IDENT" SPEAKER="Fitty_Cent">his</COREF> poster</COREF> /.
+You got to look at how often we put out action films and other films that utilize weapons as a marketing tool /.
+We 'll find guns or weapons on the cover of films probably more often than we 'll find people 's faces /.
+<COREF ID="m_15" TYPE="IDENT" SPEAKER="Fitty_Cent">He</COREF> thinks the controversy will lead <COREF ID="33" TYPE="IDENT">the film</COREF> to greater box office success /.
+but to <COREF ID="206" TYPE="IDENT">the members of <COREF ID="10" TYPE="IDENT">this community</COREF></COREF> the victory is knowing that <COREF ID="210" TYPE="IDENT">somebody</COREF> listened /.
+Man <COREF ID="210" TYPE="IDENT">they</COREF> heard <COREF ID="206" TYPE="IDENT">us</COREF> /.
+<COREF ID="210" TYPE="IDENT">They</COREF> heard <COREF ID="206" TYPE="IDENT">our</COREF> voice /.
+and <COREF ID="m_3" TYPE="IDENT" SPEAKER="speaker27">I</COREF> 'm glad /.
+<COREF ID="m_3" TYPE="IDENT" SPEAKER="speaker27">I</COREF> mean <COREF ID="m_3" TYPE="IDENT" SPEAKER="speaker27">I</COREF> mean usually in <COREF ID="10" TYPE="IDENT">this area</COREF> nobody really cares /.
+so for <COREF ID="210" TYPE="IDENT">them</COREF> to <COREF ID="226" TYPE="IDENT">care</COREF> about how <COREF ID="206" TYPE="IDENT">we</COREF> feel and how you know <COREF ID="206" TYPE="IDENT">we</COREF> raising <COREF ID="206" TYPE="IDENT">our</COREF> kids <COREF ID="226" TYPE="IDENT">that</COREF> meant a lot to <COREF ID="206" TYPE="IDENT">all of us</COREF> /.
+so <COREF ID="m_3" TYPE="IDENT" SPEAKER="speaker27">I</COREF> 'm happy /.
+<COREF ID="m_23" TYPE="IDENT" SPEAKER="Savela_Vargas">Savela Vargas</COREF> CNN <COREF ID="128" TYPE="IDENT">Los Angeles</COREF> /.
+</TEXT>
+<TEXT PARTNO="013">
+And still ahead on News Night /.
+<COREF ID="m_8" TYPE="IDENT" SPEAKER="speaker30">I</COREF> carry <COREF ID="2" TYPE="IDENT">this little packet <COREF ID="4" TYPE="IDENT"><COREF ID="m_8" TYPE="IDENT" SPEAKER="speaker30">my</COREF> kid</COREF> gave <COREF ID="m_8" TYPE="IDENT" SPEAKER="speaker30">me</COREF></COREF> /.
+See what <COREF ID="4" TYPE="IDENT"><COREF ID="m_8" TYPE="IDENT" SPEAKER="speaker30">my</COREF> daughter</COREF> /-
+<COREF ID="m_8" TYPE="IDENT" SPEAKER="speaker30">Daddy</COREF> <COREF ID="4" TYPE="IDENT">I</COREF> love <COREF ID="m_8" TYPE="IDENT" SPEAKER="speaker30">you</COREF> /.
+<COREF ID="4" TYPE="IDENT">I</COREF> miss <COREF ID="m_8" TYPE="IDENT" SPEAKER="speaker30">you</COREF> /.
+be safe /.
+come home ASAP /.
+Danger on <COREF ID="19" TYPE="IDENT">the ground in <COREF ID="21" TYPE="IDENT">Iraq</COREF></COREF> and under <COREF ID="19" TYPE="IDENT">it</COREF> /.
+IED Improvised Explosive Devices take a terrible toll /.
+And prison barely dented <COREF ID="29" TYPE="IDENT">her</COREF> popularity /.
+but can <COREF ID="29" TYPE="IDENT">Martha Stewart</COREF> survive <COREF ID="29" TYPE="IDENT">her</COREF> primetime ratings /?
+Everyday in <COREF ID="21" TYPE="IDENT">Iraq</COREF> US soldiers work very hard to reassure local civilians train the Iraqi army and stay alive /.
+but with the increasing power of Improvised Explosive Devices IEDs staying alive takes a lot of training and time /.
+Eddie Shrahmin is imbedded with American soldiers in <COREF ID="50" TYPE="IDENT">northern Bavil province</COREF> /.
+As the uh informants /-
+Come here Strovell /.
+listen up please /.
+Like the soldiers <COREF ID="m_38" TYPE="IDENT" SPEAKER="Ross_Brown">he</COREF> commands <COREF ID="m_38" TYPE="IDENT" SPEAKER="Ross_Brown">Lieutenant Colonel Ross Brown</COREF> suits up daily trying to rid <COREF ID="m_38" TYPE="IDENT" SPEAKER="Ross_Brown">his</COREF> area of <COREF ID="63" TYPE="IDENT">roadside bombs</COREF> /.
+Whenever you roll out of the gate and you 're out there operating you never know if you 're going to hit one of <COREF ID="63" TYPE="IDENT">these</COREF> or not /.
+The first stop today is Route Tampa some of the worst stretch of highway in what is called the Triangle of Death /.
+Salaam Alakum /.
+where these stall owners <COREF ID="m_38" TYPE="IDENT" SPEAKER="Ross_Brown">Brown</COREF> told are aware of impending attacks /.
+Did <COREF ID="98" TYPE="IDENT">you</COREF> know in advance that the IED was going to go off here /?
+/.
+Tell <COREF ID="98" TYPE="IDENT">him</COREF> to look <COREF ID="m_22" TYPE="IDENT" SPEAKER="Eddie_Shrahmin">me</COREF> in the eye /.
+/.
+tell <COREF ID="m_22" TYPE="IDENT" SPEAKER="Eddie_Shrahmin">me</COREF> that again /.
+/.
+It is a fine line to walk routing out information without creating new enemies battling <COREF ID="115" TYPE="IDENT">an insurgency that kills at will , that turns <COREF ID="120" TYPE="IDENT">civilians</COREF> into accomplices</COREF> /.
+<COREF ID="m_6" TYPE="IDENT" SPEAKER="speaker34">I</COREF> think <COREF ID="120" TYPE="IDENT">they</COREF> 're scared to death /.
+<COREF ID="m_6" TYPE="IDENT" SPEAKER="speaker34">I</COREF> think <COREF ID="120" TYPE="IDENT">they</COREF> see us as temporary and <COREF ID="120" TYPE="IDENT">they</COREF> got to live with <COREF ID="115" TYPE="IDENT">those people</COREF> forever /.
+Finding friends locally seems the toughest part of <COREF ID="m_38" TYPE="IDENT" SPEAKER="Ross_Brown">Brown 's</COREF> strategy /.
+but <COREF ID="m_38" TYPE="IDENT" SPEAKER="Ross_Brown">his</COREF> next task proves just as difficult /.
+Here <COREF ID="m_38" TYPE="IDENT" SPEAKER="Ross_Brown">the Lieutenant Colonel</COREF> has stopped at one of <COREF ID="143" TYPE="IDENT">the firm bases</COREF> one of <COREF ID="143" TYPE="IDENT">the areas that <COREF ID="148" TYPE="IDENT">Iraqis</COREF> are manning <COREF ID="148" TYPE="IDENT">their</COREF> own position</COREF> /.
+The commander on duty emerges out of uniform /.
+and <COREF ID="m_38" TYPE="IDENT" SPEAKER="Ross_Brown">the Lieutenant colonel</COREF> struggles to find progress /.
+<COREF ID="157" TYPE="IDENT">they</COREF> did n't do too much work yesterday /.
+<COREF ID="157" TYPE="IDENT">They</COREF> did n't do too much work the day before /.
+<COREF ID="157" TYPE="IDENT">They</COREF> have n't done too much work since <COREF ID="157" TYPE="IDENT">they</COREF> 've been here /.
+/.
+<COREF ID="m_38" TYPE="IDENT" SPEAKER="Ross_Brown">Brown</COREF> is unsure if <COREF ID="157" TYPE="IDENT">this unit</COREF> can survive an insurgent attack uncertainties shared by the US forces as well <COREF ID="175" TYPE="IDENT">each soldier with <COREF ID="175" TYPE="IDENT">his</COREF> own way to cope</COREF> /.
+Hey <COREF ID="m_0" TYPE="IDENT" SPEAKER="Soldier_Morales">Morales</COREF> <COREF ID="m_0" TYPE="IDENT" SPEAKER="Soldier_Morales">you</COREF> carry anything special with <COREF ID="m_0" TYPE="IDENT" SPEAKER="Soldier_Morales">you</COREF> on missions to help <COREF ID="m_0" TYPE="IDENT" SPEAKER="Soldier_Morales">you</COREF> out /?
+Well <COREF ID="m_0" TYPE="IDENT" SPEAKER="Soldier_Morales">I</COREF> carry <COREF ID="m_0" TYPE="IDENT" SPEAKER="Soldier_Morales">my</COREF> wedding ring a bracelet <COREF ID="m_0" TYPE="IDENT" SPEAKER="Soldier_Morales">my</COREF> wife sent <COREF ID="m_0" TYPE="IDENT" SPEAKER="Soldier_Morales">me</COREF> /-
+<COREF ID="m_54" TYPE="IDENT" SPEAKER="speaker37">I</COREF> carry a Bible Psalms ninety - one /.
+A picture of an angel an archangel /.
+<COREF ID="m_8" TYPE="IDENT" SPEAKER="speaker30">I</COREF> carry <COREF ID="2" TYPE="IDENT">this little packet <COREF ID="4" TYPE="IDENT"><COREF ID="m_8" TYPE="IDENT" SPEAKER="speaker30">my</COREF> kid</COREF> gave <COREF ID="m_8" TYPE="IDENT" SPEAKER="speaker30">me</COREF></COREF> /.
+See what <COREF ID="4" TYPE="IDENT"><COREF ID="m_8" TYPE="IDENT" SPEAKER="speaker30">my</COREF> daughter</COREF> /-
+<COREF ID="m_8" TYPE="IDENT" SPEAKER="speaker30">Daddy</COREF> <COREF ID="4" TYPE="IDENT">I</COREF> love <COREF ID="m_8" TYPE="IDENT" SPEAKER="speaker30">you</COREF> /.
+<COREF ID="4" TYPE="IDENT">I</COREF> miss <COREF ID="m_8" TYPE="IDENT" SPEAKER="speaker30">you</COREF> /.
+be safe /.
+come home ASAP /?
+Is n't <COREF ID="2" TYPE="IDENT">that</COREF> cool /?
+All right let 's go /.
+Overhead helicopters are responding to an IED attack that moments ago <COREF ID="239" TYPE="IDENT">killed</COREF> Colonel William Wood the highest ranking US officer to die in combat in <COREF ID="21" TYPE="IDENT">Iraq</COREF> a personal friend of <COREF ID="m_38" TYPE="IDENT" SPEAKER="Ross_Brown">Brown 's</COREF> <COREF ID="239" TYPE="IDENT">an added personal reason why tomorrow <COREF ID="m_38" TYPE="IDENT" SPEAKER="Ross_Brown">he</COREF> 'll be suiting up again</COREF> /.
+Eddie Shrahmin CNN <COREF ID="50" TYPE="IDENT">northern Bavil Province</COREF> /.
+</TEXT>
+<TEXT PARTNO="014">
+And we turn our attention now to <COREF ID="2" TYPE="IDENT">London where a memorial service was held today for <COREF ID="8" TYPE="IDENT">the fifty - two victims of <COREF ID="10" TYPE="IDENT">the bomb attacks in <COREF ID="12" TYPE="IDENT"><COREF ID="2" TYPE="IDENT">the city 's</COREF> public transport systems</COREF> back in July</COREF></COREF></COREF> /.
+Queen Elizabeth and Prime Minister Tony Blair attended as did relatives to <COREF ID="8" TYPE="IDENT">those who died</COREF> and emergency workers who responded to <COREF ID="10" TYPE="IDENT">the terrorist attacks</COREF> /.
+<COREF ID="m_8" TYPE="IDENT" SPEAKER="Andrew_Carey">Andrew Carey</COREF> has the story of <COREF ID="31" TYPE="IDENT">three firefighters who were first on the scene at one of <COREF ID="10" TYPE="IDENT">the bombings</COREF></COREF> /.
+<COREF ID="10" TYPE="IDENT">A major incident</COREF> in central London /-
+<COREF ID="10" TYPE="IDENT">Four explosions</COREF> ripping through <COREF ID="12" TYPE="IDENT">the subway</COREF> s- /-
+Chaos on services with some passengers trapped underground /.
+<COREF ID="74" TYPE="IDENT">It</COREF> began as any other day you know just uh doing eh normal checks /.
+At <COREF ID="53" TYPE="IDENT">nine o'clock</COREF> <COREF ID="54" TYPE="IDENT">we</COREF> started <COREF ID="54" TYPE="IDENT">our</COREF> shift /.
+And so the bells went /.
+It was about a minute past <COREF ID="53" TYPE="IDENT">nine</COREF> when <COREF ID="54" TYPE="IDENT">we</COREF> got <COREF ID="61" TYPE="IDENT">the shout for uh smoke issuing in <COREF ID="65" TYPE="IDENT">Allgate tube station</COREF></COREF> /.
+The explosion at <COREF ID="65" TYPE="IDENT">Allgate</COREF> was the first of <COREF ID="10" TYPE="IDENT">the four bombs to go off on <COREF ID="74" TYPE="IDENT">July the seventh</COREF></COREF> at eight fifty in the morning /.
+But <COREF ID="31" TYPE="IDENT"><COREF ID="80" TYPE="IDENT">Paul Kelly</COREF> <COREF ID="81" TYPE="IDENT">Steve Sodbury</COREF> and Mel Anderson of Shadwell Firestation 's blue watch</COREF> had no idea what had happened as <COREF ID="31" TYPE="IDENT">they</COREF> got into the fire engine to answer <COREF ID="61" TYPE="IDENT">the call</COREF> /.
+On the arrival at <COREF ID="65" TYPE="IDENT">Allgate</COREF> we saw <COREF ID="95" TYPE="IDENT">dozens of casualties</COREF> outside the front sitting down /.
+and it looked so serious that for one second <COREF ID="m_0" TYPE="IDENT" SPEAKER="Firefighter_A">I</COREF> thought this must be like a training exercise /.
+<COREF ID="95" TYPE="IDENT">These people</COREF> had flesh injuries /.
+but <COREF ID="95" TYPE="IDENT">they</COREF> also had psychological injuries /.
+<COREF ID="95" TYPE="IDENT">They</COREF> just needed reassurance /.
+<COREF ID="95" TYPE="IDENT">They</COREF> just needed reassurance because a lot of <COREF ID="95" TYPE="IDENT">them</COREF> were scared /.
+<COREF ID="119" TYPE="IDENT">It</COREF> always happens to someone else on the television <COREF ID="119" TYPE="IDENT">a terrorist incident</COREF> /.
+As medical teams arrived at the scene <COREF ID="122" TYPE="IDENT"><COREF ID="81" TYPE="IDENT">Steve</COREF> <COREF ID="80" TYPE="IDENT">Paul</COREF> and two other firefighters</COREF> went into <COREF ID="65" TYPE="IDENT">the station</COREF> /.
+<COREF ID="127" TYPE="IDENT">This scene of walking down the platform and down the tracks with lines of injured people walking past you out the other way</COREF> is /-
+<COREF ID="m_23" TYPE="IDENT" SPEAKER="Firefighter_B">I</COREF> 'll remember <COREF ID="127" TYPE="IDENT">it</COREF> forever <COREF ID="m_23" TYPE="IDENT" SPEAKER="Firefighter_B">I</COREF> think /.
+By the time <COREF ID="122" TYPE="IDENT">they</COREF> reached <COREF ID="143" TYPE="IDENT">the second carriage</COREF> <COREF ID="122" TYPE="IDENT">they</COREF> knew <COREF ID="122" TYPE="IDENT">they</COREF> were dealing with a bomb explosion /.
+Carnage /.
+A man sitting down next door <COREF ID="148" TYPE="IDENT">he</COREF> had half <COREF ID="148" TYPE="IDENT">his</COREF> leg /.
+um a person lying down /.
+there was like a half a torso in front of <COREF ID="143" TYPE="IDENT">the carriage</COREF> as you go in /.
+It sounds very harsh to say now /.
+but when you 're down there and you 're dealing with it it kind of just happens /.
+You go into autopilot /.
+and you look /.
+and you think I ca n't help that person /.
+let 's move on to the next one /.
+Eight people including the bomber died at <COREF ID="65" TYPE="IDENT">Allgate</COREF> /.
+one hundred and twenty were injured /.
+At the end of <COREF ID="74" TYPE="IDENT">the day</COREF> back home with <COREF ID="31" TYPE="IDENT">their</COREF> loved ones a time for <COREF ID="31" TYPE="IDENT">the firefighters</COREF> to reflect and some mixed emotions /.
+To <COREF ID="194" TYPE="IDENT">them</COREF> it was <COREF ID="194" TYPE="IDENT">their</COREF> happiness to see <COREF ID="m_33" TYPE="IDENT" SPEAKER="Firefighter_C">me</COREF> walking through the door /.
+but <COREF ID="m_33" TYPE="IDENT" SPEAKER="Firefighter_C">I</COREF> knew that somewhere <COREF ID="203" TYPE="IDENT">someone 's</COREF> daughter was n't coming home , <COREF ID="203" TYPE="IDENT">their</COREF> father was n't coming home /.
+Watching it on the news is completely different to looking in the eyes of <COREF ID="211" TYPE="IDENT">a wounded person</COREF> /.
+As a fire brigade you 're there to rescue <COREF ID="211" TYPE="IDENT">them</COREF> /.
+so it 'll always be a sense of regret as <COREF ID="220" TYPE="IDENT">we</COREF> did as much as <COREF ID="220" TYPE="IDENT">we</COREF> could but there was still <COREF ID="225" TYPE="IDENT">a human cost</COREF> and there 's nothing that <COREF ID="220" TYPE="IDENT">we</COREF> 'll ever be able to do about <COREF ID="225" TYPE="IDENT">it</COREF> /.
+<COREF ID="m_8" TYPE="IDENT" SPEAKER="Andrew_Carey">Andrew Carey</COREF> <COREF ID="234" TYPE="IDENT">CNN</COREF> <COREF ID="2" TYPE="IDENT">London</COREF> /.
+<COREF ID="m_8" TYPE="IDENT" SPEAKER="Andrew_Carey">A producer from <COREF ID="234" TYPE="IDENT">our</COREF> <COREF ID="2" TYPE="IDENT">London</COREF> Bureau /.</COREF>
+</TEXT>
+<TEXT PARTNO="015">
+Still to come the ups and downs of Martha Stewart and <COREF ID="3" TYPE="IDENT">the British</COREF> are coming ! <COREF ID="3" TYPE="IDENT">The British</COREF> are coming !
+No wait /.
+are n't <COREF ID="3" TYPE="IDENT">they</COREF> already here /?
+But does anyone really care /?
+</TEXT>
+<TEXT PARTNO="016">
+And now we 're going to take a look at the trials and tribulations of <COREF ID="m_36" TYPE="IDENT" SPEAKER="Martha_Stewart">Martha Stewart</COREF> /.
+You might have thought serving time in prison was tough /.
+As it turns out , being on the outside might be even tougher /.
+It seems like just yesterday <COREF ID="m_36" TYPE="IDENT" SPEAKER="Martha_Stewart">Martha Stewart</COREF> was <COREF ID="90" TYPE="IDENT">sprung</COREF> from prison and poised for <COREF ID="m_36" TYPE="IDENT" SPEAKER="Martha_Stewart">her</COREF> comeback /.
+This is a country where we believe in second acts , we believe in redemption , we believe in confessional stories , we believe in the comeback , we 've /-
+<COREF ID="34" TYPE="IDENT">Five months behind bars</COREF> had n't dimmed <COREF ID="37" TYPE="IDENT"><COREF ID="m_36" TYPE="IDENT" SPEAKER="Martha_Stewart">Martha 's</COREF> image</COREF> /.
+If anything <COREF ID="37" TYPE="IDENT">it</COREF> was soaring /.
+Along with <COREF ID="41" TYPE="IDENT"><COREF ID="m_36" TYPE="IDENT" SPEAKER="Martha_Stewart">her</COREF> company stock</COREF> <COREF ID="41" TYPE="IDENT">it</COREF> doubled during <COREF ID="34" TYPE="IDENT">that time</COREF> /.
+<COREF ID="m_36" TYPE="IDENT" SPEAKER="Martha_Stewart">Martha</COREF> once again took the helm of <COREF ID="m_36" TYPE="IDENT" SPEAKER="Martha_Stewart">her</COREF> company and <COREF ID="m_36" TYPE="IDENT" SPEAKER="Martha_Stewart">her</COREF> magazine /.
+<COREF ID="m_36" TYPE="IDENT" SPEAKER="Martha_Stewart">She</COREF> also landed a starring role in <COREF ID="81" TYPE="IDENT">the spinoff of <COREF ID="55" TYPE="IDENT">one of TV 's hottest reality shows The Apprentice</COREF></COREF> /.
+<COREF ID="m_36" TYPE="IDENT" SPEAKER="Martha_Stewart">Martha the woman everyone loves to hate</COREF> was loved /.
+It 's really wonderful to be back /.
+<COREF ID="m_36" TYPE="IDENT" SPEAKER="Martha_Stewart">I</COREF> 've missed you as you can imagine /.
+But what a difference <COREF ID="75" TYPE="IDENT">a TV show</COREF> makes especialy when <COREF ID="75" TYPE="IDENT">that show</COREF> is a flop /.
+<COREF ID="m_36" TYPE="IDENT" SPEAKER="Martha_Stewart">I</COREF> 'm looking for the apprentice /.
+<COREF ID="81" TYPE="IDENT">The Apprentice Martha Stewart</COREF> debuted in September /.
+<COREF ID="m_36" TYPE="IDENT" SPEAKER="Martha_Stewart">Her</COREF> ratings tanked /.
+and <COREF ID="41" TYPE="IDENT"><COREF ID="m_36" TYPE="IDENT" SPEAKER="Martha_Stewart">her</COREF> stock</COREF> followed suit plunging about forty - seven percent since <COREF ID="90" TYPE="IDENT"><COREF ID="m_36" TYPE="IDENT" SPEAKER="Martha_Stewart">her</COREF> release from prison in March</COREF> /.
+Once again <COREF ID="m_36" TYPE="IDENT" SPEAKER="Martha_Stewart">Martha Stewart</COREF> is persona non grata /.
+<COREF ID="m_41" TYPE="IDENT" SPEAKER="Donald_Trump">Even <COREF ID="m_36" TYPE="IDENT" SPEAKER="Martha_Stewart">her</COREF> friend and fellow <COREF ID="55" TYPE="IDENT">Apprentice</COREF> star Donald Trump</COREF> made it clear that <COREF ID="81" TYPE="IDENT"><COREF ID="m_36" TYPE="IDENT" SPEAKER="Martha_Stewart">her</COREF> show</COREF> was not a good thing /.
+<COREF ID="m_41" TYPE="IDENT" SPEAKER="Donald_Trump">He</COREF> had this to say in a recent radio interview /.
+<COREF ID="m_41" TYPE="IDENT" SPEAKER="Donald_Trump">I</COREF> think there was confusion between <COREF ID="81" TYPE="IDENT"><COREF ID="m_36" TYPE="IDENT" SPEAKER="Martha_Stewart">Martha 's</COREF> Apprentice</COREF> and <COREF ID="m_41" TYPE="IDENT" SPEAKER="Donald_Trump">mine</COREF> /.
+and <COREF ID="m_41" TYPE="IDENT" SPEAKER="Donald_Trump">mine</COREF> continues to do well /.
+and <COREF ID="81" TYPE="IDENT">the other</COREF> has struggled very severely /.
+<COREF ID="m_41" TYPE="IDENT" SPEAKER="Donald_Trump">I</COREF> think <COREF ID="81" TYPE="IDENT">it</COREF> probably hurt <COREF ID="m_41" TYPE="IDENT" SPEAKER="Donald_Trump">mine</COREF> /.
+and <COREF ID="m_41" TYPE="IDENT" SPEAKER="Donald_Trump">I</COREF> sort of predicted that <COREF ID="81" TYPE="IDENT">it</COREF> would /.
+<COREF ID="m_36" TYPE="IDENT" SPEAKER="Martha_Stewart">You</COREF> 're fired /.
+Ouch smackdown from <COREF ID="m_41" TYPE="IDENT" SPEAKER="Donald_Trump">the Donald</COREF> /.
+<COREF ID="m_41" TYPE="IDENT" SPEAKER="Donald_Trump">Donald /?</COREF>
+<COREF ID="m_36" TYPE="IDENT" SPEAKER="Martha_Stewart">Martha Stewart</COREF> punched back in a recent <COREF ID="176" TYPE="IDENT">Fortune magazine</COREF> interview saying <COREF ID="m_36" TYPE="IDENT" SPEAKER="Martha_Stewart">she</COREF> was actually told that <COREF ID="m_36" TYPE="IDENT" SPEAKER="Martha_Stewart">she</COREF> would be firing <COREF ID="m_41" TYPE="IDENT" SPEAKER="Donald_Trump">the Donald</COREF> /.
+Is <COREF ID="m_36" TYPE="IDENT" SPEAKER="Martha_Stewart">the old Martha</COREF> back again /?
+<COREF ID="m_36" TYPE="IDENT" SPEAKER="Martha_Stewart">She</COREF> has a track record of being associated unfortunately with the B word and not a little B but a capital B /.
+Can <COREF ID="m_36" TYPE="IDENT" SPEAKER="Martha_Stewart">the comeback queen</COREF> come back again /?
+<COREF ID="m_31" TYPE="IDENT" SPEAKER="speaker49">I</COREF> think <COREF ID="m_36" TYPE="IDENT" SPEAKER="Martha_Stewart">she</COREF> can be saved /.
+Anybody can be saved /.
+Any organization can be saved /.
+but it takes a lot of hard work /.
+Is n't <COREF ID="161" TYPE="IDENT">that</COREF> one of the reasons for our infatuation with <COREF ID="m_36" TYPE="IDENT" SPEAKER="Martha_Stewart">Martha</COREF> /?
+<COREF ID="m_36" TYPE="IDENT" SPEAKER="Martha_Stewart">She</COREF> <COREF ID="161" TYPE="IDENT">'s</COREF> the perennial story of celebrity redemption /.
+<COREF ID="m_36" TYPE="IDENT" SPEAKER="Martha_Stewart">She</COREF> said this to <COREF ID="176" TYPE="IDENT">Fortune magazine</COREF> <COREF ID="m_36" TYPE="IDENT" SPEAKER="Martha_Stewart">I</COREF> have learned that <COREF ID="m_36" TYPE="IDENT" SPEAKER="Martha_Stewart">I</COREF> really can not be destroyed /.
+Apparently <COREF ID="m_36" TYPE="IDENT" SPEAKER="Martha_Stewart">Martha Stewart</COREF> is betting on <COREF ID="m_36" TYPE="IDENT" SPEAKER="Martha_Stewart">her</COREF> own comeback as well /.
+We 'll see /.
+</TEXT>
+<TEXT PARTNO="017">
+Still to come on News Night <COREF ID="1" TYPE="IDENT"><COREF ID="2" TYPE="IDENT">the prince</COREF> and <COREF ID="3" TYPE="IDENT"><COREF ID="2" TYPE="IDENT">his</COREF> brand new wife</COREF></COREF> making <COREF ID="4" TYPE="IDENT"><COREF ID="1" TYPE="IDENT">their</COREF> first trip to <COREF ID="6" TYPE="IDENT">the US</COREF> since <COREF ID="1" TYPE="IDENT">their</COREF> marriage</COREF> /.
+This time it 's not exactly a fairy tale /.
+<COREF ID="11" TYPE="IDENT">This week</COREF> Americans are getting a rare chance to treat royalty well like royalty /.
+<COREF ID="1" TYPE="IDENT"><COREF ID="2" TYPE="IDENT">Prince Charles</COREF> and <COREF ID="3" TYPE="IDENT">his new wife Camilla</COREF></COREF> have jumped across the pond and are touring <COREF ID="6" TYPE="IDENT">the United States</COREF> making <COREF ID="1" TYPE="IDENT">their</COREF> first stop <COREF ID="26" TYPE="IDENT">today</COREF> in New York /.
+<COREF ID="4" TYPE="IDENT">It</COREF> 's <COREF ID="2" TYPE="IDENT">Charles '</COREF> first opportunity to showcase <COREF ID="3" TYPE="IDENT"><COREF ID="2" TYPE="IDENT">his</COREF> new wife</COREF> /.
+but few Americans seem to care /.
+Here 's <COREF ID="m_4" TYPE="IDENT" SPEAKER="Jeanie_Mowth">Jeanie Mowth</COREF> /.
+What a difference two decades make /.
+<COREF ID="2" TYPE="IDENT">Charles</COREF> and <COREF ID="67" TYPE="IDENT">Diana</COREF> visited a JC Penney 's on <COREF ID="2" TYPE="IDENT">the prince 's</COREF> last official US tour /.
+Twenty years later here 's <COREF ID="1" TYPE="IDENT"><COREF ID="2" TYPE="IDENT">the prince</COREF> with <COREF ID="3" TYPE="IDENT"><COREF ID="2" TYPE="IDENT">his</COREF> new wife</COREF></COREF> attending a party at the Museum of Modern Art along with Yoko Ono Diane Sawyer Henry Kissinger Donald Trump Joan Collins and even Sting /.
+But it still stings some <COREF ID="67" TYPE="IDENT">Diana</COREF> fans to see those old shots of <COREF ID="67" TYPE="IDENT">glamorous Princess Di</COREF> dancing with John Travolta at the White House /.
+But when it comes to <COREF ID="3" TYPE="IDENT">Camilla</COREF> gossip columnists can get pretty catty /.
+We 're all welcoming <COREF ID="1" TYPE="IDENT"><COREF ID="2" TYPE="IDENT">the prince</COREF> and <COREF ID="3" TYPE="IDENT">the duchess or mistress of whatever <COREF ID="3" TYPE="IDENT">she</COREF> is</COREF></COREF> <COREF ID="11" TYPE="IDENT">this week</COREF> /.
+<COREF ID="m_21" TYPE="IDENT" SPEAKER="Lone_Protestor">A lone protestor</COREF> parked <COREF ID="m_21" TYPE="IDENT" SPEAKER="Lone_Protestor">herself</COREF> outside the UN where <COREF ID="2" TYPE="IDENT">Charles</COREF> would later visit /.
+<COREF ID="3" TYPE="IDENT">Camilla</COREF> <COREF ID="3" TYPE="IDENT">you</COREF> are no princess said <COREF ID="89" TYPE="IDENT"><COREF ID="m_21" TYPE="IDENT" SPEAKER="Lone_Protestor">her</COREF> sign with <COREF ID="92" TYPE="IDENT">a horse</COREF> on <COREF ID="89" TYPE="IDENT">it</COREF></COREF> /.
+<COREF ID="92" TYPE="IDENT">The horse</COREF> is basically <COREF ID="3" TYPE="IDENT">Camilla</COREF> /.
+We all know that <COREF ID="3" TYPE="IDENT">she</COREF> 's a horse /.
+<COREF ID="3" TYPE="IDENT">She</COREF> does n't belong here /.
+and <COREF ID="3" TYPE="IDENT">she</COREF> 'll never be able to take <COREF ID="67" TYPE="IDENT">Diana 's</COREF> place ever /.
+But at least <COREF ID="92" TYPE="IDENT">the horse</COREF> is pretty /.
+<COREF ID="1" TYPE="IDENT">The royals</COREF> flew in amid headlines declaring <COREF ID="4" TYPE="IDENT"><COREF ID="1" TYPE="IDENT">their</COREF> visit</COREF> a royal bore /.
+<COREF ID="113" TYPE="IDENT">Only ninteen per cent of Americans polled</COREF> said <COREF ID="113" TYPE="IDENT">they</COREF> were interested in <COREF ID="4" TYPE="IDENT">the visit</COREF> /.
+<COREF ID="120" TYPE="IDENT">eighty - one per cent</COREF> said <COREF ID="120" TYPE="IDENT">they</COREF> were not /.
+<COREF ID="1" TYPE="IDENT"><COREF ID="2" TYPE="IDENT">Prince Charles</COREF> and <COREF ID="3" TYPE="IDENT">Camilla</COREF></COREF> are in town /.
+Do you care /?
+Not a wit /.
+Royal watching is not for you /?
+<COREF ID="m_0" TYPE="IDENT" SPEAKER="speaker54">I</COREF> have n't watched it yet /.
+<COREF ID="m_1" TYPE="IDENT" SPEAKER="speaker55">I</COREF> loved <COREF ID="67" TYPE="IDENT">Princess Diana</COREF> /.
+<COREF ID="m_1" TYPE="IDENT" SPEAKER="speaker55">I</COREF> do n't care for <COREF ID="3" TYPE="IDENT">this new chick in town</COREF> /.
+Sorry /.
+<COREF ID="1" TYPE="IDENT"><COREF ID="3" TYPE="IDENT">The new chick</COREF> and <COREF ID="2" TYPE="IDENT"><COREF ID="3" TYPE="IDENT">her</COREF> prince</COREF></COREF> started <COREF ID="26" TYPE="IDENT">the day</COREF> with a visit to Ground Zero /.
+<COREF ID="1" TYPE="IDENT">They</COREF> then unveiled a memorial to British victims of Nine Eleven /.
+Everywhere <COREF ID="1" TYPE="IDENT">they</COREF> went there were curtsies and /-
+</TEXT>
+</DOC>

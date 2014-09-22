@@ -1,0 +1,61 @@
+<!DOCTYPE inventory SYSTEM "inventory.dtd">
+<inventory lemma="task-n">
+    <commentary>
+        9nov06 - update to wn2.1, added features, added idiomatic sense. ahouston
+    </commentary>
+    
+    <sense n="1" type="" name="job" group="1">
+        <commentary>
+            TASK[+activity][+chore]
+            chore, undertaking, project, labor - 
+            any piece of work that is undertaken or attempted
+        </commentary>
+        <examples>
+            The task of repairing the engine took several hours.
+            The endless task of classifying the samples became mind-numbing.
+            The farmer's morning tasks took all day.
+            These types of tasks are not included in Bob's job description.
+            The mayor has appointed a task force to look into the matter.
+        </examples>
+        <mappings>
+            <wn version="2.1">1 2</wn>
+            <omega></omega>
+            <pb></pb>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    
+    <sense n="2" type="" name="a reprimand or cricitism" group="1">
+        <commentary>
+            TASK[+action][+verbal][+reprimand]
+            Idiom: take to task
+        </commentary>
+        <examples>
+            She took him to task about his waffling voting record.
+            They will be brought to task about their conduct at the game last night.
+        </examples>
+        <mappings>
+            <wn version="2.1">take_to_task</wn>
+            <omega></omega>
+            <pb></pb>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    
+    <!-- more senses go here -->
+<sense group="1" n="3" name="none of the above" type="">
+  <commentary>
+Automatically generated NOTA sense (bbn)
+  </commentary>
+  <examples>
+  </examples>
+  <mappings>
+    <wn version="2.1"></wn>
+    <omega></omega><pb></pb>
+    <fn></fn>
+  </mappings><SENSE_META clarity=""/>
+</sense>
+    <WORD_META authors="cstocker ajarrett" sample_score=""/>
+
+<ita count="95" ann_1_2_agreement="1.0" />
+</inventory>

@@ -1,0 +1,72 @@
+<!DOCTYPE inventory SYSTEM "inventory.dtd">
+<inventory lemma="comment-n">
+    <commentary>
+        
+    </commentary>
+    
+    <sense n="1" type="" name="a remark" group="1">
+        <commentary>
+            a statement that expresses a personal opinion or belief
+        </commentary>
+        <examples>
+            From time to time she contributed a personal comment on his account.
+        </examples>
+        <mappings>
+            <wn version="2.0">1</wn>
+            <omega></omega>
+            <pb></pb>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    
+    <sense n="2" type="" name="written commentary" group="1">
+        <commentary>
+            a written explanation or criticism or illustration that is added to a
+            book or other textual material
+        </commentary>
+        <examples>
+            He wrote an extended comment on the proposal.
+        </examples>
+        <mappings>
+            <wn version="2.0">2</wn>
+            <omega></omega>
+            <pb></pb>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    
+    <sense n="3" type="" name="gossip" group="1">
+        <commentary>
+            scuttlebutt - 
+            a report (often malicious) about the behavior of other people
+        </commentary>
+        <examples>
+            The divorce caused much comment.
+        </examples>
+        <mappings>
+            <wn version="2.0">3</wn>
+            <omega></omega>
+            <pb></pb>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    
+    <!-- more senses go here -->
+    <sense group="1" n="4" name="none of the above" type="">
+        <commentary>
+            Automatically generated NOTA sense (bbn)
+        </commentary>
+        <examples>
+        </examples>
+        <mappings>
+            <wn version="2.1"></wn>
+            <omega></omega><pb></pb>
+            <fn></fn>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    <WORD_META authors="ajarrett" sample_score=""/>
+
+<ita count="98" ann_1_2_agreement="0.959183673469" />
+</inventory>
+

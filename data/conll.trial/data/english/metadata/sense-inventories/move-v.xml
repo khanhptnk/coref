@@ -1,0 +1,168 @@
+<?xml version="1.0" ?>
+<!DOCTYPE inventory
+  SYSTEM 'inventory.dtd'>
+<inventory lemma="move-v">
+    <commentary>
+    </commentary>
+    <sense group="1" n="1" name="change position or cause to change position" type="">
+        <commentary>
+            Syntax Includes: 
+            NP1 MOVE[transitive] NP2
+            NP1 MOVE (PP)
+        </commentary>
+        <examples>
+            Can you help me move these boxes to the other wall?
+            He moved his hand to his brow, as if dizzy.
+            I want to move all my accounts offshore.
+            The stock market hasn't moved much this week.
+            Earnings have been moving lower in the last quarter.
+            Messages must move through the proper channels.
+            Over the years, his music has gradually moved from folk to blues.
+            The company is moving towards more outsourcing of their manufacturing.
+            Have any mandolin players moved on to fiddle?
+            Move out, troops!
+            Hey, move over and give me some room.
+        </examples>
+        <mappings>
+            <wn version="2.1">1,2,3,5,7,13</wn>
+            <wn lemma="move_around" version="2.1">1</wn>
+            <wn lemma="move_back" version="2.1">1</wn>
+            <wn lemma="move_back_and_forth" version="2.1">1</wn>
+            <wn lemma="move_in" version="2.1">1,2</wn>
+            <wn lemma="move_into" version="2.1">1</wn>
+            <wn lemma="move_involuntarily" version="2.1">1</wn>
+            <wn lemma="move_on" version="2.1">1</wn>
+            <wn lemma="move_out" version="2.1">1</wn>
+            <wn lemma="move_over" version="2.1">1</wn>
+            <wn lemma="move_reflexively" version="2.1">1</wn>
+            <wn lemma="move_through" version="2.1">1</wn>
+            <wn lemma="move_up" version="2.1">1</wn>
+            <omega/>
+            <pb>move.01</pb>
+            <vn></vn><fn></fn>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    <sense group="1" n="2" name="intentionally act, decide" type="">
+        <commentary>
+            Note: Only intransitive.
+            Syntax Is: NP1[agent[animate]] MOVE (PP)
+        </commentary>
+        <examples>
+            She is really moving on this project.
+            We moved quickly on the buyer's offer.
+            White moves first in chess.
+            They moved to adjourn until tomorrow morning.
+            God moves in mysterious ways.
+        </examples>
+        <mappings>
+            <wn version="2.1">6,8,15,16</wn>
+            <omega/>
+            <pb>move.02</pb>
+            <vn></vn><fn></fn>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    <sense group="1" n="3" name="affect, impress" type="">
+        <commentary>
+        </commentary>
+        <examples>
+            Brahms' music moves her deeply.
+            Having a heart attack has moved him to make some lifestyle changes.
+            The pictures of the starving children moved us all.
+        </examples>
+        <mappings>
+            <wn version="2.1">9,10,11</wn>
+            <omega/>
+            <pb>move.03</pb>
+            <vn></vn><fn></fn>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    <sense group="1" n="4" name="change residence, affiliation, or place of employment" type="">
+        <commentary>
+        </commentary>
+        <examples>
+            We moved from Idaho to Nebraska.
+            Corporate headquarters will move to Miami next year.
+            When I moved to Acme Toys, my salary almost doubled.
+            I'm moving to the Republican Party.
+            My father was in the military, and we moved around a lot.
+            Let's move in together.
+            They moved out of their condo and into a house.
+        </examples>
+        <mappings>
+            <wn version="2.1">4</wn>
+            <wn lemma="move_around" version="2.1">2</wn>
+            <wn lemma="move_in" version="2.1">3</wn>
+            <wn lemma="move_out" version="2.1">2</wn>
+            <omega/>
+            <pb>move.01</pb>
+            <vn></vn><fn></fn>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    <sense group="1" n="5" name="sell, dispose of" type="">
+        <commentary>
+        </commentary>
+        <examples>
+            They are really trying to move last year's models now.
+        </examples>
+        <mappings>
+            <wn version="2.1">12</wn>
+            <omega/>
+            <pb>move.01</pb>
+            <vn></vn><fn></fn>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    <sense group="1" n="6" name="socially or professionally interact" type="">
+        <commentary>
+            propbank move.01 is metaphorically appropriate, arg2 is not really a destination, but a context.
+        </commentary>
+        <examples>
+            She moves in the highest circles in Washington.
+            He is moving with a tough crowd these days.
+            He's really moving up in the world.
+        </examples>
+        <mappings>
+            <wn version="2.1">14</wn>
+            <wn lemma="move_up" version="2.1">2</wn>
+            <omega/>
+            <pb>move.01</pb>
+            <vn></vn><fn></fn>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    <sense group="1" n="7" name="make intrusive or aggressive advances on" type="">
+        <commentary>
+        </commentary>
+        <examples>
+            Don't move in on my girlfriend!
+            Canadian police moved in on terror suspects.
+        </examples>
+        <mappings>
+            <wn version="2.1"></wn>
+            <wn lemma="move_in_on" version="2.1">1,2</wn>
+            <omega/>
+            <pb>move.04</pb>
+            <vn></vn><fn></fn>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+<sense group="1" n="8" name="none of the above" type="">
+  <commentary>
+Automatically generated NOTA sense (bbn)
+  </commentary>
+  <examples>
+  </examples>
+  <mappings>
+    <wn version="2.1"></wn>
+    <omega></omega><pb></pb>
+    <fn></fn>
+  </mappings><SENSE_META clarity=""/>
+</sense>
+    <WORD_META authors="ahouston,brownsw,greenlm" sample_score="-"/>
+
+<ita count="626" ann_1_2_agreement="0.782747603834" />
+</inventory>

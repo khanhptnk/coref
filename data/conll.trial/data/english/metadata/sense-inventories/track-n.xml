@@ -1,0 +1,155 @@
+<!DOCTYPE inventory SYSTEM "inventory.dtd">
+<inventory lemma="track-n">
+    <commentary>
+    </commentary>
+    
+    <sense n="1" type="Abstraction" name="line of motion" group="1">
+        <commentary>
+            A non-physical pathway; the route along which something moves.
+        </commentary>
+        <examples>
+            I followed the track of the hurricane.
+            The police are on the wrong track, and they'll never find the killer!
+            I plan to destroy everything in my track!  
+            The river's track leads it to a waterfall.
+        </examples>
+        <mappings>
+            <wn version="2.0">
+                1 2
+            </wn>
+            <omega></omega><pb></pb>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    
+    <sense n="2" type="Entity" name="place to race" group="1">
+        <commentary>
+            A physical place where races are run, or the actual pathway that races are run along.  
+        </commentary>
+        <examples>
+            I spent my paycheck betting on horses at the track.
+            When he fell, his knees got cut up on the hard gravel track.
+            Most tracks are just a big circle.
+            Head down to the race track before the event starts.
+        </examples>
+        <mappings>
+            <wn version="2.0">
+                4
+            </wn>
+            <omega></omega><pb></pb>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    
+    <sense n="3" type="Entity" name="train rails" group="1">
+        <commentary>
+            The pair of parallel bars or rails that wheels can run along.  
+        </commentary>
+        <examples>
+            The train went so fast that it jumped the tracks!
+            The train tracks go across Siberia without interruption.
+            A monorail, as its name suggests, has a single track that it runs along.
+            I've been working on the railroad, and I've been laying track all day.
+        </examples>
+        <mappings>
+            <wn version="2.0">
+                3 9
+            </wn>
+            <omega></omega><pb></pb>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    
+    <sense n="4" type="Entity" name="footprints" group="1">
+        <commentary>
+            The marks that something leaves behind as it travels.  
+            Usually refers to footprints or other physical markings, but it can be used metaphorically.
+        </commentary>
+        <examples>
+            We walked in the river to avoid leaving tracks.
+            He falsified his accounting statements to cover his tracks.
+            Wait a second, John-- these are the tracks of a grizzly bear!
+            The cart tracks indicated that other vehicles had gone this way before.
+            The drug addict had ugly track marks all over his arm.
+        </examples>
+        <mappings>
+            <wn version="2.0">
+                10
+            </wn>
+            <omega></omega><pb></pb>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    
+    <sense n="5" type="Abstraction" name="bit of music" group="1">
+        <commentary>
+            A selection of music, usually one song.  
+            Can also refer to the physical grooves on a phonograph record, or to an individual portion of data on a compact disk;
+            However, the sense primarily refers to music.
+        </commentary>
+        <examples>
+            The first track on this album is called "California Girls".
+            I played the record so much that I wore the tracks on the record down.
+            John just listens to the same track over and over again.
+            Each track on this disk is a separate word-processor file.
+        </examples>
+        <mappings>
+            <wn version="2.0">
+                5 7 8
+            </wn>
+            <omega></omega><pb></pb>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    
+    <sense n="6" type="Entity" name="metal belt" group="1">
+        <commentary>
+            An endless metal belt, often called a tread or a caterpillar track, on which some vehicles move.
+        </commentary>
+        <examples>
+            Modern tanks usually run on a track because it helps them cover uneven terrain.
+        </examples>
+        <mappings>
+            <wn version="2.0">
+                6
+            </wn>
+            <omega></omega><pb></pb>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    
+    <sense n="7" type="Activity" name="category of sporting events" group="1">
+        <commentary>
+            A group of athletic competitions that usually involve running on a track.  Often paired with the word "field".
+        </commentary>
+        <examples>
+            I ran track in high school, but then I stopped.
+            There's going to be a track meet tomorrow at noon, and all the track stars are going to be there!
+            Do you like watching the track and field events in the Olympics?
+            He was on the track team, and he did the high jump.
+        </examples>
+        <mappings>
+            <wn version="2.0">
+                11
+            </wn>
+            <omega></omega><pb></pb>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    
+<sense group="1" n="8" name="none of the above" type="">
+  <commentary>
+Automatically generated NOTA sense (bbn)
+  </commentary>
+  <examples>
+  </examples>
+  <mappings>
+    <wn version="2.1"></wn>
+    <omega></omega><pb></pb>
+    <fn></fn>
+  </mappings><SENSE_META clarity=""/>
+</sense>
+    <WORD_META authors="hertlerb" sample_score="-"/>
+
+<ita count="46" ann_1_2_agreement="0.891304347826" />
+</inventory>

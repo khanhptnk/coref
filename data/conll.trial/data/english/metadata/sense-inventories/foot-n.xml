@@ -1,0 +1,241 @@
+<!DOCTYPE inventory SYSTEM "inventory.dtd">
+<inventory lemma="foot-n">
+    <commentary>
+        Includes idioms (figurative extensions of Sense 1) foot_in_the_door,  on_one's_feet, off_one's_feet, at_the_feet
+    </commentary>
+    
+    <sense n="1" type="" name="the lowest anatomical appendage of organisms, used for locomotion" group="1">
+        <commentary>
+            FOOT[+structure][+anatomical][+extremity][+pedal]
+        </commentary>
+        <examples>
+            Bob had his foot in a cast for six weeks.
+            Mary pulled a thorn out of her dog's foot.
+            Snails can crawl by means of their single muscular foot.
+            The crowd got to their feet as the batter hit a grand slam home run over the fence.
+            The disciples bowed at the feet of their guru. (literally genuflecting in front of his feet)
+            While he was playing in the water, a big wave knocked the child off his feet.	
+            Bob stuck his foot in the door of the elevator before it closed, so we could get in.
+        </examples>
+        <mappings>
+            <wn version="2.1">2,5,8</wn>
+            <omega></omega><pb></pb>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    
+    
+    <sense n="2" type="" name="a unit of length" group="1">
+        <commentary>
+            FOOT[+quantity][+unit][+length][+inch][+twelve]
+        </commentary>
+        <examples>
+            There are twelve inches in one foot.
+            John is six feet tall.
+            The car skidded about a hundred feet before hitting a tree.
+        </examples>
+        <mappings>
+            <wn version="2.1">1</wn>
+            <omega></omega><pb></pb>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    
+    
+    <sense n="3" type="" name="the end, or lower, position of an object" group="1">
+        <commentary>
+            FOOT[+relation][+position][+location][+end/+bottom]
+            Note: usually occurs in the singular
+        </commentary>
+        <examples>
+            Watch out for the bucket at the foot of the stairs.
+            A small village is nestled at the foot of the mountain.
+            We are standing at the foot of the most famous tower in Italy.
+            The guest of honor should not be seated at the foot of the table, but at the head.
+            A cedar chest was placed at the foot of the bed.
+        </examples>
+        <mappings>
+            <wn version="2.1">3,7</wn>
+            <omega></omega><pb></pb>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    
+    
+    <sense n="4" type="" name="travel by walking" group="1">
+        <commentary>
+            FOOR[+activity][+travel][+walking]
+        </commentary>
+        <examples>
+            She was fleet of foot. (a fast walker)
+            We'll have to travel on foot over the roughest terrain.
+        </examples>
+        <mappings>
+            <wn version="2.1">4</wn>
+            <omega></omega><pb></pb>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    
+    
+    <sense n="5" type="" name="support structures of objects that resemble appendages" group="1">
+        <commentary>
+            FOOT[+structure][+inanimate][+support][+chair/+table/+pedestal]
+        </commentary>
+        <examples>
+            He put casters on the feet of the chairs. (wheels attached so the chair rolls)
+            Guide the fabric through the foot of the sewing machine as you stitch.
+            The statue's left foot was broken off.
+        </examples>
+        <mappings>
+            <wn version="2.1">6</wn>
+            <omega></omega><pb></pb>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    
+    
+    <sense n="6" type="" name="a metrical unit in poetry" group="1">
+        <commentary>
+            FOOT[+quantity][+unit][+length][+meter][+poetic]
+        </commentary>
+        <examples>
+            Each line of this poem has five metrical feet.
+            In English, a poetic foot is characterized by stressed and unstressed syllables.
+            In classical ancient poetry, a foot was measured by long and short syllables.
+        </examples>
+        <mappings>
+            <wn version="2.1">11</wn>
+            <omega></omega><pb></pb>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    
+    
+    <sense n="7" type="" name="infantry, soldiers who walk to battle" group="1">
+        <commentary>
+            FOOT[+person][+soldier][+infantry]
+            Note: somewhat archaic usage
+        </commentary>
+        <examples>
+            "There were ten thousand horsemen and as many fully-armed foot"
+        </examples>
+        <mappings>
+            <wn version="2.1">9</wn>
+            <omega></omega><pb></pb>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    
+    
+    <sense n="8" type="" name="a member of a surveillance team, a spy" group="1">
+        <commentary>
+            FOOT[+person][+agent][+surveillance] 
+        </commentary>
+        <examples>
+            He served as a foot on that undercover mission.
+        </examples>
+        <mappings>
+            <wn version="2.1">10</wn>
+            <omega></omega><pb></pb>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    
+    
+    <sense n="9" type="" name="the first step towards a goal" group="1">
+        <commentary>
+            Idiom: foot_in_the_door
+        </commentary>
+        <examples>
+            This internship will help Mary's son get a foot in the door in the world of finance.
+            It's very difficult to get a foot in the door in show business.
+        </examples>
+        <mappings>
+            <wn version="MW online">foot_in_the_door</wn>
+            <omega></omega><pb></pb>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    
+    
+    <sense n="10" type="" name="a state of recovery or recuperation" group="1">
+        <commentary>
+            Idiom: on_one's_feet
+        </commentary>
+        <examples>
+            These loans will help the firm get back on its feet economically. 
+            There is a temp in our office until the regular receptionist gets back on her feet after surgery.
+        </examples>
+        <mappings>
+            <wn version="MW online">on_one's_feet_1</wn>
+            <omega></omega><pb></pb>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    
+    
+    <sense n="11" type="" name="in an ad lib or extemporaneous manner" group="1">
+        <commentary>
+            Idiom: on_one's_feet
+        </commentary>
+        <examples>
+            You have to be able to think on your feet in that job. 
+            John is a careful analyst but he is not fast on his feet with decision making.
+        </examples>
+        <mappings>
+            <wn version="MW online">on_one's_feet</wn>
+            <omega></omega><pb></pb>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    
+    
+    <sense n="12" type="" name="enamored of, emotionally swept away" group="1">
+        <commentary>
+            Idiom: off_one's_feet
+        </commentary>
+        <examples>
+            The sultry Austrian film star swept the men off their feet. 
+            Let's not get swept off our feet by this economic news just yet.
+        </examples>
+        <mappings>
+            <wn version="MW online">off_one's_feet</wn>
+            <omega></omega><pb></pb>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    
+    
+    <sense n="13" type="" name="be under the spell or influence of something" group="1">
+        <commentary>
+            Idiom: at_the_feet
+        </commentary>
+        <examples>
+            They worship at the feet of the almighty dollar. 
+            They refuse to grovel at the feet of more powerful nations.
+        </examples>
+        <mappings>
+            <wn version="MW online">at_the_feet</wn>
+            <omega></omega><pb></pb>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    
+    
+<sense group="1" n="14" name="none of the above" type="">
+  <commentary>
+Automatically generated NOTA sense (bbn)
+  </commentary>
+  <examples>
+  </examples>
+  <mappings>
+    <wn version="2.1"></wn>
+    <omega></omega><pb></pb>
+    <fn></fn>
+  </mappings><SENSE_META clarity=""/>
+</sense>
+    <WORD_META authors="ahouston" sample_score="-"/>
+
+<ita count="94" ann_1_2_agreement="0.872340425532" />
+</inventory>

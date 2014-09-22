@@ -1,0 +1,117 @@
+<!DOCTYPE inventory SYSTEM "inventory.dtd">
+<inventory lemma="system-n">
+    <commentary>
+    </commentary>
+    <sense n="1" type="Abstract" name="process or set of rules that provides order and structure" group="1">
+        <commentary>
+            does not refer to concrete/physical instantiations of the system
+            (for concrete realizations, see sense 4)
+        </commentary>
+        <examples>
+            The democratic political system works
+            He tried to understand their system of classification
+            We can't do it unless we establish some system around here.
+            That language has a complex system for indicating gender.
+            the metric system
+        </examples>
+        <mappings>
+            <wn version="1.7">?</wn>
+            <omega></omega><pb></pb>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    <sense n="2" type="" name="man-made system of (electrical/mechanical) closely interacting parts" group="1">
+        <commentary>
+            "stereo system", "computer system", "software system", "heating system" etc
+        </commentary>
+        <examples>
+            
+        </examples>
+        <mappings>
+            <wn version="1.7">?</wn>
+            <omega></omega><pb></pb>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    <sense n="3" type="" name="biological system of closely interacting parts" group="1">
+        <commentary>
+        </commentary>
+        <examples>
+            The body has a system of organs for digestion
+            respiratory system
+            Exercise helped him get the alcohol out of his system
+        </examples>
+        <mappings>
+            <wn version="1.7">?</wn>
+            <omega></omega><pb></pb>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    <sense n="4" type="" name="loose collection of concrete objects which are linked through regularized interactions" group="1">
+        <commentary>
+        </commentary>
+        <examples>
+            Our healthcare/rail/transportation/political/social/mail system is in decline due to liberal politicians and the erosion of family values.
+        </examples>
+        <mappings>
+            <wn version="1.7">?</wn>
+            <omega></omega><pb></pb>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    <sense n="5" type="Idiomatic" name="the powers that be" group="1">
+        <commentary>
+            Used with NO adjectives and always with the definite determiner ("The System")
+        </commentary>
+        <examples>
+            they want to overthrow the system.
+            You can't beat the system
+        </examples>
+        <mappings>
+            <wn version="1.7">?</wn>
+            <omega></omega><pb></pb>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    <sense n="6" type="Idiomatic" name="strong desires and feelings" group="1">
+        <commentary>
+        </commentary>
+        <examples>
+            "John got drinking out of his system" (cf. the similar example in sense 3)
+            I can't seem to get you out of my system...
+        </examples>
+        <mappings>
+            <wn version="1.7">?</wn>
+            <omega></omega><pb></pb>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    <sense n="7" type="Technical" name="a sample of matter in which substances in different phases are in equilibrium." group="1">
+        <commentary>
+        </commentary>
+        <examples>
+            in a static system, oil cannot be replaced by water on a surface
+        </examples>
+        <mappings>
+            <wn version="1.7">?</wn>
+            <omega></omega><pb></pb>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+<sense group="1" n="8" name="none of the above" type="">
+  <commentary>
+Automatically generated NOTA sense (bbn)
+  </commentary>
+  <examples>
+  </examples>
+  <mappings>
+    <wn version="2.1"></wn>
+    <omega></omega><pb></pb>
+    <fn></fn>
+  </mappings><SENSE_META clarity=""/>
+</sense>
+    <WORD_META authors="ahouston" sample_score="-"/>
+
+<ita count="179" ann_1_2_agreement="0.826815642458" />
+</inventory>
+

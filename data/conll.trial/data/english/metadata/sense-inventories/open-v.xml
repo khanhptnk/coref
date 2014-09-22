@@ -1,0 +1,135 @@
+<?xml version="1.0" ?>
+<!DOCTYPE inventory
+  SYSTEM 'inventory.dtd'>
+<inventory lemma="open-v">
+    <commentary>
+        Distinction between senses 1 and 5 based on FrameNet
+        framesets for Body_Movement and Closure
+    </commentary>
+    <sense group="1" n="1" name="cause or become accessible state, make or
+        become available" type="">
+        <commentary>
+            Syntax Includes:
+            NP1[agent] OPEN NP2[patient]
+            NP1[theme] OPEN
+            Note: compare carefully to sense 5; this sense refers to 
+            a 'container' being made accessible by opening a portal
+            (ie: "open the box" or "open the lid" or "open the lid to the box")
+            In sense 5, there is no distinction between portal and container.
+            Includes: OPEN UP
+        </commentary>
+        <examples>
+            She opened the hood to check the oil.
+            The door won't open.
+            This decision will open him to attacks from the press.
+            That memory opened old wounds.
+            She opened her heart to me.
+            I tried talking to her about it and she opened up to me slowly. 
+            I can't seem to open any of these Ascii files.
+            After you open your browser, select the preferences tab.
+            They are opening that land for commercial use.
+            A position in the neurology department has just opened.
+            This opens up new possibilities!
+            The Episcopal Church recently opened up the priesthood to women.
+        </examples>
+        <mappings>
+            <wn version="2.1">1,3,6,7,11</wn>
+            <wn lemma="open_up" version="2.1">1,2,3,46,7</wn>
+            <omega></omega><pb>open.01</pb>
+            <vn>crane-40.3.2,other_cos-45.4,spatial_configuration-47.6,appear-48.1.1</vn><fn>Closure</fn>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    <sense group="1" n="2" name="initiate, begin an activity or operation" type="">
+        <commentary>
+            Syntax Is: NP1 OPEN[punctual] (up) NP2[patient] (PP{with NP[instrument]})
+            Includes: OPEN UP
+        </commentary>
+        <examples>
+            He opens every lecture with a joke.
+            Stocks opened lower this morning.
+            In that chess game, white opened with the queen's knight.
+            They opened a new library downtown.
+            You need a license to open up a liquor store.
+            That store doesn't open for business on Sundays.
+            Voting has opened for the blogging scholarship.
+            Jackson Browne and Linda Ronstadt opened for The Eagles.
+            Breckenridge Resort's Peak 8 base area opened for the season this week.
+        </examples>
+        <mappings>
+            <wn version="2.1">2,4,9</wn>
+            <wn lemma="open_up" version="2.1">5</wn>
+            <omega></omega><pb>open.02</pb>
+            <vn>establish-55.5-1</vn><fn>NM</fn>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    <sense group="1" n="3" name="lead to" type="">
+        <commentary>
+        </commentary>
+        <examples>
+            The forest suddenly opened into a field of wild flowers.
+            The master bedroom opens to a large terrace.
+        </examples>
+        <mappings>
+            <wn version="2.1">8,10</wn>
+            <wn lemma="" version="2.1"></wn>
+            <omega></omega><pb>open.01</pb>
+            <vn>NM</vn><fn>NM</fn>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    <sense group="1" n="4" name="unfold or extend something" type="">
+        <commentary>
+            Syntax Is: NP1[agent] OPEN NP2[patient[concrete]]
+            Note: compare carefully to sense 1; in this sense,
+            there is no distinction between portal and container
+            (ie, you cannot rephrase example 2 as, "She opened her
+            body for a hug.")
+            Includes: OPEN UP
+        </commentary>
+        <examples>
+            The eagle opened his mighty wings.
+            She opened her arms for a hug.
+            He held it underhand and opened up his fingers.
+        </examples>
+        <mappings>
+            <wn version="2.1">5</wn>
+            <wn lemma="open_up" version="2.1">1,6</wn>
+            <omega></omega><pb>open.01,open.03</pb>
+            <vn>other_cos-45.4</vn><fn>Body_movement</fn>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    <sense group="1" n="5" name="shoot at" type="">
+        <commentary>
+            Is: OPEN FIRE
+        </commentary>
+        <examples>
+            The troops opened fire on innocent civilians.
+            The squad opened fire on the prisoner.
+        </examples>
+        <mappings>
+            <wn version="2.1"></wn>
+            <wn lemma="open_fire" version="2.1">1</wn> 
+            <omega></omega><pb>NM</pb>
+            <vn>NM</vn><fn>NM</fn>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+<sense group="1" n="6" name="none of the above" type="">
+  <commentary>
+Automatically generated NOTA sense (bbn)
+  </commentary>
+  <examples>
+  </examples>
+  <mappings>
+    <wn version="2.1"></wn>
+    <omega></omega><pb></pb>
+    <fn></fn>
+  </mappings><SENSE_META clarity=""/>
+</sense>
+    <WORD_META authors="ahouston,vieweg,duffielc,corvey,greenlm" sample_score="-"/>
+
+<ita count="297" ann_1_2_agreement="0.653198653199" />
+</inventory>

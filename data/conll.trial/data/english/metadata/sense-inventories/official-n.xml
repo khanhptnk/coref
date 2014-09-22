@@ -1,0 +1,55 @@
+<!DOCTYPE inventory SYSTEM "inventory.dtd">
+<inventory lemma="official-n">
+    <commentary>
+        
+    </commentary>
+    
+    <sense n="1" type="" name="office worker" group="1">
+        <commentary>
+            functionary -
+            a worker who holds or is invested with an office
+        </commentary>
+        <examples>
+            An official from the health department told Fido not to go into the restaurant.
+        </examples>
+        <mappings>
+            <wn version="2.0">1</wn>
+            <omega></omega>
+            <pb></pb>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    
+    <sense n="2" type="" name="referee" group="1">
+        <commentary>
+            someone who administers the rules of a game or sport
+        </commentary>
+        <examples>
+            The golfer asked for an official who could give him a ruling.
+        </examples>
+        <mappings>
+            <wn version="2.0">2</wn>
+            <omega></omega>
+            <pb></pb>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    
+    <!-- more senses go here -->
+<sense group="1" n="3" name="none of the above" type="">
+  <commentary>
+Automatically generated NOTA sense (bbn)
+  </commentary>
+  <examples>
+  </examples>
+  <mappings>
+    <wn version="2.1"></wn>
+    <omega></omega><pb></pb>
+    <fn></fn>
+  </mappings><SENSE_META clarity=""/>
+</sense>
+    <WORD_META authors="cstocker ajarrett" sample_score=""/>
+
+<ita count="678" ann_1_2_agreement="0.995575221239" />
+</inventory>
+

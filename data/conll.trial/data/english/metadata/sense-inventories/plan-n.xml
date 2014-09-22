@@ -1,0 +1,101 @@
+<!DOCTYPE inventory SYSTEM "inventory.dtd">
+<inventory lemma="plan-n">
+    <commentary>
+        examples and definitions revised, comments added. ahouston
+        21aug07 - modified features, added to commentary ahouston
+        23Apr08 - revised features and commentary, Sense 2., added sense 4 ahouston
+    </commentary>
+    
+    <sense n="1" type="" name="an objective or goal" group="1">
+        <commentary>
+            PLAN[+state][+mental][+intention][+goal]
+            Note: refers to an intention or goal, without implying a specific strategy or policy to achieve it.
+            Note: refers to intentions of an agent/actor 'X's plans'  'John's plan'
+            Note: 'X has plans'  means the same as 'X's plans' where X is agent/actor
+        </commentary>
+        <examples>
+            Bill's father has plans to retire in another year.  (he intends to do so)
+            We have no plans for the weekend.
+            Her plan to become a vegetarian dissolved at the sight of the juicy steak.
+            The playboy's plans did not include marrying any of the women he was dating.
+        </examples>
+        <mappings>
+            <wn version="2.1">1</wn>
+            <omega></omega>
+            <pb></pb>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    
+    <sense n="2" type="" name="a strategy, proposed sequence of steps to attain a goal" group="1">
+        <commentary>
+            PLAN[+procedure][+strategy][+proposal][+for_attainment][+of_goal]
+            Note: refers to a set of specified steps and actions to accomplish a goal, not just the intention 
+        </commentary>
+        <examples>
+            They have come up with a peace plan that looks promising.
+            The candidate hired Phil to work out the master plan for his presidential campaign.
+            The sales team has drawn up a battle plan for going after those new accounts. (figurative)
+            Her mother's micro-managing of the wedding plans was driving everyone crazy.
+        </examples>
+        <mappings>
+            <wn version="2.1">2</wn>
+            <omega></omega>
+            <pb></pb>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    
+    <sense n="3" type="Architectural" name="a schematic, e.g., blueprint" group="1">
+        <commentary>
+            PLAN[+entity][+concrete][+artifact][+drawing][+schematic]
+            a schematic, a diagram
+        </commentary>
+        <examples>
+            The plans for City Hall were on file.
+            Have you seen the floor plan of our new house?
+            This plan appears not to be drawn to scale.
+            Several architectural plans are currently being reviewed for the proposed new library.
+        </examples>
+        <mappings>
+            <wn version="2.1">3</wn>
+            <omega></omega>
+            <pb></pb>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    
+    <sense n="4" type="" name="a contract, often involving regular monetary contributions to some end" group="1">
+        <commentary>
+            PLAN[+artifact][+contract][+legal][+payment][+for_benefit]
+        </commentary>
+        <examples>
+            Our company has a 401k plan but no pension plan.
+            The bank is restructuring their payment plan in order to avoid foreclosure.
+            They paid for the American plan at that resort because it includes a big breakfast.
+        </examples>
+        <mappings>
+            <wn version="MAC">1a</wn>
+            <omega></omega>
+            <pb></pb>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    
+    
+<sense group="1" n="5" name="none of the above" type="">
+  <commentary>
+Automatically generated NOTA sense (bbn)
+  </commentary>
+  <examples>
+  </examples>
+  <mappings>
+    <wn version="2.1"></wn>
+    <omega></omega><pb></pb>
+    <fn></fn>
+  </mappings><SENSE_META clarity=""/>
+</sense>
+    <WORD_META authors="cstocker ajarrett" sample_score=""/>
+
+<ita count="258" ann_1_2_agreement="1.0" />
+</inventory>

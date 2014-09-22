@@ -1,0 +1,111 @@
+<!DOCTYPE inventory SYSTEM "inventory.dtd">
+<inventory lemma="pilot-n">
+    <commentary>
+    </commentary>
+    <sense n="1" type="" name="a test or prototype project" group="1">
+        <commentary>
+            PILOT[+project][+test][+program/+study/+experiment]
+        </commentary>
+        <examples>
+            The network has produced six episodes for the pilot of their new situation comedy.
+            John received funding for his pilot study of butterfly migration routes.
+            Three pilot after-school programs got cancelled.
+        </examples>
+        <mappings>
+            <wn version="2.1">3,4</wn>
+            <omega></omega><pb></pb>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    
+    <sense n="2" type="" name="person who flies an aircraft" group="1">
+        <commentary>
+            PILOT[+person][+professional][+guide][+aircraft]
+        </commentary>
+        <examples>
+            Bill was a fighter pilot in the navy.
+            The airline pilots are expected to go on strike next week.
+            Who is the pilot in command of this marketing campaign? (figurative)
+        </examples>
+        <mappings>
+            <wn version="2.1">1</wn>
+            <omega></omega><pb></pb>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    
+    <sense n="3" type="" name="person who guides a large ship into port" group="1">
+        <commentary>
+            PILOT[+person][+professional][+guide][+ship]
+        </commentary>
+        <examples>
+            This harbor requires that all large vessels use a local pilot to guide them into port.
+            We saw a pilot boat approaching our cruise ship.
+        </examples>
+        <mappings>
+            <wn version="2.1">2</wn>
+            <omega></omega><pb></pb>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    
+    <sense n="4" type="" name="small auxiliary gas burner" group="1">
+        <commentary>
+            PILOT[+device][+burner][+auxiliary]
+        </commentary>
+        <examples>
+            The pilot light went out again on our furnace.
+            He lit the pilot with a match.
+        </examples>
+        <mappings>
+            <wn version="2.1">5</wn>
+            <omega></omega><pb></pb>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    
+    <sense n="5" type="" name="fender or cowcatcher on front of locomotive" group="1">
+        <commentary>
+            PILOT[+device][+fender][+locomotive]
+        </commentary>
+        <examples>
+            The box was pushed aside and off the track by the locomotive's pilot.
+            That painting of a 19th-century train shows a large, decorative pilot on the front of the locomotive.
+        </examples>
+        <mappings>
+            <wn version="2.1">6</wn>
+            <omega></omega><pb></pb>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    
+    <sense n="6" type="" name="a device to guide a tool or machine part" group="1">
+        <commentary>
+            PILOT[+device][+guide][+tool/+machine_part]
+        </commentary>
+        <examples>
+            A pilot bit creates a small hole which can then guide a larger drill.
+        </examples>
+        <mappings>
+            <wn version="MW online">4</wn>
+            <omega></omega><pb></pb>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    
+<sense group="1" n="7" name="none of the above" type="">
+  <commentary>
+Automatically generated NOTA sense (bbn)
+  </commentary>
+  <examples>
+  </examples>
+  <mappings>
+    <wn version="2.1"></wn>
+    <omega></omega><pb></pb>
+    <fn></fn>
+  </mappings><SENSE_META clarity=""/>
+</sense>
+    <WORD_META authors="ahouston" sample_score="-"/>
+
+<ita count="63" ann_1_2_agreement="0.968253968254" />
+</inventory>

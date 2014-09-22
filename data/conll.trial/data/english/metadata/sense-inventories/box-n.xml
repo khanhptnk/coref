@@ -1,0 +1,179 @@
+<!DOCTYPE inventory SYSTEM "inventory.dtd">
+<inventory lemma="box-n">
+    <commentary>
+    </commentary>
+    
+    <sense n="1" type="" name="any rectangular container" group="1">
+        <commentary>
+            BOX[+entity][+artifact][+rectangular][+container]
+        </commentary>
+        <examples>
+            John gave Mary a box of chocolates.
+            The two boys carried a loud boom box onto the bus. (box-like artifact)
+            The dentist's office had a big toy box in one corner of the room.
+            She never thought her kid would be sent home in a box from Iraq. (informal usage)
+            We used a call box by the roadside to report the fire.
+            I sent the letter to Sally's box at the post office.
+            They live in one of those sterile boxes in the suburbs. (box-like architecture)
+            We need to think outside the box to solve this problem. (figurative extension)
+        </examples>
+        <mappings>
+            <wn version="2.1">1</wn>
+            <omega></omega><pb></pb>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    
+    
+    <sense n="2" type="" name="a private, enclosed partition" group="1">
+        <commentary>
+            BOX[+entity][+structure][+partition][+enclosed]
+        </commentary>
+        <examples>
+            He invited us to share his box at the opera.
+            The defendant stood in front of the jury box to hear the verdict.
+            The soldier left his sentry box to get a cup of coffee.
+        </examples>
+        <mappings>
+            <wn version="2.1">2,9</wn>
+            <omega></omega><pb></pb>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    
+    
+    <sense n="3" type="" name="how much a rectangular container can hold, its capacity" group="1">
+        <commentary>
+            BOX[+quantity][+measure][+capacity]
+            Note: answers the question 'how much' or 'how many'
+        </commentary>
+        <examples>
+            Our family eats three boxes of cereal a week. (how much)
+            The child felt sick after eating a whole box of chocolate chip cookies.
+            The wholesale market sells peaches and avocados by the box, not by the piece. 
+        </examples>
+        <mappings>
+            <wn version="2.1">3</wn>
+            <omega></omega><pb></pb>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    
+    
+    <sense n="4" type="" name="a predicament not easily avoided" group="1">
+        <commentary>
+            BOX[+state][+predicament][-avoidable]
+            Note: a specific metaphoric extension of Sense 1 - refers to an unfortunate situation
+        </commentary>
+        <examples>
+            Pete feels trapped in a box over this dilemma.	
+            His lying about it got him into a real box at work.
+            Her therapist helped her get out of the emotional box she had put herself in.
+        </examples>
+        <mappings>
+            <wn version="2.1">4</wn>
+            <omega></omega><pb></pb>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    
+    
+    <sense n="5" type="" name="a two-dimensional rectangle, a square drawing" group="1">
+        <commentary>
+            BOX[+form][+2D][+rectangle]
+        </commentary>
+        <examples>
+            You must check only one box for each question.
+            A picture of Sandy was in the upper right-hand box of the page.
+            John drew boxes around the items he wanted in the catalog.
+        </examples>
+        <mappings>
+            <wn version="2.1">5</wn>
+            <omega></omega><pb></pb>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    
+    
+    <sense n="6" type="" name="a type of evergreen shrub" group="1">
+        <commentary>
+            BOX[+entity][+organism][+plant][+shrub][+evergreen]
+        </commentary>
+        <examples>
+            The gardner trimmed the box shrubs around the side of the house.
+            These evergreen boxes are hardy up through Zone 3.
+        </examples>
+        <mappings>
+            <wn version="2.1">6</wn>
+            <omega></omega><pb></pb>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    
+    
+    <sense n="7" type="" name="designated or demarcated areas of sports fields, ball fields" group="1">
+        <commentary>
+            BOX[+location][+area][+designated][+field][+sports]
+        </commentary>
+        <examples>
+            The pinch hitter walked into the batter's box.
+            He curled in a shot from the edge of the box. (penalty box in soccer)
+            The ball bounced outside the catcher's box.
+        </examples>
+        <mappings>
+            <wn version="2.1">7</wn>
+            <omega></omega><pb></pb>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    
+    
+    <sense n="8" type="" name="the driver's seat of a coach" group="1">
+        <commentary>
+            BOX[+entity][+structure][+seat][+driver][+coach]
+        </commentary>
+        <examples>
+            The tipsy coachman was slumped over in the box, fast asleep.
+            The stagecoach had a hired gun riding shotgun in the box, next to the driver.
+        </examples>
+        <mappings>
+            <wn version="2.1">8</wn>
+            <omega></omega><pb></pb>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    
+    
+    <sense n="9" type="" name="a blow or punch with a hand or paw" group="1">
+        <commentary>
+            BOX[+action][+blow][+hand]
+        </commentary>
+        <examples>
+            The cat gave the dog a box on the snout when he got too close.
+            The musician suffered hearing loss from too many boxes on the ear as a child.
+        </examples>
+        <mappings>
+            <wn version="2.1">10</wn>
+            <omega></omega><pb></pb>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    
+    
+    <sense group="1" n="10" name="none of the above" type="">
+        <commentary>
+            Automatically generated NOTA sense (bbn)
+        </commentary>
+        <examples>
+        </examples>
+        <mappings>
+            <wn version="2.1"></wn>
+            <omega></omega><pb></pb>
+            <fn></fn>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    <WORD_META authors="ahouston" sample_score="-"/>
+
+<ita count="27" ann_1_2_agreement="0.851851851852" />
+</inventory>

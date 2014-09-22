@@ -1,0 +1,60 @@
+<?xml version="1.0" ?>
+<!DOCTYPE inventory SYSTEM "inventory.dtd">
+<inventory lemma="promise-v">    
+    <commentary>
+    </commentary>
+    <sense group="1" n="1" name="pledge or make a commitment" type="">  
+        <commentary>
+        </commentary>
+        <examples>
+            He promised me one of his kittens.
+            He promised to give me one of his kittens.
+            Promise me that you won't tell.
+            Promise to not tell.
+            The government have promised that they'll reduce taxes.
+            The government have promised to reduce taxes.
+            Her parents promised her a new car if she passed her exams.
+            Her parents promised to buy her a new car if she passed her exams.
+            You promise?
+            Hey, you promised!
+            I'll look, but I can't promise you anything.
+            You'll like this movie, I promise you.
+        </examples>
+        <mappings>
+            <wn version="2.1">1,2</wn>   
+            <omega></omega><pb></pb>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    <sense group="1" n="2" name="give grounds for expectation" type="">
+        <commentary>
+        </commentary>
+        <examples>
+            It promises to be an exciting match.
+            Those thunderclouds promise rain.
+            It is worth trying as an experiment at least because it promises well and costs little.
+            The results promised fame and glory.
+        </examples>
+        <mappings>
+            <wn version="2.1">3,4</wn>
+            <omega></omega><pb></pb>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+<sense group="1" n="3" name="none of the above" type="">
+  <commentary>
+Automatically generated NOTA sense (bbn)
+  </commentary>
+  <examples>
+  </examples>
+  <mappings>
+    <wn version="2.1"></wn>
+    <omega></omega><pb></pb>
+    <fn></fn>
+  </mappings><SENSE_META clarity=""/>
+</sense>
+    <WORD_META authors="hwangd" sample_score="-"/>
+     
+
+<ita count="125" ann_1_2_agreement="0.968" />
+</inventory>

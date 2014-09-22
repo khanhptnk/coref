@@ -1,0 +1,89 @@
+<!DOCTYPE inventory SYSTEM "inventory.dtd">
+<inventory lemma="newspaper-n">
+    <commentary>
+    </commentary>
+    <sense n="1" type="" name="a published periodical, daily or weekly" group="1">
+        <commentary>
+            NEWSPAPER[+role][+provider][+regular][+information][+printed]
+            Note: the focus is on the publication content
+        </commentary>
+        <examples>
+            John knows a famous newspaper columnist.
+            There is an interesting article on cats in today's newspaper.
+            We subscribe to three newspapers.
+        </examples>
+        <mappings>
+            <wn version="2.1">1</wn>
+            <omega></omega><pb></pb>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    
+    <sense n="2" type="" name="a publishing business, the press" group="1">
+        <commentary>
+            NEWSPAPER[+business][+publisher][+periodical]
+            Note: the focus is on the firm or business that publishes the paper
+        </commentary>
+        <examples>
+            Her daughter writes for a newspaper.
+            The newspaper fired the reporter after the story was revealed to be fabricated.
+            Newspapers have been increasingly putting their content on the Internet.
+        </examples>
+        <mappings>
+            <wn version="2.1">2</wn>
+            <omega></omega><pb></pb>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    
+    <sense n="3" type="" name="a physical copy of a publication" group="1">
+        <commentary>
+            NEWSPAPER[+document][+published][+periodical]
+            Note: the focus is on countable instances of the published paper
+        </commentary>
+        <examples>
+            Bill delivers newspapers to earn extra money.
+            The man left his newspaper on the train after he finished it.
+            Don't throw away those newspaper clippings on my desk.
+        </examples>
+        <mappings>
+            <wn version="2.1">3</wn>
+            <omega></omega><pb></pb>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    
+    <sense n="4" type="" name="the paper used for publication, newsprint" group="1">
+        <commentary>
+            NEWSPAPER[+substance][+paper][+inexpensive]
+            Note: the focus is on the substance, the material the publication is made from
+            Note: usually in the singular.
+        </commentary>
+        <examples>
+            I had only newspaper to wrap the present in.
+            Put newspaper down for the puppy in case he has an accident.
+            We covered our heads with newspaper as we rain through the rain.
+        </examples>
+        <mappings>
+            <wn version="2.1"></wn>
+            <omega></omega><pb></pb>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    
+<sense group="1" n="5" name="none of the above" type="">
+  <commentary>
+Automatically generated NOTA sense (bbn)
+  </commentary>
+  <examples>
+  </examples>
+  <mappings>
+    <wn version="2.1"></wn>
+    <omega></omega><pb></pb>
+    <fn></fn>
+  </mappings><SENSE_META clarity=""/>
+</sense>
+    <WORD_META authors="ahouston" sample_score="-"/>
+
+<ita count="91" ann_1_2_agreement="1.0" />
+</inventory>

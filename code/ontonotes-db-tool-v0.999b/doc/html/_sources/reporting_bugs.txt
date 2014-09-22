@@ -1,0 +1,29 @@
+.. _reporting-bugs:
+
+----------------------------------------
+Appendix A: Reporting Bugs
+----------------------------------------
+
+The OntoNotes DB Tool remains in beta and has not yet been thoroughly
+tested for various possible use.  We have tried to make sure that for
+the most standard tasks that it is supposed to be used it works
+without any hitches -- provided that the data is in the right
+location, dependencies are properly met, etc.  With future releases of
+the GALE OntoNotes corpus, we will be releasing updated versions
+of this tool.  In the meanwhile, any major bug-fix revision would be
+made available at the OntoNotes webpage hosted at
+http://www.bbn.com/NLP/OntoNotes.
+
+If you would like to report a bug, submit suggestions, or be notified
+when an update is available, you should send an email to
+pradhan@bbn.com
+
+.. seealso::
+
+  `How to Report Bugs Effectively <http://www-mice.cs.ucl.ac.uk/multimedia/software/documentation/ReportingBugs.html>`_
+   Article which goes into some detail about how to create a useful bug report.
+   This describes what kind of information is useful and why it is useful.
+
+  `Bug Writing Guidelines <http://www.mozilla.org/quality/bug-writing-guidelines.html>`_
+   Information about writing a good bug report.  Some of this is specific to the
+   Mozilla project, but describes general good practices.

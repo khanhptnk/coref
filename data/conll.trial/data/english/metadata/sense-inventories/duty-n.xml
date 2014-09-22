@@ -1,0 +1,90 @@
+<!DOCTYPE inventory SYSTEM "inventory.dtd">
+<inventory lemma="duty-n">
+    <commentary>
+    </commentary>
+    
+    <sense n="1" type="" name="a moral responsibility or state of obligation" group="1">
+        <commentary>
+            DUTY[+state][+relation][+social][+obligation][+moral]
+        </commentary>
+        <examples>
+            It is our duty to uphold the law.
+            He instilled a strong sense of civic duty in his children.
+            They have not done their duty as responsible citizens.
+        </examples>
+        <mappings>
+            <wn version="2.1">1</wn>
+            <omega></omega><pb></pb>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    
+    
+    <sense n="2" type="" name="required tasks, regular work demands" group="1">
+        <commentary>
+            DUTY[+activity][+regular][+task][+required]
+        </commentary>
+        <examples>
+            Writing the annual financial report is a main duty of the company's chief financial officer.
+            He finished a second tour of duty in Iraq.
+            She is stressed by all her new duties at work.
+            The new nurse should report for duty at 6 am sharp.
+            Appearing at the gala is one of the Queen's official duties.
+        </examples>
+        <mappings>
+            <wn version="2.1">2</wn>
+            <omega></omega><pb></pb>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    
+    
+    <sense n="3" type="" name="a government tax on imports/exports" group="1">
+        <commentary>
+            DUTY[+quantity][+money][+tax][+government][+import_export]
+        </commentary>
+        <examples>
+            The duties on this foreign sports car make it prohibitively expensive.
+            There is no duty on any merchandise bought in these duty-free shops at the airport.
+        </examples>
+        <mappings>
+            <wn version="2.1">3</wn>
+            <omega></omega><pb></pb>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    
+    
+    <sense n="4" type="" name="a state of operational utility of a thing" group="1">
+        <commentary>
+            DUTY[+state][+operational][+utility][+of_entity]
+        </commentary>
+        <examples>
+            We got double duty out of that trip to New York.
+            'making the word do the duty for the thing' (Edward Sapir)
+            What is the duty cycle of this machine?
+        </examples>
+        <mappings>
+            <wn version="MW online">5</wn>
+            <omega></omega><pb></pb>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    
+    
+<sense group="1" n="5" name="none of the above" type="">
+  <commentary>
+Automatically generated NOTA sense (bbn)
+  </commentary>
+  <examples>
+  </examples>
+  <mappings>
+    <wn version="2.1"></wn>
+    <omega></omega><pb></pb>
+    <fn></fn>
+  </mappings><SENSE_META clarity=""/>
+</sense>
+    <WORD_META authors="ahouston" sample_score="-"/>
+
+<ita count="54" ann_1_2_agreement="0.87037037037" />
+</inventory>

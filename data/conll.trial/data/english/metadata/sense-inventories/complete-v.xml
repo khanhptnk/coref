@@ -1,0 +1,69 @@
+<?xml version="1.0" ?>
+<!DOCTYPE inventory
+  SYSTEM 'inventory.dtd'>
+<inventory lemma="complete-v">
+    <commentary>
+    </commentary>
+    <sense group="1" n="1" name="finish an activity or process, either physical or abstract" type="">
+        <commentary>
+        </commentary>
+        <examples>
+            I finally completed stripping the wood in the living room.
+            John completed the 100 meter race in his fastest time ever.
+            I haven't finished completing my application for college.
+            Would you complete this questionaire for me?
+        </examples>
+        <mappings>
+            <wn version="2.1">1,5</wn>
+            <omega/>
+            <pb>complete.01</pb>
+            <vn>complete-55.2</vn><fn>Activity_finish</fn>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    <sense group="1" n="2" name="carry out an assigned task or duty" type="">
+        <commentary>
+        </commentary>
+        <examples>
+            The soldiers must complete their current tour of duty.
+            That team has completed the most passes this season.
+        </examples>
+        <mappings>
+            <wn version="2.1">3,4</wn>
+            <omega/>
+            <pb>complete.01</pb>
+            <vn>complete-55.2</vn><fn>Activity_finish</fn>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    <sense group="1" n="3" name="make whole, add a missing part to a given whole" type="">
+        <commentary>
+        </commentary>
+        <examples>
+            Matching shoes and handbag completed the ensemble.
+            A gold medal at the Olympics would complete his achievements in gymnastics.
+        </examples>
+        <mappings>
+            <wn version="2.1">2</wn>
+            <omega/>
+            <pb/>
+            <vn>complete-55.2</vn><fn></fn>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+<sense group="1" n="4" name="none of the above" type="">
+  <commentary>
+Automatically generated NOTA sense (bbn)
+  </commentary>
+  <examples>
+  </examples>
+  <mappings>
+    <wn version="2.1"></wn>
+    <omega></omega><pb></pb>
+    <fn></fn>
+  </mappings><SENSE_META clarity=""/>
+</sense>
+    <WORD_META authors="ahouston" sample_score="-"/>
+
+<ita count="178" ann_1_2_agreement="0.837078651685" />
+</inventory>

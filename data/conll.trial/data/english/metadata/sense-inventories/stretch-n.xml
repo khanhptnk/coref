@@ -1,0 +1,141 @@
+<!DOCTYPE inventory SYSTEM "inventory.dtd">
+<inventory lemma="stretch-n">
+    <commentary>
+    </commentary>
+    
+    <sense n="1" type="" name="unbroken expanse of space, land" group="1">
+        <commentary>
+            STRETCH[+expanse][+continuous][+spatial]
+        </commentary>
+        <examples>
+            We drove through vast stretches of open desert.
+            Robberies have occurred on a lonely stretch of road beyond the village. (does not imply the road is straight)
+        </examples>
+        <mappings>
+            <wn version="2.1">1</wn>
+            <omega></omega><pb></pb>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    
+    
+    <sense n="2" type="" name="a physical motion of extending" group="1">
+        <commentary>
+            STRETCH[+action][+physical][+motion][+extending]
+        </commentary>
+        <examples>
+            They stood up from their seats for a stretch.
+            The yoga instructor showed us a new stretch for the spine.
+            Even with a stretch John couldn't touch the ceiling with his hand.
+            Sally said by no stretch of the imagination could one consider John handsome. (abstract extension)
+            It would be a stretch to call his conjecture a theory. (abstract extension)
+        </examples>
+        <mappings>
+            <wn version="2.1">2,4</wn>
+            <omega></omega><pb></pb>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    
+    
+    <sense n="3" type="" name="a straight length of road or racetrack" group="1">
+        <commentary>
+            STRETCH[+entity][+structure][+road][+straight]
+        </commentary>
+        <examples>
+            The chestnut filly has taken the lead on the back stretch.
+            Bob opened up the Porsche on an open stretch of empty road.
+            The sailboat completed a stretch and changed tack. (a straight distance of sail)
+        </examples>
+        <mappings>
+            <wn version="2.1">3</wn>
+            <omega></omega><pb></pb>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    
+    
+    <sense n="4" type="" name="a challenge, extraordinary situation" group="1">
+        <commentary>
+            STRETCH[+state][+challenge]
+        </commentary>
+        <examples>
+            It was a stretch for him sometimes to come up with the rent,
+            The lead role in Turendot was a stretch for the young soprano.
+            The honors course in Shakespeare is a real stretch for some of these students.
+        </examples>
+        <mappings>
+            <wn version="2.1">5</wn>
+            <omega></omega><pb></pb>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    
+    
+    <sense n="5" type="" name="the quality of elasticity" group="1">
+        <commentary>
+            STRETCH[+quality][+elasticity]
+        </commentary>
+        <examples>
+            Mary was wearing red stretch pants.
+            These socks have almost no stretch left in them.
+            This cream is supposed to be good for diminishing stretch marks.
+        </examples>
+        <mappings>
+            <wn version="2.1">7</wn>
+            <omega></omega><pb></pb>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    
+    
+    <sense n="6" type="" name="continuous temporal expanse" group="1">
+        <commentary>
+            STRETCH[+expanse][+continuous][+temporal]
+        </commentary>
+        <examples>
+            There was a long stretch when Bob didn't have a girlfriend.
+            The man did a four-year stretch for tax fraud.
+            The woman's life was filled with stretches of anxiety and depression.
+            The crew often had to work for twenty hours at a stretch.
+        </examples>
+        <mappings>
+            <wn version="2.1">7</wn>
+            <omega></omega><pb></pb>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    
+    
+    <sense n="7" type="" name="a walk to relieve fatigue" group="1">
+        <commentary>
+            STRETCH[+activity][+walk][+relieve][+fatigue]
+        </commentary>
+        <examples>
+            We decided to take a stretch around the grounds after the six-hour meeting.
+            John went for a stretch after dinner with the dog, to re-energize himself.
+        </examples>
+        <mappings>
+            <wn version="MW online">5</wn>
+            <omega></omega><pb></pb>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    
+    
+<sense group="1" n="8" name="none of the above" type="">
+  <commentary>
+Automatically generated NOTA sense (bbn)
+  </commentary>
+  <examples>
+  </examples>
+  <mappings>
+    <wn version="2.1"></wn>
+    <omega></omega><pb></pb>
+    <fn></fn>
+  </mappings><SENSE_META clarity=""/>
+</sense>
+    <WORD_META authors="ahouston" sample_score="-"/>
+
+<ita count="13" ann_1_2_agreement="1.0" />
+</inventory>

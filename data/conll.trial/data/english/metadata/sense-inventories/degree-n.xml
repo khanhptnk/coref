@@ -1,0 +1,185 @@
+<!DOCTYPE inventory SYSTEM "inventory.dtd">
+<inventory lemma="degree-n">
+    <commentary>
+    </commentary>
+    
+    <sense n="1" type="" name="a measurable position along a quantitative scale" group="1">
+        <commentary>
+            DEGREE[+location][+position][+measurable][+by_scale][+quantitative]
+        </commentary>
+        <examples>
+            It is said that there are only 7 degrees of social separation between any two people in the world.
+            The glacier moved down the mountain a few degrees each year.
+            The degree of color saturation is controlled by this slider in the color editing window.  
+        </examples>
+        <mappings>
+            <wn version="2.1">1,2</wn>
+            <omega></omega><pb></pb>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    
+    
+    <sense n="2" type="" name="an academic title or rank, based on completion of curriculum" group="1">
+        <commentary>
+            DEGREE[+entity][+symbolic][+award][+academic][+title]
+        </commentary>
+        <examples>
+            John earned an advanced degree in molecular biology.
+            The poet was awarded an honorary degree by an Ivy League institution.
+            Her daughter is going for an undergraduate degree in computer science.
+        </examples>
+        <mappings>
+            <wn version="2.1">3</wn>
+            <omega></omega><pb></pb>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    
+    
+    <sense n="3" type="" name="the measurement of an angle or arc" group="1">
+        <commentary>
+            DEGREE[+quantity][+measurement][+exact][+angle]
+        </commentary>
+        <examples>
+            I'd say the incline of that plane is about 45 degrees.
+            The aerobatics pilot performed a turn of 180 degrees.
+            The navigator showed us that we were 1 degree of latitude off in our course.
+        </examples>
+        <mappings>
+            <wn version="2.1">4</wn>
+            <omega></omega><pb></pb>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    
+    
+    <sense n="4" type="" name="class of equations sharing highest exponent power of variables" group="1">
+        <commentary>
+            DEGREE[+entity][+abstract][+set][+equation][+sharing][+highest][+exponent_power][+of_variable]
+        </commentary>
+        <examples>
+            This is an equation of the second degree.
+            Can you solve these third degree equations?
+        </examples>
+        <mappings>
+            <wn version="2.1">5</wn>
+            <omega></omega><pb></pb>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    
+    
+    <sense n="5" type="" name="a measurement of temperature" group="1">
+        <commentary>
+            DEGREE[+quantity][+measurement][+exact][+temperature]
+        </commentary>
+        <examples>
+            Yesterday the high was 85 degrees, Fahrenheit.
+            The students learned the equation for converting degrees in Fahrenheit to degrees in Celsius.
+        </examples>
+        <mappings>
+            <wn version="2.1">6</wn>
+            <omega></omega><pb></pb>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    
+    
+    <sense n="6" type="" name="the extent of seriousness of some matter or circumstance" group="1">
+        <commentary>
+            DEGREE[+quality][+assigned][+of_seriousness]
+        </commentary>
+        <examples>
+            The prosecution is arguing that this case is murder in the first degree.
+            The doctor showed the interns the differences between second and third degree burns on patients.
+        </examples>
+        <mappings>
+            <wn version="2.1">7</wn>
+            <omega></omega><pb></pb>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    
+    
+    <sense n="7" type="" name="an approximate amount of application of something" group="1">
+        <commentary>
+            DEGREE[+quantity][+measurement][+approximate][+application]
+            Note: related to Sense 1, but does not imply a strict measurable position along a scale
+        </commentary>
+        <examples>
+            We should exercise some degree of caution in approaching him on this matter.	
+            It's a question of degree how much discipline and training an individual dog will require.
+            He has a moderate degree of artistic ability.	
+        </examples>
+        <mappings>
+            <wn version="MAC">1</wn>
+            <omega></omega><pb></pb>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    
+    
+    <sense n="8" type="" name="a little at a time" group="1">
+        <commentary>
+            Idiom: by_degrees
+        </commentary>
+        <examples>
+            By degrees the children are beginning to assume responsibility for themselves.
+            We watched the giant ship turning around, by degrees, in the deep channel.
+        </examples>
+        <mappings>
+            <wn version="MAC">Idiom</wn>
+            <omega></omega><pb></pb>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    
+    
+    <sense n="9" type="" name="to some extent" group="1">
+        <commentary>
+            Idiom: to_a_degree
+        </commentary>
+        <examples>
+            It is possible to educate oneself, to a degree.
+        </examples>
+        <mappings>
+            <wn version="MAC">Idiom</wn>
+            <omega></omega><pb></pb>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    
+    
+    <sense n="10" type="" name="to a considerable extent, very much so" group="1">
+        <commentary>
+            Idiom: to_a_degree
+            Note: Dated usage - compare this sense of 'extreme' to the now more common 'somewhat' of the idiom in Sense 9
+        </commentary>
+        <examples>
+            The pressure he was put under must have been frustrating to a degree!
+        </examples>
+        <mappings>
+            <wn version="2.1"></wn>
+            <omega></omega><pb></pb>
+        </mappings>
+        <SENSE_META clarity=""/>
+    </sense>
+    
+    
+<sense group="1" n="11" name="none of the above" type="">
+  <commentary>
+Automatically generated NOTA sense (bbn)
+  </commentary>
+  <examples>
+  </examples>
+  <mappings>
+    <wn version="2.1"></wn>
+    <omega></omega><pb></pb>
+    <fn></fn>
+  </mappings><SENSE_META clarity=""/>
+</sense>
+    <WORD_META authors="ahouston" sample_score="-"/>
+
+<ita count="90" ann_1_2_agreement="0.911111111111" />
+</inventory>
