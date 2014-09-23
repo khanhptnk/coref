@@ -15,19 +15,29 @@ def read_sentences(filename):
   f = open(filename)
   raw = f.read()
   sentences_raw = LineTokenizer().tokenize(raw)[2:-2]
-  tokenizer = RegexpTokenizer('<\s*COREF[^>]*>|<\s*/\s*COREF>|\w+')
+  tokenizer = RegexpTokenizer('<\s*COREF[^>]*>|<\s*/\s*COREF>|\w+|[.,:;?!-]')
   sentences = [tokenizer.tokenize(s) for s in sentences_raw]
   return sentences
 
-def traverse_tree(tree):
-  if not(isinstance(tree, Tree)):
-    if (tree in ['We', 'You', 'They', 'She', 'He', 'It']):
-      return [tree.lower()]
-    return [tree]
+def get_str(tree):
   tree.str = []
   for child in tree:
-    tree.str.extend(traverse_tree(child))
-  return tree.str
+    if (isinstance(child, Tree)):
+      get_str(child)
+      tree.str.extend([x for x in child.str])
+    else:
+      tree.str = [child]
+
+def get_tokens(tree, add):
+  tree.tokens = []
+  for child in tree:
+    if (isinstance(child, Tree)):
+      get_tokens(child, add)
+      tree.tokens.extend([x for x in child.tokens])
+      add = tree.tokens[-1] + 1
+    else:
+      tree.tokens = [add]
+  # print tree.str, tree.tokens
 
 def get_gender(tree):
   tree.gender = 0
@@ -56,7 +66,7 @@ def get_gender(tree):
     if (tree.str[0] in ['he', 'him']):
       tree.gender = 1
     else:
-      if (tree.str[0] == ['she', 'her']):
+      if (tree.str[0] in ['she', 'her']):
         tree.gender = 2
       else:
         tree.gender = 3
@@ -167,35 +177,43 @@ def get_person(tree):
   # print tree.str, tree.person
 
 def find_node(tree, phrase):
-  if (len(tree.str) <= len(phrase)):
-    if (phrase == tree.str and tree.label() == 'NP'):
-      return tree
-    return None
+  if (tree.label() == 'PRP' and tree.tokens == phrase):
+    return tree
   for child in tree:
-    child_res = find_node(child, phrase)
-    if (child_res != None):
-      return child_res
-  return None 
+    if (isinstance(child, Tree)):
+      child_res = find_node(child, phrase)
+      if (isinstance(child_res, Tree)):
+        return child_res
+  return None
 
 def find_coref(trees, id, phrase):
-  tree = find_node(trees[id], phrase)
-  return hobbs.hobbs(trees, id, tree)
+  node = find_node(trees[id], phrase)
+  if (node == None):
+    return None, None
+  return node, hobbs.hobbs(trees, id, node)
   
 def find_coref_sentence(trees, sentences, id):
-  print sentences[id]
   at = -1
   stack = []
   for token in sentences[id]:
     if (re.compile('<\s*/\s*COREF>').match(token)):
       phrase = []
-      while not(len(stack[-1]) == 1 and re.compile('<\s*COREF[^>]*>').match(stack[-1][0])):
+      while (len(stack) > 0 and stack[-1] != -1):
         phrase.extend(stack.pop())
       stack.pop()
       phrase.reverse()
-      print phrase, find_coref(trees, id, phrase)
+      node1, node2 = find_coref(trees, id, phrase)
+      if (node1 != None and node2 != None):
+        print "Found a coreferent in sentence", id
+        print node1.tokens, node1.str
+        print node2.tokens, node2.str
       stack.append(phrase)
     else:
-      stack.append([token])
+      if (re.compile('<\s*COREF[^>]*>').match(token)):
+        stack.append(-1)
+      else:
+        at = at + 1
+        stack.append([at])
 
 
 global male_names
@@ -213,11 +231,12 @@ female_nouns = [word[1] for word in nouns]
 
 # trees = read_trees("../data/conll.trial/data/english/annotations/bc/cnn/00/cnn_0000.parse")
 # sentences = read_sentences("../data/conll.trial/data/english/annotations/bc/cnn/00/cnn_0000.coref")
-# trees = trees[0:2]
-# sentences = sentences[0:2]
+# trees = trees[0:50]
+# sentences = sentences[0:50]
 
 trees = []
 sentences = []
+tokenizer = RegexpTokenizer('<\s*COREF[^>]*>|<\s*/\s*COREF>|\w+|[.,:;?!-]')
 # trees.append(ParentedTree.fromstring("""
 # (ROOT
 #   (S
@@ -241,7 +260,7 @@ sentences = []
 #             (PP (TO to)
 #               (NP (NNP London)))))))
 #     (. .)))"""))
-# sentences.append(WhitespaceTokenizer().tokenize("The castle in Camelot remained the residence of the king until 536 when he moved it to London."))
+# sentences.append(tokenizer.tokenize("The castle in Camelot remained the residence of the king until 536 when <COREF> he </COREF> moved <COREF> it </COREF> to London."))
 
 
 # trees.append(ParentedTree.fromstring("""
@@ -257,47 +276,45 @@ sentences = []
 #       (VP (VBZ loves)
 #         (NP (PRP it))))
 #     (. .)))"""))
-
-# sentences.append(WhitespaceTokenizer().tokenize("Jane has a cat and she loves it."))
+# sentences.append(tokenizer.tokenize("Jane has a cat and she loves <COREF> it </COREF>."))
 
 # trees.append(ParentedTree.fromstring("""
 # (ROOT
 #   (S
-#     (NP
-#       (NP (PRP you))
-#       (CC and)
-#       (NP (PRP I)))
-#     (VP (VBP are)
-#       (VP (VBG catching)
-#         (NP (JJ many) (NNS mosquitoes))))
-#     (. .)))"""))
-# sentences.append(WhitespaceTokenizer().tokenize("you and I are catching many mosquitoes.."))
-
-trees.append(ParentedTree.fromstring("""
-(ROOT
-  (S
-    (NP
-      (NP
-        (NP
-          (NP (NNP John) (POS 's))
-          (NN father) (VBZ 's))
-        (NN portrait))
-      (PP (IN of)
-        (NP (PRP him))))
-    (VP (VBZ is)
-      (VP (VBN lost)))))"""))
-sentences.append(WhitespaceTokenizer().tokenize("John's father's portrait of him is lost"))
+#     (S
+#       (S
+#         (NP (PRP$ My) (NN uncle))
+#         (VP (VBZ does) (RB not)
+#           (VP (VB have)
+#             (NP (DT a) (NN spouse)))))
+#       (, ,)
+#       (CC but)
+#       (S
+#         (NP (PRP$ your) (NN aunt))
+#         (VP (VBZ does)
+#           (VP (VB have)
+#             (NP (DT a) (NN spouse))))))
+#     (, ,)
+#     (CC and)
+#     (S
+#       (NP (PRP he))
+#       (VP (VBZ is)
+#         (VP (VBG lying)
+#           (PP (IN on)
+#             (NP (DT the) (NN floor))))))))
+# """))
+# sentences.append(tokenizer.tokenize("My uncle does not have a spouse, but your aunt does have a spouse, and <COREF> he </COREF> is lying on the floor"))
 
 for tree in trees:
-  traverse_tree(tree)
+  get_str(tree)
+  get_tokens(tree, 0)
   get_gender(tree)
   get_number(tree)
   get_person(tree)
+# print find_coref(trees, 0, ['he'])
 
-print find_coref(trees, 0, ['him'])
-
-# for i in range(0, len(trees)):
-#   find_coref_sentence(trees, sentences, i)
+for i in range(0, len(trees)):
+   find_coref_sentence(trees, sentences, i)
 
 
 
